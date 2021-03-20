@@ -1,10 +1,10 @@
 {
-    "name": "flarumes/flarum-ext-spanish",
+    "name": "flarumes/lang-spanish",
     "type": "flarum-extension",
-    "description": "Paquete de traduccion al español para Flarum y sus extensiones",
-    "license": "MIT",
     "homepage": "https://github.com/FlarumES/Spanish",
-    "keywords": ["flarum","extension","translation","language","español"],
+    "description": "Paquete de idioma español para Flarum y sus extensiones",
+    "keywords": ["locale"],
+    "license": "MIT",
     "authors": [
         {
             "name": "FlarumES",
