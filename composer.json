@@ -1,0 +1,45 @@
+{
+    "name": "flarumes/flarum-ext-spanish",
+    "type": "flarum-extension",
+    "description": "Paquete de traduccion al español para Flarum y sus extensiones",
+    "license": "MIT",
+    "homepage": "https://github.com/FlarumES/Spanish",
+    "keywords": ["flarum","extension","translation","language","español"],
+    "authors": [
+        {
+            "name": "FlarumES",
+            "email": "FlarumES@gmail.com",
+            "homepage": "https://FlarumES.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/FlarumES/Spanish/issues",
+        "source": "https://github.com/FlarumES/Spanish"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.16"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+    },
+        "flarum-extension": {
+            "title": "Español",
+            "category": "language",
+            "info": {
+                "website": "https://FlarumES.com",
+                "support": "https://github.com/FlarumES/Spanish/issues"
+            },
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "es",
+            "title": "Español"
+        }
+    }
+}
