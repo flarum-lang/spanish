@@ -1,0 +1,9 @@
+flarum-emoji:
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the composer (emoji autocompletion function).
+    composer:
+      emoji_tooltip: Insertar emoji
+      type_to_search_text: Teclee para buscar un emoji

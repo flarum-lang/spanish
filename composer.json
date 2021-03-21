@@ -1,7 +1,7 @@
 {
     "name": "flarumes/lang-spanish",
     "type": "flarum-extension",
-    "homepage": "https://github.com/FlarumES/Spanish",
+    "homepage": "https://github.com/FlarumES/lang-spanish",
     "description": "Paquete de idioma español para Flarum y sus extensiones",
     "keywords": ["locale"],
     "license": "MIT",
@@ -13,8 +13,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/FlarumES/Spanish/issues",
-        "source": "https://github.com/FlarumES/Spanish"
+        "issues": "https://github.com/FlarumES/lang-spanish/issues",
+        "source": "https://github.com/FlarumES/lang-spanish"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.16"
@@ -28,7 +28,7 @@
             "category": "language",
             "info": {
                 "website": "https://FlarumES.com",
-                "support": "https://github.com/FlarumES/Spanish/issues"
+                "support": "https://github.com/FlarumES/lang-spanish/issues"
             },
             "icon": {
                 "image": "icon.svg",
