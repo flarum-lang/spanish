@@ -17,8 +17,7 @@
         "source": "https://github.com/FlarumES/lang-spanish"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.15",
-        "flarum/core": "^0.1.0-beta.16",
+        "flarum/core": "^0.1.0-beta.15"
     },
     "extra": {
         "branch-alias": {
