@@ -1,4 +1,6 @@
 # Translations in this namespace are used by the admin interface.
+core:
+  
   admin:
 
     # These translations are used in the placeholder Add Extension modal dialog.
