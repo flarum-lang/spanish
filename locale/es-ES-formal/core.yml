@@ -54,7 +54,7 @@ core:
     # These translations are used in the Dashboard page.
     dashboard:
       clear_cache_button: Limpiar cache
-      description: Tu foro de un vistazo.
+      description: Su foro de un vistazo.
       title: Tablero
       tools_button: Herramientas
 
@@ -116,7 +116,7 @@ core:
 
     # These translations are used in the Extensions page.
     extension:
-      confirm_uninstall: Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?
+      confirm_uninstall: La desinstalación eliminará todas las entradas de la base de datos y los ficheros relacionados con la extensión. ¿Está seguro de que quiere continuar?
       disabled: Desactivada
       enabled: Activada
       enable_to_see: Habilite la extensión para ver y cambiar la configuración.

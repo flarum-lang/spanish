@@ -1,9 +1,5 @@
 flarum-sticky:
 
-  ##
-  # UNIQUE KEYS - The following keys are used in only one location each.
-  ##
-
   # Translations in this namespace are used by the admin interface.
   admin:
 
@@ -28,10 +24,5 @@ flarum-sticky:
       discussion_stickied_text: "{username} puso la chincheta a la discusión."
       discussion_unstickied_text: "{username} quitó la chincheta a la discusión."
 
-  ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
-  ##
-
-  # Translations in this namespace are referenced by two or more unique keys.
   ref:
     sticky: Poner la chincheta

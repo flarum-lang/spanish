@@ -6,7 +6,7 @@ fof-links:
     # These strings are used in the Edit Link modal dialog.
     edit_link:
       delete_link_button: Eliminar enlace
-      delete_link_confirmation: "¿Estás seguro de que quieres eliminar este enlace?"
+      delete_link_confirmation: "¿Está seguro de que quiere eliminar este enlace?"
       internal_link: "¿Es un enlace de Flarum?"
       open_newtab: "Abrir enlace en una nueva pestaña"
       submit_button: => core.ref.save_changes

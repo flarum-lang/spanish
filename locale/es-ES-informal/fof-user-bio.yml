@@ -1,18 +1,11 @@
 fof-user-bio:
-
-  ##
-  # UNIQUE KEYS - The following keys are used in only one location each.
-  ##
-
-  # Translations in this namespace are used by the admin interface.
   admin:
-
-    # These translations are used in the Permissions page of the admin interface.
     permission:
-      view: Ver descripción de usuarios
-      editOwn: Editar descripción propia de usuario
-      editAny: Editar cualquier descripción de usuario
+      view: Ver biografía
+      editOwn: Editar tu propia biografía
+      editAny: Editar cualquier biografía
+    setting:
+      bioLimit: Límite de caracteres de la biografía
 
-  # Translations in this namespace are used by the forum user interface.
   forum:
     userbioPlaceholder: Escribe algo sobre ti
