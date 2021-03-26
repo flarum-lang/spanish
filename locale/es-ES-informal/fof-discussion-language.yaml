@@ -17,7 +17,7 @@ fof-discussion-language:
 
   admin:
     settings:
-      native_label: Utilice nombres de lengua materna
+      native_label: Utiliza nombres de lengua materna
       show_flag_label: Mostrar banderas de países con nombres de idiomas
       composer_default_label: Preseleccionar la configuración regional actual en el redactor de debates
 
@@ -26,4 +26,4 @@ fof-discussion-language:
 
   api:
     discussion:
-      validation_error: Debe seleccionar el idioma de su discusión.
+      validation_error: Debes seleccionar el idioma de tu discusión.

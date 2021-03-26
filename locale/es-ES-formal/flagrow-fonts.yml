@@ -2,7 +2,7 @@ flagrow-fonts:
     admin:
         nav:
             title: Fuentes
-            description: Gestiona las fuentes en tu foro.
+            description: Gestione las fuentes en su foro.
         browse:
             label:
                 sort: Ordenar por
@@ -25,4 +25,4 @@ flagrow-fonts:
                 title: Ajustes Flagrow Fonts
                 field:
                     googleApiKey: Google API Key
-                    googleApiKeyDescription: Tienes que crear una clave de API de fuentes de Google y rellenarla aquí. La forma más rápida es ir <a> aquí </a> y hacer clic en "Obtener una clave"
+                    googleApiKeyDescription: Tiene que crear una clave de API de fuentes de Google y rellenarla aquí. La forma más rápida es ir <a> aquí </a> y hacer clic en "Obtener una clave"
