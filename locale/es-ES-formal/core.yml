@@ -32,14 +32,15 @@ core:
       logo_heading: Logotipo
       logo_text: Suba una imagen para que sea mostrada en lugar del título del foro.
       submit_button: => core.ref.save_changes
+      title: Apariencia
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Idioma por defecto
       description: "Configure el título, el idioma y otras configuraciones básicas de su foro."
-      display_name_heading: User Display Name
-      display_name_text: Select the driver that should be used for users' display names. By default, the username is shown.
+      display_name_heading: 'Nombre de usuario'
+      display_name_text: 'Seleccione el controlador que debe utilizarse para mostrar los nombres. Por defecto, se muestra el nombre de usuario.'
       forum_description_heading: Descripción del foro
       forum_description_text: Introduzca una o dos frases que describan su comunidad. Estas aparecerán en el "metatag" y se mostrarán en los buscadores.
       forum_title_heading: Título del foro
@@ -48,6 +49,7 @@ core:
       saved_message: Sus cambios fueron guardados.
       show_language_selector_label: Mostrar el selector de idioma
       submit_button: => core.ref.save_changes
+      title: 'Lo esencial'
       welcome_banner_heading: Mensaje de bienvenida
       welcome_banner_text: Introduzca el texto que se mostrará en la lista de discusiones. Utilícelo para dar la bienvenida a los invitados en su foro.
 
@@ -110,6 +112,9 @@ core:
       mailgun_heading: Configuración Mailgun
       mandrill_heading: Configuración Mandrill
       not_sending_message: Actualmente Flarum no envía correos electrónicos. Esto puede deberse al controlador seleccionado, o errores en su configuración.
+      send_test_mail_button: Enviar
+      send_test_mail_heading: 'Enviar un correo de prueba'
+      send_test_mail_success: '¡Su correo de prueba fue enviado con éxito!'
       smtp_heading: Configuración SMTP
       submit_button: => core.ref.save_changes
       text: Configure el servidor SMTP y las direcciones que su foro usará para enviar correos electrónicos.
