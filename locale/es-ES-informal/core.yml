@@ -30,6 +30,7 @@ core:
       logo_heading: Logotipo
       logo_text: 'Sube una imagen para que sea mostrada en lugar del título del foro.'
       submit_button: '=> core.ref.save_changes'
+      title: Apariencia
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Idioma por defecto'
@@ -44,6 +45,7 @@ core:
       saved_message: 'Tus cambios fueron guardados.'
       show_language_selector_label: 'Mostrar el selector de idioma'
       submit_button: '=> core.ref.save_changes'
+      title: 'Lo esencial'
       welcome_banner_heading: 'Mensaje de bienvenida'
       welcome_banner_text: 'Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los invitados en tu foro.'
     dashboard:
@@ -94,6 +96,9 @@ core:
       mailgun_heading: 'Configuración Mailgun'
       mandrill_heading: 'Configuración Mandrill'
       not_sending_message: 'Actualmente Flarum no envía correos electrónicos. Esto puede deberse al controlador seleccionado, o errores en su configuración.'
+      send_test_mail_button: Enviar
+      send_test_mail_heading: 'Enviar un correo de prueba'
+      send_test_mail_success: '¡Correo de prueba enviado con éxito!'
       smtp_heading: 'Configuración SMTP'
       submit_button: '=> core.ref.save_changes'
       text: 'Configura el servidor SMTP y las direcciones que tu foro usará para enviar correo electrónico.'
