@@ -19,31 +19,6 @@
   </p>
 </p>
 
-
-
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#minimum-requirements">Minimum Requirements</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#updating">Updating</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#useful-links">Useful Links</a></li>
-  </ol>
-</details>
-
-
 ## About The Project
 
 ![FlarumES](https://flarumes.com/assets/site-image-bfqb2dxn.png)
@@ -77,7 +52,6 @@ As with the installation procedure, make sure <a href="https://getcomposer.org/"
    php flarum cache:clear
    ```
 
-
 ## Usage
 
 1. Once the extension is installed, you will have to activate it from the administrator panel:
@@ -88,26 +62,17 @@ As with the installation procedure, make sure <a href="https://getcomposer.org/"
 
 ![FlarumES](https://flarumes.com/assets/site-image-bfqb2dxn.png)
 
-## Contributing and status
+## Contributing
 
 This repository uses a <a href="https://weblate.org/">Weblate</a> instance hosted and managed by <a href="https://github.com/rob006">Robert Korulczyk</a>.
 
 You can contribute to the language pack on this <a href="https://weblate.rob006.net/languages/">page</a> and see the detailed status of the translation on this page.
 
-flarum-extensions-list-start flarum-extensions-list-stop
+## Status
 
-<!-- fof-extensions-list-start -->
-
-| Extension | Status |
-| --- | --- |
-| [FoF Discussion Language](https://github.com/FriendsOfFlarum/discussion-language) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-discussion-language/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-discussion-language/es/) |
-| [FoF Forum Statistics Widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-forum-statistics-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-forum-statistics-widget/es/) |
-| [FoF Links](https://github.com/FriendsOfFlarum/links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-links/es/) |
-| [FoF Masquerade](https://github.com/FriendsOfFlarum/masquerade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-masquerade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-masquerade/es/) |
-| [FoF Pages](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/es/) |
-| [FoF User Bio](https://github.com/FriendsOfFlarum/user-bio) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-user-bio/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-bio/es/) |
-
-<!-- fof-extensions-list-stop -->
+<!-- flarum-extensions-list-start --><!-- flarum-extensions-list-stop -->
+<!-- fof-extensions-list-start --><!-- fof-extensions-list-stop -->
+<!-- various-extensions-list-start --><!-- various-extensions-list-stop -->
 
 ## License
 
@@ -117,7 +82,6 @@ Distributed under the MIT License. See <a href="https://github.com/FlarumES/lang
 ## Contact
 
 [FlarumES.com](https://FlarumES.com) · [@FlarumES](https://twitter.com/FlarumES) · flarumes@gmail.com
-
 
 ## Useful Links
 
