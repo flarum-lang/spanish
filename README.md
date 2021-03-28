@@ -88,12 +88,15 @@ As with the installation procedure, make sure <a href="https://getcomposer.org/"
 
 ![FlarumES](https://flarumes.com/assets/site-image-bfqb2dxn.png)
 
-## Contributing
+## Contributing and status
 
 This repository uses a <a href="https://weblate.org/">Weblate</a> instance hosted and managed by <a href="https://github.com/rob006">Robert Korulczyk</a>.
 
 You can contribute to the language pack on this <a href="https://weblate.rob006.net/languages/">page</a> and see the detailed status of the translation on this page.
 
+flarum-extensions-list-start flarum-extensions-list-stop
+
+<!-- fof-extensions-list-start --><!-- fof-extensions-list-stop -->
 
 ## License
 
