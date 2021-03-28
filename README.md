@@ -96,7 +96,18 @@ You can contribute to the language pack on this <a href="https://weblate.rob006.
 
 flarum-extensions-list-start flarum-extensions-list-stop
 
-<!-- fof-extensions-list-start --><!-- fof-extensions-list-stop -->
+<!-- fof-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+| [FoF Discussion Language](https://github.com/FriendsOfFlarum/discussion-language) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-discussion-language/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-discussion-language/es/) |
+| [FoF Forum Statistics Widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-forum-statistics-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-forum-statistics-widget/es/) |
+| [FoF Links](https://github.com/FriendsOfFlarum/links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-links/es/) |
+| [FoF Masquerade](https://github.com/FriendsOfFlarum/masquerade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-masquerade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-masquerade/es/) |
+| [FoF Pages](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/es/) |
+| [FoF User Bio](https://github.com/FriendsOfFlarum/user-bio) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-user-bio/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-bio/es/) |
+
+<!-- fof-extensions-list-stop -->
 
 ## License
 
