@@ -122,6 +122,7 @@ core:
       saved_message: 'Se guardaron tus cambios.'
       uninstall_button: Desinstalar
     header:
+      get_help: 'Obtener ayuda'
       log_out_button: '=> core.ref.log_out'
     loading:
       title: 'Por favor, espera...'
