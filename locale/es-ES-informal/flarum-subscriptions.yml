@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-subscriptions:
+  email:
+    new_post:
+      body: "Hey {recipient_display_name}!\n\n{poster_display_name} hizo una publicación en una discusión que estás siguiendo: {title}.\n\nPara ver la nueva actividad, consulte el siguiente enlace:\n{url}\n\n---\n\n{content}\n\n---\n\nNo recibirás más notificaciones sobre esta discusión hasta que haya más actualizaciones.\n"
+      subject: '[Nueva publicación] {title}'
   forum:
     badge:
       following_tooltip: '=> flarum-subscriptions.ref.following'
@@ -11,6 +15,8 @@ flarum-subscriptions:
       follow_button: '=> flarum-subscriptions.ref.follow'
       unfollow_button: 'Dejar de seguir'
       unignore_button: 'Dejar de ignorar'
+    following:
+      meta_title_text: '=> flarum-subscriptions.ref.following'
     index:
       following_link: '=> flarum-subscriptions.ref.following'
     notifications:

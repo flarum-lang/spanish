@@ -131,21 +131,31 @@ core:
     nav:
       appearance_button: Apariencia
       appearance_text: 'Personalizar el aspecto del foro.'
-      appearance_title: 'Personaliza los colores, logotipos y otras variables de tu foro.'
+      appearance_title: '=> core.admin.appearance.description'
       basics_button: Básicos
       basics_text: 'Ajustes generales del foro.'
-      basics_title: 'Establece el título, idioma y otras configuraciones básicas de tu foro.'
+      basics_title: '=> core.admin.basics.description'
       categories:
         authentication: Autenticación
+        core: 'Configuración básica'
+        discussion: Discusión
+        feature: Características
+        formatting: Formato
+        language: Idiomas
+        moderation: Moderación
+        other: 'Otras Extensiones'
+        theme: Temas
       dashboard_button: 'Panel de información'
       dashboard_text: 'El foro en un vistazo.'
       dashboard_title: '=> core.admin.dashboard.description'
       email_button: '=> core.ref.email'
       email_text: 'Configura los ajustes del correo electrónico de tu foro.'
+      email_title: 'Configura el driver, la configuración y las direcciones que usará tu foro para enviar correo electrónico.'
       extensions_button: Extensiones
       extensions_text: 'Añadir funcionalidad al foro.'
       permissions_button: Permisos
       permissions_text: 'Configura quién puede hacer qué.'
+      permissions_title: 'Configura quién puede ver y hacer qué.'
       search_placeholder: 'Buscar extensión'
     permissions:
       allow_post_editing_label: 'Permitir editar publicaciones'
@@ -157,6 +167,8 @@ core:
       delete_posts_label: 'Borrar publicaciones'
       description: 'Configurar quién puede ver y hacer qué.'
       edit_posts_label: 'Editar publicaciones'
+      edit_users_credentials_label: 'Editar credenciales de usuario'
+      edit_users_groups_label: 'Editar grupos de usuarios'
       edit_users_label: 'Editar usuarios'
       global_heading: Global
       moderate_heading: Moderado
@@ -168,6 +180,7 @@ core:
       reply_to_discussions_label: 'Responder en discusiones'
       sign_up_label: 'Registro de usuarios'
       start_discussions_label: 'Crear discusiones'
+      title: Permisos
       view_discussions_label: 'Ver discusiones'
       view_hidden_groups_label: 'Ver iconos de grupos ocultos'
       view_last_seen_at_label: 'Ver a qué hora fue la última conexión de un usuario'
@@ -200,6 +213,9 @@ core:
     reset_password:
       body: "¡Hola, {username}!\n\nAlguien ha enviado una solicitud para restablecer la contraseña de su cuenta de usuario en {forum}.\n\nSi efectivamente has sido tú, por favor, haz click en el siguiente enlace para restablecer tu contraseña:\n{url}\n\nSi por el contrario no has sido tú, por favor, ignora este correo electrónico.\n\nRecibe un cordial saludo,\n\nEl Equipo de {forum}\n"
       subject: '=> core.ref.reset_your_password'
+    send_test:
+      body: "Hey {username}!\n\nEste es un correo electrónico de prueba para confirmar que la configuración de Flarum funciona correctamente.\n\nSi fuiste tú, este correo electrónico significa que su configuración funciona.\n\nSi no fuiste tú, ignora este correo electrónico.\n"
+      subject: 'Prueba de correo electrónico de Flarum'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -226,6 +242,7 @@ core:
       title_placeholder: 'Título de la discusión'
     composer_edit:
       discard_confirmation: 'Aún no has publicado tus cambios. ¿Estás seguro de que deseas descartarlos?'
+      edited_message: 'Se realizó su edición.'
       post_link: 'Publicación n.º {number} en ''{discussion}'''
       submit_button: '=> core.ref.save_changes'
       view_button: '=> core.ref.view'
@@ -256,6 +273,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Grupos
+      nothing_available: 'No hay nada disponible para editar en este momento.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Establecer nueva contraseña'
@@ -274,6 +292,7 @@ core:
     header:
       admin_button: Administración
       back_to_index_tooltip: 'Volver a la lista de discusiones'
+      locale_dropdown_accessible_label: 'Cambiar la configuración regional del foro'
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
       profile_button: Perfil
@@ -285,6 +304,7 @@ core:
       cannot_start_discussion_button: 'No puedes crear una discusión'
       mark_all_as_read_confirmation: '¿Estás seguro de que deseas marcar todas las discusiones como leídas?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
+      meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: 'Cargar de nuevo'
       start_discussion_button: '=> core.ref.start_a_discussion'
     index_sort:
@@ -292,6 +312,7 @@ core:
       newest_button: 'Lo más nuevo'
       oldest_button: 'Lo más antiguo'
       relevance_button: 'Lo más relevante'
+      toggle_dropdown_accessible_label: 'Cambiar el orden de la lista de discusiones'
       top_button: 'Lo más comentado'
     log_in:
       forgot_password_link: '¿Olvidaste tu contraseña?'
@@ -308,6 +329,7 @@ core:
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       mark_as_read_tooltip: 'Marcar como leído'
       title: '=> core.ref.notifications'
+      toggle_dropdown_accessible_label: 'Ver notificaciones'
       tooltip: '=> core.ref.notifications'
     post:
       edited_text: Editado
@@ -449,6 +471,7 @@ core:
     start_a_discussion: 'Crear discusión'
     username: 'Nombre de usuario'
     users: Usuarios
+    view: Vista
     write_a_reply: 'Escribe una respuesta...'
     you: Tú
   views:
