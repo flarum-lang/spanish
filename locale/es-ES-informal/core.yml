@@ -99,6 +99,7 @@ core:
       send_test_mail_button: Enviar
       send_test_mail_heading: 'Enviar un correo de prueba'
       send_test_mail_success: '¡Correo de prueba enviado con éxito!'
+      send_test_mail_text: 'Esto enviará un correo electrónico utilizando la configuración anterior a tu dirección, {email}.'
       smtp_heading: 'Configuración SMTP'
       submit_button: '=> core.ref.save_changes'
       text: 'Configura el servidor SMTP y las direcciones que tu foro usará para enviar correo electrónico.'
@@ -130,20 +131,22 @@ core:
     nav:
       appearance_button: Apariencia
       appearance_text: 'Personalizar el aspecto del foro.'
-      appearance_title: '=> core.admin.appearance.description'
+      appearance_title: 'Personaliza los colores, logotipos y otras variables de tu foro.'
       basics_button: Básicos
       basics_text: 'Ajustes generales del foro.'
-      basics_title: '=> core.admin.basics.description'
+      basics_title: 'Establece el título, idioma y otras configuraciones básicas de tu foro.'
       categories:
         authentication: Autenticación
       dashboard_button: 'Panel de información'
       dashboard_text: 'El foro en un vistazo.'
+      dashboard_title: '=> core.admin.dashboard.description'
       email_button: '=> core.ref.email'
       email_text: 'Configura los ajustes del correo electrónico de tu foro.'
       extensions_button: Extensiones
       extensions_text: 'Añadir funcionalidad al foro.'
       permissions_button: Permisos
       permissions_text: 'Configura quién puede hacer qué.'
+      search_placeholder: 'Buscar extensión'
     permissions:
       allow_post_editing_label: 'Permitir editar publicaciones'
       allow_renaming_label: 'Permitir cambiar el título'
@@ -180,6 +183,7 @@ core:
       signup_closed_button: Cerrado
       signup_open_button: Abierto
     settings:
+      saved_message: 'Se guardaron tus cambios.'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -224,6 +228,7 @@ core:
       discard_confirmation: 'Aún no has publicado tus cambios. ¿Estás seguro de que deseas descartarlos?'
       post_link: 'Publicación n.º {number} en ''{discussion}'''
       submit_button: '=> core.ref.save_changes'
+      view_button: '=> core.ref.view'
     composer_reply:
       body_placeholder: '=> core.ref.write_a_reply'
       discard_confirmation: 'Aún no has publicado tu respuesta. ¿Estás seguro de que desea descartarla?'
