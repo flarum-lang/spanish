@@ -1,9 +1,5 @@
 flarum-statistics:
-
-  # Translations in this namespace are used by the admin interface.
   admin:
-
-    # These translations are used in the Statistics dashboard widget.
     statistics:
       active_users_text: "{count} usuarios activos"
       discussions_heading: => core.ref.discussions
