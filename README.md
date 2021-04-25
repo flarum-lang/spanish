@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/FlarumES/lang-spanish">
-    <img src="https://flarumes.com/assets/logo-qmhd7tk4.png" alt="Logo">
+    <img src="https://flarum.es/assets/logo-qmhd7tk4.png" alt="Logo">
   </a>
 
   <h3 align="center">Spanish Language Pack for <a href="https://flarum.org">Flarum</a></h3>
@@ -11,7 +11,7 @@
     <a href="https://github.com/FlarumES/lang-spanish"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://flarumes.com">View Demo</a>
+    <a href="https://flarum.es">View Demo</a>
     ·
     <a href="https://github.com/FlarumES/lang-spanish/issues">Report Bug</a>
     ·
@@ -21,14 +21,14 @@
   ![](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square) ![](https://img.shields.io/badge/GitHub-grey?style=flat-square&logo=Github) ![](https://img.shields.io/packagist/v/flarumes/lang-spanish.svg?style=flat-square&logo=packagist)  ![](https://shields.io/badge/-Extiverse-f9fafc?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAASAAAAEgARslrPgAABaRJREFUWMPtlmuMXlUVhp+19rnMTL+ZaafSqp0aSQOaQDEppU06KAkmJsRGAsVQik21sRRbRdqOpY0XLtViiRTbxkSqtoKXQQSCl0QCFuRHDQQNjVU0bSGiOGhLO9/cv+/bl+WPUZqhzDjhjyZ2/Tnn/Njnfc7a633PhrP1/17y3xC987B/6wBfX+9BEZTMCowmIgnb8JV8qsIOaAUy4OSUAPZc4xGhNTk+YAWXUTLLStqtJFJStYK/UPCYFTxPwm/anE8GkAFbgX8AeycF2L/So0LuI1f6wA3B6Eo5LZRgJfz7+q/7E1bwGDl7tJfn4rug+9OnQb76jCedA9rHVZZzKcr9wB8mBOhZ7RGhzUdu8YH1PtLuE8Op5JC08jxNVC3HmaMzKYssZ56VZBS8ZDm3WjM94ondN+bsOODJTiD+nSynYK3l3CLGs1sW5mRvJv7IWo8ILT6wTYV1qqhmPOGm05Odz6FsNsOSEIkonsxXmVUfpisYKyzxHmCXeBz7ue+uhz0MUIR21kpgkwnb9CTP2swxLfdG8Z+v9wzVoMxZD2w1kNTE/vA+7pRL+JPmBAsEIgMEBjGGXBPVpgpHLXE4RuYinI/jEhbyGzJGUO4QpRthv+TswhG3vH9se87ogFOY2cqFIbIuGYXk9NQWsDPOZlRGUeCUCP1FklAvjKxmmEKK0jKtjVEZYseo58uWmA9sx9MQ5TIL7BPHDgZobP7w6dkYB/DkRs9oA3LlOlXOU3jRz+He+lwGsxEyhD5EqikzW3XtePZ9+/xIMHqntWK+n+/7yB2W6CJiBO7H8XmG6Nv80fEO0XEPApUm2pzS5QSkiUdfW8wRraMmjJjSnzKzG5edabMXnoTh1wjVV2mJNRYQcASCBL5J4HMyxPE3ip/RAVUQONcpFyQjWDO/SwWJUZIpIyakYsaZc3vPRo8EXDzJUivYSslihEGJ7LTIPTJMf/en3jwbxr3NjfWj06BdjWqs8GeJYEISCAis6Trt3F2f9GMZMMQ8Cj5DYKU4OixyRCK3WeJhGaKxadPEKfk6wG+/4BGhw0euxsij4i2jZmCmGDZ+4e5rPfQzg4IVlNxgjoskEizyYyLb9SUOpU7Y+KXJIzoD+P3tHhHO8ZG7nXF9UnBGS1lnesxJeQ01GZuX71zvEaHiI1d6Y3WKXGqRgshRIrsI/EA81Zv3/ud/A4Ae3e5pLmhxyjanLFfhERVeUaG9rDGv3kL0LcTaLHT2o8xoLljllIdU+JYKl0tiiMhuiVy9aA/fkEGqG3ZOTfz1DojwcRVWO+GhqGwUYY8q1+Serrcf5Sftx5ibH+eKaFyelEWaKJ0ykIwHU+C7NDgoDfwSctg7Ze0xgJaSjhC5zoyqwd2a+LsKv1JhmYssPfc52kODC3zg3SaIKqfU8T1NPOCMg1lO7dXNgTI5Vv2oyoJ10zQ18zEyhIKfETlFARtun8AFInQ4pTMZqsZKp6zIHBcapJRozxJLkxAl58XUzIF6GwcGLuLg8CL6XC+JBnnZyIhtpCUXT4uji1kmkbvM0UFiDcZ9k3bACa+Y8JQKnxDhsypjeaCJhipBE6U6hmOFb/cu4aehlZrWKYojzEw59dhGo/Fe6s27aarNZ7kEvmjKbBy/wPFLbOKvB5C/fc0jwpyQuCJEOn0gNSJ9IfDXRuBtIXGrD3T6RG/N8fhohScG38Ef6zPotwbRHaNiL7MwjPCR5PgQJRUreZqCdRgv3Lxn8oGc8DzwzFZPS4EM1vhgjNzmI0t8RHxk0Cde9okTPuC8Z473zPWRIiqjVvAABdtJHJMMbtr7FgEAfr3FU/fglM4QuSpElvnIxT5S8QF8BB8wHznuA08F48GU8bgYwzf1TM2KUzoTPt3tOTkIlSamh8T8EDjPR8pGhBDo95HDIXJEhPqaH049A87W2fqfqH8CWLWbdNxZC+gAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDMtMTNUMDg6MzY6MzkrMDA6MDDUTBjxAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTAzLTEzVDA4OjM2OjM5KzAwOjAwpRGgTQAAAEZ0RVh0c29mdHdhcmUASW1hZ2VNYWdpY2sgNi43LjgtOSAyMDE0LTA1LTEyIFExNiBodHRwOi8vd3d3LmltYWdlbWFnaWNrLm9yZ9yG7QAAAAAYdEVYdFRodW1iOjpEb2N1bWVudDo6UGFnZXMAMaf/uy8AAAAYdEVYdFRodW1iOjpJbWFnZTo6aGVpZ2h0ADE5Mg8AcoUAAAAXdEVYdFRodW1iOjpJbWFnZTo6V2lkdGgAMTky06whCAAAABl0RVh0VGh1bWI6Ok1pbWV0eXBlAGltYWdlL3BuZz+yVk4AAAAXdEVYdFRodW1iOjpNVGltZQAxNTg0MDg4NTk5RzneKAAAAA90RVh0VGh1bWI6OlNpemUAMEJClKI+7AAAAFZ0RVh0VGh1bWI6OlVSSQBmaWxlOi8vL21udGxvZy9mYXZpY29ucy8yMDIwLTAzLTEzL2MzNTcxY2IxYjdiMTNhZGYzY2Q3YzgyM2M5MjE2MDQ1Lmljby5wbmfx9XI2AAAAAElFTkSuQmCC)
 
 
-**🚨 Para la versión en Español de esta guía dirígete a la comunidad Flarum en Español haciendo clic [aquí](https://flarumes.com/d/53-spanish-language-pack-by-flarum-en-espanol)**
+**🚨 Para la versión en Español de esta guía dirígete a la comunidad Flarum en Español haciendo clic [aquí](https://flarum.es/d/53-spanish-language-pack-by-flarum-en-espanol)**
 </p>
 
 ## About The Project
 
 Spanish language pack for Flarum Software, includes its extensions and libraries in two Spanish language registers; **Formal Spanish** and **Informal Spanish**, both selectable from the extension administrator dashboard.
 
-This extension is maintained by @jslirola and @Darkle members of the verified [Flarum en Español](https://flarumes.com) community.
+This extension is maintained by @jslirola and @Darkle members of the verified [Flarum en Español](https://flarum.es) community.
 
 ## Getting Started
 
@@ -126,12 +126,12 @@ Distributed under the MIT License. See <a href="https://github.com/FlarumES/lang
 
 ## Contact
 
-[FlarumES.com](https://FlarumES.com) · [@FlarumES](https://twitter.com/FlarumES) · flarumes@gmail.com
+[Flarum.es](https://flarum.es) · [@FlarumES](https://twitter.com/FlarumES) · flarumes@gmail.com
 
 ## Useful Links
 
 * [Flarum](https://flarum.org)
-* [FlarumES](https://FlarumES.com)
+* [Flarum.es](https://flarum.es)
 * [GitHub](https://github.com/FlarumES/lang-spanish)
 * [Composer](https://getcomposer.org/)
 * [Packagist](https://packagist.org/)
