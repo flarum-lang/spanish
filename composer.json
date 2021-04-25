@@ -9,13 +9,13 @@
         {
             "name": "FlarumES",
             "email": "FlarumES@gmail.com",
-            "homepage": "https://FlarumES.com"
+            "homepage": "https://flarum.es"
         }
     ],
     "support": {
         "issues": "https://github.com/FlarumES/lang-spanish/issues",
         "source": "https://github.com/FlarumES/lang-spanish",
-        "forum": "https://FlarumES.com"
+        "forum": "https://flarum.es"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.16"
@@ -31,7 +31,7 @@
             "title": "Spanish",
             "category": "language",
             "info": {
-                "website": "https://FlarumES.com",
+                "website": "https://flarum.es",
                 "support": "https://github.com/FlarumES/lang-spanish/issues"
             },
             "icon": {
