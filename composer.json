@@ -35,7 +35,7 @@
                 "support": "https://github.com/FlarumES/lang-spanish/issues"
             },
             "icon": {
-                "image": "icon.svg",
+                "image": "icon.png",
                 "backgroundColor": "#fff",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
