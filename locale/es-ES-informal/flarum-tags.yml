@@ -38,10 +38,8 @@ flarum-tags:
       about_tags_text: 'Las etiquetas se utilizan para organizar las discusiones. Las etiquetas principales son para clasificar las discusiones (p. ej. por temática) y pueden ordenarse y organizarse jerárquicamente en dos niveles. Las etiquetas secundarias no tienen orden ni jerarquía y son útiles para la micro organización.'
       create_primary_tag_button: 'Crear etiqueta principal'
       create_secondary_tag_button: 'Crear etiqueta secundaria'
-      create_tag_button: '=> flarum-tags.ref.create_tag'
       primary_heading: 'Etiquetas principales'
       secondary_heading: 'Etiquetas secundarias'
-      settings_button: Ajustes
       settings_heading: Ajustes
   forum:
     all_tags:
@@ -73,6 +71,5 @@ flarum-tags:
   lib:
     deleted_tag_text: Borrada
   ref:
-    create_tag: 'Crear etiqueta'
     name: Nombre
     tags: Etiquetas

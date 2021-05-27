@@ -4,11 +4,6 @@
 
 core:
   admin:
-    add_extension:
-      developer_text: 'Si tú eres un desarrollador, puedes <a>leer la documentación</a> y probar a crear tus propias extensiones.'
-      install_text: 'Mientras tanto, puedes encontrar extensiones en <a>Flarum.org</a> e instalarlas manualmente mediante Composer.'
-      temporary_text: 'Un día, en un futuro no muy distante, este diálogo te permitirá añadir una extensión a tu foro con facilidad. ¡Estamos creando la plataforma en este momento!'
-      title: 'Añadir una extensión'
     appearance:
       colored_header_label: 'Cabecera coloreada'
       colors_heading: Colores
@@ -29,7 +24,6 @@ core:
       favicon_text: 'Sube una imagen para que sea mostrada como icono de acceso directo al foro.'
       logo_heading: Logotipo
       logo_text: 'Sube una imagen para que sea mostrada en lugar del título del foro.'
-      submit_button: '=> core.ref.save_changes'
       title: Apariencia
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
@@ -42,9 +36,7 @@ core:
       forum_title_heading: 'Título del foro'
       home_page_heading: 'Página de inicio'
       home_page_text: 'Elige cuál es la portada que los usuarios verán al llegar al foro.'
-      saved_message: 'Tus cambios fueron guardados.'
       show_language_selector_label: 'Mostrar el selector de idioma'
-      submit_button: '=> core.ref.save_changes'
       title: 'Lo esencial'
       welcome_banner_heading: 'Mensaje de bienvenida'
       welcome_banner_text: 'Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los invitados en tu foro.'
@@ -83,26 +75,21 @@ core:
       driver_heading: 'Elige un controlador'
       driver_label: Driver
       from_label: Remitente
-      heading: '=> core.ref.email'
       mail_encryption_label: Cifrado
       mail_host_label: Servidor
       mail_mailgun_domain_label: Dominio
       mail_mailgun_region_label: Región
       mail_mailgun_secret_label: 'Clave secreta'
-      mail_mandrill_secret_label: 'Clave secreta'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Puerto
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Configuración Mailgun'
-      mandrill_heading: 'Configuración Mandrill'
       not_sending_message: 'Actualmente Flarum no envía correos electrónicos. Esto puede deberse al controlador seleccionado, o errores en su configuración.'
       send_test_mail_button: Enviar
       send_test_mail_heading: 'Enviar un correo de prueba'
       send_test_mail_success: '¡Correo de prueba enviado con éxito!'
       send_test_mail_text: 'Esto enviará un correo electrónico utilizando la configuración anterior a tu dirección, {email}.'
       smtp_heading: 'Configuración SMTP'
-      submit_button: '=> core.ref.save_changes'
-      text: 'Configura el servidor SMTP y las direcciones que tu foro usará para enviar correo electrónico.'
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Configurar ámbitos'
@@ -121,7 +108,6 @@ core:
       no_settings: 'Esta extensión no tiene configuración.'
       open_modal: 'Configuración abierta'
       permissions_title: Permisos
-      saved_message: 'Se guardaron tus cambios.'
       uninstall_button: Desinstalar
     header:
       get_help: 'Obtener ayuda'
@@ -130,10 +116,8 @@ core:
       title: 'Por favor, espera...'
     nav:
       appearance_button: Apariencia
-      appearance_text: 'Personalizar el aspecto del foro.'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: Básicos
-      basics_text: 'Ajustes generales del foro.'
       basics_title: '=> core.admin.basics.description'
       categories:
         authentication: Autenticación
@@ -146,15 +130,10 @@ core:
         other: 'Otras Extensiones'
         theme: Temas
       dashboard_button: 'Panel de información'
-      dashboard_text: 'El foro en un vistazo.'
       dashboard_title: '=> core.admin.dashboard.description'
       email_button: '=> core.ref.email'
-      email_text: 'Configura los ajustes del correo electrónico de tu foro.'
       email_title: 'Configura el driver, la configuración y las direcciones que usará tu foro para enviar correo electrónico.'
-      extensions_button: Extensiones
-      extensions_text: 'Añadir funcionalidad al foro.'
       permissions_button: Permisos
-      permissions_text: 'Configura quién puede hacer qué.'
       permissions_title: 'Configura quién puede ver y hacer qué.'
       search_placeholder: 'Buscar extensión'
     permissions:
@@ -181,11 +160,9 @@ core:
       sign_up_label: 'Registro de usuarios'
       start_discussions_label: 'Crear discusiones'
       title: Permisos
-      view_discussions_label: 'Ver discusiones'
       view_hidden_groups_label: 'Ver iconos de grupos ocultos'
       view_last_seen_at_label: 'Ver a qué hora fue la última conexión de un usuario'
       view_post_ips_label: 'Ver direcciones IP de las publicaciones'
-      view_user_list_label: 'Ver la lista de usuarios'
     permissions_controls:
       allow_indefinitely_button: Indefinidamente
       allow_some_minutes_button: 'Durante {count} minuto|Durante {count} minutos'
@@ -268,19 +245,6 @@ core:
       mark_as_read_tooltip: 'Marcar como leído'
       replied_text: '{username} respondió {ago}'
       started_text: '{username} creó {ago}'
-    edit_user:
-      activate_button: 'Activar usuario'
-      email_heading: '=> core.ref.email'
-      email_label: '=> core.ref.email'
-      groups_heading: Grupos
-      nothing_available: 'No hay nada disponible para editar en este momento.'
-      password_heading: '=> core.ref.password'
-      password_label: '=> core.ref.password'
-      set_password_label: 'Establecer nueva contraseña'
-      submit_button: '=> core.ref.save_changes'
-      title: 'Editar usuario'
-      username_heading: '=> core.ref.username'
-      username_label: '=> core.ref.username'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'

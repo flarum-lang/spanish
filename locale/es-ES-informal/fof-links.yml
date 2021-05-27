@@ -16,12 +16,8 @@ fof-links:
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
     links:
-      about_text: 'Administrar enlaces de menú principal.'
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'
-    nav:
-      links_button: '=> fof-links.ref.links'
-      links_text: 'Administrar los elementos de la lista de navegación primaria.'
   ref:
     create_link: 'Crear enlace'
     links: Enlaces
