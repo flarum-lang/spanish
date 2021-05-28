@@ -13,7 +13,7 @@ core:
       custom_header_heading: 'Cabecera personalizada'
       custom_header_text: '=> core.ref.custom_header_text'
       custom_styles_heading: 'Estilos personalizados'
-      custom_styles_text: 'Personaliza la apariencia de tu foro añadiendo tu propio código LESS/CSS, que se aplicará sobre los estilos por defecto de Flarum.'
+      custom_styles_text: 'Personaliza la apariencia de tu foro añadiendo tu propio código Less/CSS, que se aplicará sobre los estilos por defecto de Flarum.'
       dark_mode_label: 'Modo oscuro'
       description: 'Personaliza los colores, logotipos y otras variables de tu foro.'
       edit_css_button: 'Editar los estilos personalizados'
@@ -37,6 +37,8 @@ core:
       home_page_heading: 'Página de inicio'
       home_page_text: 'Elige cuál es la portada que los usuarios verán al llegar al foro.'
       show_language_selector_label: 'Mostrar el selector de idioma'
+      slug_driver_heading: 'Slug Driver: {model}'
+      slug_driver_text: 'Seleccione el driver que se utilizará para el slugging de este modelo.'
       title: 'Lo esencial'
       welcome_banner_heading: 'Mensaje de bienvenida'
       welcome_banner_text: 'Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los invitados en tu foro.'
@@ -46,7 +48,7 @@ core:
       title: Tablero
       tools_button: Herramientas
     edit_css:
-      customize_text: 'Personaliza la apariencia de tu foro añadiendo tu propio código LESS/CSS que será aplicado sobre los <a>estilos por defecto</a> de Flarum.'
+      customize_text: 'Personaliza la apariencia de tu foro añadiendo tu propio código Less/CSS que será aplicado sobre los <a>estilos por defecto</a> de Flarum.'
       submit_button: '=> core.ref.save_changes'
       title: 'Editar CSS personalizado'
     edit_footer:
@@ -136,6 +138,8 @@ core:
       permissions_button: Permisos
       permissions_title: 'Configura quién puede ver y hacer qué.'
       search_placeholder: 'Buscar extensión'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
     permissions:
       allow_post_editing_label: 'Permitir editar publicaciones'
       allow_renaming_label: 'Permitir cambiar el título'
@@ -157,9 +161,11 @@ core:
       read_heading: Leer
       rename_discussions_label: 'Cambiar el título a discusiones'
       reply_to_discussions_label: 'Responder en discusiones'
+      search_users_label: 'Buscar usuarios'
       sign_up_label: 'Registro de usuarios'
       start_discussions_label: 'Crear discusiones'
       title: Permisos
+      view_forum_label: 'Ver foro (discusiones y usuarios)'
       view_hidden_groups_label: 'Ver iconos de grupos ocultos'
       view_last_seen_at_label: 'Ver a qué hora fue la última conexión de un usuario'
       view_post_ips_label: 'Ver direcciones IP de las publicaciones'
@@ -178,6 +184,19 @@ core:
     upload_image:
       remove_button: '=> core.ref.remove'
       upload_button: 'Elija una imagen...'
+    users:
+      grid:
+        columns:
+          email:
+            visibility_hide: 'Ocultar correo electrónico'
+            visibility_show: 'Mostrar correo electrónico'
+          group_badges:
+            title: Grupos
+        invalid_column_content: Inválido
+      pagination:
+        back_button: 'Página anterior'
+        next_button: 'Siguiente página'
+      title: '=> core.ref.users'
   api:
     invalid_username_message: 'El nombre de usuario sólo puede contener letras, números y guiones.'
   email:
