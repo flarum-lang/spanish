@@ -37,7 +37,7 @@ In order to install the Spanish language extension package, you will need to fol
 
 ### ⚠️ Minimum Requirements
 
-* <a href="https://flarum.org">Flarum</a> 0.1.0-beta.16 (RC 1)
+* <a href="https://flarum.org">Flarum</a> 1.0.0
 
 
 ### 📥 Installation

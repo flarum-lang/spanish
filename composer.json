@@ -18,14 +18,14 @@
         "forum": "https://flarum.es"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.16"
+        "flarum/core": "^1.0.0"
     },
     "replace": {
         "flarumes/flarum-ext-spanish": "*"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1.x-dev"
+            "dev-master": "1.x-dev"
     },
         "flarum-extension": {
             "title": "Spanish",
@@ -35,7 +35,7 @@
                 "support": "https://github.com/FlarumES/lang-spanish/issues"
             },
             "icon": {
-                "image": "icon.png",
+                "image": "icon.svg",
                 "backgroundColor": "#fff",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
