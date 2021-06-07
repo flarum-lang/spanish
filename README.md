@@ -115,6 +115,8 @@ You can contribute to the language pack on this <a href="https://weblate.rob006.
 
 | Extension | Status |
 | --- | --- |
+| [Emoji Picker by Clarkwinkelmann](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/clarkwinkelmann-emojionearea/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-emojionearea/es/) |
+| [SEO by V17development](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/es/) |
 | [Shout by Kyrne](https://github.com/KyrneDev/Shout-public) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/kyrne-shout/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kyrne-shout/es/) |
 
 <!-- various-extensions-list-stop -->
