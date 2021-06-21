@@ -11,6 +11,6 @@ app.initializers.add('flarumes-lang-spanish', () => {
           'es-ES-informal': 'España (informal)',
           'es-ES-formal': 'España (formal)'
         },
-        default: 'es-ES-formal'
+        default: 'es-ES-informal'
       });
 });
