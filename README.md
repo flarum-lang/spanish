@@ -115,7 +115,10 @@ You can contribute to the language pack on this <a href="https://weblate.rob006.
 
 | Extension | Status |
 | --- | --- |
+| [Discord Theme by Serakoi](https://github.com/Serakoi/flarum-discord-theme-2) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/serakoi-flarumdiscordtheme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/serakoi-flarumdiscordtheme/es/) |
 | [Emoji Picker by Clarkwinkelmann](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/clarkwinkelmann-emojionearea/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-emojionearea/es/) |
+| [Money by Antoinefr](https://github.com/AntoineFr/flarum-ext-money) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/antoinefr-money/es/) |
+| [Pallet Theme by The turk](https://github.com/the-turk/flarum-pallet-theme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/the-turk-pallet-theme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme/es/) |
 | [SEO by V17development](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/es/) |
 | [Shout by Kyrne](https://github.com/KyrneDev/Shout-public) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/kyrne-shout/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kyrne-shout/es/) |
 | [Syndication by Amaurycarrade](https://github.com/AmauryCarrade/flarum-ext-syndication) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/amaurycarrade-syndication/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/amaurycarrade-syndication/es/) |
