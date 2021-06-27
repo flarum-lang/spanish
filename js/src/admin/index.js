@@ -1,8 +1,8 @@
 import { extend } from 'flarum/common/extend';
 import app from 'flarum/common/app';
 
-app.initializers.add('flarumes-lang-spanish', () => {
-    app.extensionData.for('flarumes-lang-spanish')
+app.initializers.add('flarum-lang-spanish', () => {
+    app.extensionData.for('flarum-lang-spanish')
       .registerSetting({
         setting: 'flarumes.mode',
         type: 'select',

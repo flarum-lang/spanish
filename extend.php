@@ -8,6 +8,7 @@
  */
 use Flarum\Extend;
 use Flarum\Settings\SettingsRepositoryInterface;
+use Flarum\Settings\Event\Saving;
 use Illuminate\Contracts\Container\Container;
 
 $settings = app(SettingsRepositoryInterface::class);
