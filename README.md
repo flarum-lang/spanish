@@ -115,6 +115,7 @@ You can contribute to the language pack on this <a href="https://weblate.rob006.
 
 | Extension | Status |
 | --- | --- |
+| [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/es/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-my-tags/es/) |
 | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/antoinefr-money/es/) |
 | [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/clarkwinkelmann-emojionearea/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-emojionearea/es/) |
@@ -122,6 +123,7 @@ You can contribute to the language pack on this <a href="https://weblate.rob006.
 | [`kyrne/whisper`](https://github.com/KyrneDev/whisper) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/kyrne-whisper/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kyrne-whisper/es/) |
 | [`serakoi/flarumdiscordtheme`](https://github.com/Serakoi/flarum-discord-theme-2) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/serakoi-flarumdiscordtheme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/serakoi-flarumdiscordtheme/es/) |
 | [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/the-turk-pallet-theme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme/es/) |
+| [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/es/) |
 | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/es/) |
 
 <!-- various-extensions-list-stop -->
