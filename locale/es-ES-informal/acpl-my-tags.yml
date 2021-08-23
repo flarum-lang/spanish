@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 acpl-my-tags:
+  admin:
+    settings:
+      enable-placeholder: 'Habilitar el texto del marcador de posición cuando el usuario no sigue ninguna etiqueta'
   forum:
     index:
       my_tags: 'Mis etiquetas'
+      placeholder: 'Todavía no sigues ninguna etiqueta. <a>Ver etiquetas</a>'
