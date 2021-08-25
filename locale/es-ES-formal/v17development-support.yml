@@ -3,6 +3,22 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 v17development-flarum-support:
+  emails:
+    replied_to_ticket:
+      body: "Estimado {recipient_display_name},\n\n{replier_display_name} ha respondido a su ticket #{ticket_id} (asunto \"{subject}\").\n\nPor favor, utilice el siguiente enlace para revisar la respuesta:\n{url}\n\nEstamos esperando su respuesta o hasta que marque este ticket como resuelto.\n"
+      subject: '{replier_display_name} ha respondido a su ticket #{ticket_id}'
+    ticket_pending_reply:
+      body: "Estimado {recipient_display_name},\n\nRecientemente {replier_display_name} ha respondido a su ticket #{ticket_id} en {replied_date} y estamos esperando su respuesta.\n\nLa URL de su ticket es:\n{url}\n\nSi el problema se ha resuelto, marque el ticket como resuelto.\n"
+      subject: 'El ticket #{ticket_id} está esperando su respuesta'
+    ticket_pending_reply_closed:
+      body: "Estimado {recipient_display_name},\n\nRecientemente {replier_display_name} respondió a su ticket #{ticket_id}. Lamentablemente no hemos recibido su respuesta. Su ticket se ha cerrado automáticamente por inactividad.\n\nSi todavía desea responder, la URL de su ticket es:\n{url}\n"
+      subject: 'El ticket #{ticket_id} ha sido cerrado por inactividad'
+    ticket_resolved:
+      body: "Estimado {recipient_display_name},\n\nSu ticket #{ticket_id} ha sido marcado como resuelto. Esto significa que su ticket ha sido cerrado.\n\nLa URL de su ticket es:\n{url}\n\nSi no está de acuerdo en marcar su ticket como resuelto, por favor responda a su ticket para reabrirlo.\n"
+      subject: 'El ticket #{ticket_id} está marcado como resuelto'
+    ticket_status_update:
+      body: "Estimado {recipient_display_name},\n\nEl estado de su ticket #{ticket_id} ha cambiado a {new_status}.\n\nLa URL de su ticket es:\n{url}\n"
+      subject: 'El ticket #{ticket_id} está marcado como {new_status}'
   forum:
     admin_overview: 'Abrir resumen del admin'
     article:
@@ -119,16 +135,91 @@ v17development-flarum-support:
         neutral_emoji_disabled: 'El emoji neutral ha sido desactivado.'
     support_tickets: 'Tickets de soporte'
     tickets:
+      compose_ticket:
+        not_allowed: 'No puede abrir un nuevo ticket de soporte ahora'
+        private_support: 'Para la asistencia privada, puede utilizar este formulario para crear un nuevo ticket en nuestra plataforma de asistencia. Para asuntos de soporte no privados, por favor vea <a>nuestros foros públicos</a>.'
+        title: 'Escribir un nuevo ticket'
       convert_to_ticket:
         button: 'Convertir en ticket'
+        confirm: '¿Estás seguro de que quieres convertir esta discusión en un ticket?'
+        event: 'La discusión {ticket_title} se ha convertido en un ticket'
+      fields:
+        assignees:
+          placeholder: 'El estado del ticket'
+          title: Asignatarios
+        information:
+          placeholder: 'Díganos en qué podemos ayudarle'
+          title: 'Información sobre el ticket'
+        language:
+          description: 'Su ticket de soporte será tratado en {idioma}.'
+          empty: 'No se ha seleccionado ningún idioma'
+          placeholder: 'Seleccione un idioma'
+          title: Idioma
+        status:
+          placeholder: 'El estado del ticket'
+          title: Estado
+        subject:
+          description: 'Intente describir su cuestión en una frase corta.'
+          placeholder: 'Asunto del ticket'
+          title: Asunto
+      load_more:
+        title: 'Cargar más tickets'
+      my_tickets:
+        description: 'En esta página podrá encontrar todos sus tickets privados.'
+        no_tickets: 'Todavía no tienes tickets.'
+        title: 'Mis tickets'
+      new_tickets_dropdown:
+        no_tickets: 'No hay notificaciones de tickets'
+        ticket_new: '{username} creó el ticket {ticket}'
+        ticket_updated: '{username} publicado en {ticket}'
+        title: 'Notificaciones de tickets'
       opened_on: 'Abierto el'
+      overview:
+        all_tickets: 'Todos los tickets'
+        description: 'Sonríe, eres el héroe que salva el día a los demás.'
+        no_tickets: 'No hay tickets que coincidan con tus criterios, ¡probablemente estás haciendo un buen trabajo!'
+        title: 'Resumen de los tickets'
       reminders_sent: '{count, plural, one {Un recordatorio enviado} other {# recordatorios enviados}}'
       return_to_overview: 'Volver al resumen de tickets'
+      status:
+        closed:
+          close_after_posting: 'Cerrar el ticket después de la publicación'
+          description: 'Este ticket ha sido cerrado.'
+          is_auto_closed: 'Este ticket está cerrado por inactividad.'
+          is_closed: 'Este ticket está cerrado, cuando respondas se reabrirá. Recomendamos reabrir un ticket sólo cuando el problema no ha sido resuelto. Si se trata de un nuevo problema, abra un nuevo ticket.'
+          title: Cerrado
+        duplicate:
+          description: 'Este ticket está marcado como duplicado.'
+          title: Duplicado
+        new:
+          description: 'Este es un nuevo ticket sin respuesta'
+          title: Nuevo
+        on_hold:
+          description: 'Este ticket ha sido puesto en espera.'
+          title: 'En espera'
+        open:
+          description: 'Este ticket tiene una nueva respuesta y está esperando su respuesta.'
+          title: Abrir
+        pending:
+          description: 'Este ticket está esperando la respuesta del usuario.'
+          description_user: 'Estamos a la espera de que nos responda o marque este ticket como resuelto.'
+          title: Pendiente
+        solved:
+          description: 'Este ticket está marcado como resuelto'
+          mark_as_solved: 'Marcar este ticket como resuelto'
+          title: Resuelto
       subject: Asunto
       ticket: Ticket
       ticket_activity: 'Por {username}, última actividad {date}'
       ticket_does_not_exist: 'El ticket de soporte solicitado no existe.'
       ticket_overview: 'Resumen de tickets'
+      tools:
+        assign_me: 'Asignar a sí mismo'
+        close_ticket: 'Cerrar ticket'
+        remove_me: Quitarme
+        update_status: 'Actualizar el estado del ticket'
+        update_subject: 'Actualizar el asunto'
+        view_ticket: 'Ver ticket'
     utils:
       redirect:
         link: '<a>Haga clic aquí</a> si la página no le redirige'
