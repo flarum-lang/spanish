@@ -5,6 +5,31 @@
 v17development-flarum-support:
   forum:
     admin_overview: 'Abrir resumen del admin'
+    article:
+      article: Artículo
+      articles: Artículos
+      author: Autor
+      authors: Autores
+      created_at: 'Creado el {date}'
+      hidden: Oculto
+      last_modified: 'Modificado por última vez el {date}'
+      not_found: 'Artículo no encontrado'
+      share_article:
+        perma_link: 'Permalink de este artículo:'
+        title: 'Compartir el artículo'
+      tools:
+        audit_log: 'Ver el registro de auditoría'
+        delete_forever: 'Eliminar para siempre'
+        edit_article: 'Editar artículo'
+        edit_tags: 'Editar etiquetas de los artículos'
+        hide_article: 'Ocultar artículo'
+        recover_article: 'Recuperar el artículo'
+        rename_article: 'Renombrar el artículo'
+        view_ratings: 'Ver calificaciones'
+    article_events:
+      article_hidden: 'El artículo fue ocultado por {username}'
+      article_modified: '{username} ha editado este artículo.'
+      article_public: 'El artículo fue hecho público por {username}'
     ask_a_question_on_forums: 'Haga una pregunta en los foros'
     ask_your_question_on_forum: 'Haga su pregunta en los foros'
     create: Crear
@@ -13,14 +38,51 @@ v17development-flarum-support:
       check_forum: 'Si no encuentras lo que buscas, <a>consulta nuestro foro</a>'
       help_question: '¿En qué podemos ayudarle?'
     knowledge_base: 'Base de conocimientos'
+    not_found:
+      description: 'Lo sentimos, este artículo o categoría ya no existe en este sitio.'
+      solution: 'Puede utilizar el cuadro de búsqueda de arriba para encontrar lo que busca.'
+      title: 'Elemento no encontrado'
     or: o
     overview:
       back_to: 'Volver a {category}'
       back_to_main_categories: 'Volver a las categorías principales'
       back_to_overview: 'Volver al resumen de la base de conocimientos'
+      category_not_found: 'Categoría no encontrada'
       knowledge_base_overview: 'Resumen de la base de conocimientos'
+      loading_articles: 'Cargando artículos'
+      no_articles_found: 'No se han encontrado artículos en esta categoría'
+      no_categories_found: 'Lo sentimos, no se han encontrado categorías aquí...'
+      tools:
+        change_icon: 'Cambiar el icono'
+        edit_description: 'Editar la descripción'
+        new_article: 'Nuevo artículo'
+        rename_category: 'Renombrar la categoría'
     reopen: reabrir
     return_to_home: 'Volver al inicio de la base de conocimientos'
+    search:
+      back_to_search_results: 'Volver a los resultados de la búsqueda'
+      no_results: 'No hemos podido encontrar nada para {searchterm}.'
+      search_knowledge_base: 'Buscar en nuestra base de conocimientos'
+      searched_for: 'Ha buscado {searchterm}, ha obtenido {results} resultados.'
+      searching: Buscando
+      searching_for: 'Búsqueda de {searchterm}'
+      title: Buscar
+      use_searchbox_below: 'Utilice el cuadro de búsqueda de abajo para buscar en nuestra base de conocimientos.'
     send: Enviar
     settings: '=> core.ref.settings'
+    support_ratings:
+      enter_feedback: 'Escriba su opinión aquí'
+      feedback: 'Gracias por su opinión, ¿tiene algún comentario?'
+      feedback_not_helpful: 'Lamentamos que este artículo no haya sido de ayuda, ¿qué es lo que buscaba?'
+      finished: '¡Gracias! Su comentario ha sido guardado.'
+      helful_article: '¿Le ha resultado útil este artículo?'
+      helful_support: '¿Está satisfecho con la forma en que manejamos su ticket de soporte?'
+      score: Puntuación
+      validation:
+        cannot_rate_article: 'No puedes valorar este artículo.'
+        guest: 'Por favor, inicie sesión antes de valorar este artículo.'
+        invalid_discussion: 'Woops, algo salió mal. No puede calificar este artículo/ticket de soporte.'
+        invalid_points: 'Valoración no válida. Por favor, inténtelo de nuevo.'
+        missing_article_id: 'Falta el ID del artículo o no es válido'
+        neutral_emoji_disabled: 'El emoji neutral ha sido desactivado.'
     support_tickets: 'Tickets de soporte'
