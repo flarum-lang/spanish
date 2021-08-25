@@ -125,6 +125,7 @@ You can contribute to the language pack on this <a href="https://weblate.rob006.
 | [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/the-turk-pallet-theme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme/es/) |
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/es/) |
 | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/es/) |
+| [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/es/) |
 
 <!-- various-extensions-list-stop -->
 
