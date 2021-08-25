@@ -61,6 +61,8 @@ v17development-flarum-badges:
       badges: Insignias
       category: 'Categoría de la insignia'
       description: 'Descripción de la insignia'
+      earned_by_count: '{count, plural, one {Ganado por el <b># usuario</b>} other {Ganado por los <b># usuarios</b>}}'
+      earned_count: '{count, plural, one {<b># usuario</b> ha obtenido esta insignia} other {<b># usuarios</b> han ganado esta insignia}}'
       earned_on: 'Insignia obtenida el'
       earning_reason: 'Motivo de obtención de la insignia'
       name: 'Nombre de la insignia'
@@ -69,7 +71,14 @@ v17development-flarum-badges:
       update_earning_reason: 'Actualizar el motivo de obtención'
     badge_information: 'Información sobre la insignia'
     give_badge: 'Dar insignia'
+    moderation:
+      give_badge: 'Dar insignia'
+      remove_badge: 'Quitar la insignia al usuario'
+      remove_badge_confirm: '¿Estás seguro de que quieres eliminar esta insignia a este usuario?'
     no_received: 'Ningún usuario ha obtenido esta insignia.'
+    notification:
+      settings: 'He recibido una insignia'
+      title: 'Has recibido una nueva insignia'
     select_badge: 'Seleccionar insignia'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
     update_badge: 'Actualizar insignia'

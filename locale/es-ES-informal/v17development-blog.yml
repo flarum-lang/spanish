@@ -8,3 +8,33 @@ v17development-flarum-blog:
     permissions:
       auto_approve_posts: 'Publicar artículos sin aprobación'
       write_articles: 'Escribir y editar artículos del blog'
+    settings:
+      add_sidebar_nav_label: 'Añadir a la navegación de la barra lateral'
+      add_sidebar_nav_text: 'Incluya un enlace al blog en el menú de navegación de la barra lateral.'
+      allow_comments_label: 'Permitir comentarios'
+      allow_comments_text: 'Por defecto, permite los comentarios en las entradas del blog. Cuando se desactiva, se puede habilitar individualmente por entrada de blog. <b>Nota:</b> Cambiar esta configuración no afectará a las entradas de blog preexistentes.'
+      blog_heading: Blog
+      categories_heading: Categorías
+      default_article_image_label: 'Imagen del artículo por defecto'
+      default_article_image_text: 'Seleccione una imagen de artículo por defecto para mostrar cuando no se haya establecido ninguna imagen.'
+      hide_on_discussion_list_label: 'No mostrar en la lista de discusión'
+      hide_on_discussion_list_text: 'Ocultar las entradas del blog de la lista de discusiones.'
+      hide_tags_in_taglist_label: 'Ocultar etiquetas en la lista de etiquetas'
+      hide_tags_in_taglist_text: 'Cuando está activada, esta extensión ocultará las etiquetas del blog de su página de inicio.'
+      redirect_articles_label: 'Redirigir los artículos del blog'
+      redirect_articles_text: 'Cuando se activa, esta extensión redirige las URLs de las discusiones originales a la URL de su blog.'
+      redirect_tags_label: 'Redirigir las etiquetas del blog'
+      redirect_tags_text: 'Cuando está activada, esta extensión redirige las URL de las etiquetas del blog a la URL de la categoría del blog.'
+      redirects_heading: Redirecciones
+      require_review_label: 'Las entradas del blog requieren una revisión'
+      require_review_text: 'Al publicar un artículo, éste no será visible directamente y deberá ser revisado por un moderador.'
+      select_categories_button: 'Seleccione las categorías del blog'
+      show_tag_hierarchy_label: 'Mostrar la jerarquía de etiquetas'
+      show_tag_hierarchy_text: 'Añade un espacio a las categorías hijas y da una jerarquía a la lista de categorías.'
+  forum:
+    blog: Blog
+    categories: Categorías
+    forum_nav: 'Navegación del Foro'
+    hidden: Oculto
+    read_more: 'Leer más'
+    recent_posts: 'Entradas recientes del blog'
