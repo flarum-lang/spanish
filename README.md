@@ -108,6 +108,7 @@ You can contribute to the language pack on this <a href="https://weblate.rob006.
 | [`fof/links`](https://github.com/FriendsOfFlarum/links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-links/es/) |
 | [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-masquerade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-masquerade/es/) |
 | [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/es/) |
+| [`fof/terms`](https://github.com/FriendsOfFlarum/terms) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-terms/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-terms/es/) |
 | [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/fof-user-bio/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-bio/es/) |
 
 <!-- fof-extensions-list-stop -->
