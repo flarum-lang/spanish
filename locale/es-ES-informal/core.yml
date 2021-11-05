@@ -95,6 +95,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Configurar ámbitos'
+      confirm_purge: 'Al purgar, se eliminarán todas las entradas en la base de datos y datos asociados a la extensión. Este proceso no desinstalará la extensión, pues esto debe completarse mediante Composer ¿Realmente deseas continuar?'
       confirm_uninstall: 'La desinstalación eliminará todas las entradas de la base de datos y los ficheros relacionados con la extensión. ¿Estás seguro de que quieres continuar?'
       disabled: Desactivada
       enable_to_see: 'Habilita la extensión para ver y cambiar la configuración.'
@@ -110,6 +111,11 @@ core:
       no_settings: 'Esta extensión no tiene configuración.'
       open_modal: 'Configuración abierta'
       permissions_title: Permisos
+      purge_button: Purgar
+      readme:
+        button_label: LÉEME
+        no_readme: 'Esta extensión no incluye un archivo LÉEME'
+        title: 'Documentación de {extName}'
       uninstall_button: Desinstalar
     header:
       get_help: 'Obtener ayuda'
@@ -296,7 +302,9 @@ core:
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
       profile_button: Perfil
+      search_clear_button_accessible_label: 'Limpiar consulta de búsqueda'
       search_placeholder: 'Buscar en el foro'
+      search_role_label: 'Buscar en los foros'
       session_dropdown_accessible_label: 'Alternar el menú desplegable de opciones de sesión'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
@@ -419,6 +427,7 @@ core:
   lib:
     badge:
       hidden_tooltip: Oculto
+    debug_button: Depurar
     dropdown:
       toggle_dropdown_accessible_label: 'Activar el menú desplegable'
     edit_user:
@@ -426,6 +435,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Grupos
+      nothing_available: 'No tienes autorización para editar este usuario.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Establecer una nueva contraseña'
@@ -438,6 +448,7 @@ core:
       generic_message: '¡Caramba! Algo salió mal. Por favor, carga de nuevo la página y vuelve a intentarlo.'
       missing_dependencies_message: 'No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}'
       not_found_message: '¡Recórcholis! El recurso solicitado no fue encontrado.'
+      payload_too_large_message: 'La solicitud de carga era demasiado grande.'
       permission_denied_message: '¡Nanay de la China! No tienes permiso para hacer eso.'
       rate_limit_exceeded_message: '¡Para el carro! Vas tú muy rápido. Por favor, vuelve a intentarlo en unos segundos.'
     loading_indicator:
