@@ -287,6 +287,8 @@ core:
       mark_as_read_tooltip: 'Marcar como leído'
       replied_text: '{username} respondió {ago}'
       started_text: '{username} creó {ago}'
+      total_replies_a11y_label: '{count, plural, one {# respuesta} other {# respuestas}}'
+      unread_replies_a11y_label: '{count, plural, one {# respuesta sin leer} other {# respuestas sin leer}}. Marcar {count, plural, one {respuesta} other {respuestas}} como leída(s).'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
@@ -513,6 +515,7 @@ core:
   views:
     admin:
       extensions:
+        caption: '=> core.ref.extensions'
         disable: Desactivar
         empty: 'No hay extensiones instaladas'
         enable: Activar
@@ -523,7 +526,9 @@ core:
         caption: 'Información de la Aplicación'
       title: Administración
     confirm_email:
+      submit_button: '=> core.ref.confirm_email'
       text: 'Presiona el botón a continuación para confirmar el correo de tu cuenta.'
+      title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Este sitio web se vé mejor en un navegador moderno con JavaScript activado.'
       load_error_message: 'Algo salió mal cuando se intentó cargar la versión completa de este sitio web.'
