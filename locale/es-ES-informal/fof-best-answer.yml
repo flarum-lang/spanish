@@ -51,7 +51,7 @@ fof-best-answer:
     errors:
       mismatch: 'El mensaje seleccionado no existe en esta discusión.'
     filter:
-      accessible_label: 'Selección de Resuelto/Sin Resolver'
+      accessible_label: 'Filtrar por Resuelto/Sin Resolver'
       all_label: 'Todas las preguntas'
       solved_label: 'Preguntas resueltas'
       unsolved_label: 'Preguntas sin resolver'
@@ -66,6 +66,6 @@ fof-best-answer:
       content: 'Por favor, selecciona la Mejor Respuesta si tu duda fue resuelta'
       preferences:
         awarded_best_answer: 'Cuando alguien asigne mi mensaje como la mejor respuesta'
-        best_answer_in_discussion: 'Cuando la mejor respuesta sea asignada en un discusión que participé en'
+        best_answer_in_discussion: 'Cuando la mejor respuesta sea asignada en un discusión en la que participé'
     remove_best_answer: 'Desmarcar Mejor Respuesta'
     this_best_answer: 'Seleccionar Mejor Respuesta'
