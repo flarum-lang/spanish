@@ -12,7 +12,7 @@ fof-socialprofile:
       allow_external_favicons_label: 'Permitir iconos de sitios externos'
   forum:
     edit:
-      add: 'Agregar botones a tus redes sociales'
+      add: 'Agregar botones a redes sociales'
       delete: Borrar
       deletetitle: 'Borrar botón'
       edit: 'Editar tus redes sociales'
