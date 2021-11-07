@@ -12,14 +12,14 @@ fof-socialprofile:
       allow_external_favicons_label: 'Permitir iconos de sitios externos'
   forum:
     edit:
-      add: 'Agregar botones de redes sociales'
+      add: 'Agregar botones a tus redes sociales'
       delete: Borrar
       deletetitle: 'Borrar botón'
       edit: 'Editar tus redes sociales'
       favicon: Favicon
       grey_favicon: 'Favicon gris'
       headtitle: 'Editar botones'
-      save_disabled_fetching_favicons: 'Uno o más iconos están siendo solicitados. Por favor, espera.'
+      save_disabled_fetching_favicons: 'Uno o más iconos están siendo procesados. Por favor, espera.'
       submit: Guardar
       title: Título
       url: 'Dirección web'

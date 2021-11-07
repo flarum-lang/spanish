@@ -14,5 +14,5 @@ ianm-synopsis:
     user:
       settings:
         show-summaries: 'Mostrar un extracto para cada discusión dentro de la lista (Escritorio/Tabletas)'
-        show-summaries-mobile: 'Mostrar un extracto para cada discusión dentro de la lista (Teléfono)'
+        show-summaries-mobile: 'Mostrar un extracto para cada discusión dentro de la lista (Móviles)'
         summaries-heading: Sinopsis
