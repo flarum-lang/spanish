@@ -75,7 +75,7 @@ If you are not a Spanish speaker and you don't know which register to choose, he
 
 This repository uses a <a href="https://weblate.org/">Weblate</a> instance hosted and managed by <a href="https://github.com/rob006">Robert Korulczyk</a>.
 
-You can contribute to the language pack on this <a href="https://weblate.rob006.net/languages/">page</a> and see the detailed status of the translation on this page.
+You can contribute to the language pack on this <a href="https://weblate.rob006.net/languages/es/flarum/">page</a> and see the detailed status of the translation on this page.
 
 ## Status (summary)
 
