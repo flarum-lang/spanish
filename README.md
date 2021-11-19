@@ -120,6 +120,7 @@ You can contribute to the language pack on this <a href="https://weblate.rob006.
 
 | Extension | Status |
 | --- | --- |
+| [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-lscache/es/) |
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/es/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-my-tags/es/) |
 | [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/afrux-forum-stats-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/afrux-forum-stats-widget/es/) |
@@ -136,6 +137,8 @@ You can contribute to the language pack on this <a href="https://weblate.rob006.
 | [`clarkwinkelmann/flarum-ext-predefined-avatars`](https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/clarkwinkelmann-predefined-avatars/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-predefined-avatars/es/) |
 | [`dem13n/topic-starter-label`](https://github.com/Dem13n/topic-starter-label) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/dem13n-topic-starter-label/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/dem13n-topic-starter-label/es/) |
 | [`flarumite/simple-spoilers`](https://github.com/flarumite/simple-spoilers) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/flarumite-simple-spoilers/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarumite-simple-spoilers/es/) |
+| [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/glowingblue-password-strength/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/glowingblue-password-strength/es/) |
+| [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/glowingblue-redis-setup/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup/es/) |
 | [`ianm/level-ranks`](https://github.com/imorland/level-ranks) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/ianm-level-ranks/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ianm-level-ranks/es/) |
 | [`ianm/synopsis`](https://github.com/imorland/synopsis) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/ianm-synopsis/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ianm-synopsis/es/) |
 | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) | [![Translation status](https://weblate.rob006.net/widgets/flarum/es/justoverclock-welcomebox/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-welcomebox/es/) |
