@@ -28,6 +28,6 @@ the-turk-stickiest:
       discussion_super_stickied_text: '{username} marcó la discusión como super chincheta.'
       discussion_unstickied_text: '=> flarum-sticky.forum.post_stream.discussion_unstickied_text'
   ref:
-    sticky: '=> flarum-sticky.ref.sticky'
+    sticky: Chincheta
     super_sticky: 'Super Chincheta'
     tag_sticky: 'Etiqueta Chincheta'
