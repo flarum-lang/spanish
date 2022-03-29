@@ -11,6 +11,7 @@ justoverclock-related-discussions:
     relatedTitle-help: 'Reemplaza el título predeterminado para las discusiones relacionadas por el tuyo propio'
     showExcerpt: 'Mostrar extracto resumido'
   forum:
+    hasBestAnswer: Resuelto
     participants: Participantes
     postedOn: 'el:'
     postnumber: 'Número de mensajes'
