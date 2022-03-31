@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/FlarumES/lang-spanish">
-    <img src="https://raw.githubusercontent.com/FlarumES/flarum.es/main/img/flarumesiso.png" width="40%" alt="FlarumES Logo">
+    <img src="https://raw.githubusercontent.com/FlarumES/flarum.es/main/img/flarumesiso.png" width="10%" alt="FlarumES Logo">
   </a>
 
   <h3 align="center">Spanish Language Pack for <a href="https://flarum.org">Flarum</a></h3>
