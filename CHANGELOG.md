@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.3.2 (2022-10-11)
+------------------
+
+**Updated translations for extensions**:
+
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+
+
+All changes: [1.3.1...1.3.2](https://github.com/flarum-lang/spanish/compare/1.3.1...1.3.2).
+
+
 1.3.1 (2022-10-11)
 ------------------
 
