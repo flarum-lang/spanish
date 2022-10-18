@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.0 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+
+
+All changes: [1.3.2...1.4.0](https://github.com/flarum-lang/spanish/compare/1.3.2...1.4.0).
+
+
 1.3.2 (2022-10-11)
 ------------------
 
