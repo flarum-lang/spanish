@@ -5,9 +5,25 @@ CHANGELOG
 1.4.0 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations.
+
+
 **Added support for new extensions**:
 
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
 
 
 All changes: [1.3.2...1.4.0](https://github.com/flarum-lang/spanish/compare/1.3.2...1.4.0).
