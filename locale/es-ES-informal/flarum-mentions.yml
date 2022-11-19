@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-mentions:
+  admin:
+    permissions:
+      mention_groups_label: 'Mencionar grupos'
   email:
     post_mentioned:
       body: "Hey {recipient_display_name}!\n\n{replier_display_name} respondió a tu publicación (#{post_number}) en {title}.\n\n{url}\n\n---\n\n{content}\n"
@@ -15,6 +18,7 @@ flarum-mentions:
       mention_tooltip: 'Mencionar a un usuario o publicación'
       reply_to_post_text: 'Respuesta a #{number}'
     notifications:
+      group_mentioned_text: '{username} mencionó un grupo del que eres miembro'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{count, plural, one {{username} respondió a tu publicación.} other {{username} respondieron a tu publicación.}}'
       user_mentioned_text: '{username} te mencionó'
@@ -26,6 +30,7 @@ flarum-mentions:
       reply_link: '=> core.ref.reply'
       you_text: '=> core.ref.you'
     settings:
+      notify_group_mentioned_label: 'Alguien menciona un grupo del que soy miembro en una publicación'
       notify_post_mentioned_label: 'Alguien respondió a tu publicación'
       notify_user_mentioned_label: 'Alguien te mencionó en una publicación'
     user:
