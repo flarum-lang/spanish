@@ -14,6 +14,7 @@ flarum-statistics:
       title: 'Elegir intervalo de fechas'
     statistics:
       active_users_text: '{count} usuarios activos'
+      current_period: 'Período actual'
       custom_label: 'Elegir intervalo de fechas...'
       custom_label_specified: '{fromDate} a {toDate}'
       discussions_heading: '=> core.ref.discussions'
@@ -27,6 +28,7 @@ flarum-statistics:
       posts_heading: '=> core.ref.posts'
       previous_28_days_label: 'Anteriores 28 días'
       previous_7_days_label: 'Anteriores 7 días'
+      previous_period: 'Período anterior'
       today_label: Hoy
       total_label: Total
       users_heading: '=> core.ref.users'
