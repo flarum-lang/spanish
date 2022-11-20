@@ -25,6 +25,8 @@ flarum-statistics:
       mini_heading: 'Estadísticas del foro'
       no_data: 'No hay datos disponibles para este intervalo de fechas.'
       posts_heading: '=> core.ref.posts'
+      previous_28_days_label: 'Anteriores 28 días'
+      previous_7_days_label: 'Anteriores 7 días'
       today_label: Hoy
       total_label: Total
       users_heading: '=> core.ref.users'
