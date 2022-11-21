@@ -15,7 +15,7 @@ flarum-mentions:
       subject: '{mencioner_display_name} te mencionó en {title}'
   forum:
     composer:
-      mention_tooltip: 'Mencionar a un usuario o publicación'
+      mention_tooltip: 'Mencionar usuario o publicación'
       reply_to_post_text: 'Respuesta a #{number}'
     notifications:
       group_mentioned_text: '{username} mencionó un grupo del que eres miembro'
