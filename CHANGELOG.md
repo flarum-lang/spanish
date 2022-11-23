@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.5.0 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+**Updated translations for extensions**:
+
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+
+
+All changes: [1.4.0...1.5.0](https://github.com/flarum-lang/spanish/compare/1.4.0...1.5.0).
+
+
 1.4.0 (2022-11-21)
 ------------------
 
