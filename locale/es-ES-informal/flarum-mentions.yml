@@ -17,6 +17,8 @@ flarum-mentions:
     composer:
       mention_tooltip: 'Mencionar usuario o publicación'
       reply_to_post_text: 'Respuesta a #{number}'
+    group_mention:
+      deleted_text: '[grupo desconocido]'
     notifications:
       group_mentioned_text: '{username} mencionó un grupo del que eres miembro'
       others_text: '=> core.ref.some_others'
@@ -29,6 +31,8 @@ flarum-mentions:
       quote_button: Citar
       reply_link: '=> core.ref.reply'
       you_text: '=> core.ref.you'
+    post_mention:
+      deleted_text: '[desconocido]'
     settings:
       notify_group_mentioned_label: 'Alguien menciona un grupo del que soy miembro en una publicación'
       notify_post_mentioned_label: 'Alguien respondió a tu publicación'
