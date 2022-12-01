@@ -5,6 +5,11 @@ CHANGELOG
 1.5.0 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations.
+
+
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
@@ -13,6 +18,10 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 
 
