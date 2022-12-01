@@ -6,6 +6,14 @@ flarum-suspend:
   admin:
     permissions:
       suspend_users_label: 'Suspender usuarios'
+  email:
+    no_reason_given: 'No se dio ningún motivo para esta suspensión.'
+    suspended:
+      body: "Hey {recipient_display_name},\n\nHas sido suspendido por el siguiente motivo:\n\n---\n{suspension_message}\n---\n"
+      subject: 'Tu cuenta ha sido suspendida'
+    unsuspended:
+      body: "Hey {recipient_display_name},\n\nTe han quitado la suspensión. Puedes volver al foro haciendo clic en el siguiente enlace:\n\n{forum_url}\n"
+      subject: 'Han quitado la suspensión a tu cuenta'
   forum:
     notifications:
       user_suspended_indefinite_text: 'Has sido suspendido indefinidamente'
@@ -21,7 +29,7 @@ flarum-suspend:
       reason: 'Motivo de la suspensión'
       status_heading: 'Estado de la suspensión'
       submit_button: '=> core.ref.save_changes'
-      title: 'Suspender a {user}'
+      title: 'Suspender a {username}'
     suspension_info:
       dismiss_button: Descartar
       indefinite: 'Esto es una suspensión indefinida'

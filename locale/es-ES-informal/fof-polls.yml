@@ -11,6 +11,8 @@ fof-polls:
       start: 'Iniciar una encuesta'
       view_results_without_voting: 'Ver los resultados sin votar'
       vote: 'Votar en las encuestas'
+    settings:
+      allow_option_image: 'Permitir una URL de imagen para cada opción de encuesta'
   forum:
     composer_discussion:
       add_poll: 'Añadir encuesta'
@@ -21,6 +23,7 @@ fof-polls:
       add_title: 'Añadir una encuesta'
       date_placeholder: 'Fecha de finalización de la encuesta (opcional)'
       edit_title: 'Editar la encuesta'
+      image_option_placeholder: 'URL de la imagen (opcional)'
       include_question: 'Debe incluir una pregunta'
       max: 'Puede tener un máximo de 10 respuestas'
       min: 'Debe incluir un mínimo de 2 respuestas'

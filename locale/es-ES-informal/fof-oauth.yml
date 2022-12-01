@@ -38,6 +38,7 @@ fof-oauth:
           api_key_label: 'API Key'
           api_secret_label: 'API Secret'
           description: 'Cree una aplicación en {link}. Tendrás que establecer una URL de Términos de Servicio y una URL de Política de Privacidad. Asegúrate de añadir el permiso de solicitud de correo electrónico.'
+    settings_accessibility_label: 'Configuración de {name}'
   forum:
     error:
       bad_verification_code: 'Token de verificación inválido o caducado. Por favor, inténtelo de nuevo.'
@@ -61,6 +62,11 @@ fof-oauth:
       twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
       username_help: 'Por favor, elija un nombre de usuario para ser identificado aquí'
+    user:
+      settings:
+        linked-account:
+          label: 'Cuentas vinculadas'
+          last-used-label: 'Usado por última vez'
   lib:
     providers:
       discord: Discord

@@ -20,6 +20,9 @@ fof-user-directory:
       load_more_button: '=> core.ref.load_more'
       nav: 'Directorio de usuarios'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
+      usercard:
+        discussion-count: '{count, plural, one { {count} discusión} other {{count} discusiones}}'
+        post-count: '{count, plural, one { {count} publicación} other {{count} publicaciones}}'
     search:
       field:
         placeholder: 'Buscar todos los usuarios'
