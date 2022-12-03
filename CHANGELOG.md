@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`fof/disposable-emails`](https://github.com/FriendsOfFlarum/disposable-emails)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
