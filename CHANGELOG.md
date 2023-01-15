@@ -5,6 +5,11 @@ CHANGELOG
 1.6.0 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations.
+
+
 **Added support for new extensions**:
 
 * [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist)
@@ -15,6 +20,12 @@ CHANGELOG
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme)
+
+
+**Updated translations for extensions**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 
 
 All changes: [1.5.0...1.6.0](https://github.com/flarum-lang/spanish/compare/1.5.0...1.6.0).
