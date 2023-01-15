@@ -39,3 +39,7 @@ blomstra-payments:
       title: 'Opciones de pago para acceder al {group}'
     tag:
       require-payment-label: 'Pago requerido'
+core:
+  forum:
+    index_sort:
+      mostBacked_button: 'Los más respaldados'
