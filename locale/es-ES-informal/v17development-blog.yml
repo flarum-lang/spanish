@@ -10,6 +10,8 @@ v17development-flarum-blog:
       auto_approve_posts: 'Publicar artículos sin aprobación'
       write_articles: 'Escribir y editar artículos del blog'
     settings:
+      add_hero_label: 'Mostrar banner de bienvenida'
+      add_hero_text: 'Mostrar banner de bienvenida en las páginas del blog si aún no se ha cerrado.'
       add_sidebar_nav_label: 'Añadir a la navegación de la barra lateral'
       add_sidebar_nav_text: 'Incluya un enlace al blog en el menú de navegación de la barra lateral.'
       allow_comments_label: 'Permitir comentarios'
@@ -18,6 +20,8 @@ v17development-flarum-blog:
       categories_heading: Categorías
       default_article_image_label: 'Imagen del artículo por defecto'
       default_article_image_text: 'Seleccione una imagen de artículo por defecto para mostrar cuando no se haya establecido ninguna imagen.'
+      featured_count_label: 'Máximo de publicaciones destacadas'
+      featured_count_text: '¿Cuántas publicaciones deben mostrarse en una cuadrícula grande en la parte superior del blog?'
       hide_on_discussion_list_label: 'No mostrar en la lista de discusión'
       hide_on_discussion_list_text: 'Ocultar las entradas del blog de la lista de discusiones.'
       hide_tags_in_taglist_label: 'Ocultar etiquetas en la lista de etiquetas'
@@ -39,6 +43,19 @@ v17development-flarum-blog:
       slug: Slug
       summary: Resumen
       title: Título
+    article_settings:
+      fields:
+        highlight:
+          helper_text: 'Dale a esta publicación una imagen grande en la página principal del blog.'
+          title: 'Publicación destacada'
+        image:
+          helper_text: 'Mejor resolución de imagen para redes sociales: 1200x630'
+          title: 'Imagen del artículo'
+        summary:
+          helper_text: 'Este resumen será visible en la página principal del blog y se utilizará con fines de SEO.'
+          placeholder: 'Por favor, ingresa un resumen'
+          title: 'Resumen del artículo'
+      title: 'Configuración de publicaciones del blog'
     blog: Blog
     categories: Categorías
     category_empty: 'No hay entradas de blog en esta categoría.'
