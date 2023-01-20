@@ -26,6 +26,9 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
 All changes: [1.5.0...1.6.0](https://github.com/flarum-lang/spanish/compare/1.5.0...1.6.0).
