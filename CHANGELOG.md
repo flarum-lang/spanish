@@ -21,6 +21,8 @@ CHANGELOG
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
 * [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme)
+* [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
 
 **Updated translations for extensions**:
@@ -28,6 +30,7 @@ CHANGELOG
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
