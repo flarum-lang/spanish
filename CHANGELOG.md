@@ -21,6 +21,7 @@ CHANGELOG
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
 * [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
