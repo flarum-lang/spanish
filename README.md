@@ -2,9 +2,14 @@
   <a href="https://github.com/FlarumES/lang-spanish">
     <img src="https://raw.githubusercontent.com/FlarumES/flarum.es/main/img/flarumesiso.png" width="10%" alt="FlarumES Logo">
   </a>
+</p>
 
-  <h3 align="center">Spanish Language Pack for <a href="https://flarum.org">Flarum</a></h3>
+<h2 align="center">Spanish Language Pack for <a href="https://flarum.org">Flarum</a></h2>
 
+ <div align="center">
+<strong>🚨 Para la versión en Español de esta guía dirígete a la comunidad Flarum en Español haciendo clic <a href="https://flarum.es/d/53-spanish-language-pack-by-flarum-en-espanol">aquí</a></strong>
+</div>
+<br>
   <p align="center">
     Spanish Language Pack to localise the Flarum software, including its extensions and libraries by the FlarumES Community.
     <br />
@@ -17,12 +22,9 @@
     ·
     <a href="https://github.com/flarum-lang/spanish/issues">Request Feature</a>
   </p>
- 
+
  <div align="center">
 
- 
- <div align="center">
- 
 ![](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square) 
 ![](https://img.shields.io/badge/GitHub-grey?style=flat-square&logo=Github) 
 ![](https://img.shields.io/packagist/v/flarumes/lang-spanish.svg?style=flat-square&logo=packagist)  
@@ -30,14 +32,11 @@
 
 </div>
 
-**🚨 Para la versión en Español de esta guía dirígete a la comunidad Flarum en Español haciendo clic [aquí](https://flarum.es/d/53-spanish-language-pack-by-flarum-en-espanol)**
-</p>
-
 ## About The Project
 
 Spanish language pack for Flarum Software, includes its extensions and libraries in two Spanish language registers; **Formal Spanish** and **Informal Spanish**, both selectable from the extension administrator dashboard.
 
-This extension is maintained by @jslirola and @Darkle members of the verified [Flarum en Español](https://flarum.es) community.
+This extension is maintained by [@jslirola]https://flarum.es/u/jslirola and [@Darkle]https://flarum.es/u/Darkle members of the verified [Flarum en Español](https://flarum.es) community.
 
 ## Getting Started
 
@@ -46,8 +45,9 @@ In order to install the Spanish language extension package, you will need to fol
 
 ### ⚠️ Minimum Requirements
 
-* <a href="https://flarum.org">Flarum</a> 1.0.0
-
+   ```
+flarum/core: "^1.2.0"
+   ```
 
 ### 📥 Installation
 
