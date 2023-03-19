@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.6.1 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+
+
+All changes: [1.6.0...1.6.1](https://github.com/flarum-lang/spanish/compare/1.6.0...1.6.1).
+
+
 1.6.0 (2023-03-13)
 ------------------
 
