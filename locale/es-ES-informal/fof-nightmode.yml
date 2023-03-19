@@ -6,6 +6,7 @@ fof-nightmode:
   admin:
     settings:
       modal:
+        always_show_theme_toggle_on_header: 'Mostrar siempre el botón de cambio de tema en el encabezado del foro'
         default_theme: 'Tema por defecto del foro'
         default_theme_helper: 'El tema por defecto se activa de manera automática para los usuarios nuevos, visitas y quienes aún no configuran sus preferencias.'
         theme_auto: '=> fof-nightmode.ref.auto'
@@ -13,9 +14,12 @@ fof-nightmode:
         theme_light: '=> fof-nightmode.ref.light'
   forum:
     day: '=> fof-nightmode.ref.light'
+    header:
+      nightmode_button: 'Cambiar tema del foro'
     night: '=> fof-nightmode.ref.dark'
     user:
       settings:
+        auto_unsupported: 'Tu navegador no es compatible con el modo oscuro automático.'
         description: 'Elige el tema que quieres ocupar en el sitio.'
         description2: 'Este tema será vinculado a tu cuenta y se aplicará a todos los dispositivos a menos de que cambies la opción a continuación.'
         device_specific_setting_checkbox: 'Configuración por dispositivo'
