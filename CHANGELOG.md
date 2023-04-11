@@ -8,6 +8,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 
 
