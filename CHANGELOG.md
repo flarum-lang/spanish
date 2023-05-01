@@ -10,6 +10,7 @@ CHANGELOG
 * [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
 
 All changes: [1.6.0...1.6.1](https://github.com/flarum-lang/spanish/compare/1.6.0...1.6.1).
