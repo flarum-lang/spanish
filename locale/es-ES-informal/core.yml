@@ -44,6 +44,15 @@ core:
       title: Básicos
       welcome_banner_heading: 'Mensaje de bienvenida'
       welcome_banner_text: 'Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los invitados en tu foro.'
+    create_user:
+      email_confirmed_label: 'Requerir que el usuario confirme este correo electrónico'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
+      submit_and_create_another_button: 'Crear y añadir otro'
+      submit_button: 'Crear usuario'
+      title: 'Crear nuevo usuario'
+      use_random_password: 'Generar contraseña aleatoria'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Limpiar caché'
       description: 'Tu foro de un vistazo.'
@@ -153,8 +162,10 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Permitir eliminar publicaciones propias'
       allow_post_editing_label: 'Permitir editar publicaciones'
       allow_renaming_label: 'Permitir cambiar el título'
+      create_access_token_label: 'Crear token de acceso'
       create_heading: Crear
       delete_discussions_forever_label: 'Eliminar discusiones para siempre'
       delete_discussions_label: 'Eliminar discusiones'
@@ -166,6 +177,7 @@ core:
       edit_users_groups_label: 'Editar grupos de usuarios'
       edit_users_label: 'Editar usuarios'
       global_heading: Global
+      moderate_access_tokens_label: 'Moderar tokens de acceso'
       moderate_heading: Moderado
       new_group_button: 'Nuevo grupo'
       participate_heading: Participar
@@ -183,6 +195,7 @@ core:
       view_post_ips_label: 'Ver direcciones IP de las publicaciones'
     permissions_controls:
       allow_indefinitely_button: Indefinidamente
+      allow_never_button: '=> core.ref.never'
       allow_some_minutes_button: '{count, plural, one {Durante # minuto} other {Durante # minutos}}'
       allow_ten_minutes_button: 'Durante 10 minutos'
       allow_until_reply_button: 'Hasta la siguiente respuesta'
@@ -197,6 +210,7 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Elija una imagen...'
     users:
+      create_user_button: 'Nuevo Usuario'
       description: 'Una lista paginada de todos los usuarios de su foro.'
       grid:
         columns:
@@ -221,11 +235,19 @@ core:
         invalid_column_content: Inválido
       pagination:
         back_button: 'Página anterior'
+        first_button: 'Ir a la primera página'
+        go_to_page_textbox_a11y_label: 'Ir al número de página'
+        last_button: 'Ir a la última página'
         next_button: 'Siguiente página'
         page_counter: 'Página {current} de {total}'
+      search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
       total_users: 'Total de usuarios: {count}'
   api:
+    invalid_filter_type:
+      must_be_numeric_message: 'El filtro {filter} debe ser numérico.'
+      must_not_be_array_message: 'El filtro {filter} no debe ser un array.'
+      must_not_be_multidimensional_array_message: 'El filtro {filter} no debe ser una array multidimensional.'
     invalid_username_message: 'El nombre de usuario sólo puede contener letras, números y guiones.'
   email:
     activate_account:
@@ -381,6 +403,38 @@ core:
       all_discussions_button: 'Buscar "{query}" en todas las discusiones'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{browser} en {os}'
+      cannot_terminate_current_session: 'No se puede terminar la sesión activa actual. Cerrar sesión en su lugar.'
+      created: Creado
+      current_active_session: 'Sesión activa actual'
+      developer_tokens_heading: 'Tokens de desarrollador'
+      empty_text: 'Parece que no hay nada que ver aquí.'
+      global_logout:
+        heading: 'Cierre de sesión global'
+        help_text: 'Borra la sesión de cookies actual, finaliza todas las sesiones, revoca los tokens de desarrollador e invalida cualquier confirmación de correo electrónico o correo electrónico de restablecimiento de contraseña.'
+        log_out_button: '=> core.ref.log_out'
+      hide_access_token: 'Ocultar token'
+      last_activity: 'Última actividad'
+      never: '=> core.ref.never'
+      new_access_token_button: '=> core.ref.new_token'
+      new_access_token_modal:
+        submit_button: 'Crear token'
+        title: '=> core.ref.new_token'
+        title_placeholder: Título
+      revoke_access_token: Revocar
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      session_terminated: '{count, plural, one {Sesión terminada} other {# Sesiones terminadas}}.'
+      session_termination_failed: 'Ocurrió un error al finalizar sus sesiones.'
+      sessions_heading: 'Sesiones activas'
+      show_access_token: 'Ver token'
+      terminate_all_other_sessions: 'Terminar todas las demás sesiones'
+      terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
+      terminate_session: Terminar
+      title: '=> core.ref.security'
+      token_item_title: '{title} - {token}'
+      token_revoked: 'Token revocado.'
+      token_title_placeholder: /
     settings:
       account_heading: Cuenta
       change_email_button: '=> core.ref.change_email'
@@ -413,6 +467,7 @@ core:
       posts_empty_text: 'Parece que no hay publicaciones aquí.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
       settings_link: '=> core.ref.settings'
     user_controls:
       button: Controles
@@ -442,6 +497,8 @@ core:
       dismiss_a11y_label: 'Descartar la alerta'
     badge:
       hidden_tooltip: Oculto
+    data_segment:
+      label: '{label}:'
     debug_button: Depurar
     dropdown:
       toggle_dropdown_accessible_label: 'Activar el menú desplegable'
@@ -459,8 +516,10 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
+      circular_dependencies_message: 'Dependencias circulares detectadas: {extensions}. Abortando. Desactiva una de las extensiones y vuelve a intentarlo.'
       dependent_extensions_message: 'No se puede desactivar {extension} hasta que se desactiven las siguientes extensiones dependientes: {extensions}'
       extension_initialiation_failed_message: '{extension} no se pudo inicializar, consulta la consola del navegador para obtener más información.'
+      generic_cross_origin_message: '¡Ups! Algo salió mal durante una solicitud de origen cruzado. Vuelve a cargar la página e inténtalo de nuevo.'
       generic_message: '¡Caramba! Algo salió mal. Por favor, carga de nuevo la página y vuelve a intentarlo.'
       missing_dependencies_message: 'No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}'
       not_found_message: '¡Recórcholis! El recurso solicitado no fue encontrado.'
@@ -505,6 +564,7 @@ core:
     edit_user: 'Editar usuario'
     email: 'Correo electrónico'
     extensions: Extensiones
+    generic_confirmation_message: '¿Estás seguro que deseas continuar? Esta acción no se puede deshacer.'
     icon: Icono
     icon_text: 'Introduce el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.'
     load_more: 'Cargar más'
@@ -512,6 +572,8 @@ core:
     log_in: Acceder
     log_out: Desconectarse
     mark_all_as_read: 'Marcar todas como leídas'
+    never: Nunca
+    new_token: 'Nuevo token'
     next_page: 'Página siguiente'
     notifications: Notificaciones
     okay: Aceptar
@@ -524,6 +586,8 @@ core:
     reset_your_password: 'Restablece tu contraseña'
     restore: Restaurar
     save_changes: 'Guardar cambios'
+    search_users: 'Buscar usuarios'
+    security: Seguridad
     settings: Configuración
     sign_up: Regístrate
     some_others: '{count, plural, one {# más} other {# más}}'
