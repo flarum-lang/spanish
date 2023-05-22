@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Cabecera personalizada'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: 'Las características @import y data-uri no están permitidas en código LESS personalizado.'
       custom_styles_heading: 'Estilos Personalizados'
       custom_styles_text: 'Personaliza la apariencia de tu foro añadiendo tu propio código Less/CSS, que se aplicará sobre los estilos por defecto de Flarum.'
       dark_mode_label: 'Modo Oscuro'
@@ -45,7 +46,7 @@ core:
       welcome_banner_heading: 'Mensaje de bienvenida'
       welcome_banner_text: 'Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los invitados en tu foro.'
     create_user:
-      email_confirmed_label: 'Requerir que el usuario confirme este correo electrónico'
+      email_confirmed_label: 'Solicitar al usuario que confirme este correo electrónico'
       email_placeholder: '=> core.ref.email'
       password_placeholder: '=> core.ref.password'
       submit_and_create_another_button: 'Crear y añadir otro'
@@ -57,6 +58,15 @@ core:
       clear_cache_button: 'Limpiar caché'
       description: 'Tu foro de un vistazo.'
       io_error_message: 'No se pudo escribir en el sistema de archivos. Verifica los permisos de su sistema de archivos y vuelve a intentarlo. O intenta ejecutar desde la línea de comandos.'
+      status:
+        headers:
+          queue-driver: 'Driver de cola'
+          scheduler-status: Scheduler
+          session-driver: 'Driver de sesión'
+        scheduler:
+          active: Activo
+          inactive: Inactivo
+          never-run: 'Nunca se ejecuta'
       title: Panel
       tools_button: Herramientas
     debug-warning:
@@ -185,7 +195,7 @@ core:
       read_heading: Leer
       rename_discussions_label: 'Cambiar el título a discusiones'
       reply_to_discussions_label: 'Responder en discusiones'
-      search_users_label: 'Buscar usuarios'
+      search_users_label: '=> core.ref.search_users'
       sign_up_label: 'Registro de usuarios'
       start_discussions_label: 'Crear discusiones'
       title: Permisos
@@ -214,6 +224,8 @@ core:
       description: 'Una lista paginada de todos los usuarios de su foro.'
       grid:
         columns:
+          display_name:
+            title: 'Nombre a mostrar'
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
@@ -236,7 +248,7 @@ core:
       pagination:
         back_button: 'Página anterior'
         first_button: 'Ir a la primera página'
-        go_to_page_textbox_a11y_label: 'Ir al número de página'
+        go_to_page_textbox_a11y_label: 'Ir directamente al número de página'
         last_button: 'Ir a la última página'
         next_button: 'Siguiente página'
         page_counter: 'Página {current} de {total}'
@@ -392,7 +404,7 @@ core:
       viewing_text: '{count, plural, one {{index} de {formattedCount} publicación} other {{index} de {formattedCount} publicaciones}}'
     post_stream:
       discussion_renamed_old_tooltip: 'El título anterior era: "{old}"'
-      discussion_renamed_text: '{username} cambió el título a {new}.'
+      discussion_renamed_text: '{username} cambió el título a {new} {time}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} más tarde'
@@ -412,7 +424,7 @@ core:
       empty_text: 'Parece que no hay nada que ver aquí.'
       global_logout:
         heading: 'Cierre de sesión global'
-        help_text: 'Borra la sesión de cookies actual, finaliza todas las sesiones, revoca los tokens de desarrollador e invalida cualquier confirmación de correo electrónico o correo electrónico de restablecimiento de contraseña.'
+        help_text: 'Borra la sesión actual de cookies, finaliza todas las sesiones, revoca los tokens de desarrollador e invalida cualquier correo electrónico de confirmación o de restablecimiento de contraseña.'
         log_out_button: '=> core.ref.log_out'
       hide_access_token: 'Ocultar token'
       last_activity: 'Última actividad'
