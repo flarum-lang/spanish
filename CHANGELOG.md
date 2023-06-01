@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.7.0 (2023-06-01)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+
+
+**Updated translations for extensions**:
+
+* [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+
+
+All changes: [1.6.0...1.7.0](https://github.com/flarum-lang/spanish/compare/1.6.0...1.7.0).
+
+
 1.6.0 (2023-03-13)
 ------------------
 
