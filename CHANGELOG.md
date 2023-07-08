@@ -2,6 +2,15 @@ CHANGELOG
 =========
 
 
+1.8.0 (2023-07-08)
+------------------
+
+Refactor code for handling formal/informal language variants.
+
+
+All changes: [1.7.0...1.8.0](https://github.com/flarum-lang/spanish/compare/1.7.0...1.8.0).
+
+
 1.7.0 (2023-06-01)
 ------------------
 
@@ -162,5 +171,3 @@ All changes: [1.3.0...1.3.1](https://github.com/flarum-lang/spanish/compare/1.3.
 
 
 All changes: [1.2.2...1.3.0](https://github.com/flarum-lang/spanish/compare/1.2.2...1.3.0).
-
-
