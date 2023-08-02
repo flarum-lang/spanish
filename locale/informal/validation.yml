@@ -42,6 +42,7 @@ validation:
   ends_with: 'El :attribute tiene que terminar con uno de los siguientes valores: :values.'
   exists: 'El :attribute seleccionado es inválido.'
   file: 'El :attribute debe ser un fichero.'
+  file_too_large: 'El :attribute es muy largo.'
   filled: 'El campo :attribute debe tener un valor.'
   gt:
     array: 'El :attribute debe tener más de :value elementos.'
