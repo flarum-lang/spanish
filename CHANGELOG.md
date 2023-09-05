@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.8.1 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated validation translations.
+
+
+All changes: [1.8.0...1.8.1](https://github.com/flarum-lang/spanish/compare/1.8.0...1.8.1).
+
+
 1.8.0 (2023-07-08)
 ------------------
 
