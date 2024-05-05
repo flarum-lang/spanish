@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.8.1 (XXXX-XX-XX)
+1.9.0 (XXXX-XX-XX)
 ------------------
 
 **General changes**:
@@ -10,7 +10,13 @@ CHANGELOG
 * Updated validation translations.
 
 
-All changes: [1.8.0...1.8.1](https://github.com/flarum-lang/spanish/compare/1.8.0...1.8.1).
+**Added support for new extensions**:
+
+* [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+All changes: [1.8.0...1.9.0](https://github.com/flarum-lang/spanish/compare/1.8.0...1.9.0).
 
 
 1.8.0 (2023-07-08)
