@@ -27,6 +27,8 @@ flarum-tags:
       bypass_tag_counts_label: 'Ignorar requisitos de etiqueta'
       restrict_by_tag_heading: 'Restringir por etiqueta'
       tag_discussions_label: 'Etiquetar discusiones'
+    settings:
+      button_text: '=> flarum-tags.ref.choose_tags'
     tag_settings:
       range_separator_text: ' a '
       required_primary_heading: 'Número de etiquetas principales requeridas'
