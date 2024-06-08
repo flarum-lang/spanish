@@ -13,7 +13,7 @@ flarum-extension-manager:
         token_label: Token
         type_label: Tipo
         unchanged_token_placeholder: '(sin cambios)'
-      delete_confirmation: '¿Estás seguro de que deseas eliminar este método de autenticación?'
+      delete_confirmation: '¿Está seguro de que desea eliminar este método de autenticación?'
       delete_label: 'Borrar método de autenticación'
       edit_label: 'Editar método de autenticación'
       fields:
@@ -29,7 +29,7 @@ flarum-extension-manager:
         gitlab-token: 'GitLab Token'
     composer:
       add_repository_label: 'Añadir repositorio'
-      delete_repository_confirmation: '¿Estás seguro de que deseas eliminar este repositorio? Todas las extensiones instaladas desde este repositorio serán eliminadas.'
+      delete_repository_confirmation: '¿Está seguro de que desea eliminar este repositorio? Todas las extensiones instaladas desde este repositorio serán eliminadas.'
       delete_repository_label: 'Eliminar repositorio'
       edit_repository_label: 'Editar repositorio'
       minimum_stability:
@@ -47,7 +47,7 @@ flarum-extension-manager:
           submit_button: Enviar
           type_label: Tipo
           url: URL
-        help: "Añade repositorios adicionales desde los que instalar paquetes. Esta es una característica avanzada, no añada repositorios que no sean de confianza, ya que pueden ser utilizados para ejecutar código malicioso en su servidor.\n"
+        help: "Añada repositorios adicionales desde los que instalar paquetes. Esta es una característica avanzada, no añada repositorios que no sean de confianza, ya que pueden ser utilizados para ejecutar código malicioso en su servidor.\n"
         label: Repositorios
         types:
           composer: composer
@@ -62,11 +62,11 @@ flarum-extension-manager:
       guessed_cause:
         extension_incompatible_with_instance: 'Lo más probable es que la extensión sea incompatible con su instancia actual de Flarum.'
         extension_not_found: 'La extensión no se ha encontrado o no existe.'
-        extensions_incompatible_with_new_major: "Algunas extensiones instaladas no son compatibles con la versión principal más reciente. Espera a que los autores actualicen las extensiones para que sean compatibles o elimínalas antes de continuar.\n"
+        extensions_incompatible_with_new_major: "Algunas extensiones instaladas no son compatibles con la versión principal más reciente. Espere a que los autores actualicen las extensiones para que sean compatibles o elimínelas antes de continuar.\n"
     extensions:
       check_why_it_failed_updating: 'Mostrar por qué no se actualizó a la última.'
       install: 'Instalar una nueva extensión'
-      install_help: "Completa el nombre del paquete de extensión para continuar. Puedes especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visita {extiverse} para explorar extensiones.\n"
+      install_help: "Complete el nombre del paquete de extensión para continuar. Puede especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visite {extiverse} para explorar extensiones.\n"
       proceed: Proceder
       remove: Desinstalar
       successful_install: '{extension} fue instalada con éxito, redirigiendo..'
@@ -77,9 +77,9 @@ flarum-extension-manager:
       update_soft_label: 'Actualización suave'
     file_permissions: "El gestor de extensiones requiere permisos de lectura y escritura en los siguientes archivos y directorios: composer.json, composer.lock, vendor, storage, storage/.composer.\n"
     major_updater:
-      description: "Las actualizaciones mayores de Flarum no son compatibles con versiones anteriores, lo que significa que algunas de tus extensiones instaladas actualmente y las modificaciones realizadas manualmente podrían no funcionar con esta nueva versión. Por favor, asegúrate de hacer una copia de seguridad de tu base de datos y archivos antes de proceder.\n"
+      description: "Las actualizaciones mayores de Flarum no son compatibles con versiones anteriores, lo que significa que algunas de sus extensiones instaladas actualmente y las modificaciones realizadas manualmente podrían no funcionar con esta nueva versión. Por favor, asegúrese de hacer una copia de seguridad de su base de datos y archivos antes de proceder.\n"
       dry_run: 'Ejecución de prueba'
-      dry_run_help: 'Una ejecución de prueba emula la actualización para ver si tu configuración actual puede actualizarse de manera segura, esto no significa que las modificaciones personalizadas que hayas hecho manualmente funcionen en la nueva versión.'
+      dry_run_help: 'Una ejecución de prueba emula la actualización para ver si su configuración actual puede actualizarse de manera segura, esto no significa que las modificaciones personalizadas que haya hecho manualmente funcionen en la nueva versión.'
       failure:
         desc: 'La última actualización mayor falló, algunas extensiones instaladas no son compatibles con la nueva versión mayor.'
         why: 'Más información'
@@ -122,10 +122,10 @@ flarum-extension-manager:
         task_just_started: 'La tarea acaba de empezar'
         title: Cola
     settings:
-      access_warning: 'Por favor, ten cuidado a quién das acceso al área de administración, el gestor de extensiones podría ser mal utilizado por personas malintencionadas para instalar paquetes que pueden conducir a brechas de seguridad.'
-      debug_mode_warning: 'Estás ejecutando en modo de depuración, el gestor de extensiones no puede instalar y actualizar correctamente los paquetes de desarrollo locales. Para ello, utiliza la interfaz de línea de comandos.'
+      access_warning: 'Por favor, tenga cuidado a quién le da acceso al área de administración, el gestor de extensiones podría ser mal utilizado por personas malintencionadas para instalar paquetes que pueden conducir a brechas de seguridad.'
+      debug_mode_warning: 'Está ejecutando en modo de depuración, el gestor de extensiones no puede instalar y actualizar correctamente los paquetes de desarrollo locales. Para ello, utilice la interfaz de línea de comandos.'
       queue_jobs: 'Ejecutar operaciones en la cola de fondo'
-      queue_jobs_help: "Puedes leer sobre una <a href='{basic_impl_link}'>implementación básica</a> de una cola o una <a href='{adv_impl_link}'>más avanzada</a>. Asegúrate de que la versión de PHP utilizada para la cola sea {php_version}. Asegúrate de que los <a href='{folder_perms_link}'>permisos de las carpetas</a> estén configurados correctamente.\n"
+      queue_jobs_help: "Puede leer sobre una <a href='{basic_impl_link}'>implementación básica</a> de una cola o una <a href='{adv_impl_link}'>más avanzada</a>. Asegúrese de que la versión de PHP utilizada para la cola sea {php_version}. Asegúrese de que los <a href='{folder_perms_link}'>permisos de las carpetas</a> estén configurados correctamente.\n"
       task_retention_days: 'Días de retención de la tarea'
       task_retention_days_help: "El número de días para mantener las tareas completadas en la base de datos. Las tareas más antiguas se eliminarán. Establezca 0 para mantener todas las tareas.\n"
       title: '=> core.ref.settings'
@@ -137,7 +137,7 @@ flarum-extension-manager:
       last_update_checked_at: 'Última comprobación de actualización: '
       run_global_update: 'Ejecutar actualización global'
       up_to_date: '¡Todo está al día!'
-      updater_help: 'Comprueba si hay nuevas extensiones y actualizaciones de Flarum.'
+      updater_help: 'Compruebe si hay nuevas extensiones y actualizaciones de Flarum.'
       updater_title: Actualizaciones
     why_not_modal:
       title: '¿Por qué no se actualiza?'

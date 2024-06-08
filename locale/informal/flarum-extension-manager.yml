@@ -33,7 +33,7 @@ flarum-extension-manager:
       delete_repository_label: 'Eliminar repositorio'
       edit_repository_label: 'Editar repositorio'
       minimum_stability:
-        help: 'El tipo de paquetes que se permite instalar. No cambie esto a menos que sepa lo que está haciendo.'
+        help: 'El tipo de paquetes que se permite instalar. No cambies esto a menos que sepas lo que estás haciendo.'
         label: 'Estabilidad mínima'
         options:
           alpha: Alpha
@@ -47,7 +47,7 @@ flarum-extension-manager:
           submit_button: Enviar
           type_label: Tipo
           url: URL
-        help: "Añade repositorios adicionales desde los que instalar paquetes. Esta es una característica avanzada, no añada repositorios que no sean de confianza, ya que pueden ser utilizados para ejecutar código malicioso en su servidor.\n"
+        help: "Añade repositorios adicionales desde los que instalar paquetes. Esta es una característica avanzada, no añadas repositorios que no sean de confianza, ya que pueden ser utilizados para ejecutar código malicioso en tu servidor.\n"
         label: Repositorios
         types:
           composer: composer
@@ -122,7 +122,7 @@ flarum-extension-manager:
         task_just_started: 'La tarea acaba de empezar'
         title: Cola
     settings:
-      access_warning: 'Por favor, ten cuidado a quién das acceso al área de administración, el gestor de extensiones podría ser mal utilizado por personas malintencionadas para instalar paquetes que pueden conducir a brechas de seguridad.'
+      access_warning: 'Por favor, ten cuidado a quién le das acceso al área de administración, el gestor de extensiones podría ser mal utilizado por personas malintencionadas para instalar paquetes que pueden conducir a brechas de seguridad.'
       debug_mode_warning: 'Estás ejecutando en modo de depuración, el gestor de extensiones no puede instalar y actualizar correctamente los paquetes de desarrollo locales. Para ello, utiliza la interfaz de línea de comandos.'
       queue_jobs: 'Ejecutar operaciones en la cola de fondo'
       queue_jobs_help: "Puedes leer sobre una <a href='{basic_impl_link}'>implementación básica</a> de una cola o una <a href='{adv_impl_link}'>más avanzada</a>. Asegúrate de que la versión de PHP utilizada para la cola sea {php_version}. Asegúrate de que los <a href='{folder_perms_link}'>permisos de las carpetas</a> estén configurados correctamente.\n"
