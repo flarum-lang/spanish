@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.9.0 (2024-06-09)
+------------------
+
+**General changes**:
+
+* Updated validation translations.
+
+
+**Added support for new extensions**:
+
+* [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+All changes: [1.8.0...1.9.0](https://github.com/flarum-lang/spanish/compare/1.8.0...1.9.0).
+
+
 1.8.0 (2023-07-08)
 ------------------
 
