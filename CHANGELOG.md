@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.0 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+
+
+All changes: [1.9.0...1.10.0](https://github.com/flarum-lang/spanish/compare/1.9.0...1.10.0).
+
+
 1.9.0 (2024-06-09)
 ------------------
 
