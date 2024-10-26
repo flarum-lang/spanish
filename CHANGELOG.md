@@ -5,9 +5,15 @@ CHANGELOG
 1.10.0 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations.
+
+
 **Added support for new extensions**:
 
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 
 
 All changes: [1.9.0...1.10.0](https://github.com/flarum-lang/spanish/compare/1.9.0...1.10.0).
