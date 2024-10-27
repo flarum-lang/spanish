@@ -6,3 +6,39 @@ askvortsov-rich-text:
   admin:
     settings:
       toggle_on_editor: '¿Mostrar el interruptor de modo de texto enriquecido en el editor?'
+  forum:
+    settings:
+      composer_heading: Composer
+      rich_text_compact_paragraphs_label: 'No separar los párrafos con nueva línea.'
+      use_rich_text_editor_label: '¿Utilizar un editor de texto enriquecido?'
+  lib:
+    composer:
+      additional_items_tooltip: 'Controles adicionales'
+      bold_tooltip: 'Texto en negrita <{modifierKey}-b>'
+      code_block_tooltip: 'Insertar un bloque de código'
+      code_tooltip: 'Código en línea <{modifierKey}-`>'
+      header_tooltip: 'Cambiar al encabezado {level} <shift-{modifierKey}-{level}>'
+      horizontal_rule_tooltip: 'Insertar línea horizontal'
+      image_tooltip: 'Añadir una imagen'
+      insert_button: Insertar
+      insert_image:
+        src_placeholder: Enlace
+        title_placeholder: Título
+      insert_link:
+        href_placeholder: URL
+        remove_button: Eliminar
+        text_placeholder: Texto
+        title_placeholder: 'Título (se muestra al pasar el ratón)'
+      italic_tooltip: 'Texto en cursiva <{modifierKey}-i>'
+      link_tooltip: 'Añadir un enlace'
+      ordered_list_tooltip: 'Lista numerada <shift-{modifierKey}-9>'
+      paragraph_tooltip: 'Cambiar a párrafo <shift-{modifierKey}-0>'
+      quote_tooltip: 'Insertar una cita <{modifierKey}-q>'
+      spoiler_block_tooltip: 'Bloque Spoiler/menú desplegable'
+      spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
+      strike_tooltip: 'Tachado <alt-shift-5>'
+      sub_tooltip: 'Subíndice <{modifierKey}-,>'
+      sup_tooltip: 'Superíndice <{modifierKey}-.>'
+      text_type_tooltip: 'Seleccionar tipo de texto'
+      toggle_button: 'Activar o desactivar el modo de texto enriquecido'
+      unordered_list_tooltip: 'Lista con viñetas <shift-{modifierKey}-8>'
