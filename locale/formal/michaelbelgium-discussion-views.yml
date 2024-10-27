@@ -8,13 +8,28 @@ core:
       popular_button: Popular
       unpopular_button: Impopular
 michaelbelgium-discussion-views:
+  admin:
+    permissions:
+      reset_views_label: 'Reiniciar visitas de discusión'
+      view_number_label: 'Ver el recuento de visitas de la discusión'
+    settings:
+      abbr_numbers_label: 'Abreviar números de visitas'
+      abbr_numbers_text: 'Si está habilitado, los números de visualización altos se abreviarán (por ejemplo, 1000 = 1K)'
+      max_viewcount_label: 'Máximo elementos en la lista de visualización'
+      show_filter_label: 'Habilitar campo de ordenación (im)popular'
+      title: 'Configuración de visitas de discusión'
+      track_guests_label: 'Rastrear invitados'
+      track_unique_label: 'Rastrear visitas únicas'
+      track_unique_text: 'Aumenta las visualizaciones según la dirección IP'
   forum:
     discussion_controls:
       resetviews_button: 'Restablecer vistas'
     modal_resetviews:
+      label: '{count, plural, one {Esto eliminará {count} vista de esta discusión. ¿Continuar?} other {Esto eliminará {count} vistas de esta discusión. ¿Continuar?}}'
       submit_button: 'Sí, eliminar todo'
       title: 'Restablecer el recuento de visitas de discusión'
     post:
+      modal_title_text: 'Usuarios que vieron esta discusión por última vez'
       others_link: '=> core.ref.some_others'
       viewed_by: '{users} vieron esto.'
       you: '=> core.ref.you'
