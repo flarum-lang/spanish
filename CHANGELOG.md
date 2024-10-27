@@ -14,6 +14,14 @@ CHANGELOG
 
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
+
+
+**Updated translations for extensions**:
+
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 
 
 All changes: [1.9.0...1.10.0](https://github.com/flarum-lang/spanish/compare/1.9.0...1.10.0).
