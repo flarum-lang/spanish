@@ -23,6 +23,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
 All changes: [1.9.0...1.10.0](https://github.com/flarum-lang/spanish/compare/1.9.0...1.10.0).
