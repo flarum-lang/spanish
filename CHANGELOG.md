@@ -12,6 +12,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
