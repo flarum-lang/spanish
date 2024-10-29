@@ -73,6 +73,15 @@ flarum-tags:
       meta_description_text: 'Todas las discusiones con la etiqueta {tag}'
   lib:
     deleted_tag_text: Borrada
+    tag_selection_modal:
+      bypass_requirements: 'Omitir requisitos de etiqueta'
+      choose_primary_placeholder: '{count, plural, one {Seleccionar una etiqueta principal} other {Seleccionar # etiquetas principales}}'
+      choose_secondary_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      choose_tags_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      submit_button: '=> core.ref.okay'
+      title: '=> flarum-tags.ref.choose_tags'
   ref:
+    choose_tags: 'Selecciona etiquetas'
+    choose_tags_placeholder: '{count, plural, one {Selecciona 1 etiqueta más} other {Selecciona # etiquetas más}}'
     name: Nombre
     tags: Etiquetas

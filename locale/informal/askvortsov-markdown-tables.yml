@@ -6,4 +6,15 @@ askvortsov-markdown-tables:
   lib:
     composer:
       table_menu:
+        column: Columna
+        insert_column_after: 'Insertar columna después'
+        insert_column_before: 'Insertar columna antes'
+        insert_row_after: 'Insertar fila después'
+        insert_row_before: 'Insertar fila antes'
+        label_cells: '# ¿Etiquetar celdas?'
         num_cols: '# Columnas'
+        num_rows: '# Filas (incluido el encabezado)'
+        remove_column: 'Eliminar columna'
+        remove_row: 'Eliminar fila'
+        row: Fila
+      table_tooltip: Tabla

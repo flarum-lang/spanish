@@ -2,13 +2,36 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-follow-tags/es/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Elimina la suscripción del usuario a la etiqueta.'
+        export_description: 'Exporta detalles del nivel de suscripción de una etiqueta, si existe.'
 fof-follow-tags:
+  admin:
+    settings:
+      following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
+      following_page_default_label: 'Filtrado de página de seguimiento predeterminado'
+      following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+  email:
+    body:
+      newDiscussionInTag: "Ey {recipient_display_name},\n\n{actor_display_name} inició una discusión en una etiqueta que estás siguiendo: {discussion_title}\n\nPara ver la nueva discusión, consulta el siguiente enlace:\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newDiscussionTag: "Ey {recipient_display_name},\n\n{actor_display_name} acaba de cambiar la etiqueta de una discusión de {author_display_name} a una etiqueta que estás siguiendo {discussion_title}\n\nPara ver la nueva discusión, consulta el siguiente enlace:\n{discussion_url}\n"
+      newPostInTag: "Ey {recipient_display_name},\n\n{actor_display_name} publicó una publicación en una discusión sobre una etiqueta que estás siguiendo: {discussion_title}\n\nPara ver la nueva actividad, consulta el siguiente enlace:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNo recibirás más notificaciones sobre esta discusión hasta que estés al día.\n"
+    subject:
+      newDiscussionInTag: '[Etiqueta | Nueva discusión] {title}'
+      newDiscussionTag: '[Etiqueta | Etiqueta modificada] {title}'
+      newPostInTag: '[Etiqueta | Nueva publicación] {title}'
   forum:
     badge:
       following_tag_tooltip: Siguiendo
       lurking_tag_tooltip: Captación
     index:
       follow_tag_button: Seguir
+      following:
+        following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
+        following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
       unfollow_tag_button: 'Dejar de seguir'
     notifications:
       new_discussion_tag_text: '{username} cambió el tema'
@@ -19,14 +42,32 @@ fof-follow-tags:
       notify_new_discussion_tag_label: 'Alguien vuelve a etiquetar una discusión con una etiqueta que estoy siguiendo'
       notify_new_post_label: 'Alguien publica en una etiqueta que estoy siguiendo'
     sub_controls:
+      follow_button: '=> fof-follow-tags.ref.follow'
+      following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Recibir notificaciones de todas las nuevas discusiones.'
+      header: 'Suscripción para {tagName}'
+      hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Ocultar discusiones de la página Todas las discusiones.'
+      ignoring_button: '=> fof-follow-tags.ref.ignoring'
       ignoring_text: 'Nunca recibir notificaciones.'
+      lurking_button: '=> fof-follow-tags.ref.lurking'
       lurking_text: 'Recibir notificaciones de todas las nuevas discusiones y respuestas.'
       not_following_button: 'No seguir'
       not_following_text: 'Ser notificado solo cuando me @mencionan.'
       notify_alert_tooltip: 'Reciba una notificación del foro cuando haya nuevas discusiones o publicaciones'
       notify_email_tooltip: 'Recibir un correo electrónico cuando haya nuevas discusiones o publicaciones'
+      submit_button: 'Confirmar suscripción'
+      subscription_label: 'Selecciona el nivel de suscripción para {tagName}'
     user:
       settings:
+        filter_label: 'Qué mostrar por defecto en la página de Seguimiento'
         heading: 'Seguir Tags'
+  ref:
+    filtering_options:
+      none: 'Discusiones seguidas'
+      tags: 'Etiquetas seguidas'
+    follow: Seguir
+    following: Siguiendo
+    hiding: Ocultando
+    ignoring: Ignorando
+    lurking: Observando

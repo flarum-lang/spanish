@@ -9,6 +9,7 @@ fof-links:
       delete_link_confirmation: '¿Estás seguro de que quieres eliminar este enlace?'
       everyone-label: Todos
       guests-label: Invitados
+      icon_additional_text: 'Si quieres utilizar un ícono de marca, el prefijo es <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: '¿Es un enlace de Flarum?'
@@ -21,10 +22,18 @@ fof-links:
       url_description: 'Deja en blanco para mostrar como una etiqueta.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
+      use_rel_me: 'Añade el atributo <code>rel="me"</code> para la verificación de identidad en otros sitios'
       visibility: 'Visibilidad del enlace'
+      visibility.guest-only.help: 'Solo {guest} puede ver este enlace. El permiso anterior debe configurarse como ''{everyone}''.'
+      visibility.guest-only.label: '¿Solo {guest}?'
+      visibility.help: 'De forma predeterminada, los enlaces solo son visibles para los usuarios <code>{admin}</code>. Ajusta los permisos para especificar quién puede ver este enlace.'
+      visibility.help-disabled: 'Guarda el enlace antes de cambiar la configuración de visibilidad.'
+      visibility.label: 'Visibilidad del enlace'
     links:
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'
+    settings:
+      show_icons_only_on_tablet: 'Mostrar iconos solo en las pantallas de tabletas'
   ref:
     create_link: 'Crear enlace'
     links: Enlaces

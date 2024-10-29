@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-terms/es@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: 'Elimina la aceptación de los términos por parte del usuario'
+        export_description: 'Detalles sobre la aceptación de los términos por parte del usuario'
 fof-terms:
   admin:
     buttons:
@@ -22,6 +28,8 @@ fof-terms:
       export-url-help: "Cualquier usuario con permiso \"Exportar todos los datos de usuarios y políticas\" puede acceder a esas URL para descargar la lista de usuarios que aceptaron esta política. Puede encontrar más detalles sobre las opciones disponibles en la <a>extension wiki</a>.\n"
       name: Nombre
       name-help: 'Este nombre se mostrará junto a la casilla de verificación y como título del modal de actualización.'
+      optional: 'Política opcional'
+      optional-help: 'Cuando está habilitado, los usuarios pueden usar e interactuar con el foro sin aceptar esta política.'
       terms-updated-at: 'Actualizado el'
       terms-updated-at-help: "La fecha de la última actualización de términos. Establecer este valor requerirá que todos los usuarios que aceptaron antes de esa fecha vuelvan a aceptar. Debe fijarse en la fecha actual o el pasado (de lo contrario, los usuarios nunca podrían aceptarlo y superar el modal).\n"
       terms-updated-at-placeholder: 'YYYY-MM-DD (hh:mm:ss)'

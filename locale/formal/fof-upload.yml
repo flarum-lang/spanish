@@ -2,11 +2,19 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-upload/es@formal/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Elimina la referencia del usuario de los archivos subidos. Los archivos permanecen accesibles para los usuarios que podían verlos antes de la anonimización.'
+        delete_description: 'Elimina todos los archivos subidos por el usuario.'
+        export_description: 'Todos los archivos subidos por el usuario.'
 fof-upload:
   admin:
     help_texts:
       client_extension: "Por defecto, Upload elegirá una extensión de archivo segura basada en el tipo MIME.\nPara algunos tipos de archivos basados en ZIP o datos binarios, esto puede resultar en el uso de extensiones genéricas en lugar de la esperada. \nAquí puede ingresar una lista separada por comas de extensiones de archivo que se mantendrán palabra por palabra.\n"
       composer_buttons: "De forma predeterminada, tanto el botón del gestor de medios como el botón de subida están visibles. También puede optar por mostrar sólo un botón.\n"
+      custom_s3_url: "Utiliza esta configuración si estás utilizando un servicio compatible con S3 que requiere un formato de URL específico (por ejemplo, Backblaze B2) o si tiene problemas con el formato de URL predeterminado. Esta configuración no suele ser necesaria para la mayoría de los servicios. Asegúrese de que la URL incluya el protocolo (https://) y tenga el formato correcto. Ejemplo: https://your-bucket.s3.your-region.backblazeb2.com\n"
       disable-download-logging: "Deshabilite el registro de cada descarga realizada por los usuarios de su foro. Mantenerlo habilitado le permite ver la cantidad de descargas y otras métricas en un futuro próximo.\n"
       disable-hotlink-protection: "La protección Hotlink evita que se abran descargas de otros sitios. El método actual requiere un token csrf y un ID de publicación.\n"
       download_templates: "Las plantillas de descarga son la forma en que se muestran las subidas en su foro, por ejemplo: Vistas previas, botones. Actualmente disponible:\n"
@@ -33,6 +41,7 @@ fof-upload:
         acl: 'Lista de control de acceso (ACL)'
         advanced_title: 'Configuración avanzada de almacenamiento S3'
         bucket: Bucket
+        custom_url: 'URL personalizada de S3'
         endpoint: Endpoint
         key: Key
         region: Región
@@ -80,14 +89,24 @@ fof-upload:
         position: 'Posición de marca de agua'
         title: 'Imágenes de marca de agua'
         toggle: 'Imágenes de marca de agua'
+    nav:
+      shared-uploads-button: 'Subidas compartidas'
     pane:
       description: 'Configure los servicios y preferencias de carga.'
       title: Subir
     permissions:
+      access_shared_label: 'Acceda a archivos compartidos en el Administrador de medios'
       delete_uploads_of_others_label: 'Eliminar las subidas de los usuarios'
       download_label: 'Descargar archivos'
       upload_label: 'Subir archivos'
+      upload_shared_label: 'Subir archivos compartidos'
       view_user_uploads_label: 'Ver las subidas de los usuarios'
+    shared-uploads:
+      description: 'Sube archivos que puedan ser utilizados por todos los usuarios de tu foro.'
+      introduction: "Los archivos compartidos son archivos que pueden utilizar todos los usuarios de tu foro. No se adjuntan a ninguna publicación, pero se pueden insertar en las publicaciones mediante el administrador de medios.\n\n<strong>Advertencia:</strong> Los archivos compartidos no están protegidos por ningún permiso. Cualquier persona con la URL puede verlos.\n"
+      no-files: 'Aún no se han subido archivos compartidos.'
+      title: 'Subidas compartidas'
+      upload-new-button: 'Subir nuevo archivo'
     templates:
       bbcode-image: 'Plantilla de imagen BBCode'
       bbcode-image_description: "Muestra la imagen completa in-line usando BBCode. <strong>Debe tener Flarum/bbcode instalado y habilitado para que esto funcione.</strong> No hay funcionalidad de descarga, no se recopilan estadísticas y se ignora la protección de enlaces directos.\n"
@@ -111,15 +130,25 @@ fof-upload:
       qiniu: QiNiu
   api:
     upload_errors:
+      cannot_write_to_disk: 'No se puede escribir en el disco.'
       could_not_detect_mime: 'No se pudo detectar el tipo MIME de este archivo, intente nuevamente.'
       forbidden_type: 'No se permite subir archivos de este tipo.'
+      max_upload_file_size_form: 'Se alcanzó el límite máximo de tamaño de archivo cargado desde el formulario.'
+      max_upload_file_size_ini: 'Se alcanzó el límite máximo de tamaño de archivo cargado desde php.ini.'
+      no_file_uploaded: 'No se ha cargado ningún archivo.'
+      no_files_made_it_to_upload: 'Por favor, cargue archivos que no superen {max} kb.'
+      no_upload_tmp_folder: 'No hay carpeta temporal para cargar archivos.'
+      partial_upload: 'Carga parcial.'
       unsupported_type: 'El adaptador de carga no admite el tipo mime proporcionado: {mime}.'
+      upload_blocked_by_php_extension: 'Una extensión php bloqueó la carga.'
   forum:
     buttons:
       attach: Adjuntar
       cancel: Cancelar
       media: 'Mis medios'
+      shared_media: 'Medios compartidos'
       upload: Subir
+      upload_shared: Compartido
       user_uploads: 'Subidas de usuarios'
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Ninguno seleccionado} one {Seleccione el archivo} other {Seleccione los archivos}}'
@@ -149,3 +178,40 @@ fof-upload:
       no_snippet_preview: '<la vista previa aparecerá aquí después de la publicación>'
     validation:
       max_size: 'No se aceptan subidas de más de {max} kb.'
+  lib:
+    file_list:
+      confirm_selection_btn: '{fileCount, plural, =0 {Ninguno seleccionado} one {Seleccionar archivo} other {Seleccionar archivos}}'
+      delete_confirmation: '¿Estás seguro de que quieres eliminar "{fileName}"?'
+      delete_file_a11y_label: 'Eliminar archivo "{fileName}"'
+      empty: 'No hay archivos para mostrar.'
+      hide_file:
+        btn_a11y_label_hide: 'Ocultar "{fileName}" del administrador de medios'
+        btn_a11y_label_show: 'Mostrar "{fileName}" en el administrador de medios'
+        hide_confirmation: '¿Estás seguro de que quieres ocultar "{fileName}"? Ocultar un archivo solo lo eliminará de su administrador de medios y no afectará las publicaciones existentes.'
+        hide_fail: 'No se pudo ocultar el archivo "{fileName}"'
+        hide_success: 'Archivo oculto'
+        loading: 'Ocultando archivo...'
+        show_confirmation: '¿Estás seguro de que quieres mostrar "{fileName}"? Al mostrar un archivo, este se hará visible en tu administrador de medios.'
+        show_fail: 'No se pudo mostrar el archivo "{fileName}"'
+        show_success: 'Archivo mostrado'
+      hide_shared_file:
+        btn_a11y_label_hide: 'Hacer privado "{fileName}" (sin URL pública)'
+        btn_a11y_label_show: 'Hacer público "{fileName}" (con URL pública)'
+        hide_confirmation: '¿Estás seguro de que quieres que "{fileName}" sea privado? Si haces que un archivo sea privado, se eliminará su URL pública, pero no afectará a las publicaciones existentes. Tampoco será visible en el administrador de medios para usuarios no autorizados.'
+        hide_fail: 'No se pudo hacer privado el archivo "{fileName}"'
+        hide_success: 'Archivo hecho privado'
+        loading: 'Haciendo privado el archivo...'
+        show_confirmation: '¿Estás seguro de que quieres que "{fileName}" sea público? Si haces público un archivo, podrá acceder a él cualquier persona con una URL pública y cualquiera podrá compartirlo mediante el administrador de medios.'
+        show_fail: 'No se pudo hacer público el archivo "{fileName}"'
+        show_success: 'Archivo hecho público'
+      load_more_files_btn: 'Cargar más archivos'
+      loading: 'Cargando archivos...'
+      modal_empty_desktop: 'Tu lista de archivos está vacía. Haz clic en el botón o arrastra un archivo aquí para cargarlo.'
+      modal_empty_phone: 'Tu lista de archivos está vacía. Pulsa el botón de arriba para subir un archivo.'
+      release_to_upload: 'Liberar para subir'
+      select_file_a11y_label: 'Seleccionar archivo "{fileName}"'
+    upload-shared-file-modal:
+      dropzone: 'Arrastra y suelta archivos aquí o haz clic para buscar'
+      hide-from-media-gallery: 'Ocultar de la galería multimedia del usuario'
+      title: 'Nuevo archivo compartido'
+      upload: Subir
