@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.10.1 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+All changes: [1.10.0...1.10.1](https://github.com/flarum-lang/spanish/compare/1.10.0...1.10.1).
+
+
 1.10.0 (2024-10-31)
 -------------------
 
