@@ -92,7 +92,7 @@ fof-upload:
     nav:
       shared-uploads-button: 'Subidas compartidas'
     pane:
-      description: 'Configure los servicios y preferencias de carga.'
+      description: 'Configure los servicios y preferencias de subida.'
       title: Subir
     permissions:
       access_shared_label: 'Acceda a archivos compartidos en el Administrador de medios'
