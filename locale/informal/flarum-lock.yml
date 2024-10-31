@@ -5,7 +5,7 @@
 flarum-lock:
   admin:
     permissions:
-      lock_discussions_label: 'Cerrar discusiones'
+      lock_discussions_label: 'Bloquear discusiones'
   forum:
     badge:
       locked_tooltip: Cerrada
