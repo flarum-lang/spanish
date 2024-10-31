@@ -43,6 +43,7 @@ CHANGELOG
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 
 
