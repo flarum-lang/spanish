@@ -7,6 +7,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`flarum/lock`](https://github.com/flarum/lock)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/tags`](https://github.com/flarum/tags)
