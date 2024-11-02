@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-1.10.1 (XXXX-XX-XX)
+1.11.0 (XXXX-XX-XX)
 -------------------
+
+**Added support for new extensions**:
+
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+
 
 **Updated translations for extensions**:
 
@@ -13,7 +18,7 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 
 
-All changes: [1.10.0...1.10.1](https://github.com/flarum-lang/spanish/compare/1.10.0...1.10.1).
+All changes: [1.10.0...1.11.0](https://github.com/flarum-lang/spanish/compare/1.10.0...1.11.0).
 
 
 1.10.0 (2024-10-31)
