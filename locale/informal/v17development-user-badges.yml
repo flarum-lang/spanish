@@ -22,8 +22,15 @@ v17development-flarum-badges:
       requirement_drivers:
         has_badge: 'Tiene insignia'
     badge:
+      background_color: 'Color de fondo'
       description: 'Descripción de la insignia'
       icon: 'Icono de la insignia'
+      icon_color: 'Color del icono'
+      image: 'URL de la imagen de la insignia'
+      image_placeholder: 'Introduce la URL de la imagen de la insignia'
+      is_image: 'La insignia es una imagen'
+      is_image_description: 'Utiliza una imagen en lugar de la insignia predeterminada'
+      label_color: 'Color del texto'
       name: 'Nombre de la insignia'
       visible: Visible
       visible_description: 'Habilitar esta insignia. Si se desactiva, la insignia no será visible.'
@@ -45,10 +52,15 @@ v17development-flarum-badges:
     edit_category: 'Editar categoría'
     new_badge: 'Nueva insignia'
     nothing_here_yet: 'Todavía no has creado ninguna insignia o categoría.'
+    number_of_badges_on_user_card: 'Cantidad de insignias'
+    number_of_badges_on_user_card_help: 'Cantidad de insignias a mostrar en la tarjeta de usuario'
     permissions:
       badge_detail_users: 'Puede ver los usuarios en la página de detalles de la insignia'
+      edit_card_badges: 'Editar las insignias de la tarjeta de usuario'
+      edit_own_card_badges: 'Editar las insignias propias de la tarjeta de usuario'
       give_badge: 'Entregar insignia al usuario'
       take_badge: 'Coger insignia del usuario'
+    show_badges_on_user_card: 'Mostrar insignias en la tarjeta de usuario'
     uncategorized: 'Sin categoría'
     update_badge: 'Actualizar la insignia'
     update_category: 'Actualizar la categoría'
@@ -67,9 +79,16 @@ v17development-flarum-badges:
       earning_reason: 'Motivo de obtención de la insignia'
       name: 'Nombre de la insignia'
       no_earning_reason: 'No se ha establecido ningún motivo de obtención'
+      others_link: '+ {count} más'
       received_on: 'Recibido el {date}'
       update_earning_reason: 'Actualizar el motivo de obtención'
     badge_information: 'Información sobre la insignia'
+    badges_in_card:
+      description: 'Puedes cambiar las insignias visibles en tu tarjeta de usuario por alguna de tus otras insignias. Si no seleccionas ninguna, se seleccionarán automáticamente.'
+      hit_limit: 'Solo hay espacio para <b> {limit, plural, one {<b>una insignia</b>} other {<b># insignias</b>}}</b> en tu tarjeta. Anula la selección de una insignia para hacer espacio para esta.'
+      manage_badges: 'Administrar insignias'
+      select_limit: 'Puedes seleccionar {limit, plural, one {<b>una insignia</b>} other {<b># insignias</b>}} para que sean visibles en tu tarjeta de usuario.'
+      title: 'Insignias en la tarjeta de usuario'
     give_badge: 'Dar insignia'
     moderation:
       give_badge: 'Dar insignia'
@@ -79,6 +98,7 @@ v17development-flarum-badges:
     notification:
       settings: 'He recibido una insignia'
       title: 'Has recibido una nueva insignia'
+    save_changes: 'Guardar cambios'
     select_badge: 'Seleccionar insignia'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
     update_badge: 'Actualizar insignia'
