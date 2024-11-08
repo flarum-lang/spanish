@@ -90,6 +90,7 @@ gtdxyz-flarum-badges:
       select_limit: 'Puedes seleccionar {limit, plural, one {<b>una insignia</b>} other {<b># insignias</b>}} para que sean visibles en tu tarjeta de usuario.'
       title: 'Insignias en la tarjeta de usuario'
     give_badge: 'Dar insignia'
+    hidden_badges: 'Este usuario no muestra ninguna insignia aun.'
     moderation:
       give_badge: 'Dar insignia'
       remove_badge: 'Quitar la insignia al usuario'
