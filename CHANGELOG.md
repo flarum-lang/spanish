@@ -13,6 +13,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`flarum/lock`](https://github.com/flarum/lock)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
