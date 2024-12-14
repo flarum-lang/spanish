@@ -4,4 +4,10 @@
 
 acpl-mobile-tab:
   forum:
+    all_discussions: Discusiones
+    categories: '=> askvortsov-categories.forum.index.categories_link'
     home: Inicio
+    log_in: '=> core.forum.header.log_in_link'
+    notifications: '=> core.forum.notifications.title'
+    profile: '=> core.forum.header.profile_button'
+    tags: '=> flarum-tags.forum.index.tags_link'
