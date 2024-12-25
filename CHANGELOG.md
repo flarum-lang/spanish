@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.11.0 (2024-12-25)
+-------------------
+
+**Added support for new extensions**:
+
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+All changes: [1.10.0...1.11.0](https://github.com/flarum-lang/spanish/compare/1.10.0...1.11.0).
+
+
 1.10.0 (2024-10-31)
 -------------------
 
