@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.11.1 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+All changes: [1.11.0...1.11.1](https://github.com/flarum-lang/spanish/compare/1.11.0...1.11.1).
+
+
 1.11.0 (2024-12-25)
 -------------------
 
