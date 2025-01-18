@@ -13,6 +13,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 
 
 All changes: [1.11.0...1.12.0](https://github.com/flarum-lang/spanish/compare/1.11.0...1.12.0).
