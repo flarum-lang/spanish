@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 
 
