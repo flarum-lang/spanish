@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 
@@ -14,6 +15,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 
 
