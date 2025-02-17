@@ -7,41 +7,128 @@ fof-polls:
     permissions:
       change_vote: 'Cambiar el voto'
       moderate: 'Editar y eliminar encuestas'
-      self_edit: 'Permitir a los usuarios editar sus propias encuestas'
+      self_edit: 'Editar encuestas creadas (requiere permiso de edición de post)'
+      self_post_edit: 'Editar *todas* las encuestas de los mensajes propios (requiere permiso de edición de mensajes)'
       start: 'Iniciar una encuesta'
+      start_global: 'Iniciar una encuesta global'
+      upload_images: 'Permitir a los usuarios subir imágenes para las encuestas'
       view_results_without_voting: 'Ver los resultados sin votar'
       vote: 'Votar en las encuestas'
     settings:
+      allow_image_uploads: 'Permitir la carga de imágenes para las encuestas y sus opciones'
+      allow_image_uploads_help: 'Si se activa, los usuarios podrán subir imágenes además de proporcionar una URL de la imagen (si se activa para las opciones, siempre se activa para la propia encuesta).'
       allow_option_image: 'Permitir una URL de imagen para cada opción de encuesta'
+      enable_global_polls: 'Activar encuestas globales'
+      enable_global_polls_help: 'Las encuestas globales no están vinculadas a una entrada específica, y se puede acceder a ellas desde una página dedicada a las encuestas.'
+      general:
+        heading: 'Ajustes generales'
+        help: 'Estos ajustes controlan las características básicas de la extensión Encuestas.'
+      global_polls:
+        heading: 'Encuestas Globales'
+        help: 'Estos ajustes controlan la función de sondeo global.'
+      image:
+        heading: 'Ajustes de Imagen'
+        help: 'Estos ajustes controlan la configuración de la imagen para las encuestas.'
+      image_height: 'Redimensionar la altura de la imagen'
+      image_width: 'Redimensionar el ancho de la imagen'
+      max_options: 'Número máximo de opciones por encuesta'
+      options_color_blend: 'Texto con mezcla de colores en las opciones de la encuesta'
+      options_color_blend_help: 'Use esta opción para mezclar colores y hacer las opciones de la encuesta más legibles. Desactivar si esta función causa problemas con la apariencia de su foro, reduciendo la legibilidad.'
   forum:
+    answers: Respuestas
+    compose:
+      add_title: 'Añadir una encuesta'
+      continue_editing: 'Seguir editando'
+      edit_title: 'Editar encuesta'
+      polls_manager: 'Gestor de encuestas'
+      polls_preview: 'Ver encuesta'
+      success: 'Encuesta guardada correctamente.'
     composer_discussion:
-      add_poll: 'Añadir encuesta'
+      add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
-    days_remaining: 'La encuesta termina en {hora}.'
+      no_permission_alert: 'No tiene permiso para iniciar una encuesta.'
+    days_remaining: 'La encuesta termina en {time}.'
+    max_votes_allowed: 'La encuesta permite votar por {max, plural, one {# option} other {# options}}.'
     modal:
       add_option_label: 'Añadir una opción'
       add_title: 'Añadir una encuesta'
+      allow_change_vote_label: 'Permitir a los usuarios cambiar su voto'
+      allow_multiple_votes_label: 'Permitir votar a varias opciones'
       date_placeholder: 'Fecha de finalización de la encuesta (opcional)'
+      delete: '=> core.ref.delete'
       edit_title: 'Editar la encuesta'
+      error: '=> core.lib.error.generic_message'
+      hide_votes_label: 'Ocultar los votos hasta que finalice la encuesta'
+      hide_votes_label_help: 'El usuario que inició la encuesta siempre podrá ver los votos.'
       image_option_placeholder: 'URL de la imagen (opcional)'
       include_question: 'Debe incluir una pregunta'
-      max: 'Puede tener un máximo de 10 respuestas'
+      max: 'Puede tener un máximo de {max} respuestas'
+      max_votes_help: 'Establecer a 0 para permitir a los usuarios votar por todas las opciones.'
+      max_votes_label: 'Número máximo de votos por usuario'
       min: 'Debe incluir un mínimo de 2 respuestas'
       no_voters: 'Sin votos'
       option_placeholder: Respuesta
       options_label: Respuestas
+      poll_image:
+        alt_help_text: 'Este texto es necesario cuando se establece una imagen, se mostrará si la imagen no se carga.'
+        alt_label: 'Texto alternativo de la imagen'
+        help: 'Cargue una imagen que se mostrará junto a la encuesta (opcional).'
+        label: 'Imagen de la encuesta'
+        later_help: 'Podrás subir una imagen después de crear la encuesta.'
+      poll_option_image:
+        help: 'Suba una imagen para que aparezca junto a la respuesta de la encuesta (opcional).'
+        label: 'Imagen de respuesta a la encuesta'
       public_poll_label: 'Permitir que la gente vea quién ha votado'
       question_placeholder: Pregunta
       submit: Enviar
+      subtitle_placeholder: 'Subtítulo/Descripción (opcional)'
+      tooltip:
+        options:
+          add-button: 'Añadir respuesta'
     moderation:
+      add: 'Añadir encuesta'
       delete: 'Eliminar la encuesta'
       delete_confirm: '¿Estás seguro de que quieres eliminar esta encuesta?'
       edit: 'Editar la encuesta'
     no_permission: 'No tienes permiso para votar'
+    page:
+      nav: Encuestas
+      nav-all: 'Todas las encuestas globales'
+    poll:
+      cannot_change_vote: 'No puede cambiar su voto después de votar.'
+      cannot_start_poll_button: 'No se puede iniciar la encuesta'
+      start_poll_button: 'Iniciar encuesta global'
+      submit_button: Votar
+      total_votes: '{count, plural, one {# vote was given} other {# votes were given}}'
+    poll_controls:
+      delete_confirmation: '¿Seguro que quieres borrar esta encuesta?'
+      delete_error_message: 'Algo ha ido mal al borrar la encuesta.'
+      delete_label: '=> core.ref.delete'
+      delete_success_message: 'Encuesta borrada con éxito.'
+      edit_label: '=> core.ref.edit'
+      view_label: '=> core.ref.view'
     poll_ended: 'Esta encuesta ha terminado.'
+    poll_form:
+      delete: 'Borrar encuesta'
+      error: 'Se ha producido un error al guardar la encuesta, póngase en contacto con cualquier administrador.'
+    poll_never_ends: 'La encuesta nunca termina'
+    polls_count: '{count, plural, one { {count} vote} other {{count} votes}}'
+    polls_list:
+      empty_text: 'Parece que aquí no hay encuestas en toda la comunidad.'
+      load_more_button: '=> core.ref.load_more'
+    polls_page:
+      title: Encuestas
     public_poll: 'Ver los votantes'
+    showcase:
+      active-polls: 'Encuestas activas'
+      ended-polls: 'Encuestas concluidas'
+      no-active-polls: 'En este momento no hay encuestas activas.'
+      no-recent-polls: 'En este momento no hay encuestas recién terminadas.'
     tooltip:
       badge: Encuesta
       votes: '{count, plural, one {# voto} other {# votos}}'
+    upload_image:
+      remove_button: 'Borrar imagen'
+      upload_button: 'Cargar imagen'
     votes_modal:
       title: Votantes
