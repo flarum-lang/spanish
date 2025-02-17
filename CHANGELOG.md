@@ -16,6 +16,7 @@ CHANGELOG
 
 * [`afrux/news-widget`](https://github.com/afrux/news-widget)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 
