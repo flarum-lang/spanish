@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.12.0 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+
+
+**Updated translations for extensions**:
+
+* [`afrux/news-widget`](https://github.com/afrux/news-widget)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+
+
+All changes: [1.11.0...1.12.0](https://github.com/flarum-lang/spanish/compare/1.11.0...1.12.0).
+
+
 1.11.0 (2024-12-25)
 -------------------
 
