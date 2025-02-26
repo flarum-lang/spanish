@@ -4,12 +4,17 @@
 
 signature:
   admin:
+    permissions:
+      allow_signature: 'Puede tener una firma'
+      edit_signature_others: 'Editar las firmas de otros usuarios'
     settings:
       maximum_char_limit:
-        description: 'Cantidad máxima de caracteres de la firma (solo caracteres, sin considerar etiquetas HTML)'
+        description: 'Cantidad máxima de caracteres de la firma (solo caracteres, sin considerar etiquetas HTML).'
+        help: 'Cuando el usuario supere el límite máximo de caracteres en su firma, se le impedirá guardar hasta que el recuento de caracteres sea el correspondiente.'
         placeholder: '1000 (por defecto)'
       maximum_image_count:
         description: 'Cantidad máxima de imágenes.'
+        help: 'Cuando el usuario supere el número máximo de imágenes en su firma, se le impedirá guardar hasta que el número de imágenes sea el correspondiente.'
         placeholder: '5 (por defecto)'
       maximum_image_height:
         description: 'Alto total máximo de imágenes insertadas en el editor.'
@@ -20,6 +25,7 @@ signature:
     title: Firma
   forum:
     buttons:
+      edit: 'Editar Firma'
       save: 'Guardar firma'
       signature: Firma
     errors:
@@ -34,3 +40,5 @@ signature:
       loading:
         content: 'Por favor espera…'
         title: Guardando
+    profile:
+      click: 'Clic para escribir su firma'
