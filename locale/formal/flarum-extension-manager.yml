@@ -141,3 +141,8 @@ flarum-extension-manager:
       updater_title: Actualizaciones
     why_not_modal:
       title: '¿Por qué no se actualiza?'
+  validation:
+    attributes:
+      minimum_stability: 'estabilidad mínima'
+      repositories: repositorios
+      'repositories.*': repositorios
