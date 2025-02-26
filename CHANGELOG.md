@@ -8,14 +8,19 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 
 
 **Updated translations for extensions**:
 
 * [`afrux/news-widget`](https://github.com/afrux/news-widget)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
@@ -23,6 +28,7 @@ CHANGELOG
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
 
 
 All changes: [1.11.0...1.12.0](https://github.com/flarum-lang/spanish/compare/1.11.0...1.12.0).
