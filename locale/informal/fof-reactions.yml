@@ -5,6 +5,10 @@
 fof-reactions:
   admin:
     page:
+      cdn:
+        default-url: 'Por defecto: {url}'
+        label: URL
+        title: CDN
       convert:
         button: 'Convertir reacciones antiguas'
         converted: 'Se han convertido {number} me gusta de manera exitosa'
@@ -33,12 +37,14 @@ fof-reactions:
           warning: 'La misma reacción <strong>no puede</strong> ser convertida a un Me gusta <strong>y a un</strong> voto a favor'
         save_settings: 'Guardar cambios'
     permissions:
+      delete_post_reactions_label: 'Borrar reacciones en los mensajes'
       react_posts_label: 'Reaccionar a mensajes'
       see_reactions_label: 'Ver quién ha reaccionado a los mensajes'
   forum:
     disabled-reaction: 'No es posible ocupar esta reacción ahora, por favor refresca la página'
     mod_item: 'Ver Reacciones'
     modal:
+      no_reactions: 'Aún no hay reacciones'
       title: Reacciones
     notification: '{username} reaccionó a tu mensaje con {reaction}'
     react_button_label: Reaccionar
