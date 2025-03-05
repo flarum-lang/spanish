@@ -59,7 +59,7 @@ v17development-flarum-badges:
       edit_card_badges: 'Editar las insignias de la tarjeta de usuario'
       edit_own_card_badges: 'Editar las insignias propias de la tarjeta de usuario'
       give_badge: 'Entregar insignia al usuario'
-      take_badge: 'Coger insignia del usuario'
+      take_badge: 'Quitar insignia del usuario'
     show_badges_on_user_card: 'Mostrar insignias en la tarjeta de usuario'
     uncategorized: 'Sin categoría'
     update_badge: 'Actualizar la insignia'

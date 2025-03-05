@@ -21,7 +21,7 @@ fof-polls:
       enable_global_polls: 'Activar encuestas globales'
       enable_global_polls_help: 'Las encuestas globales no están vinculadas a una entrada específica, y se puede acceder a ellas desde una página dedicada a las encuestas.'
       general:
-        heading: 'Ajustes generales'
+        heading: 'Ajustes Generales'
         help: 'Estos ajustes controlan las características básicas de la extensión Encuestas.'
       global_polls:
         heading: 'Encuestas Globales'

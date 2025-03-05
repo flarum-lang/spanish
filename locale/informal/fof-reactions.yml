@@ -41,7 +41,7 @@ fof-reactions:
       react_posts_label: 'Reaccionar a mensajes'
       see_reactions_label: 'Ver quién ha reaccionado a los mensajes'
   forum:
-    disabled-reaction: 'No es posible ocupar esta reacción ahora, por favor refresca la página'
+    disabled-reaction: 'No es posible usar esta reacción ahora mismo, por favor refresca la página'
     mod_item: 'Ver Reacciones'
     modal:
       no_reactions: 'Aún no hay reacciones'
