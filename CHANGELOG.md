@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.12.1 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+
+
+All changes: [1.12.0...1.12.1](https://github.com/flarum-lang/spanish/compare/1.12.0...1.12.1).
+
+
 1.12.0 (2025-03-05)
 -------------------
 
