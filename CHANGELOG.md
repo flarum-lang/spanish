@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-1.12.1 (XXXX-XX-XX)
+1.13.0 (XXXX-XX-XX)
 -------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
 
 **Updated translations for extensions**:
 
@@ -12,7 +17,7 @@ CHANGELOG
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 
 
-All changes: [1.12.0...1.12.1](https://github.com/flarum-lang/spanish/compare/1.12.0...1.12.1).
+All changes: [1.12.0...1.13.0](https://github.com/flarum-lang/spanish/compare/1.12.0...1.13.0).
 
 
 1.12.0 (2025-03-05)
