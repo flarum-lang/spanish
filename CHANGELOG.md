@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+1.13.0 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+
+
+All changes: [1.12.0...1.13.0](https://github.com/flarum-lang/spanish/compare/1.12.0...1.13.0).
+
+
 1.12.0 (2025-03-05)
 -------------------
 
