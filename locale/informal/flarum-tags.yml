@@ -52,7 +52,7 @@ flarum-tags:
       bypass_requirements: 'Omitir requisitos de etiquetas'
       choose_primary_placeholder: '{count, plural, one {Elige una etiqueta principal} other {Elige # etiquetas primarias}}'
       choose_secondary_placeholder: '{count, plural, one {Elige 1 etiqueta más} other {Elige # más etiquetas}}'
-      edit_title: 'Editar las etiquetas para ''{title}'''
+      edit_title: 'Editar las etiquetas para {title}'
       submit_button: '=> core.ref.okay'
       title: 'Elige las etiquetas para su discusión'
     composer_discussion:
@@ -92,5 +92,6 @@ flarum-tags:
       description: descripción
       is_hidden: oculto
       name: nombre
+      slug: slug
       tag_count_primary: '=> validation.attributes.tag_count_primary'
       tag_count_secondary: '=> validation.attributes.tag_count_secondary'

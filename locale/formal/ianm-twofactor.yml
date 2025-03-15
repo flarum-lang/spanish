@@ -8,6 +8,12 @@ blomstra-gdpr:
       twofactordata:
         delete_description: 'Elimina todos los datos relacionados con 2FA.'
         export_description: 'Exporta el estado 2FA y códigos de respaldo encriptados.'
+flarum-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: 'Elimina todos los datos relacionados con 2FA.'
+        export_description: 'Exporta el estado 2FA y los códigos de respaldo encriptados.'
 ianm-twofactor:
   admin:
     edit_group:

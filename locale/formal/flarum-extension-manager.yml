@@ -143,6 +143,20 @@ flarum-extension-manager:
       title: '¿Por qué no se actualiza?'
   validation:
     attributes:
+      bearer: 'HTTP Bearer'
+      'bearer.*': 'HTTP Bearer'
+      extension_id: 'ID de extensión'
+      github_oauth: 'GitHub OAuth'
+      'github_oauth.*': 'GitHub OAuth'
+      gitlab_oauth: 'GitLab OAuth'
+      'gitlab_oauth.*': 'GitLab OAuth'
+      gitlab_token: 'GitLab Token'
+      'gitlab_token.*': 'GitLab Token'
       minimum_stability: 'estabilidad mínima'
+      package: paquete
       repositories: repositorios
       'repositories.*': repositorios
+      'repositories.*.type': 'tipo de repositorio'
+      'repositories.*.url': 'URL del repositorio'
+      update_mode: 'modo de actualización'
+      version: versión

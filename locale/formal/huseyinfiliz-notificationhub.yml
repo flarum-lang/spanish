@@ -15,7 +15,7 @@ huseyinfiliz-notificationhub:
       fields:
         actions: Acciones
         active: Activo
-        color: 'Color del Tipo de notificación'
+        color: 'Color sobre tipo de notificación'
         default_message_key: 'Mensaje por defecto'
         default_recipients: 'Destinatarios por defecto'
         default_url: 'Enlace por defecto'
@@ -23,7 +23,7 @@ huseyinfiliz-notificationhub:
         excerpt_key: 'Extracto por defecto'
         icon: 'Icono por defecto'
         name: 'Nombre del tipo de notificación'
-        permission: 'Permiso de Tipo de notificación'
+        permission: 'Permiso sobre tipo de notificación'
         sort_order: 'Ordenar por'
       no_data: 'Todavía no hay ningún tipo de notificación.'
       save: Guardar
@@ -33,7 +33,7 @@ huseyinfiliz-notificationhub:
     message_required: 'El mensaje es obligatorio.'
     no_valid_recipients: 'No se encontraron destinatarios válidos.'
     subject_id_required: 'El tipo de notificación es obligatorio.'
-    user_ids_required: 'Se requieren ID de usuario.'
+    user_ids_required: 'El ID de usuario es obligatorio.'
   forum:
     links:
       notification_all: 'Enviar notificación'
@@ -50,7 +50,7 @@ huseyinfiliz-notificationhub:
       submit_button: 'Enviar notificación'
       title_text: 'Enviar notificación'
       url_label: 'Enlace de destino'
-      url_placeholder: 'https://www.example.com'
+      url_placeholder: 'https://www.ejemplo.com'
     recipient_kinds:
       group: Grupo
       user: Usuario

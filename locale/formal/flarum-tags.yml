@@ -92,5 +92,6 @@ flarum-tags:
       description: descripción
       is_hidden: oculto
       name: nombre
+      slug: slug
       tag_count_primary: '=> validation.attributes.tag_count_primary'
       tag_count_secondary: '=> validation.attributes.tag_count_secondary'
