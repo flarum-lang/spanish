@@ -12,7 +12,10 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 
