@@ -56,6 +56,8 @@ fof-byobu:
       title_placeholder: 'Título de la discusión privada'
     confirm:
       make_public: '¿Estás seguro de eliminar los destinatarios y hacer que esta discusión sea visible para cualquiera que pueda ver la etiqueta asignada?'
+    hero:
+      title: '=> fof-byobu.forum.nav.nav_item'
     input:
       search_recipients: 'Busca destinatario escribiendo los primeros tres caracteres...'
     labels:
