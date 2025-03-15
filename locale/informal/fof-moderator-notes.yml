@@ -8,10 +8,22 @@ fof-moderator-notes:
       createnotes: 'Crear notas de moderación'
       deletenotes: 'Eliminar notas de moderación'
       viewnotes: 'Ver notas de moderación'
+  api:
+    auto_note: '_Cambié a este usuario:_ {reason}'
+    auto_note_actor: '_Cambiado a_ @{username}: {reason}'
+    no_reason_provided: 'No se proporcionó ninguna razón'
   forum:
     moderatorNotes:
       add_button: 'Nueva nota'
+      confirm: '¿Estás seguro que quieres eliminar esta nota?'
       create-heading: 'Crear una nueva nota de moderación'
       created_text: '{username} creó esta nota el {date}'
+      delete: Borrar
       dismiss_button: Hecho
+      filter_by_me: 'Solo notas que he creado'
+      input_heading: 'Introduce tus notas para <strong>{username}</strong> (se admite Markdown)'
+      noNotes: 'Parece que no hay notas aquí.'
+      submit_button: 'Guardar notas'
     no_content_given: 'No se permite una nota vacía.'
+    user:
+      notes: 'Notas de moderación'
