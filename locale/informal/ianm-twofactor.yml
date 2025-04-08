@@ -61,20 +61,30 @@ ianm-twofactor:
       cancel_button: Cancelar
       cannot_disable: 'La configuración actual impide que puedas deshabilitar la Autenticación de Dos Factores.'
       cannot_disable_tooltip: 'No se puede desactivar 2FA'
+      change_device_button: 'Cambiar dispositivo'
+      change_device_description: 'Mover la 2FA a un nuevo dispositivo'
+      change_device_heading: 'Cambiar dispositivo de autenticación'
+      change_device_title: 'Cambiar dispositivo'
       confirm_disable_2fa_text: '¿Estás seguro de querer desactivar la Autenticación de Dos Factores?'
       confirm_disable_2fa_text_other_user: '¿Estás seguro de que deseas desactivar la Autenticación de Dos Factores para {username}? Esto eliminará todos los códigos de respaldo y desactivará la 2FA para su cuenta.'
       confirm_disable_2fa_title: 'Confirmar la desactivación de la Autenticación de Dos Factores'
+      continue_button: Continuar
+      device_changed_confirmation: 'Tu dispositivo de autenticación ha sido cambiado exitosamente.'
       disable_2fa_button: 'Deshabilitar 2FA'
       enable_2fa_button: 'Habilitar 2FA'
       enable_2fa_modal_text: 'Escanea el código QR a continuación con su aplicación de autenticación, luego ingresa el token proporcionado para habiltar la Autenticación de Dos Factores.'
+      enter_current_token: 'Introduce el token del dispositivo actual'
+      enter_new_token: 'Introduce el token del nuevo dispositivo'
       enter_token: 'Introducir token'
       loading_qr: 'Cargando código QR...'
       manual_entry_instruction: 'Ingresa el código proporcionado en su aplicación de autenticación, luego ingresa el token generado para habilitar la Autenticación de Dos Factores.'
       manual_tab: 'Configuración manual'
+      new_backup_codes: 'Tus nuevos códigos de respaldo'
       ok_button: Ok
       qr_code_alt: 'Código QR para Autenticación de Dos Factores'
       qr_tab: 'Escanear código QR'
       saved_backup_codes_button: 'He guardado estos códigos'
+      scan_new_device_qr: 'Escanea este código QR con tu nuevo dispositivo de autenticación.'
       scan_qr_instruction: 'Escanea el código QR de arriba con su aplicación de autenticación, luego ingresa el token proporcionado para habilitar la Autenticación de Dos Factores.'
       two_factor_apps: 'Aplicaciones como {google}, {authy}, {microsoft} y más están disponibles de forma gratuita.'
       two_factor_disabled: '2FA está deshabilitada en esta cuenta.'
@@ -84,6 +94,8 @@ ianm-twofactor:
       two_factor_help: 'La Autenticación de Fos Factores (2FA) proporciona una capa adicional de seguridad a su cuenta. Una vez habilitada, además de su contraseña, se te solicitará que ingreses un token de su aplicación de autenticación al iniciar sesión o realizar otras acciones. Esto garantiza que tu cuenta permanezca segura, incluso si tu contraseña se ve comprometida, ya que los atacantes también necesitarían un código (que cambia cada 30 segundos) para acceder a tu cuenta.'
       two_factor_title: 'Estado:'
       verify_button: Verificar
+      verify_current_device_message: 'Introduce un token de tu dispositivo de autenticación actual para verificar tu identidad.'
+      verify_new_device_message: 'Ahora introduce un token de tu nuevo dispositivo para completar el cambio.'
     user_2fa:
       alert_message: 'Debes habilitar 2FA para continuar accediendo a tu cuenta.'
   views:
