@@ -18,6 +18,8 @@ CHANGELOG
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
