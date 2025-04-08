@@ -9,6 +9,13 @@ blomstra-gdpr:
         anonymize_description: 'Elimina la referencia del usuario de los archivos subidos. Los archivos permanecen accesibles para los usuarios que podían verlos antes de la anonimización.'
         delete_description: 'Elimina todos los archivos subidos por el usuario.'
         export_description: 'Todos los archivos subidos por el usuario.'
+flarum-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Elimina la referencia del usuario de los archivos subidos. Los archivos permanecen accesibles para los usuarios que podían verlos antes de la anonimización.'
+        delete_description: 'Elimina todos los archivos subidos por el usuario.'
+        export_description: 'Todos los archivos subidos por el usuario.'
 fof-upload:
   admin:
     help_texts:
@@ -123,7 +130,8 @@ fof-upload:
       text-preview: 'Vista previa de texto'
       text-preview_description: "Inserta una vista previa (primeras 5 líneas) del archivo de texto, con una opción para expandir para revelar el contenido completo del archivo.\n"
     upload_methods:
-      aws-s3: S3/Compatible
+      aws-s3: 'S3 o compatible'
+      awss3: 'AWS S3'
       imgur: Imgur
       local: Local
       ovh-svfs: 'OVH SVFS'
