@@ -10,6 +10,7 @@ CHANGELOG
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme)
 
 
 **Updated translations for extensions**:
