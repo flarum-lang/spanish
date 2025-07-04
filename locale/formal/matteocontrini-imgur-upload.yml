@@ -12,7 +12,7 @@ imgur-upload:
         preview-with-link: 'Vista previa (1024px) con enlace a la imagen a tamaño completo'
         preview-without-link: 'Vista previa sin enlace'
         title: 'Tipo de inserción'
-      hide-markdown-image: 'Ocultar botón de imágenes que viene por defecto'
+      hide-markdown-image: 'Ocultar botón de imagen Markdown'
   forum:
     done: Hecho!
     error: Error
