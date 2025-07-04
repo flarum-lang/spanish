@@ -24,6 +24,7 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
