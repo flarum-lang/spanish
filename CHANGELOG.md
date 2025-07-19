@@ -15,6 +15,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
@@ -27,6 +28,9 @@ CHANGELOG
 * [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarumite/simple-spoilers`](https://github.com/flarumite/simple-spoilers)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 
