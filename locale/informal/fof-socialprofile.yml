@@ -23,4 +23,4 @@ fof-socialprofile:
       save_disabled_fetching_favicons: 'Uno o más iconos están siendo procesados. Por favor, espera.'
       submit: Guardar
       title: Título
-      url: 'Dirección web'
+      url: URL

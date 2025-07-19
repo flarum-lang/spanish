@@ -5,4 +5,4 @@
 clarkwinkelmann-likes-received:
   admin:
     permission:
-      view: 'Ver Me Gusta recibidos'
+      view: 'Ver me gusta recibidos'

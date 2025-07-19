@@ -46,5 +46,5 @@ fof-nightmode:
           night: '=> fof-nightmode.ref.dark'
   ref:
     auto: 'Automática (basada en la configuración del dispositivo o navegador)'
-    dark: 'Modo Nocturno'
+    dark: 'Modo Noche'
     light: 'Modo Claro'
