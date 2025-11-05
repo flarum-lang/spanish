@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.14.0 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
+
+
+All changes: [1.13.0...1.14.0](https://github.com/flarum-lang/spanish/compare/1.13.0...1.14.0).
+
+
 1.13.0 (2025-07-20)
 -------------------
 
