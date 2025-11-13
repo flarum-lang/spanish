@@ -10,6 +10,12 @@ CHANGELOG
 * [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 
 
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+
+
 All changes: [1.13.0...1.14.0](https://github.com/flarum-lang/spanish/compare/1.13.0...1.14.0).
 
 
