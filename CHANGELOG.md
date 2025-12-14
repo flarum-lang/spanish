@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.14.0 (XXXX-XX-XX)
+1.13.1 (XXXX-XX-XX)
 -------------------
 
 **Added support for new extensions**:
@@ -16,7 +16,7 @@ CHANGELOG
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 
 
-All changes: [1.13.0...1.14.0](https://github.com/flarum-lang/spanish/compare/1.13.0...1.14.0).
+All changes: [1.13.0...1.13.1](https://github.com/flarum-lang/spanish/compare/1.13.0...1.13.1).
 
 
 1.13.0 (2025-07-20)
