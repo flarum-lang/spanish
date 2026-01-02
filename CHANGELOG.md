@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 
