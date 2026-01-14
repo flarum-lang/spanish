@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.13.1 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+
+
+All changes: [1.13.0...1.13.1](https://github.com/flarum-lang/spanish/compare/1.13.0...1.13.1).
+
+
 1.13.0 (2025-07-20)
 -------------------
 
