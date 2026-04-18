@@ -43,12 +43,6 @@ This extension is maintained by [@jslirola]https://flarum.es/u/jslirola and [@Da
 In order to install the Spanish language extension package, you will need to follow these simple steps.
 
 
-### ⚠️ Minimum Requirements
-
-   ```
-flarum/core: "^1.2.0"
-   ```
-
 ### 📥 Installation
 
 Flarum uses Composer to manage its dependencies and extensions. The Spanish language pack is available on <a href="https://packagist.org/packages/flarum-lang/spanish">Packagist</a> and can be managed that way. Make sure <a href="https://getcomposer.org/">Composer</a> is installed on your server, then run the following command at the location where Flarum is installed:
