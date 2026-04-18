@@ -53,7 +53,7 @@ flarum/core: "^1.2.0"
 
 Flarum uses Composer to manage its dependencies and extensions. The Spanish language pack is available on <a href="https://packagist.org/packages/flarum-lang/spanish">Packagist</a> and can be managed that way. Make sure <a href="https://getcomposer.org/">Composer</a> is installed on your server, then run the following command at the location where Flarum is installed:
    ```
-   composer require flarum-lang/spanish
+   composer require "flarum-lang/spanish:*"
    ```
 
 ### ♻ Updating
