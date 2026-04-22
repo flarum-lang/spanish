@@ -146,7 +146,7 @@ CHANGELOG
 * [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
-* [`v17development/flarum-seo`](https://github.com/FriendsOfFlarum/flarum-seo)
+* [`v17development/flarum-seo`](https://github.com/FriendsOfFlarum/seo)
 * `v17development-support`
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
