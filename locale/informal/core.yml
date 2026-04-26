@@ -4,6 +4,59 @@
 
 core:
   admin:
+    advanced:
+      fontawesome:
+        cdn_url_help: 'URL entera hacia el archivo CSS FontAwesome en una CDN'
+        cdn_url_label: 'CDN URL'
+        config_override:
+          help: 'Las configuraciones de FontAwesome están en el archivo config.php y no pueden ser cambiadas acá.'
+          label: 'Anular configuración'
+        kit_url_help: 'Tu URL del script FontAwesome Kit (desde kit.fontawesome.com)'
+        kit_url_label: 'Kit URL'
+        preview:
+          button: 'Vista previa Íconos'
+          fa5_fa6_label: 'Alias FA5/FA6'
+          fa7_label: 'Clases FA7'
+          help: 'Compruebe tu configuración de FontAwesome. Un ícono que carga significa que se encuentran disponible; un cuadrado significa que no cargó.'
+          label: 'Vista previa Ícono'
+          pro_label: 'Sólo Pro'
+        section_label: 'Íconos FontAwesome'
+        source_cdn: CDN
+        source_help: 'Elige como los íconos de FontAwesome se inician. Local utiliza fuentes incluidas en el paquete, CDN carga desde una CDN y Kit utiliza kits de FontAwesome con íconos personalizados.'
+        source_kit: 'FontAwesome Kit'
+        source_label: 'Origen del Ícono'
+        source_local: 'Local (Paquete)'
+      maintenance:
+        bisect:
+          begin_button_text: 'Iniciar bisección'
+          continue_button_text: 'Continuar bisección'
+          help: 'Ayuda a identificar la extensión causante de los problemas. Esto automáticamente coloca el foro en modo mantenimiento (cerrado) hasta que el proceso termine.'
+          label: 'Bisección de extensión'
+        bisect_modal:
+          description: "Esto coloca el foro en mantenimiento (cerrado) hasta que el proceso termine. En cada etapa algunas extensiones serán desactivadas hasta encontrar la que causa problemas. No te sorprendas si falta alguna función o si cambia el tema del diseño. Mantén está página abierta, y trata de reproducir el error luego de cada etapa en una pestaña separada. Siempre podrás regresar a esta página si por error se cierra.\n"
+          end_button: 'Cerrar e ir a la página de la extensión'
+          issue_question: '¿Sigue el error?'
+          issue_question_help: 'Intentá reproducir el error en una pestaña por separado y respondé basándote en el resultado.'
+          no_button: 'No'
+          result_description: "El foro no ya no está en modo mantenimiento. La bisección de extensiones terminó. Basado en tus respuestas en cada etapa, la causa del problema es la siguiente extensión:\n"
+          start_button: 'Comenzar bisección'
+          steps_left: 'Etapas faltantes: {steps}'
+          stop_button: 'Parar bisección'
+          title: 'Bisección de Extensión'
+          total_steps: 'Esto tomará alrededor de {steps} etapas.'
+          yes_button: Sí
+        config_override:
+          help: 'Aún podés cambiar las configuraciones acá, pero no van a hacer efecto hasta que edites <code>offline</code> a <code>0</code> en tu archivo <code>config.php</code>.'
+          label: 'Tu archivo <code>config.php</code> está sobre escribiendo estas configuraciones.'
+        help: 'Coloca tu foro en modo mantenimiento para evitar que los usuarios accedan.'
+        options:
+          high: 'Modo mantenimiento alto. Nadie puede acceder al foro (sólo puede activarse desde config.php)'
+          low: 'Modo mantenimiento bajo. Administradores pueden acceder al foro.'
+          none: 'Sin mantenimiento.'
+          safe: 'Modo seguro. Las extensiones no se activan y sólo administradores pueden acceder al foro.'
+        safe_mode_extensions: 'Extensiones permitidas para activarse durante el modo seguro'
+        safe_mode_extensions_override_help: 'Está configuración se sobre escribe con la llave <code>safe_mode_extensions</code> en el archivo <code>config.php</code>. (<b>{extensions}</b>)'
+        section_label: Mantenimiento
     appearance:
       colored_header_label: 'Cabecera coloreada'
       colors_heading: Colores
