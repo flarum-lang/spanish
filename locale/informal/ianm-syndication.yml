@@ -27,7 +27,7 @@ ianm-syndication:
       tag_new_discussions: 'Discusiones en la etiqueta {tag}'
       user_last_posts: 'Publicaciones y comentarios de este usuario'
     discussion:
-      feed_link: Feed
+      feed_link: 'Fuente Feed'
     feeds:
       entries:
         user_posts:

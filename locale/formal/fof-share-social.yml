@@ -21,12 +21,12 @@ fof-share-social:
       facebook: Facebook
       linkedin: LinkedIn
       my_mail: 'My World'
-      native: 'Native Share'
-      odnoklassniki: Odnoklassniki
+      native: 'Compartir Nativo'
+      odnoklassniki: 'Red Odnoklassniki'
       qq: QQ
-      qzone: QZone
+      qzone: 'Red QZone'
       reddit: Reddit
       telegram: Telegram
-      twitter: Twitter
+      twitter: 'X (anteriormente Twitter)'
       vkontakte: VKontakte
-      whatsapp: WhatsApp
+      whatsapp: 'Red WhatsApp'
