@@ -61,9 +61,12 @@ core:
       pgsql:
         search_configuration: 'Buscar configuración para usar'
       queue:
+        backoff_help: 'Tiempo de espera antes de volver a intentar un job que falla. El valor predeterminado es 0 segundos.'
+        backoff_label: 'Retroceso (segundos)'
         custom_driver: 'Tu foro está utilizando el controlador de cola {driver}, que es proporcionado por una extensión.'
         memory_help: 'Memoria máxima que el proceso de cola puede usar antes de reiniciarse. El valor predeterminado es 128 MB.'
         memory_label: 'Límite de memoria (MB)'
+        rest_help: 'Tiempo de espera entre tareas de procesamiento. El valor predeterminado es 0 segundos.'
         rest_label: 'Tiempo de descanso (segundos)'
         retries_help: 'Número máximo de intentos de job antes de que falle. Por defecto 1'
         retries_label: 'Reintentos Job'
@@ -72,6 +75,14 @@ core:
         sync_info: 'Tu foro está usando controlador de cola síncrono. Jobs se procesan inmediatamente en el hilo principal del proceso.'
         timeout_help: 'Máximo tiempo que puede correr un job antes de TimeOut. Por defecto son 60 segundos.'
         timeout_label: 'Job Timeout (segundos)'
+      search:
+        driver_heading: 'Controlador de búsqueda: {model}'
+        driver_options:
+          default: 'Búsqueda predeterminada en la base de datos'
+        driver_text: 'Seleccione un controlador que se utilizará para buscar este modelo.'
+        no_other_drivers: 'Aún no hay controladores de búsqueda disponibles. Instale una extensión de controlador de búsqueda para poder configurarlo.'
+        section_label: 'Controladores de búsqueda'
+      title: Avanzado
     announcements:
       about: 'Las últimas noticias y anuncios provienen de la comunidad oficial de Flarum en discuss.flarum.org.'
       comments_label: '{count, plural, one {# comment} other {# comments}}'
@@ -86,6 +97,8 @@ core:
       title: Anuncios
       view_all: 'Ver todos en discuss.flarum.org'
     appearance:
+      allow_user_color_scheme_label: 'Permitir a los usuarios elegir su propia combinación de colores'
+      color_scheme_label: 'Esquema de colores (predeterminado)'
       color_schemes:
         auto_mode_label: 'Sistema de usuario o preferencia configurada'
         dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
@@ -111,6 +124,8 @@ core:
       enter_hex_message: 'Por favor, introduzca un código hexadecimal de color.'
       favicon_heading: 'Icono de Favoritos o <em>Favicon</em>'
       favicon_text: 'Suba una imagen para que sea mostrada como icono de acceso directo al foro.'
+      logo_dark_mode_heading: 'Logotipo del modo oscuro'
+      logo_dark_mode_text: 'Sube un logotipo alternativo que se mostrará cuando el modo oscuro esté activado.'
       logo_heading: Logotipo
       logo_text: 'Suba una imagen para que sea mostrada en lugar del título del foro.'
       title: Apariencia
@@ -279,7 +294,9 @@ core:
         cancel_button: Cancelar
         confirm_button: Recetear
         title: 'Resetear configuraciones'
+        title_extension: 'Restablecer {extensionTitle} Configuración'
         warning: 'Esta acción es irreversible. La configuración que se muestra a continuación se eliminará permanentemente de la base de datos y volverá a sus valores predeterminados. Los datos de esta extensión no se verán afectados.'
+      safe_mode_warning: 'El modo seguro está activado. Las extensiones no se inician y, por lo tanto, su configuración es inaccesible.'
     extensions-health-widget:
       abandoned_no_replacement: 'No hay reemplazo disponible'
       abandoned_with_replacement: 'Reemplazado por {replacement}'
@@ -298,19 +315,30 @@ core:
     header:
       get_help: 'Obtener ayuda'
       log_out_button: '=> core.ref.log_out'
+      search_placeholder: Buscar...
+      search_role_label: Buscar
     loading:
       title: 'Por favor, espere...'
+    models:
+      discussions: '=> core.ref.discussions'
+      posts: '=> core.ref.posts'
+      users: '=> core.ref.users'
     nav:
+      advanced_button: '=> core.admin.advanced.title'
+      advanced_title: '=> core.admin.advanced.description'
       appearance_button: Apariencia
       appearance_title: '=> core.admin.appearance.description'
       basics_button: Básicos
       basics_title: '=> core.admin.basics.description'
       categories:
+        analytics: Analítica
         authentication: Autenticación
         core: 'Configuración básica'
         discussion: Discusión
         feature: Características
         formatting: Formato
+        forum-widget: 'Widgets del foro'
+        infrastructure: Infraestructura
         language: Idiomas
         moderation: Moderación
         other: 'Otras Extensiones'
@@ -346,6 +374,8 @@ core:
       participate_heading: Participar
       post_without_throttle_label: 'Publicar varias veces sin tener que esperar'
       read_heading: Leer
+      remove_scope_confirmation: '¿Estás seguro de eliminar el alcance de {scope}?'
+      remove_scope_label: 'Retirar alcance de {scope}'
       rename_discussions_label: 'Cambiar el título a discusiones'
       reply_to_discussions_label: 'Responder en discusiones'
       search_users_label: '=> core.ref.search_users'
@@ -366,8 +396,12 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: Cerrado
       signup_open_button: Abierto
+    search_source:
+      general:
+        heading: General
     settings:
       saved_message: 'Se guardaron tus cambios.'
+      select_dropdown_custom_label: Personalizado
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -389,6 +423,9 @@ core:
           join_time:
             title: 'Se unió'
           user_actions:
+            edit_user:
+              button: '=> core.ref.edit'
+              tooltip: 'Editar {username}'
             title: Acciones
           user_id:
             title: ID
@@ -404,15 +441,33 @@ core:
       must_be_numeric_message: 'El filtro {filter} debe ser numérico.'
       must_not_be_array_message: 'El filtro {filter} no debe ser un array.'
       must_not_be_multidimensional_array_message: 'El filtro {filter} no debe ser una array multidimensional.'
+    invalid_username_message: 'El nombre de usuario solo puede contener letras, números y guiones. Con al menos una letra.'
   email:
     activate_account:
+      body: "Alguien (¡Esperemos que vos!) se ha registrado en {forum} con esta dirección de email.\n\nSi fuiste vos, simplemente hacé clic en el siguiente enlace y tu cuenta se activará:\n{url}\n\nSi no te has registrado, ignora este email.\n"
       subject: 'Active su cuenta de usuario'
     confirm_email:
+      body: "Alguien (¡Esperemos que vos!) se ha registrado en {forum} con esta dirección de email.\n\nSi vos, simplemente haz clic en el siguiente enlace y tu cuenta se activará:\n{url}\n\nSi no te has registrado, ignora este email.\n"
       subject: 'Confirme su correo electrónico'
+    greeting: 'Ey {displayName},'
+    informational:
+      default_title: Información
+      footer: 'Este email se envió a {userEmail} como un servicio informativo relacionado con su cuenta en [{forumTitle}]({forumUrl}).'
+      footer_plain: 'Este correo electrónico se envió a {userEmail} como un servicio informativo relacionado con su cuenta en {forumTitle}.'
+    notification:
+      default_title: Notificación
+      footer:
+        main_text: 'Este email se envió a {email} porque usted está suscrito a notificaciones "{type}" en [{forumTitle}]({forumUrl}).'
+        main_text_plain: 'Este email se envió a {email} porque usted está suscrito a notificaciones "{type}" en {forumTitle}.'
+        settings_text: 'Administra tus ajustes de notificaciones [aquí]({settingsLink}).'
+        settings_text_plain: 'Administra tus ajustes de notificaciones aquí: {settingsLink}'
+        unsubscribe_text: 'Si desea dejar de recibir este tipo de notificaciones, [cancele la suscripción aquí]({unsubscribeLink}).'
+        unsubscribe_text_plain: 'Si desea dejar de recibir este tipo de notificaciones, cancele su suscripción aquí: {unsubscribeLink}'
     reset_password:
       subject: '=> core.ref.reset_your_password'
     send_test:
       subject: 'Prueba de correo electrónico de Flarum'
+    signoff: 'El equipo de {forumTitle}'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -464,6 +519,7 @@ core:
       empty_text: 'Parece que no hay discusiones aquí.'
       load_more_button: '=> core.ref.load_more'
       replied_text: '{username} respondió {ago}'
+      skip_discussion_list_pane: 'Saltar el panel de la lista de discusiones'
       started_text: '{username} creó {ago}'
       total_replies_a11y_label: '{count, plural, one {# respuesta} other {# respuestas}}'
       unread_replies_a11y_label: '{count, plural, one {# respuesta sin leer} other {# respuestas sin leer}}. Marcar {count, plural, one {respuesta} other {respuestas}} como leída(s).'
@@ -493,19 +549,28 @@ core:
       mark_all_as_read_confirmation: '¿Está seguro de que desea marcar todas las discusiones como leídas?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
+      refresh_tooltip: '=> core.ref.refresh'
+      skip_to_main_content: 'Saltar al contenido principal'
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Alternar el menú desplegable de navegación'
     index_sort:
       latest_button: 'Lo último'
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 'Cambiar el orden de la lista de discusiones'
       top_button: 'Lo más comentado'
     log_in:
       forgot_password_link: '¿Olvidó su contraseña?'
+      invalid_login_message: '=> core.ref.invalid_login_message'
       password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
       sign_up_text: '¿Aún no tiene una cuenta? <a>¡Regístrese!</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
+      delete_all_confirm: '¿Estás seguro de que quieres eliminar todas las notificaciones? Esta acción no es reversible'
       delete_all_tooltip: 'Eliminar notificaciones'
       discussion_renamed_text: '{username} cambió el título'
       empty_text: 'No hay notificaciones'
@@ -526,6 +591,10 @@ core:
       hide_confirmation: '¿Está seguro de que desea eliminar este mensaje?'
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 'Alternar el menú desplegable de los controles del post'
+    post_list:
+      empty_text: 'Parece que no hay publicaciones acá.'
+      in_discussion_text: 'En {discussion}'
+      load_more_button: '=> core.ref.load_more'
     post_scrubber:
       now_link: Ahora
       original_post_link: 'Publicación original'
@@ -537,6 +606,13 @@ core:
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} más tarde'
+    posts:
+      meta_title_text: 'Resultados de búsqueda de publicaciones'
+      refresh_tooltip: '=> core.ref.refresh'
+    posts_sort:
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
     rename_discussion:
       submit_button: '=> core.ref.rename'
       title: 'Cambiar el título de esta discusión'
@@ -647,9 +723,11 @@ core:
     data_segment:
       label: '{label}:'
     datetime_formats:
+      fullTime: LLLL
       humanTimeLong: ll
       humanTimeShort: 'D MMM'
       scrubber: 'MMMM YYYY'
+      userListJoinDate: LLL
     debug_button: Depurar
     dropdown:
       toggle_dropdown_accessible_label: 'Activar el menú desplegable'
@@ -683,11 +761,32 @@ core:
     gambits:
       discussions:
         author:
+          hint: 'nombre de usuario o lista separada con comas de nombres de usuarios'
           key: autor
+        created:
+          hint: '2020-12-31 o 2020-12-31..2021-09-30'
+          key: creada
+        hidden:
+          key: oculta
+        unread:
+          key: 'no leído'
       group_keys:
         allows: permite
         has: tiene
         is: es
+      posts:
+        discussion:
+          hint: 'el ID de la discusión'
+          key: discusión
+      users:
+        email:
+          hint: example@machine.local
+          key: email
+        group:
+          hint: 'nombres de grupos singulares o plurales'
+          key: grupo
+    input:
+      clear_button: 'Limpiar datos de ingreso'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     meta_titles:
@@ -695,15 +794,54 @@ core:
       without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Página # - {forumName}}}'
     modal:
       close: Cerrar
+    multi_select:
+      placeholder: 'Seleccionar múltiples opciones'
     nav:
       drawer_button: 'Abrir el cuadro de navegación'
+    notices:
+      bisecting: 'Ejecutar un proceso de búsqueda binaria de extensiones para determinar qué extensión está causando el problema.'
+      bisecting_continue: 'Continuar bisección'
+      maintenance_mode_low: 'Servicio de mantenimiento. Solo los administradores pueden acceder al foro.'
+      maintenance_mode_safe: 'En mantenimiento, con el sistema en modo seguro. Solo los administradores pueden acceder al foro y no se han iniciado extensiones.'
     number_suffix:
       kilo_text: K
       mega_text: M
+    pagination:
+      back_button: 'Página anterior'
+      first_button: 'Ir a la primer página'
+      go_to_page_textbox_a11y_label: 'Ir directo a la página número'
+      last_button: 'Ir a última página'
+      next_button: 'Próxima página'
+      page_counter: 'Página {current} de {total}'
+    search:
+      gambit_minus_button_a11y_label: 'Añadir filtro negativo'
+      gambit_plus_button_a11y_label: 'Añadir filtro positivo'
+      no_results_text: 'Parecería que no hay resultados acá.'
+      no_search_text: 'Aún no buscaste nada.'
+      options_heading: 'Opciones de búsqueda'
+      placeholder: Buscar...
+      preview_heading: 'Buscar anterior'
+      search_clear_button_accessible_label: 'Borrar consulta de búsqueda'
+      title: Buscar
+    search_source:
+      discussions:
+        all_button: 'Buscar en todas las discusiones "{query}"'
+        heading: '=> core.ref.discussions'
+      posts:
+        all_button: 'Buscar en todas las publicaciones "{query}"'
+        heading: '=> core.ref.posts'
+      users:
+        heading: '=> core.ref.users'
     series:
       glue_text: ', '
       three_text: '{first}, {second} y {third}'
       two_text: '{first} y {second}'
+    user_selection_modal:
+      empty_results: 'No se encontraron usuarios que coincidieran con su búsqueda.'
+      max_items_to_select: '{count, plural, one {Select up to # user} other {Select up to # users}}'
+      search_placeholder: '=> core.ref.search_users'
+      submit_button: '=> core.ref.okay'
+      title: 'Seleccione los usuarios relevantes'
     username:
       deleted_text: '[Borrado]'
   ref:
@@ -786,6 +924,10 @@ core:
       csrf_token_mismatch: 'Ha estado inactivo durante demasiado tiempo.'
       csrf_token_mismatch_return_link: 'Vuelva atrás para intentarlo de nuevo'
       invalid_confirmation_token: 'Este enlace de confirmación ya se ha utilizado o no es válido.'
+      maintenance_mode_link: 'Inicio de sesión de administrador'
+      maintenance_mode_message: 'Este foro se encuentra temporalmente fuera de servicio por mantenimiento. Vuelva a intentarlo más tarde.'
+      maintenance_mode_title: Mantenimiento
+      method_not_allowed: 'Esta página no admite ese método de solicitud.'
       not_authenticated: 'Usted no tiene permiso para acceder a esta página. Inténtelo de nuevo después de iniciar sesión.'
       not_found: '¡Recórcholis! La página solicitada no ha podido ser encontrada.'
       not_found_return_link: 'Volver a {forum}'
@@ -795,6 +937,15 @@ core:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
+    layout:
+      skip_to_content: 'Saltar al contenido'
+    log_in:
+      invalid_login_message: '=> core.ref.invalid_login_message'
+      password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     log_out:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: '¿Seguro que quiere desconectarse de {forum}?'
@@ -804,3 +955,11 @@ core:
       new_password_label: 'Nueva contraseña'
       submit_button: 'Restablecer la contraseña'
       title: '=> core.ref.reset_your_password'
+    unsubscribe_email:
+      confirm_button: Confirmar
+      confirm_message: 'Has solicitado darte de baja de las notificaciones por email "{type}" de {forumTitle}.'
+      immediate_helptext: 'Su suscripción se cancelará inmediatamente una vez que la confirme.'
+      invalid_message: 'Este enlace para cancelar la suscripción no es válido o ya se ha utilizado. Para cualquier cambio en las notificaciones por email de {forumTitle}, por favor [compruebe su configuración]({settingsLink}).'
+      return_to_forum: 'Volver a {forumTitle}'
+      success_message: 'Te has dado de baja correctamente de las notificaciones "{type}" de {forumTitle}. Si deseas volver a recibirlas, por favor [actualiza tu configuración]({settingsLink}).'
+      title: 'Confirmación de baja'
