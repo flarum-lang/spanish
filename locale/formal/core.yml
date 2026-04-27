@@ -115,8 +115,12 @@ core:
       logo_text: 'Suba una imagen para que sea mostrada en lugar del título del foro.'
       title: Apariencia
     basics:
+      abandoned_extensions_heading: 'Extensiones abandonadas'
       abandoned_extensions_notify_admins_label: 'Enviar un correo electrónico a los administradores cuando se detecte una extensión abandonada recientemente durante la verificación semanal'
+      abandoned_extensions_sync_button: 'Revisar ahora'
       abandoned_extensions_sync_error: 'No se pudo obtener la lista de extensiones abandonadas. Inténtelo de nuevo más tarde.'
+      abandoned_extensions_sync_success: 'Lista de extensiones abandonadas actualizada. Se encontraron {count} extension/es instaladas en tu foro.'
+      abandoned_extensions_text: 'Flarum mantiene una <a>lista comunitaria de extensiones abandonadas</a>. Cuando una extensión instalada aparece en la lista, se marcará en el panel de administración.'
       all_discussions_label: '=> core.ref.all_discussions'
       avatar_driver_heading: 'Avatar del usuario'
       avatar_driver_options:
@@ -135,6 +139,14 @@ core:
       home_page_text: 'Elija cuál es la portada que los usuarios verán al llegar al foro.'
       show_language_selector_label: 'Mostrar el selector de idioma'
       slug_driver_heading: 'Driver de Slug: {model}'
+      slug_driver_options:
+        discussions:
+          default: 'ID con slug'
+          utf8: 'ID con UTF-8 slug'
+        users:
+          default: 'Nombre usuario'
+          id: ID
+          id_with_display_name: 'ID con Nombre'
       slug_driver_text: 'Seleccione el driver que se utilizará para el slugging de este modelo.'
       title: 'Lo esencial'
       welcome_banner_heading: 'Mensaje de bienvenida'
@@ -219,18 +231,29 @@ core:
       mail_mailgun_secret_label: 'Clave secreta'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Puerto
+      mail_postmark_message_stream_label: 'Flujo de mensajes'
+      mail_postmark_token_label: 'Token del servidor'
+      mail_smtp_verify_peer_help: 'Verifique el certificado SSL del servidor al usar el cifrado TLS o SSL. Desactive esta opción solo si su servidor de email utiliza un certificado autofirmado.'
+      mail_smtp_verify_peer_label: 'Verificar certificado SSL'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Configuración Mailgun'
       not_sending_message: 'Actualmente Flarum no envía correos electrónicos. Esto puede deberse al controlador seleccionado, o errores en su configuración.'
+      postmark_description: 'Enviar email vos API HTTP de Postmark. Opcionalmente, especifique un flujo de mensajes para utilizar un flujo distinto al predeterminado.'
+      postmark_heading: 'Configuración Postmark'
       send_test_mail_button: Enviar
       send_test_mail_heading: 'Enviar un correo de prueba'
       send_test_mail_success: '¡Correo de prueba enviado con éxito!'
       send_test_mail_text: 'Esto enviará un correo electrónico utilizando la configuración anterior a tu dirección, {email}.'
+      smtp_description: 'Configurar los ajustes de conexión SMTP. Configuraciones comunes: Puerto 587 con TLS o Puerto 465 con SSL.'
       smtp_heading: 'Configuración SMTP'
       title: '=> core.ref.email'
     extension:
+      abandoned_no_replacement: 'Esta extensión ya no recibe mantenimiento por parte de su autor y es posible que no reciba actualizaciones.'
+      abandoned_with_replacement: 'Esta extensión ha sido reemplazada por {replacement}. Considere migrar al paquete de reemplazo.'
       configure_scopes: 'Configurar ámbitos'
       confirm_purge: 'Al purgar, se eliminarán todas las entradas en la base de datos y datos asociados a la extensión. Este proceso no desinstalará la extensión, pues esto debe completarse mediante Composer ¿Realmente deseas continuar?'
+      database_driver_mismatch: 'Esta extensión no es compatible con el controlador de base de datos configurado.'
+      deprecated: Obsoleta
       disabled: Desactivada
       enable_to_see: 'Habilite la extensión para ver y cambiar la configuración.'
       enabled: Activada
@@ -250,6 +273,13 @@ core:
         button_label: LÉEME
         no_readme: 'Esta extensión no incluye un archivo LÉEME'
         title: 'Documentación de {extName}'
+      replaced: Reemplazada
+      reset_settings:
+        button: 'Resetear configuraciones'
+        cancel_button: Cancelar
+        confirm_button: Recetear
+        title: 'Resetear configuraciones'
+        warning: 'Esta acción es irreversible. La configuración que se muestra a continuación se eliminará permanentemente de la base de datos y volverá a sus valores predeterminados. Los datos de esta extensión no se verán afectados.'
     extensions-health-widget:
       abandoned_no_replacement: 'No hay reemplazo disponible'
       abandoned_with_replacement: 'Reemplazado por {replacement}'
