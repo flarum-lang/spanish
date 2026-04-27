@@ -13,8 +13,10 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
 **Updated and/or removed outdated translations for extensions**:
