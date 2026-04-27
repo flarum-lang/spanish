@@ -86,6 +86,8 @@ core:
       title: Anuncios
       view_all: 'Ver todos en discuss.flarum.org'
     appearance:
+      color_schemes:
+        auto_mode_label: 'Sistema de usuario o preferencia configurada'
       colored_header_label: 'Cabecera coloreada'
       colors_heading: Colores
       colors_primary_label: 'Color primario'
