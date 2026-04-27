@@ -5,6 +5,7 @@
 core:
   admin:
     advanced:
+      description: 'Editar ajustes avanzados para tu foro.'
       fontawesome:
         cdn_url_help: 'URL entera hacia el archivo CSS FontAwesome en una CDN'
         cdn_url_label: 'CDN URL'
@@ -57,6 +58,16 @@ core:
         safe_mode_extensions: 'Extensiones permitidas para activarse durante el modo seguro'
         safe_mode_extensions_override_help: 'Está configuración se sobre escribe con la llave <code>safe_mode_extensions</code> en el archivo <code>config.php</code>. (<b>{extensions}</b>)'
         section_label: Mantenimiento
+      pgsql:
+        search_configuration: 'Buscar configuración para usar'
+      queue:
+        custom_driver: 'Tu foro está utilizando el controlador de cola {driver}, que es proporcionado por una extensión.'
+        memory_label: 'Límite de memoria (MB)'
+        retries_help: 'Número máximo de intentos de job antes de que falle. Por defecto 1'
+        retries_label: 'Reintentos Job'
+        section_label: Cola
+        sync_help: 'Para un mejor rendimiento y experiencia de usuario, considere usar el controlador de cola de base de datos. Obtenga más información en la documentación.'
+        sync_info: 'Tu foro está usando controlador de cola síncrono. Jobs se procesan inmediatamente en el hilo principal del proceso.'
     announcements:
       about: 'Las últimas noticias y anuncios provienen de la comunidad oficial de Flarum en discuss.flarum.org.'
       comments_label: '{count, plural, one {# comment} other {# comments}}'
