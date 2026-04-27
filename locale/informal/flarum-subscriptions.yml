@@ -5,6 +5,10 @@
 flarum-subscriptions:
   email:
     new_post:
+      html:
+        body: "{poster_display_name} acaba de publicar en una discusión que estás siguiendo: [{title}]({url}).\n\nNo recibirás más notificaciones sobre esta discusión hasta que estés al día.\n"
+      plain:
+        body: "{poster_display_name} acaba de publicar en una discusión que estás siguiendo: {title}.\n\nPara ver la nueva actividad, consulta el siguiente enlace:\n{url}\n\n---\n\n{content}\n\n---\n\nNo recibirás más notificaciones sobre esta discusión hasta que leas lo viejo.\n"
       subject: '[Nueva publicación] {title}'
   forum:
     badge:
@@ -21,6 +25,7 @@ flarum-subscriptions:
     notifications:
       new_post_text: '{username} publicó'
     settings:
+      follow_after_create_label: 'Seguir automáticamente discusiones creadas por mi'
       follow_after_reply_label: 'Seguir automáticamente las discusiones en las que tú participes'
       notify_for_all_posts_label: 'Notificar sobre cada nueva publicación en lugar de sólo la última en una discusión'
       notify_new_post_label: 'Alguién publicó en una discusión que tú sigues'
@@ -34,6 +39,12 @@ flarum-subscriptions:
       not_following_text: 'Ser notificado sólo cuando te @mencionen.'
       notify_alert_tooltip: 'Recibir una notificación del foro cuando haya nuevas publicaciones'
       notify_email_tooltip: 'Recibir un email cuando haya nuevas publicaciones'
+  lib:
+    gambits:
+      discussions:
+        subscription:
+          following_key: siguiendo
+          ignoring_key: ignorando
   ref:
     follow: Seguir
     following: Siguiendo
