@@ -88,6 +88,10 @@ core:
     appearance:
       color_schemes:
         auto_mode_label: 'Sistema de usuario o preferencia configurada'
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
       colored_header_label: 'Cabecera coloreada'
       colors_heading: Colores
       colors_primary_label: 'Color primario'
@@ -114,8 +118,14 @@ core:
       abandoned_extensions_notify_admins_label: 'Enviar un correo electrónico a los administradores cuando se detecte una extensión abandonada recientemente durante la verificación semanal'
       abandoned_extensions_sync_error: 'No se pudo obtener la lista de extensiones abandonadas. Inténtelo de nuevo más tarde.'
       all_discussions_label: '=> core.ref.all_discussions'
+      avatar_driver_heading: 'Avatar del usuario'
+      avatar_driver_options:
+        default: 'Por defecto'
+      avatar_driver_text: 'Seleccione el controlador que se utilizará para los avatares de los usuarios cuando no haya ninguno subido. Por defecto, no se mostrará ningún avatar si el usuario no ha subido uno.'
       default_language_heading: 'Idioma por defecto'
       description: 'Configure el título, el idioma y otras configuraciones básicas de su foro.'
+      display_name_driver_options:
+        username: 'Nombre Usuario'
       display_name_heading: 'Nombre de usuario'
       display_name_text: 'Seleccione el controlador que debe utilizarse para mostrar los nombres. Por defecto, se muestra el nombre de usuario.'
       forum_description_heading: 'Descripción del foro'
