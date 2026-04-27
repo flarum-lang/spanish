@@ -443,6 +443,12 @@ core:
       must_not_be_multidimensional_array_message: 'El filtro {filter} no debe ser una array multidimensional.'
     invalid_username_message: 'El nombre de usuario solo puede contener letras, números y guiones. Con al menos una letra.'
   email:
+    abandoned_extensions:
+      body_intro: 'La siguiente/s extension/es instaladas han sido marcadas como abandonadas:'
+      body_outro: 'Por favor, revise estas extensiones y considere la posibilidad de migrar a alternativas cuando estén disponibles.'
+      line_no_replacement: '{package} (sin reemplazos disponibles)'
+      line_with_replacement: '{package} (reemplazo sugerido: {replacement})'
+      subject: 'Acción requerida: se detectó extension/es abandonada/s'
     activate_account:
       body: "Alguien (¡Esperemos que vos!) se ha registrado en {forum} con esta dirección de email.\n\nSi fuiste vos, simplemente hacé clic en el siguiente enlace y tu cuenta se activará:\n{url}\n\nSi no te has registrado, ignora este email.\n"
       subject: 'Active su cuenta de usuario'
@@ -464,8 +470,10 @@ core:
         unsubscribe_text: 'Si desea dejar de recibir este tipo de notificaciones, [cancele la suscripción aquí]({unsubscribeLink}).'
         unsubscribe_text_plain: 'Si desea dejar de recibir este tipo de notificaciones, cancele su suscripción aquí: {unsubscribeLink}'
     reset_password:
+      body: "Alguien (¡Esperemos que vos!) has solicitado que se le olvidó la contraseña de tu cuenta en {forum}.\n\nSi fuiste vos, hacé clic en el siguiente enlace para restablecer tu contraseña:\n{url}\n\nSi no deseas cambiar tu contraseña, simplemente ignora este email y no pasará nada.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
+      body: "Este es un email de prueba para confirmar que la configuración de tu email de Flarum funciona correctamente.\n\nSi lo solicitaste vos, significa que tu configuración funciona.\n\nSi no lo solicitaste, ignora este correo.\n"
       subject: 'Prueba de correo electrónico de Flarum'
     signoff: 'El equipo de {forumTitle}'
   forum:
@@ -856,6 +864,8 @@ core:
     custom_footer_title: 'Editar el pié de página personalizado'
     custom_header_text: 'Añade código HTML para que este sea mostrado en la parte más alta de la página, sobre la cabecera de Flarum.'
     custom_header_title: 'Editar la cabecera personalizada'
+    dark_hc_mode_label: 'Modo oscuro con contraste alto'
+    dark_mode_label: 'Modo oscuro'
     delete: Eliminar
     delete_forever: 'Eliminar para siempre'
     discussions: Discusiones
