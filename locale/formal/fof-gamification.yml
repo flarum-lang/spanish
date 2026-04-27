@@ -16,6 +16,7 @@ fof-gamification:
         button: 'Convertir Me gustas en votos positivos'
         converted: 'Se convirtieron exitosamente todos los {number} Me gusta'
         converting: 'Tus Me gusta se están convirtiendo. Actualiza tu sitio después de unos minutos para ver que el proceso ha finalizado. (El tiempo de conversión puede demorar un poco dependiendo de la cantidad total de Me gusta en tu foro)'
+        help: 'Convierte tus "me gusta" anteriores de flarum/likes en votos positivos, además de calcular el nivel de popularidad de todas las discusiones actuales.'
       groups:
         add: 'Añadir nueva regla'
         column:
@@ -55,6 +56,8 @@ fof-gamification:
         first_post_only: 'Permitir votos positivos/negativos únicamente en la primera publicación de una discusión'
         icon_help: 'Coloca cualquier icono de Font-Awesome con el sufijo -up y -down. Ejemplos: arrow, thumbs, chevron'
         icon_name: 'Icono de voto positivo/negativo'
+        icon_preview_downvote: 'Voto Negativo'
+        icon_preview_upvote: 'Voto Positivo'
         points_placeholder: 'Puntos: '
         points_title: 'Marcador de posición de Puntos'
         rate_limit: 'Forzar un límite de frecuencia de votación (10 segundos)'
