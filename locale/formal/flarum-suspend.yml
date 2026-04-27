@@ -9,6 +9,8 @@ flarum-suspend:
   email:
     no_reason_given: 'No se dio ningún motivo para esta suspensión.'
     suspended:
+      plain:
+        body: "Has sido suspendido por la siguiente razón:\n\n---\n{suspension_message}\n---\n"
       subject: 'Tu cuenta ha sido suspendida'
     unsuspended:
       subject: 'Han quitado la suspensión a tu cuenta'

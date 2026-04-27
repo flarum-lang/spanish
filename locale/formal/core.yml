@@ -68,7 +68,7 @@ core:
         memory_label: 'Límite de memoria (MB)'
         rest_help: 'Tiempo de espera entre tareas de procesamiento. El valor predeterminado es 0 segundos.'
         rest_label: 'Tiempo de descanso (segundos)'
-        retries_help: 'Número máximo de intentos de job antes de que falle. Por defecto 1'
+        retries_help: 'Número máximo de intentos de job antes de que falle. Por defecto 1.'
         retries_label: 'Reintentos Job'
         section_label: Cola
         sync_help: 'Para un mejor rendimiento y experiencia de usuario, considere usar el controlador de cola de base de datos. Obtenga más información en la documentación.'
@@ -876,6 +876,9 @@ core:
     generic_confirmation_message: '¿Estás seguro que deseas continuar? Esta acción no se puede deshacer.'
     icon: Icono
     icon_text: 'Introduzca el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.'
+    invalid_login_message: 'Tus datos de inicio de sesión son incorrectos.'
+    light_hc_mode_label: 'Modo claro de alto contraste'
+    light_mode_label: 'Modo Claro'
     load_more: 'Cargar más'
     loading: Cargando...
     log_in: Acceder
@@ -883,12 +886,17 @@ core:
     mark_all_as_read: 'Marcar todas como leídas'
     never: Nunca
     new_token: 'Nuevo token'
+    newest: 'Más nuevo'
     next_page: 'Página siguiente'
     notifications: Notificaciones
     okay: Aceptar
+    oldest: 'Más viejo'
     password: Contraseña
     posts: Publicaciones
     previous_page: 'Página anterior'
+    refresh: Refrezcar
+    relevance: Relevancia
+    remember_me_label: 'Acuérdate de mí'
     remove: Eliminar
     rename: Renombrar
     reply: Responder
@@ -902,6 +910,7 @@ core:
     some_others: '{count, plural, one {# más} other {# más}}'
     start_a_discussion: 'Crear discusión'
     username: 'Nombre de usuario'
+    username_or_email_placeholder: 'Nombre de usuario o Email'
     users: Usuarios
     view: Vista
     write_a_reply: 'Escriba una respuesta...'

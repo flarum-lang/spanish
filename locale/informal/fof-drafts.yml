@@ -8,6 +8,11 @@ flarum-gdpr:
       drafts:
         delete_description: 'Eliminar todos los borradores creados por el usuario.'
         export_description: 'Todos los borradores creados por el usuario.'
+fof-default-user-preferences:
+  admin:
+    settings:
+      draftAutosaveEnable: 'Habilitar el autoguardado de borradores por defecto'
+      draftAutosaveInterval: 'Intervalo de autoguardado predeterminado (segundos)'
 fof-drafts:
   admin:
     permissions:
@@ -19,6 +24,7 @@ fof-drafts:
       schedule_on_one_server: 'Utilizar la directiva ''onOneServer()'' para el programador de tareas (requiere Redis/Memcache)'
       title: 'FoF Drafts'
   console:
+    no_title_error: 'Borrador omitido: falta el título de la discusión.'
     scheduled_drafts_disabled: 'Los borradores programados están actualmente desactivados en los ajustes.'
   forum:
     composer:
@@ -39,6 +45,7 @@ fof-drafts:
       title: Borradores
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
+      no_title_error: 'Es necesario un título para la discusión antes de programarla.'
       reschedule_button: Reprogramar
       schedule_button: Programar
       schedule_time_preview: 'Este borrador se publicará automáticamente el <b>{datetime}</b>.'
