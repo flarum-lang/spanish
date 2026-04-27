@@ -107,3 +107,7 @@ fof-gamification:
       label_none: 'Sin votantes'
       none: 'Ningún votante todavía'
     votes: Votos
+lib:
+  gambits:
+    hot:
+      key: tendencia
