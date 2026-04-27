@@ -9,10 +9,16 @@ flarum-suspend:
   email:
     no_reason_given: 'No se dio ningún motivo para esta suspensión.'
     suspended:
+      html:
+        body: 'Has sido suspendido de {forumTitle} por el siguiente motivo:'
       plain:
-        body: "Has sido suspendido por la siguiente razón:\n\n---\n{suspension_message}\n---\n"
+        body: "Has sido suspendido por el siguiente motivo:\n\n---\n{suspension_message}\n---\n"
       subject: 'Tu cuenta ha sido suspendida'
     unsuspended:
+      html:
+        body: 'Tu cuenta ha sido reactivada. Puedes volver a [{forumTitle}]({forum_url}) cuando estés listo.'
+      plain:
+        body: "Tu cuenta ha sido reactivada. Puedes volver al foro haciendo clic en el siguiente enlace:\n\n{forum_url}\n"
       subject: 'Han quitado la suspensión a tu cuenta'
   forum:
     notifications:
@@ -39,3 +45,8 @@ flarum-suspend:
       suspended_tooltip: Suspendido
     user_controls:
       suspend_button: Suspender
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: suspendido

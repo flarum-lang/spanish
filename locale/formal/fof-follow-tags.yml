@@ -14,6 +14,11 @@ fof-follow-tags:
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Filtrado de página de seguimiento predeterminado'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+  email:
+    newDiscussionInTag:
+      plain:
+        body: "{actor_display_name} inició una discusión en la etiqueta que estás siguiendo: {discussion_title}\n\nPara ver la nueva discusión, consulta el siguiente enlace:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Etiqueta | Nueva Discusión] {title}'
   forum:
     badge:
       following_tag_tooltip: Siguiendo
