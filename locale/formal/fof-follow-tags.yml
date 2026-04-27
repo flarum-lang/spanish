@@ -16,9 +16,23 @@ fof-follow-tags:
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
   email:
     newDiscussionInTag:
+      html:
+        body: "{actor_display_name} comenzó una discusión en la etiqueta que sigues: [{discussion_title}]({discussion_url})\n"
       plain:
         body: "{actor_display_name} inició una discusión en la etiqueta que estás siguiendo: {discussion_title}\n\nPara ver la nueva discusión, consulta el siguiente enlace:\n{discussion_url}\n\n---\n\n{content}\n"
       subject: '[Etiqueta | Nueva Discusión] {title}'
+    newDiscussionTag:
+      html:
+        body: "{actor_display_name} acaba de modificar la etiqueta de la discusión de {author_display_name} a una etiqueta que sigues: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "{actor_display_name} acaba de cambiar la etiqueta de una discusión de {author_display_name} a una etiqueta que sigues: {discussion_title}\n\nPara ver la discusión, consulte el siguiente enlace:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Etiqueta | Etiqueta Modificada] {title}'
+    newPostInTag:
+      html:
+        body: "{actor_display_name} publicó una discusión en la etiqueta que sigues: [{discussion_title}]({post_url})\n"
+      plain:
+        body: "{actor_display_name} publicó una discusión en la etiqueta que sigues: {discussion_title}\n\nPara ver la nueva actividad, consulta el siguiente enlace:\n{post_url}\n\n---\n\n{content}\n"
+      subject: '[Etiqueta | Nueva Publicación] {title}'
   forum:
     badge:
       following_tag_tooltip: Siguiendo
