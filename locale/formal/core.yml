@@ -57,6 +57,19 @@ core:
         safe_mode_extensions: 'Extensiones permitidas para activarse durante el modo seguro'
         safe_mode_extensions_override_help: 'Está configuración se sobre escribe con la llave <code>safe_mode_extensions</code> en el archivo <code>config.php</code>. (<b>{extensions}</b>)'
         section_label: Mantenimiento
+    announcements:
+      about: 'Las últimas noticias y anuncios provienen de la comunidad oficial de Flarum en discuss.flarum.org.'
+      comments_label: '{count, plural, one {# comment} other {# comments}}'
+      description: 'Últimas noticias y comunicados del equipo de Flarum.'
+      empty: 'No se encontraron anuncios.'
+      hide: 'Ocultar anuncios'
+      load_error: 'No se pudieron cargar los anuncios. Inténtelo de nuevo más tarde.'
+      read_more: 'Leer más'
+      refresh: 'Actualizar anuncios'
+      retry: 'Probar de nuevo'
+      show: 'Mostrar anuncios'
+      title: Anuncios
+      view_all: 'Ver todos en discuss.flarum.org'
     appearance:
       colored_header_label: 'Cabecera coloreada'
       colors_heading: Colores
@@ -81,6 +94,8 @@ core:
       logo_text: 'Suba una imagen para que sea mostrada en lugar del título del foro.'
       title: Apariencia
     basics:
+      abandoned_extensions_notify_admins_label: 'Enviar un correo electrónico a los administradores cuando se detecte una extensión abandonada recientemente durante la verificación semanal'
+      abandoned_extensions_sync_error: 'No se pudo obtener la lista de extensiones abandonadas. Inténtelo de nuevo más tarde.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Idioma por defecto'
       description: 'Configure el título, el idioma y otras configuraciones básicas de su foro.'
@@ -109,6 +124,12 @@ core:
     dashboard:
       clear_cache_button: 'Limpiar cache'
       description: 'Su foro de un vistazo.'
+      info_button: 'Info del sistema'
+      info_modal:
+        copy_button: 'Copiar al portapapeles'
+        copy_error: 'Falló la copia a portapapeles'
+        copy_success: 'Info del sistema copiada en portapapeles'
+        title: 'Info del sistema'
       io_error_message: 'No se pudo escribir en el sistema de archivos. Verifica los permisos de su sistema de archivos y vuelve a intentarlo. O intenta ejecutar desde la línea de comandos.'
       status:
         headers:
@@ -120,6 +141,7 @@ core:
           inactive: Inactivo
           never-run: 'Nunca se ejecuta'
       title: Tablero
+      toggle_advanced_page_button: 'Abrir Página Avanzada'
       tools_button: Herramientas
     debug-warning:
       detail: "Cuando el modo <code>debug</code> está activo, Flarum reconstruirá sus archivos <code>JavaScript</code> y <code>CSS</code> en cada solicitud, y también podría filtrar potencialmente otra información, como secretos de la base de datos, variables de entorno, etc.\n\nSe recomienda encarecidamente deshabilitar <code>debug</code> en su archivo <code>config.php</code> en producción. Consulte <link>Documentos de Flarum</link> para obtener más información.\n"
@@ -153,8 +175,17 @@ core:
       description: 'Configure el controlador, la configuración y las direcciones que usará su foro para enviar correo electrónico.'
       driver_heading: 'Elige un controlador'
       driver_label: Driver
+      format:
+        html_option: HTML
+        multipart_option: 'Multiparte (recomendado)'
+        plain_option: 'Texto Plano'
+      format_heading: 'Formato de Email enviado'
+      format_help: 'Elige el formato en el que se enviarán los correos electrónicos salientes. La opción recomendada es <code>multiparte</code>, ya que esto permitirá que el cliente de Email del usuario muestre el formato más adecuado.'
       from_label: Remitente
       mail_encryption_label: Cifrado
+      mail_encryption_none_help: 'Sin cifrado. No se recomienda su uso en entornos de producción.'
+      mail_encryption_ssl_help: 'La conexión está cifrada desde el inicio (TLS implícito). Normalmente se utiliza con el puerto 465.'
+      mail_encryption_tls_help: 'La conexión comienza sin cifrar y se actualiza a TLS (STARTTLS). Normalmente se utiliza con los puertos 587 o 25.'
       mail_host_label: Servidor
       mail_mailgun_domain_label: Dominio
       mail_mailgun_region_label: Región
@@ -192,6 +223,21 @@ core:
         button_label: LÉEME
         no_readme: 'Esta extensión no incluye un archivo LÉEME'
         title: 'Documentación de {extName}'
+    extensions-health-widget:
+      abandoned_no_replacement: 'No hay reemplazo disponible'
+      abandoned_with_replacement: 'Reemplazado por {replacement}'
+      all_healthy: 'Todas las extensiones están sanas.'
+      section_abandoned_empty: 'No se encontraron problemas.'
+      section_abandoned_heading: 'Necesita Atención'
+      section_abandoned_help: 'Estas extensiones ya no reciben mantenimiento o pueden presentar problemas de compatibilidad. Considere actualizarlas, reemplazarlas o eliminarlas.'
+      section_disabled_empty: 'Todas las extensiones están habilitadas.'
+      section_disabled_heading: Deshabilitada
+      section_disabled_help: 'Estas extensiones están instaladas pero no están habilitadas. Habilítelas desde su página de configuración o elimínelas si ya no las necesita.'
+      section_suggested_empty: 'Sin sugerencias.'
+      section_suggested_heading: Sugerido
+      section_suggested_help: 'Las extensiones de Flarum pueden añadir funciones adicionales opcionales especificando otras extensiones o paquetes. Estas pueden añadir más funciones o integraciones.'
+      suggested_by: 'Sugerido por {extension}'
+      title: 'Salud de extensión'
     header:
       get_help: 'Obtener ayuda'
       log_out_button: '=> core.ref.log_out'

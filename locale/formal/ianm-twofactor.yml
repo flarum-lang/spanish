@@ -40,6 +40,7 @@ ianm-twofactor:
     body:
       status_changed: "Hola {recipient_display_name},\n\nSe ha {type} la Autenticación de Dos Factores en tu cuenta de {forum_url}.\n\nSi iniciaste esta acción, no es necesario realizar más pasos. Si no autorizaste este cambio, comunícate con los administradores del foro de inmediato.\n"
     status_type:
+      device_changed: 'dispositivo cambiado'
       disabled: desactivado
       enabled: activado
     subject:
