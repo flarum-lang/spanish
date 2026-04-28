@@ -14,6 +14,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`flarum/messages`](https://github.com/flarum/messages)
 * [`flarum/realtime`](https://github.com/flarum/realtime)
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
