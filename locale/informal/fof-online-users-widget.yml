@@ -6,3 +6,8 @@ fof-online-users-widget:
   admin:
     settings:
       cache_ttl: 'Tiempo de almacenamiento en caché de la lista de usuarios (en segundos)'
+      last_seen_interval: 'Intervalo de última conexión para considerar a un usuario en línea (en minutos)'
+  forum:
+    widget:
+      empty: 'No hay usuarios en línea.'
+      title: 'Usuarios en línea'
