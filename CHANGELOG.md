@@ -14,6 +14,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/messages`](https://github.com/flarum/messages)
 * [`flarum/realtime`](https://github.com/flarum/realtime)
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
@@ -27,6 +28,7 @@ CHANGELOG
 **Updated and/or removed outdated translations for extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
@@ -89,7 +91,6 @@ CHANGELOG
 
 **Removed support for outdated extensions**:
 
-* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`afrux/asirem`](https://github.com/afrux/asirem)
 * [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget)
 * [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
