@@ -20,6 +20,7 @@ CHANGELOG
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
