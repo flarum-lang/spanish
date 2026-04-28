@@ -8,6 +8,7 @@ flarum-extension-manager:
       add_label: 'Nuevo método de autenticación'
       add_modal:
         host_label: Host
+        host_placeholder: 'ejemplo: bearer.flarum.org'
         submit_button: Enviar
         token_label: Token
         type_label: Tipo
@@ -84,6 +85,8 @@ flarum-extension-manager:
         why: 'Más información'
       title: 'Flarum {version} Actualización mayor disponible'
       update: Actualizar
+    minor_update_confirmation:
+      content: 'Esto también actualizará cualquier otra extensión o paquete con las actualizaciones disponibles.'
     sections:
       queue:
         columns:
