@@ -27,3 +27,9 @@ flarum-likes:
       notify_post_liked_label: 'A alguien le gusta su publicación'
     user:
       likes_link: 'Me gustas'
+  lib:
+    gambits:
+      posts:
+        likedBy:
+          hint: 'ID o nombre de usuario del usuario'
+          key: 'le gusta a'

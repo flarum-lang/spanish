@@ -9,6 +9,8 @@ flarum-akismet:
       delete_blatant_spam_help: 'Si Akismet determina que el comentario es spam descarado, en lugar de marcarlo como spam, elimina automáticamente la publicación'
       delete_blatant_spam_label: 'Eliminar automáticamente el spam flagrante'
       title: 'Configuración de Akismet'
+    permissions:
+      bypass_akismet: 'Omitir Akismet'
   forum:
     post:
       akismet_flagged_text: 'Akismet lo marcó como spam'

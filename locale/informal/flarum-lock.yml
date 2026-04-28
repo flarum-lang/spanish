@@ -19,3 +19,8 @@ flarum-lock:
       discussion_unlocked_text: '{username} abrió la discusión {time}.'
     settings:
       notify_discussion_locked_label: 'Alguien cerró una discusión que tú creaste'
+  lib:
+    gambits:
+      discussions:
+        locked:
+          key: bloqueado

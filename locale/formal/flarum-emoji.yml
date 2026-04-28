@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-emoji:
+  admin:
+    settings:
+      cdn_label: 'Dirección mirror CDN'
   forum:
     composer:
       emoji_tooltip: 'Insertar emoji'

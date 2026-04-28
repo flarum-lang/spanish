@@ -15,7 +15,7 @@ flarum-likes:
       post_liked_text: '{count, plural, one {A {username} le gustó tu publicación.} other {A {username} les gustó tu publicación.}}'
     post:
       like_link: 'Me gusta'
-      liked_by_self_text: '{count, plural, one {A ti te gusta esto} other {A {users} os gusta esto}}'
+      liked_by_self_text: '{users} les gusta esto.'
       liked_by_text: '{count, plural, one {A {users} le gusta esto} other {A {users} les gusta esto}}.'
       others_link: '=> core.ref.some_others'
       unlike_link: 'Ya no me gusta'
@@ -27,3 +27,9 @@ flarum-likes:
       notify_post_liked_label: 'A alguien le gusta tu publicación'
     user:
       likes_link: 'Me gustas'
+  lib:
+    gambits:
+      posts:
+        likedBy:
+          hint: 'ID o nombre de usuario del usuario'
+          key: 'le gusta a'
