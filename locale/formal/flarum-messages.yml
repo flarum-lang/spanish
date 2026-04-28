@@ -7,6 +7,13 @@ flarum-messages:
     permissions:
       delete_own_messages_label: 'Borrar mensajes propios'
       send_messages_label: 'Enviar mensajes privados'
+  email:
+    message_received:
+      html:
+        body: '{user_display_name} te envió un [new message]({url}).'
+      plain:
+        body: "{user_display_name} te envió un mensaje.\n\n{url}\n\n---\n\n{content}\n"
+      subject: '{user_display_name} te envió un mensaje'
   forum:
     composer:
       discard_confirmation: 'No enviaste tu mensaje. ¿Seguro que lo vas a descartar?'
@@ -39,3 +46,31 @@ flarum-messages:
       oldest_button: Viejos
     message_controls:
       delete_button: Borrar
+      delete_confirmation: '¿Seguro que quieres eliminar este mensaje? Esta acción no se puede deshacer.'
+    messages_page:
+      cannot_send_message_button: 'No se puede enviar un mensaje'
+      empty_text: 'Sin nuevos mensajes'
+      hero:
+        subtitle: 'Tus conversaciones privadas con otros usuarios'
+        title: Mensajes
+      mark_all_as_read_tooltip: 'Marcar todo como leído'
+      refresh_tooltip: Refezcar
+      send_message_button: 'Enviar un Mensaje'
+      stream:
+        load_next_button: 'Cargar próximos mensajes'
+        load_previous_button: 'Cargar mensajes previos'
+        start_of_the_conversation: 'Comienzo de la conversación'
+        time_lapsed_text: '=> core.forum.post_stream.time_lapsed_text'
+      title: Mensajes
+    notifications:
+      message_received_text: 'Notificación de Mensaje Recibido de {user}'
+    recipient_selection_modal:
+      title: 'Seleccione los destinatarios de este mensaje'
+    settings:
+      notify_message_received_label: 'Alguien me envía un mensaje'
+    user_controls:
+      cannot_reply_text: 'Este usuario no puede contestar'
+      send_message_button: 'Enviar un mensaje'
+  lib:
+    dialog:
+      title: 'Mensajería {username}'
