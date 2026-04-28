@@ -6,6 +6,8 @@ flarum-akismet:
   admin:
     akismet_settings:
       api_key_label: 'Clave API'
+      delete_blatant_spam_help: 'Si Akismet determina que el comentario es spam descarado, en lugar de marcarlo como spam, elimina automáticamente la publicación'
+      delete_blatant_spam_label: 'Eliminar automáticamente el spam flagrante'
       title: 'Configuración de Akismet'
   forum:
     post:

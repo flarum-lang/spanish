@@ -14,6 +14,7 @@ flarum-realtime:
       release-discussion-updates-interval: 'Intervalo para enviar automáticamente nuevas actividades de discusión'
       release-discussion-updates-interval-help: 'En segundos. 0 significa que no hay envío automático.'
       typing-indicator: 'Indicador de escritura'
+      typing-indicator-help: 'Cuando está habilitada, sujeto a permisos, los usuarios pueden ver el número de otros usuarios que están escribiendo en una conversación. Cuando está deshabilitada, la actividad de escritura se elimina tanto de la interfaz de usuario como de la carga útil del websocket.'
   forum:
     push:
       discussion-list-new-activity: '{count, plural, one {Show # updated discussion} other {Show # updated discussions}}'
