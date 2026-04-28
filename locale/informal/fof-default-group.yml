@@ -6,3 +6,4 @@ fof-default-group:
   admin:
     settings:
       info: 'A continuación puede seleccionar el grupo que se asignará a un usuario cuando se active su cuenta.'
+      label: 'Grupo por Defecto'
