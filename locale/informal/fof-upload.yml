@@ -57,6 +57,7 @@ fof-upload:
           media-btn: 'Sólo el botón del gestor de medios'
           upload-btn: 'Solo botón Subir'
         title: 'Botones del compositor'
+      configured_by_environment: 'La configuración de almacenamiento se ha preconfigurado mediante vía Environment Variables.'
       disable-download-logging:
         title: 'Deshabilitar registro de descargas'
         toggle: Deshabilitar
@@ -73,6 +74,9 @@ fof-upload:
         title: 'Configuración de almacenamiento local'
       preferences:
         max_file_size: 'Tamaño máximo de archivo (en kilobytes)'
+        mime_type_permission_placeholder: 'Etiqueta de permisos (opcional, ej. Imágenes)'
+        mime_type_regex_invalid: 'Expresión inválida (ej. Espacios vacíos ||)'
+        mime_type_regex_placeholder: 'ej. ^image/(jpeg|png|gif)$'
         mime_types: 'Configure su tipo mime, mapeo del adaptador de subida'
         php_ini_values: 'Los valores de <code>php.ini</code> son <code>post_max_size={post}</code> y <code>upload_max_filesize={upload}</code>. Asegúrese de que el valor establecido aquí esté por debajo de estos umbrales o ajústelos en consecuencia. Si usa <code>Nginx</code>, también asegúrese de que <code>client_max_body_size</code> tenga el tamaño suficiente para el límite máximo elegido.'
         title: 'Preferencias generales'
@@ -85,9 +89,22 @@ fof-upload:
         max_width: 'Ancho/alto máximo de la imagen'
         title: 'Cambiar el tamaño de la imagen'
         toggle: 'Cambiar el tamaño de las imágenes'
+      svg-sanitizer:
+        allow_animate: 'Permitir animaciones SVG'
+        allow_animate_help: 'Habilitar animaciones SVG puede introducir vulnerabilidades de seguridad, ya que los SVG animados pueden contener código malicioso. Habilite esta configuración bajo su propia responsabilidad y sólo si confía en sus usuarios.'
+        help: 'Configure cómo se procesan y desinfectan los archivos SVG al subirlos. Los archivos SVG pueden contener scripts potencialmente dañinos y deben manejarse con cuidado. Los archivos SVG subidos se desinfectan al cargarlos y se eliminan los scripts y etiquetas dañinos.'
+        title: 'Desinfección SVG'
+      thumbnails:
+        max_width: 'Ancho max de la miniatura (px)'
+        title: 'Miniaturas de imágenes'
+        toggle: 'Generar miniaturas al subir archivos'
+        webp_toggle: 'Codificar miniaturas como WebP (recomendado, ~30% se reduce)'
       watermark:
         file: 'Sube tu imagen de marca de agua'
+        opacity: 'Opacidad de la marca de agua (0–100)'
+        padding: 'Relleno desde el borde (px)'
         position: 'Posición de marca de agua'
+        size_percent: 'Tamaño de la marca de agua (% ancho de la imagen)'
         title: 'Imágenes de marca de agua'
         toggle: 'Imágenes de marca de agua'
     nav:
@@ -99,6 +116,8 @@ fof-upload:
       access_shared_label: 'Acceda a archivos compartidos en el Administrador de medios'
       delete_uploads_of_others_label: 'Eliminar las subidas de los usuarios'
       download_label: 'Descargar archivos'
+      upload_label: 'Subir archivos (permiso base, necesario para todas las subidas)'
+      upload_mime_label: 'Subir {label}'
       upload_shared_label: 'Subir archivos compartidos'
       view_user_uploads_label: 'Ver las subidas de los usuarios'
     shared-uploads:
@@ -128,6 +147,8 @@ fof-upload:
       local: Local
       ovh-svfs: 'OVH SVFS'
       qiniu: QiNiu
+    warnings:
+      fileinfo_missing: "La extensión de PHP <strong>fileinfo</strong> no está cargada en este servidor. FoF Upload seguirá funcionando, pero la validación cruzada del tipo MIME está desactivada, lo que reduce la protección contra tipos de archivo falsificados. Para una mayor seguridad, habilite la extensión en su configuración de PHP.\n"
   api:
     upload_errors:
       cannot_write_to_disk: 'No se puede escribir en el disco.'
@@ -135,6 +156,7 @@ fof-upload:
       forbidden_type: 'No se permite subir archivos de este tipo.'
       max_upload_file_size_form: 'Se alcanzó el límite máximo de tamaño de archivo cargado desde el formulario.'
       max_upload_file_size_ini: 'Se alcanzó el límite máximo de tamaño de archivo cargado desde php.ini.'
+      mime_permission_denied: 'No tienes permiso para subir este tipo de archivo.'
       no_file_uploaded: 'No se ha cargado ningún archivo.'
       no_files_made_it_to_upload: 'Por favor, cargue archivos que no superen {max} kb.'
       no_upload_tmp_folder: 'No hay carpeta temporal para cargar archivos.'
@@ -157,6 +179,7 @@ fof-upload:
       unauthorized: 'No está autorizado a descargar archivos'
     text_preview:
       collapse: 'Ocultar vista previa'
+      download: 'Descargar archivo'
       error: "Error al previsualizar el archivo. Es posible que se haya eliminado o que el ID de archivo proporcionado no sea válido.\n"
       expand: 'Ampliar vista previa'
       no_snippet: '<no hay fragmento de vista previa disponible>'
