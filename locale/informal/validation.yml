@@ -71,6 +71,8 @@ validation:
   integer: 'El campo :attribute deber ser número entero.'
   ip: 'El campo :attribute debe ser una dirección IP válida.'
   ipv4: 'El campo :attribute debe ser una dirección IPv4 válida.'
+  ipv6: 'El campo :attribute debe ser una dirección IPv6 válida.'
+  json: 'El campo :attribute debe es un string JSON válido.'
   not_in: 'El :attribute seleccionado es inválido.'
   present: 'El campo :attribute debe estar presente.'
   required: 'El campo :attribute es obligatorio.'
