@@ -14,7 +14,28 @@ fof-linguist:
       load-more: 'Cargar más'
       reset: 'Restaurar original'
     clear-cache:
+      button: 'Limpiar caché'
       text: "Las nuevas traducciones aún no se han aplicado. Nota: borrar caché puede ralentizar momentáneamente el foro.\n"
+    coverage:
+      all-namespaces: Todos
+      apply-missing-filter: 'Mostrar traducciones faltantes que coinciden'
+      column-options:
+        locale: 'Por idioma'
+        namespace: 'Por frontend'
+      columns:
+        all-except-admin: 'Foro y otros frontends'
+        all-frontends: 'Mostrar todos los frontends'
+        namespace: Namespace
+        total: Total
+      count:
+        details: '{total} total / {original} original / {custom} personalizado'
+        percent: '{percent} %'
+        total: '{translated} / {total}'
+      total-options:
+        count: Contar
+        percent: 'Por ciento'
+    export:
+      title: Exportar
     filters:
       for-extension: 'Para extensión'
       frontend: 'Para frontend'
@@ -35,6 +56,17 @@ fof-linguist:
         original: Original
         own: Personalizado
       with-own-translations: 'Mis traducciones'
+    import:
+      results-with-ignore: "La importación ha finalizado. Se han importado los strings {imported}, se han ignorado los strings existentes {ignored} y se han omitido los strings idénticos {identical}. La página se actualizará para mostrar las nuevas traducciones.\n"
+    known-frontend:
+      admin: Admin
+      api: API
+      forum: Foro
+      lib: 'Biblioteca (Lib)(utilizada tanto en el foro como en la administración)'
+      ref: 'Referencia (Ref)(reutilizada en otras claves)'
+    known-namespace:
+      core: 'Flarum Core'
+      validation: 'Errores de Validación'
     locales:
       all: Todo
     permissions:
