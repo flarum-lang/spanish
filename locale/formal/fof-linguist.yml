@@ -35,7 +35,18 @@ fof-linguist:
         count: Contar
         percent: 'Por ciento'
     export:
+      download: Descargar
+      include-all: 'Incluir las traducciones definidas para "Todos" los idiomas'
+      include-originals: 'Incluir traducciones originales'
+      locale: Lugar
+      locale-all: 'Pseudolocalización "Todos"'
+      namespace: Namespace
+      namespace-all: Todos
+      output: Respuesta
+      output-empty: 'Respuesta vacía'
+      output-loading: 'Cargando respuesta...'
       title: Exportar
+      warning: "El formato de exportación utiliza los archivos de traducción basados en YAML de Flarum y está diseñado para compartir traducciones entre foros y con los responsables del mantenimiento de los paquetes de idiomas. Este formato no está diseñado para transferir todas las traducciones a un nuevo foro. Dependiendo de sus necesidades, copiar la base de datos directamente podría ser una mejor opción.\n"
     filters:
       for-extension: 'Para extensión'
       frontend: 'Para frontend'
@@ -57,7 +68,15 @@ fof-linguist:
         own: Personalizado
       with-own-translations: 'Mis traducciones'
     import:
+      input: Ingreso
+      input-placeholder: 'Arrastra y suelta o pega un archivo YAML aquí'
+      locale: Localización
+      locale-all: 'Pseudolocalización "Todos"'
+      override-existing: 'Anular mis traducciones personalizadas existentes'
+      results: "La importación ha finalizado. Se han importado los strings {imported} y se han omitido los strings idénticos {identical}. La página se actualizará para mostrar las nuevas traducciones.\n"
       results-with-ignore: "La importación ha finalizado. Se han importado los strings {imported}, se han ignorado los strings existentes {ignored} y se han omitido los strings idénticos {identical}. La página se actualizará para mostrar las nuevas traducciones.\n"
+      submit: Importar
+      title: Importar
     known-frontend:
       admin: Admin
       api: API
