@@ -22,6 +22,7 @@ CHANGELOG
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/messages`](https://github.com/flarum/messages)
 * [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
@@ -34,6 +35,7 @@ CHANGELOG
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
 * [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
