@@ -7,6 +7,10 @@ ralkage-hcaptcha:
     permissions:
       post_without_hcaptcha: 'Crear mensajes y debates sin hCaptcha'
     settings:
+      dark_mode_help: 'Utiliza el tema oscuro para el widget hCaptcha. Habilítalo si tu foro utiliza un tema oscuro.'
+      dark_mode_label: 'Modo Oscuro'
+      enable_login_help: 'Exigir hCaptcha al iniciar sesión. Esto ayuda a proteger contra ataques de fuerza bruta.'
+      enable_login_label: 'Requerido al Iniciar Sesión'
       help_text: 'Obtenga sus credenciales hCaptcha <a>aquí</a>.'
       secret_key_label: 'Clave Secreta'
       site_key_label: 'Clave del Sitio'
