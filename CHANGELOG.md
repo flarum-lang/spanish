@@ -38,6 +38,7 @@ CHANGELOG
 * [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
 * [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
