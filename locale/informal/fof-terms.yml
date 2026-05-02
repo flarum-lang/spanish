@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-terms/es/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: 'Elimina la aceptación de los términos por parte del usuario'
+        export_description: 'Detalles sobre la aceptación de los términos por parte del usuario'
 fof-terms:
   admin:
     buttons:
@@ -57,7 +63,11 @@ fof-terms:
       title: 'Estado de términos para el usuario {username}'
     update-alert:
       can-accept-message: 'Recientemente actualizamos los términos de uso. Debes aceptarlos para seguir usando este sitio web.'
+      can-accept-optional-message: 'Hemos actualizado recientemente los términos. Puede consultarlos cuando pueda.'
+      close: Cerrar
       must-accept-message: 'Hemos restringido temporalmente el acceso a su cuenta mientras revisa los nuevos términos.'
       review: 'Haz clic aquí para revisar y aceptar los nuevos términos'
     user_controls:
       state_button: 'Estado de términos'
+    user_settings:
+      optional_policies_label: Políticas
