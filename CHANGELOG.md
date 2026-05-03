@@ -52,6 +52,7 @@ CHANGELOG
 * [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor)
 * [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
 * [`resofire/mobile-search`](https://github.com/ResofireV2/mobile-search)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
