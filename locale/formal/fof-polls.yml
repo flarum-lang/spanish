@@ -64,6 +64,7 @@ fof-polls:
       add_title: 'Añadir una encuesta'
       allow_change_vote_label: 'Permitir a los usuarios cambiar su voto'
       allow_multiple_votes_label: 'Permitir votar a varias opciones'
+      date_clear: 'Borrar fecha de finalización'
       date_placeholder: 'Fecha de finalización de la encuesta (opcional)'
       delete: '=> core.ref.delete'
       edit_title: 'Editar la encuesta'
@@ -84,6 +85,7 @@ fof-polls:
         alt_label: 'Texto alternativo de la imagen'
         help: 'Cargue una imagen que se mostrará junto a la encuesta (opcional).'
         label: 'Imagen de la encuesta'
+        url_deprecated: 'Esta encuesta utiliza una URL de imagen externa. Las URL externas están obsoletas y se eliminarán en una versión futura. Por favor, vuelva a subir la imagen usando el botón de carga.'
       poll_option_image:
         help: 'Suba una imagen para que aparezca junto a la respuesta de la encuesta (opcional).'
         label: 'Imagen de respuesta a la encuesta'
@@ -94,6 +96,7 @@ fof-polls:
       tooltip:
         options:
           add-button: 'Añadir respuesta'
+          remove-button: 'Eliminar respuesta'
     moderation:
       add: 'Añadir encuesta'
       delete: 'Eliminar la encuesta'
@@ -103,6 +106,7 @@ fof-polls:
     page:
       nav: Encuestas
       nav-all: 'Todas las encuestas globales'
+      nav-groups: 'Grupos de encuesta'
     poll:
       cannot_change_vote: 'No puede cambiar su voto después de votar.'
       cannot_start_poll_button: 'No se puede iniciar la encuesta'
