@@ -7,16 +7,26 @@ fof-polls:
     permissions:
       change_vote: 'Cambiar el voto'
       moderate: 'Editar y eliminar encuestas'
+      moderate_group: 'Editar & eliminar grupos de encuestas'
       self_edit: 'Permitir a los usuarios editar sus propias encuestas'
       self_post_edit: 'Editar *todas* las encuestas de los mensajes propios (requiere permiso de edición de mensajes)'
       start: 'Iniciar una encuesta'
       start_global: 'Iniciar una encuesta global'
+      start_group: 'Crear grupos de encuesta'
       upload_images: 'Permitir a los usuarios subir imágenes para las encuestas'
+      view_group: 'Ver grupos de encuestas'
       view_results_without_voting: 'Ver los resultados sin votar'
       vote: 'Votar en las encuestas'
     settings:
+      discussion_polls:
+        heading: 'Encuestas de Discusión'
+        help: 'Estos ajustes controlan las encuestas que se adjuntan a las publicaciones de los foros de discusión.'
+      enable_discussion_polls: 'Habilitar encuestas de discusiones'
+      enable_discussion_polls_help: 'Cuando está habilitada, los usuarios pueden crear encuestas dentro de las publicaciones de discusión. Desactive esta opción si solo desea utilizar encuestas globales.'
       enable_global_polls: 'Activar encuestas globales'
       enable_global_polls_help: 'Las encuestas globales no están vinculadas a una entrada específica, y se puede acceder a ellas desde una página dedicada a las encuestas.'
+      enabled_poll_groups: 'Habilitar grupos de encuestas'
+      enabled_poll_groups_help: 'Los grupos de encuestas permiten agrupar encuestas globales y mostrarlas en una página dedicada.'
       general:
         heading: 'Ajustes Generales'
         help: 'Estos ajustes controlan las características básicas de la extensión Encuestas.'
@@ -25,6 +35,12 @@ fof-polls:
         help: 'Estos ajustes controlan la función de sondeo global.'
       image:
         heading: 'Ajustes de Imagen'
+        help: 'Configure los límites y las dimensiones de la carga de imágenes. Las imágenes se convierten automáticamente a WebP y se generan variantes responsive.'
+      image_dimensions_help: 'Dimensiones base para las imágenes almacenadas. Las variantes HiDPI (@2x, @3x) se generan automáticamente cuando la imagen original tiene el tamaño suficiente.'
+      image_height: 'Cambiar el tamaño de la altura de la imagen (px)'
+      image_width: 'Cambiar el tamaño del ancho de la imagen (px)'
+      max_image_upload_size: 'Tamaño máximo de imagen a subir (KB)'
+      max_image_upload_size_help: 'Tamaño máximo de archivo para las imágenes en kilobytes. Las imágenes se convierten automáticamente a WebP y se redimensionan después de la carga, por lo que el tamaño final almacenado suele ser mucho menor. El valor predeterminado es 10240 KB (10 MB).'
       max_options: 'Número máximo de opciones por encuesta'
       options_color_blend: 'Texto con mezcla de colores en las opciones de la encuesta'
       options_color_blend_help: 'Use esta opción para mezclar colores y hacer las opciones de la encuesta más legibles. Desactivar si esta función causa problemas con la apariencia de su foro, reduciendo la legibilidad.'
@@ -99,11 +115,19 @@ fof-polls:
       delete_label: '=> core.ref.delete'
       delete_success_message: 'Encuesta borrada con éxito.'
       edit_label: '=> core.ref.edit'
+      toggle_dropdown_accessible_label: 'Menú de controles de encuesta'
       view_label: '=> core.ref.view'
     poll_ended: 'Esta encuesta ha terminado.'
     poll_form:
       delete: 'Borrar encuesta'
       error: 'Se ha producido un error al guardar la encuesta, póngase en contacto con cualquier administrador.'
+    poll_groups:
+      composer:
+        add_title: 'Agregar grupo de encuesta'
+        delete: 'Eliminar grupo de encuesta'
+        edit_title: 'Editar grupo de encuesta'
+        groups_manager: 'Administrador de grupos de encuestas'
+        save_changes: '=> core.ref.save_changes'
     poll_never_ends: 'La encuesta nunca termina'
     polls_count: '{count, plural, one { {count} vote} other {{count} votes}}'
     polls_list:
