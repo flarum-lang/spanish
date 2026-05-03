@@ -6,6 +6,10 @@ walsgit-recycle-bin:
   admin:
     actions: Acciones
     author: Autor
+    bulk_actions: 'Acciones para discusiones seleccionadas: '
+    bulk_post_actions: 'Acciones para publicaciones seleccionadas: '
+    bulk_post_restore_label: 'Restaurar publicaciones seleccionadas'
+    bulk_restore_label: 'Restaurar discusiones seleccionadas'
     created_at: 'Creada el'
     delete_discussion:
       confirmation: '¿Estás seguro de que quieres <u>eliminar para siempre</u> esta discusión? (es irreversible)'
@@ -13,7 +17,12 @@ walsgit-recycle-bin:
       success: 'Se eliminó la discusión con éxito'
       title: 'Eliminar para siempre'
     delete_post:
+      confirmation: '¿Estás seguro de que quieres <u>eliminar para siempre</u> esta publicación? (es irreversible)'
+      delete_button: 'Eliminar esta publicación para siempre'
+      success: 'Se eliminó la publicación correctamente'
       title: 'Eliminar para siempre'
+    delete_post_tooltip: 'Eliminar publicación'
+    delete_tooltip: 'Eliminar discusión'
     discussion_id: ID
     discussion_link_tooltip: 'Ver discusión'
     discussion_title: 'Título de la discusión'
@@ -21,6 +30,13 @@ walsgit-recycle-bin:
     empty_list: 'No hay discusiones en la papelera de reciclaje.'
     hidden_at: 'Oculta el'
     hidden_discussions: 'Discusiones ocultas'
+    mass_restore_modal:
+      submit_button: 'Restaurar estas discusiones'
+      text_end: ' discusiones seleccionadas?'
+      text_start: '¿Estás seguro de que quieres restaurar estas? '
+      title: 'Restaurar las discusiones seleccionadas'
+    post:
+      open_post: 'Abrir publicación'
     posts_bin: 'Papelera de Publicaciones'
     restore_discussion:
       confirmation: '¿Estás seguro de que quieres restaurar esta discusión?'
