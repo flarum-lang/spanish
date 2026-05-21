@@ -114,6 +114,7 @@ CHANGELOG
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
@@ -178,7 +179,6 @@ CHANGELOG
 * [`kyrne/shout`](https://github.com/KyrneDev/Shout-public)
 * [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 * [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
-* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
 * `serakoi-flarumdiscordtheme`
 * `the-turk-nodp`
