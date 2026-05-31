@@ -17,7 +17,7 @@ acpl-mobile-tab:
       label_placeholder: 'Mí ítem personalizado'
       modal_title: 'Editar ítem'
       open_new_tab_checkbox: 'Abrir en nueva pestaña'
-      path: Path
+      path: Ruta
       submit_button: Grabar
       url: URL
     scroll_settings:
