@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.13.2 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+
+
+All changes: [1.13.1...1.13.2](https://github.com/flarum-lang/spanish/compare/1.13.1...1.13.2).
+
+
 1.13.1 (2026-03-24)
 -------------------
 
