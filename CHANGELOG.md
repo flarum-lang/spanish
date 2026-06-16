@@ -5,6 +5,11 @@ CHANGELOG
 1.13.2 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
 **Updated translations for extensions**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
