@@ -23,6 +23,7 @@ CHANGELOG
 * [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
 * [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio)
 * [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice)
+* [`flarum/audit`](https://github.com/flarum/audit)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/messages`](https://github.com/flarum/messages)
 * [`flarum/realtime`](https://github.com/flarum/realtime)
