@@ -17,3 +17,8 @@ flarum-approval:
       approve_button: Aprobar
   ref:
     awaiting_approval: 'Esperando aprobación'
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        approved: 'Aprobado {discussion}'
