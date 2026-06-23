@@ -4,5 +4,310 @@
 
 fof-badges:
   admin:
+    actions: 'Acciones al ganar insignia'
+    active: Activa
+    add_to_group: 'Añadir usuario al grupo'
+    add_to_group_help: 'Añadir automáticamente al usuario a este grupo cuando gane la insignia.'
+    appearance: Apariencia
+    assign: Asignar
+    assign_badge: 'Asignar: {badge}'
+    assign_reason: 'Razón (opcional)'
+    assign_reason_help: 'Esta razón será visible en la insignia del usuario.'
+    assign_reason_placeholder: '¿Por qué se otorga esta insignia?'
+    automatic: Automática
+    background_color: 'Color de fondo'
+    badge_assigned: '¡Insignia "{badge}" asignada a {username}!'
+    badge_category: Categoría
+    badge_count: '{count, plural, one {# insignia} other {# insignias}}'
+    badge_description: Descripción
+    badge_description_placeholder: 'Describe cómo ganar esta insignia...'
+    badge_name: Nombre
+    badge_name_placeholder: 'ej., "Maestro de 100 publicaciones"'
+    badge_revoked: 'Se ha revocado la insignia "{badge}" a {username}.'
+    badge_slug: Slug
+    badge_slug_help: 'Identificador amigable para URLs. Se genera automáticamente a partir del nombre si se deja vacío.'
+    badge_slug_placeholder: 'ej., "maestro-100-publicaciones"'
+    cancel: Cancelar
+    category_description: Descripción
+    category_description_placeholder: 'Describe esta categoría de insignias...'
+    category_enabled: Habilitada
+    category_enabled_help: 'Las categorías deshabilitadas y sus insignias no aparecerán en la lista de insignias.'
+    category_name: Nombre
+    category_name_placeholder: 'ej., "Insignias de logros"'
+    category_slug: Slug
+    category_slug_help: 'Identificador amigable para URLs de la categoría.'
+    category_slug_placeholder: 'ej., "logros"'
+    clear_selection: 'Limpiar selección'
+    create_badge: 'Crear insignia'
+    create_category: 'Crear categoría'
+    delete: Eliminar
+    delete_badge_confirm: '¿Seguro que quieres eliminar la insignia "{name}"? Esto también la eliminará de todos los usuarios que la hayan ganado.'
+    delete_category_confirm: '¿Seguro que quieres eliminar la categoría "{name}"?'
+    delete_category_confirm_with_badges: '¿Seguro que quieres eliminar la categoría "{name}"? {count, plural, one {# insignia} other {# insignias}} pasarán a estar sin categoría.'
+    disabled: Deshabilitada
+    earned_count: '{count} obtenida'
+    edit: Editar
+    edit_badge: 'Editar insignia'
+    edit_category: 'Editar categoría'
+    enabled: Habilitada
+    granted_by_system: Sistema
+    headers:
+      badges: Insignias
+      description: Descripción
+      earned: Obtenido
+      icon: Icono
+      name: Nombre
+      order: Orden
+      rarity: Rareza
+      status: Estado
+      type: Tipo
+    icon_color: 'Color del icono'
+    icon_picker:
+      collapse: 'Ocultar selector de iconos'
+      expand: 'Mostrar selector de iconos'
+      hint: 'Haz clic en un icono para seleccionarlo o escribe un nombre de clase de Font Awesome arriba.'
+    inactive: Inactiva
+    install_defaults: 'Instalar insignias predeterminadas'
+    install_defaults_error: 'Error al instalar insignias predeterminadas.'
+    install_defaults_success: '¡Insignias predeterminadas instaladas correctamente!'
+    is_active: Activa
+    is_active_help: 'Las insignias inactivas no serán otorgadas automáticamente a los usuarios.'
+    is_visible: 'Visible en la lista de insignias'
+    is_visible_help: 'Las insignias ocultas no aparecerán en la lista pública de insignias, pero los usuarios aún podrán ganarlas.'
+    manual: Manual
+    metrics:
+      best_answers_received: 'Mejores respuestas recibidas'
+      discussion_count: 'Discusiones iniciadas'
+      downvotes_given: 'Votos negativos dados'
+      downvotes_received: 'Votos negativos recibidos'
+      edit_count: 'Publicaciones editadas'
+      files_uploaded: 'Archivos subidos'
+      has_avatar: 'Tiene avatar'
+      has_bio: 'Tiene biografía'
+      has_nickname: 'Tiene apodo'
+      likes_given: 'Me gusta dados'
+      likes_received: 'Me gusta recibidos'
+      member_days: 'Días como miembro'
+      polls_created: 'Encuestas creadas'
+      polls_voted: 'Encuestas votadas'
+      post_count: 'Recuento de publicaciones'
+      private_discussions_created: 'Discusiones privadas creadas'
+      reactions_given: 'Reacciones dadas'
+      reactions_received: 'Reacciones recibidas'
+      tag_posts: 'Publicaciones en etiqueta'
+      upvotes_given: 'Votos positivos dados'
+      upvotes_received: 'Votos positivos recibidos'
+    move_down: 'Mover abajo'
+    move_up: 'Mover arriba'
+    next: Siguiente
+    no_badges: 'No hay insignias aún. ¡Crea tu primera insignia!'
+    no_categories: 'No hay categorías aún. ¡Crea tu primera categoría!'
+    no_category: 'Sin categoría'
+    no_group: 'No añadir a un grupo'
+    no_holders: 'Nadie ha ganado esta insignia todavía.'
+    no_holders_found: 'No se encontraron poseedores que coincidan con tu búsqueda.'
+    no_users_found: 'No se encontraron usuarios'
+    permissions:
+      give_manually: 'Asignar insignias manualmente'
+      moderate: 'Gestionar insignias'
+      view_list: 'Ver lista de insignias'
+      view_user_badges: 'Ver insignias de usuario'
+    preview: 'Vista previa'
+    previous: Anterior
+    rarity: '{percent}% de rareza'
+    recalculate: Recalcular
+    recalculate_confirm: 'Esto recalculará todas las insignias automáticas para todos los usuarios. El proceso se ejecutará en segundo plano. ¿Continuar?'
+    recalculate_error: 'Error al recalcular las insignias. Por favor, inténtalo de nuevo.'
+    recalculate_success: '¡Recálculo completo! Otorgadas: {awarded}, Revocadas: {revoked}, Usuarios procesados: {users}'
+    recalculate_tab:
+      all_badges: 'Todas las insignias automáticas'
+      badge_help: 'Selecciona una insignia específica o recalcula todas las insignias automáticas.'
+      badge_label: 'Insignia a recalcular'
+      badges_to_check: 'Insignias a comprobar'
+      chunk_size_help: 'Número de usuarios a procesar por trabajo. Los fragmentos más pequeños son más fiables pero tardan más en total.'
+      chunk_size_label: 'Tamaño del fragmento'
+      default: predeterminado
+      estimated_chunks: 'Fragmentos estimados'
+      info: 'El recálculo procesa a los usuarios en fragmentos para evitar tiempos de espera agotados en la cola. Cada fragmento se ejecuta como un trabajo en segundo plano independiente.'
+      jobs_empty: 'No hay trabajos de recálculo todavía.'
+      jobs_title: 'Historial de trabajos'
+      no_automatic_badges: 'No hay insignias automáticas configuradas. Primero crea una insignia con condiciones de activación.'
+      no_revoke_help: 'Si está activado, los usuarios que ya no cumplan los criterios conservarán sus insignias.'
+      no_revoke_label: 'No revocar insignias existentes'
+      reapply_actions_help: 'Si está activado, las acciones de insignia (como añadir a un grupo) se volverán a aplicar a los usuarios que ya tengan la insignia. Útil si has añadido nuevas acciones a una insignia existente.'
+      reapply_actions_label: 'Reaplicar acciones a los poseedores de insignias existentes'
+      show_more: 'Mostrar {count} más'
+      start: 'Iniciar recálculo'
+      sync_counts: 'Sincronizar recuentos'
+      sync_counts_error: 'Error al sincronizar los recuentos.'
+      sync_counts_info: 'Recalcula el "recuento de obtenidos" para todas las insignias basado en los registros reales de user_badges. Úsalo si los recuentos se vuelven incorrectos tras un recálculo.'
+      sync_counts_success: '¡Recuentos de insignias sincronizados! Se corrigieron {corrected} de {total} insignias.'
+      sync_counts_title: 'Sincronizar recuento de insignias'
+      title: 'Iniciar recálculo'
+      total_users: 'Usuarios totales'
+    recalculation:
+      already_running: 'Ya hay un recálculo de insignias en curso.'
+      auto_refresh_off: 'Actualización automática'
+      auto_refresh_on: 'Actualización automática activada'
+      cancel: Cancelar
+      cancel_confirm: '¿Seguro que quieres cancelar el recálculo? Se perderá el progreso.'
+      cancel_error: 'Error al cancelar el recálculo.'
+      cancelled: 'Recálculo cancelado'
+      chunks: 'Fragmentos: {processed} / {total}'
+      completed: '¡Recálculo completado!'
+      dismiss: Descartar
+      failed: 'Error en el recálculo'
+      pending: 'Preparando recálculo...'
+      progress: '{processed} / {total} evaluaciones ({percentage}%)'
+      running: 'Recalculando insignias...'
+      started: 'Se ha iniciado el recálculo de insignias. Se ejecutará en segundo plano.'
+      stats: 'Otorgadas: {awarded} | Revocadas: {revoked}'
+    recalculation_jobs:
+      button: Trabajos
+      cancel: Cancelar
+      cancel_error: 'Error al cancelar el trabajo.'
+      cancelled: 'Trabajo cancelado correctamente.'
+      empty: 'No se encontraron trabajos de recálculo.'
+      force_cancel: 'Cancelar forzosamente'
+      mark_failed: 'Marcar como fallido'
+      mark_failed_error: 'Error al marcar el trabajo como fallido.'
+      marked_failed: 'Trabajo marcado como fallido.'
+      results: 'Otorgadas: {awarded} | Revocadas: {revoked}'
+      status:
+        cancelled: Cancelado
+        completed: Completado
+        failed: Fallido
+        pending: Pendiente
+        running: 'En ejecución'
+      stuck: Atascado
+      title: 'Trabajos de recálculo'
+      users: '{processed} / {total} evaluaciones'
+    revoke: Revocar
+    revoke_confirm: '¿Seguro que quieres revocar la insignia "{badge}" a {username}?'
+    revoke_error: 'Error al revocar la insignia.'
+    save: Guardar
+    search_holders_placeholder: 'Buscar poseedores...'
+    search_user_placeholder: 'Buscar por nombre de usuario o nombre visible...'
+    select_user: 'Seleccionar usuario'
+    send_notification: 'Enviar notificación al usuario'
+    settings:
+      display_title: 'Ajustes de visualización'
+      integrations_help: 'Métricas de insignias que dependen de otras extensiones. Instala la extensión para desbloquear las métricas correspondientes.'
+      integrations_title: 'Integraciones de extensiones'
+      new_badge_highlight: 'Mostrar etiqueta "NUEVO" en insignias obtenidas recientemente'
+      new_badge_highlight_help: 'Muestra una etiqueta "NUEVO" en las insignias ganadas en los últimos 7 días.'
+      post_badge_display_limit: 'Límite de visualización de insignias en publicaciones'
+      post_badge_display_limit_help: 'Número máximo de insignias a mostrar bajo las publicaciones. Establecer en 0 para deshabilitar.'
+      primary_badge_display: 'Visualización de insignia principal'
+      primary_badge_display_help: 'Cómo aparece la insignia principal del usuario junto a su nombre de usuario.'
+      primary_badge_hidden: Oculta
+      primary_badge_icon: 'Solo icono'
+      primary_badge_icon_name: 'Icono y nombre'
+      save: 'Guardar ajustes'
+      save_error: 'Error al guardar los ajustes.'
+      saved: 'Ajustes guardados correctamente.'
+      show_badges_on_user_card: 'Mostrar insignias en la tarjeta de usuario'
+      show_badges_on_user_card_help: 'Muestra la insignia favorita o más rara del usuario en las tarjetas de usuario y páginas de perfil.'
+    showing_holders: 'Mostrando {from}-{to} de {total}'
+    status: Estado
+    tab_assign: Asignar
+    tab_holders: 'Poseedores ({count})'
     tabs:
       badges: Insignias
+      categories: Categorías
+      recalculation: Recalcular
+      settings: Ajustes
+    trigger_builder:
+      add_condition: 'Añadir condición'
+      and: 'TODAS deben coincidir (Y)'
+      and_help: 'El usuario debe cumplir todas las condiciones simultáneamente para ganar esta insignia.'
+      date_end: 'Fecha de finalización'
+      date_range_help: 'Solo contar la actividad dentro de este rango de fechas. Útil para insignias de eventos.'
+      date_start: 'Fecha de inicio'
+      loading_tags: 'Cargando etiquetas...'
+      logic: 'Cuando hay múltiples condiciones'
+      no_conditions_info: 'No hay condiciones establecidas. Esta insignia solo puede ser asignada manualmente por moderadores.'
+      or: 'CUALQUIERA debe coincidir (O)'
+      or_help: 'El usuario debe cumplir al menos una condición para ganar esta insignia.'
+      remove_condition: 'Eliminar condición'
+      select_tag: 'Seleccionar una etiqueta...'
+      tag_filter: 'Filtro de etiquetas'
+      tag_filter_help: 'Obligatorio al usar la métrica "Publicaciones en etiqueta".'
+      use_date_range: 'Limitar a rango de fechas'
+    trigger_config: 'Activador automático'
+    trigger_config_help: 'Configura las condiciones para otorgar insignias automáticamente. Déjalo vacío para insignias solo manuales.'
+    uncategorized: 'Sin categoría'
+    validation:
+      tag_required: 'Debes seleccionar una etiqueta cuando utilices la métrica "Publicaciones en etiqueta".'
+  forum:
+    all_badges: 'Todas las insignias'
+    badges_subtitle: '¡Gana insignias participando en la comunidad!'
+    badges_title: Insignias
+    earned_by: '{count, plural, one {# usuario} other {# usuarios}}'
+    earned_users: 'Ganada por'
+    loading: Cargando...
+    more_users_earned: 'Y más usuarios...'
+    my_badges: 'Mis insignias'
+    nav:
+      badges: Insignias
+    new_tag: NUEVO
+    no_badges: 'No hay insignias disponibles aún.'
+    no_users_earned: 'Nadie ha ganado esta insignia todavía. ¡Sé el primero!'
+    notification:
+      a_badge: 'una insignia'
+      badge_earned: 'Has ganado {badge}'
+    other_badges: 'Otras insignias'
+    owned_badge: 'Posees esta insignia'
+    toggle_category_dropdown: 'Alternar menú desplegable de categorías'
+    user:
+      assign_badge: 'Asignar insignia'
+      assign_badge_title: 'Asignar insignia a {username}'
+      assign_button: 'Asignar insignia'
+      assign_reason: 'Razón (opcional)'
+      assign_reason_help: 'Esta razón será visible en la insignia del usuario.'
+      assign_reason_placeholder: '¿Por qué se otorga esta insignia?'
+      badge_actions: 'Acciones de insignia'
+      badge_assigned: '¡Insignia "{badge}" asignada a {username}!'
+      badge_revoked: 'La insignia "{badge}" ha sido revocada.'
+      badges_count: '{count, plural, one {# insignia} other {# insignias}}'
+      badges_tab: Insignias
+      badges_title: 'Insignias de {username}'
+      cancel: Cancelar
+      earned_on: 'Obtenida el {date}'
+      favorite_badge: 'Insignia favorita'
+      hidden_badge: 'Oculta del perfil'
+      hide_badge: 'Ocultar en perfil'
+      load_more: 'Cargar más'
+      manually_awarded: 'Otorgada manualmente'
+      no_badges: 'Este usuario aún no ha ganado ninguna insignia.'
+      no_badges_available: 'No hay insignias disponibles.'
+      recalculate: 'Recalcular insignias'
+      recalculate_error: 'Error al recalcular las insignias. Por favor, inténtalo de nuevo.'
+      recalculate_modal:
+        all_badges: 'Todas las insignias automáticas'
+        badge_label: 'Insignia a recalcular'
+        manual: manual
+        no_revoke_help: 'Si está activado, el usuario conservará las insignias incluso si ya no cumple los criterios.'
+        no_revoke_label: 'No revocar insignias existentes'
+        reapply_actions_help: 'Reaplicar acciones de insignia (como añadir a un grupo) si el usuario ya tiene la insignia.'
+        reapply_actions_label: 'Reaplicar acciones a insignias existentes'
+        submit: Recalcular
+        title: 'Recalcular insignias'
+      recalculate_reapplied: 'Acciones reaplicadas para {reapplied} insignias'
+      recalculate_success: '¡Insignias recalculadas! Otorgadas: {awarded}, Revocadas: {revoked}, Reaplicadas: {reapplied}'
+      remove_favorite: 'Quitar favorita'
+      revoke_badge: 'Revocar insignia'
+      revoke_confirm: '¿Seguro que quieres revocar la insignia "{badge}" de este usuario?'
+      revoke_error: 'Error al revocar la insignia.'
+      select_badge: 'Seleccionar una insignia...'
+      select_badge_label: 'Seleccionar insignia'
+      set_favorite: 'Marcar como favorita'
+      show_badge: 'Mostrar en perfil'
+      view_all_badges: 'Ver todas las insignias'
+  lib:
+    rarity_common: Común
+    rarity_epic: Épica
+    rarity_explain: 'El {percent}% de los usuarios tiene esta insignia'
+    rarity_legendary: Legendaria
+    rarity_rare: Rara
+    rarity_uncommon: 'Poco común'
