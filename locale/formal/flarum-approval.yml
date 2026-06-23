@@ -22,3 +22,5 @@ flarum-audit:
     browser:
       discussion:
         approved: 'Aprobado {discussion}'
+      post:
+        approved: 'Aprobaste el {post} de {postuser} en {discussion}'
