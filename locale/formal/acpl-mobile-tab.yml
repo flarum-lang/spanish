@@ -32,6 +32,7 @@ acpl-mobile-tab:
       home: Inicio
       log_in: Ingresar
       messages: Mensajes
+      new_discussion: 'Nueva discusión'
       notifications: Notificaciones
       profile: Perfil
       search: Buscar

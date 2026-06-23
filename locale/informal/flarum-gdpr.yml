@@ -2,6 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-gdpr/es/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        gdpr_anonymized: 'Anonimizó los datos de {username}'
+        gdpr_deleted: 'Eliminó los datos de {username}'
+        gdpr_erasure_cancelled: 'Canceló la solicitud de eliminación de los datos de {username}'
+        gdpr_erasure_confirmed: 'Confirmó la solicitud de eliminación de los datos de {username}'
+        gdpr_erasure_requested: 'Solicitó la eliminación de los datos de {username}'
+        gdpr_exported: 'Exportó los datos de {username}'
 flarum-gdpr:
   admin:
     gdpr_page:
