@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.1 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+
+
+All changes: [2.0.0...2.0.1](https://github.com/flarum-lang/spanish/compare/2.0.0...2.0.1).
+
+
 2.0.0 (2026-07-24)
 ------------------
 
