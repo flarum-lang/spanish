@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 
 
