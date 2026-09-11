@@ -2,6 +2,52 @@ CHANGELOG
 =========
 
 
+1.13.3 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+
+
+All changes: [1.13.2...1.13.3](https://github.com/flarum-lang/spanish/compare/1.13.2...1.13.3).
+
+
 1.13.2 (2026-07-24)
 -------------------
 
