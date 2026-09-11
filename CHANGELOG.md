@@ -10,6 +10,7 @@ CHANGELOG
 * [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
@@ -34,7 +35,12 @@ CHANGELOG
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 
 
 **Updated translations for extensions**:
@@ -44,6 +50,8 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
 
 All changes: [1.13.2...1.13.3](https://github.com/flarum-lang/spanish/compare/1.13.2...1.13.3).
