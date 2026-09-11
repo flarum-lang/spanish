@@ -82,3 +82,8 @@ fof-geoip:
     user:
       settings:
         ip_country: 'Mostrar la bandera del país desde donde publico'
+  lib:
+    map_modal:
+      error: Error
+      ip_address: 'Dirección IP'
+      organization: Organización
