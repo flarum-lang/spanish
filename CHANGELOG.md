@@ -43,6 +43,7 @@ CHANGELOG
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 
 
 All changes: [1.13.2...1.13.3](https://github.com/flarum-lang/spanish/compare/1.13.2...1.13.3).
