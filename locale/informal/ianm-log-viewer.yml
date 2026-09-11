@@ -17,6 +17,7 @@ ianm-log-viewer:
       delete_log: 'Eliminar archivo de registro'
       download_log: 'Descargar archivo de registro'
       file_contents_heading: 'Contenido del archivo'
+      file_size: 'Tamaño (bytes): {size}'
       last_updated: 'Última actualización: {updated}'
       no_file_selected: 'Seleccione un archivo de registro para ver su contenido.'
       view_log: 'Ver archivo de registro'
