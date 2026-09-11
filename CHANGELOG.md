@@ -8,7 +8,16 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+
+
+**Updated translations for extensions**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 
 
 All changes: [2.0.0...2.0.1](https://github.com/flarum-lang/spanish/compare/2.0.0...2.0.1).
