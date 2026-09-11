@@ -8,11 +8,16 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 
 
 **Updated translations for extensions**:
