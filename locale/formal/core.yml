@@ -12,8 +12,10 @@ core:
         config_override:
           help: 'Las configuraciones de FontAwesome están en el archivo config.php y no pueden ser cambiadas acá.'
           label: 'Anular configuración'
+        forced_style_help: 'Fuerza todos los iconos a utilizar un estilo concreto de FontAwesome, por ejemplo, **"fa-duotone fa-light"** o **"fa-regular"**. Esto sustituye el estilo definido por el núcleo y las extensiones. Los iconos de marcas nunca se modifican. La fuente de iconos que utilices debe ser compatible con el estilo seleccionado. Los iconos incluidos por defecto pertenecen a **FontAwesome Free**, que solo dispone de unos pocos cientos de iconos fuera del estilo **solid**. Por tanto, si fuerzas otro estilo, muchos iconos podrían quedar en blanco. Todos los estilos están disponibles utilizando una **CDN o Kit de FontAwesome Pro**. Déjalo vacío para desactivar esta opción.'
+        forced_style_label: 'Estilo de icono forzado'
         kit_url_help: 'Tu URL del script FontAwesome Kit (desde kit.fontawesome.com)'
-        kit_url_label: 'Kit URL'
+        kit_url_label: 'URL del Kit'
         preview:
           button: 'Vista previa Íconos'
           fa5_fa6_label: 'Alias FA5/FA6'
@@ -24,7 +26,7 @@ core:
         section_label: 'Íconos FontAwesome'
         source_cdn: CDN
         source_help: 'Elige como los íconos de FontAwesome se inician. Local utiliza fuentes incluidas en el paquete, CDN carga desde una CDN y Kit utiliza kits de FontAwesome con íconos personalizados.'
-        source_kit: 'FontAwesome Kit'
+        source_kit: 'Kit de FontAwesome'
         source_label: 'Origen del Ícono'
         source_local: 'Local (Paquete)'
       maintenance:
@@ -66,6 +68,10 @@ core:
         custom_driver: 'Tu foro está utilizando el controlador de cola {driver}, que es proporcionado por una extensión.'
         memory_help: 'Memoria máxima que el proceso de cola puede usar antes de reiniciarse. El valor predeterminado es 128 MB.'
         memory_label: 'Límite de memoria (MB)'
+        pause_all_label: 'Pausar todas las colas'
+        pause_help: 'Mientras estén en pausa, los procesos de trabajo dejarán de recoger nuevas tareas de las colas afectadas. Las tareas se acumularán hasta que se reanude el procesamiento. Las tareas que ya estén en ejecución no se verán afectadas.'
+        pause_label: 'Pausar el procesamiento de la cola'
+        pause_queue_label: 'Pausar la cola {queue}'
         rest_help: 'Tiempo de espera entre tareas de procesamiento. El valor predeterminado es 0 segundos.'
         rest_label: 'Tiempo de descanso (segundos)'
         retries_help: 'Número máximo de intentos de job antes de que falle. Por defecto 1.'
@@ -76,6 +82,8 @@ core:
         timeout_help: 'Máximo tiempo que puede correr un job antes de TimeOut. Por defecto son 60 segundos.'
         timeout_label: 'Job Timeout (segundos)'
       search:
+        cjk_mode_help: 'Actívalo si tu foro está principalmente en chino, japonés o coreano. La búsqueda por palabras de la base de datos no puede encontrar coincidencias parciales en textos CJK, por lo que esta opción cambia a una búsqueda por subcadenas que sí puede hacerlo. Es más lenta en foros muy grandes, donde configurar un analizador de texto completo compatible con CJK a nivel de base de datos (como el analizador ngram de MySQL/MariaDB) es una alternativa más rápida.'
+        cjk_mode_label: 'Optimizar la búsqueda para idiomas CJK (chino, japonés y coreano)'
         driver_heading: 'Controlador de búsqueda: {model}'
         driver_options:
           default: 'Búsqueda predeterminada en la base de datos'
@@ -85,7 +93,7 @@ core:
       title: Avanzado
     announcements:
       about: 'Las últimas noticias y anuncios provienen de la comunidad oficial de Flarum en discuss.flarum.org.'
-      comments_label: '{count, plural, one {# comment} other {# comments}}'
+      comments_label: '{count, plural, one {# comentario} other {# comentarios}}'
       description: 'Últimas noticias y comunicados del equipo de Flarum.'
       empty: 'No se encontraron anuncios.'
       hide: 'Ocultar anuncios'
@@ -128,6 +136,8 @@ core:
       logo_dark_mode_text: 'Sube un logotipo alternativo que se mostrará cuando el modo oscuro esté activado.'
       logo_heading: Logotipo
       logo_text: 'Suba una imagen para que sea mostrada en lugar del título del foro.'
+      show_theme_selector_help: 'Permite a los usuarios cambiar entre los esquemas de color disponibles mediante un control en la cabecera.'
+      show_theme_selector_label: 'Mostrar selector de tema'
       title: Apariencia
     basics:
       abandoned_extensions_heading: 'Extensiones abandonadas'
@@ -185,10 +195,13 @@ core:
         copy_success: 'Info del sistema copiada en portapapeles'
         title: 'Info del sistema'
       io_error_message: 'No se pudo escribir en el sistema de archivos. Verifica los permisos de su sistema de archivos y vuelve a intentarlo. O intenta ejecutar desde la línea de comandos.'
+      queue_paused_all_warning: 'El procesamiento de todas las colas está pausado. Las tareas se acumularán hasta que se reanude.'
+      queue_paused_manage: Gestionar
+      queue_paused_warning: 'El procesamiento de la cola está pausado (cola: {queues}). Las tareas se acumularán hasta que se reanude.'
       status:
         headers:
           queue-driver: 'Driver de cola'
-          scheduler-status: Scheduler
+          scheduler-status: Programador
           session-driver: 'Driver de sesión'
         scheduler:
           active: Activo
@@ -200,6 +213,9 @@ core:
     database-driver-mismatch-warning:
       detail: "Tu archivo <code>config.php</code> está configurado para utilizar el controlador de base de datos <code>{configured}</code>, pero Flarum ha detectado que el servidor de base de datos real es <code>{actual}</code>.\n\nUsar el controlador incorrecto puede provocar errores sutiles y difíciles de diagnosticar. Configura <code>'driver' => ''{actual}''</code> dentro de la sección <code>database</code> de tu archivo <code>config.php</code>. Consulta la <link>documentación de Flarum</link> para obtener más información.\n"
       label: 'El controlador de la base de datos no coincide'
+    database-version-warning:
+      below-recommended-detail: "Tu servidor {server} está ejecutando la versión \\<code>{version}\\</code>. Esta versión es compatible, pero Flarum recomienda {server} \\<code>{recommended}\\</code> o posterior para obtener el mejor rendimiento y utilizar una versión con mantenimiento activo. Consulta la \\<link>documentación de Flarum\\</link> para obtener más información.\n"
+      below-recommended-label: 'Versión de la base de datos desactualizada'
     debug-warning:
       detail: "Cuando el modo <code>debug</code> está activo, Flarum reconstruirá sus archivos <code>JavaScript</code> y <code>CSS</code> en cada solicitud, y también podría filtrar potencialmente otra información, como secretos de la base de datos, variables de entorno, etc.\n\nSe recomienda encarecidamente deshabilitar <code>debug</code> en su archivo <code>config.php</code> en producción. Consulte <link>Documentos de Flarum</link> para obtener más información.\n"
       label: 'Modo de depuración activo'
@@ -256,7 +272,7 @@ core:
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Configuración Mailgun'
       not_sending_message: 'Actualmente Flarum no envía correos electrónicos. Esto puede deberse al controlador seleccionado, o errores en su configuración.'
-      postmark_description: 'Enviar email vos API HTTP de Postmark. Opcionalmente, especifique un flujo de mensajes para utilizar un flujo distinto al predeterminado.'
+      postmark_description: 'Envía correos electrónicos mediante la API HTTP de Postmark. Opcionalmente, puedes especificar un flujo de mensajes para utilizar uno distinto del predeterminado.'
       postmark_heading: 'Configuración Postmark'
       send_test_mail_button: Enviar
       send_test_mail_heading: 'Enviar un correo de prueba'
@@ -315,6 +331,14 @@ core:
       section_suggested_help: 'Las extensiones de Flarum pueden añadir funciones adicionales opcionales especificando otras extensiones o paquetes. Estas pueden añadir más funciones o integraciones.'
       suggested_by: 'Sugerido por {extension}'
       title: 'Salud de extensión'
+    failed_jobs:
+      delete: Eliminar
+      details: Detalles
+      meta: 'Cola {queue} · falló {time}'
+      none: 'No hay tareas fallidas.'
+      retry: Reintentar
+      retry_all: 'Reintentar todo'
+      title: 'Tareas fallidas'
     header:
       get_help: 'Obtener ayuda'
       log_out_button: '=> core.ref.log_out'
@@ -399,6 +423,12 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: Cerrado
       signup_open_button: Abierto
+    queue_widget:
+      failed: Fallido
+      pending: Pendiente
+      refresh: Actualizar
+      reserved: 'En curso'
+      title: Cola
     search_source:
       general:
         heading: General
@@ -453,10 +483,10 @@ core:
       line_with_replacement: '{package} (reemplazo sugerido: {replacement})'
       subject: 'Acción requerida: se detectó extension/es abandonada/s'
     activate_account:
-      body: "Alguien (¡Esperemos que vos!) se ha registrado en {forum} con esta dirección de email.\n\nSi fuiste vos, simplemente hacé clic en el siguiente enlace y tu cuenta se activará:\n{url}\n\nSi no te has registrado, ignora este email.\n"
+      body: "Alguien (¡Esperemos que tú!) se ha registrado en {forum} con esta dirección de email.\n\nSi fuiste tu, simplemente hacé clic en el siguiente enlace y tu cuenta se activará:\n{url}\n\nSi no te has registrado, ignora este email.\n"
       subject: 'Active su cuenta de usuario'
     confirm_email:
-      body: "Alguien (¡Esperemos que vos!) se ha registrado en {forum} con esta dirección de email.\n\nSi vos, simplemente haz clic en el siguiente enlace y tu cuenta se activará:\n{url}\n\nSi no te has registrado, ignora este email.\n"
+      body: "Alguien (¡esperamos que hayas sido tú!) ha cambiado su dirección de correo electrónico en {forum} por esta.\n\nSi has sido tú, simplemente haz clic en el siguiente enlace para confirmar tu correo electrónico:\n{url}\n\nSi no has sido tú, puedes ignorar este correo.\n"
       subject: 'Confirme su correo electrónico'
     greeting: 'Ey {displayName},'
     informational:
@@ -473,10 +503,10 @@ core:
         unsubscribe_text: 'Si desea dejar de recibir este tipo de notificaciones, [cancele la suscripción aquí]({unsubscribeLink}).'
         unsubscribe_text_plain: 'Si desea dejar de recibir este tipo de notificaciones, cancele su suscripción aquí: {unsubscribeLink}'
     reset_password:
-      body: "Alguien (¡Esperemos que vos!) has solicitado que se le olvidó la contraseña de tu cuenta en {forum}.\n\nSi fuiste vos, hacé clic en el siguiente enlace para restablecer tu contraseña:\n{url}\n\nSi no deseas cambiar tu contraseña, simplemente ignora este email y no pasará nada.\n"
+      body: "Alguien (¡esperamos que hayas sido tú!) ha solicitado restablecer la contraseña de tu cuenta en {forum}.\n\nSi has sido tú, haz clic en el siguiente enlace para restablecer tu contraseña:\n{url}\n\nSi no deseas cambiar tu contraseña, simplemente ignora este correo y no ocurrirá nada.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
-      body: "Este es un email de prueba para confirmar que la configuración de tu email de Flarum funciona correctamente.\n\nSi lo solicitaste vos, significa que tu configuración funciona.\n\nSi no lo solicitaste, ignora este correo.\n"
+      body: "Este es un correo de prueba para confirmar que la configuración de correo electrónico de Flarum funciona correctamente.\n\nSi has sido tú quien ha realizado la prueba, este correo significa que la configuración funciona correctamente.\n\nSi no has sido tú, puedes ignorar este correo.\n"
       subject: 'Prueba de correo electrónico de Flarum'
     signoff: 'El equipo de {forumTitle}'
   forum:
@@ -554,6 +584,7 @@ core:
       session_dropdown_accessible_label: 'Alternar el menú desplegable de opciones de sesión'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
+      theme_switcher_accessible_label: 'Cambiar tema'
     index:
       all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 'No puede crear una discusión'
@@ -565,12 +596,14 @@ core:
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Alternar el menú desplegable de navegación'
     index_sort:
-      latest_button: 'Lo último'
+      az_button: '=> core.ref.title_az'
+      latest_button: '=> core.ref.latest'
       newest_button: '=> core.ref.newest'
       oldest_button: '=> core.ref.oldest'
       relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 'Cambiar el orden de la lista de discusiones'
-      top_button: 'Lo más comentado'
+      top_button: '=> core.ref.top'
+      za_button: '=> core.ref.title_za'
     log_in:
       forgot_password_link: '¿Olvidó su contraseña?'
       invalid_login_message: '=> core.ref.invalid_login_message'
@@ -582,7 +615,7 @@ core:
       username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
       delete_all_confirm: '¿Estás seguro de que quieres eliminar todas las notificaciones? Esta acción no es reversible'
-      delete_all_tooltip: 'Eliminar notificaciones'
+      delete_all_tooltip: 'Eliminar todas las notificaciones'
       discussion_renamed_text: '{username} cambió el título'
       empty_text: 'No hay notificaciones'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
@@ -734,6 +767,7 @@ core:
       reload_button: Recargar
     badge:
       hidden_tooltip: Oculto
+    connection_restored_message: 'Tu conexión se ha restablecido.'
     data_segment:
       label: '{label}:'
     datetime_formats:
@@ -767,7 +801,9 @@ core:
       generic_cross_origin_message: '¡Ups! Algo salió mal durante una solicitud de origen cruzado. Vuelve a cargar la página e inténtalo de nuevo.'
       generic_message: '¡Caramba! Algo salió mal. Por favor, cargue de nuevo la página y vuelva a intentarlo.'
       missing_dependencies_message: 'No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}'
+      network_message: 'Parece que hay algún problema con tu conexión. Comprueba tu red e inténtalo de nuevo.'
       not_found_message: '¡Recórcholis! El recurso solicitado no fue encontrado.'
+      offline_message: 'Parece que estás sin conexión. Comprueba tu conexión e inténtalo de nuevo.'
       payload_too_large_message: 'La solicitud de carga era demasiado grande.'
       permission_denied_message: '¡Nanay de la China! No tiene permiso para hacer eso.'
       rate_limit_exceeded_message: '¡Pare el carro! Va usted muy rápido. Por favor, vuelva a intentarlo en unos segundos.'
@@ -799,6 +835,14 @@ core:
         group:
           hint: 'nombres de grupos singulares o plurales'
           key: grupo
+    index_sort:
+      az_button: '=> core.ref.title_az'
+      latest_button: '=> core.ref.latest'
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
+      top_button: '=> core.ref.top'
+      za_button: '=> core.ref.title_za'
     input:
       clear_button: 'Limpiar datos de ingreso'
     loading_indicator:
@@ -812,6 +856,7 @@ core:
       placeholder: 'Seleccionar múltiples opciones'
     nav:
       drawer_button: 'Abrir el cuadro de navegación'
+      pin_pane_button: 'Fijar lista de discusiones'
     notices:
       bisecting: 'Ejecutar un proceso de búsqueda binaria de extensiones para determinar qué extensión está causando el problema.'
       bisecting_continue: 'Continuar bisección'
@@ -820,6 +865,8 @@ core:
     number_suffix:
       kilo_text: K
       mega_text: M
+    overflowing_list:
+      toggle_accessible_label: 'Más elementos'
     pagination:
       back_button: 'Página anterior'
       first_button: 'Ir a la primer página'
@@ -835,6 +882,7 @@ core:
       options_heading: 'Opciones de búsqueda'
       placeholder: Buscar...
       preview_heading: 'Buscar anterior'
+      search_active_button_accessible_label: 'Cambiar búsqueda: {query}'
       search_clear_button_accessible_label: 'Borrar consulta de búsqueda'
       title: Buscar
     search_source:
@@ -852,7 +900,7 @@ core:
       two_text: '{first} y {second}'
     user_selection_modal:
       empty_results: 'No se encontraron usuarios que coincidieran con su búsqueda.'
-      max_items_to_select: '{count, plural, one {Select up to # user} other {Select up to # users}}'
+      max_items_to_select: '{count, plural, one {Selecciona hasta # usuario} other {Selecciona hasta # usuarios}}'
       search_placeholder: '=> core.ref.search_users'
       submit_button: '=> core.ref.okay'
       title: 'Seleccione los usuarios relevantes'
@@ -883,6 +931,7 @@ core:
     icon: Icono
     icon_text: 'Introduzca el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.'
     invalid_login_message: 'Tus datos de inicio de sesión son incorrectos.'
+    latest: 'Más recientes'
     light_hc_mode_label: 'Modo claro de alto contraste'
     light_mode_label: 'Modo Claro'
     load_more: 'Cargar más'
@@ -915,6 +964,9 @@ core:
     sign_up: Regístrese
     some_others: '{count, plural, one {# más} other {# más}}'
     start_a_discussion: 'Crear discusión'
+    title_az: 'Título (A–Z)'
+    title_za: 'Título (Z–A)'
+    top: Principales
     username: 'Nombre de usuario'
     username_or_email_placeholder: 'Nombre de usuario o Email'
     users: Usuarios
