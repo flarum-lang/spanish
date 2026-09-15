@@ -5,6 +5,11 @@ CHANGELOG
 2.0.1 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations.
+
+
 **Added support for new extensions**:
 
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
