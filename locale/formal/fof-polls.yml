@@ -57,7 +57,7 @@ fof-polls:
       add_poll: 'Añadir encuesta'
       edit_poll: '=> fof-polls.forum.moderation.edit'
       no_permission_alert: 'No tiene permiso para iniciar una encuesta.'
-    days_remaining: 'La encuesta termina en {hora}.'
+    days_remaining: 'La encuesta termina en {time}.'
     max_votes_allowed: 'La encuesta permite votar por {max, plural, one {# option} other {# options}}.'
     modal:
       add_option_label: 'Añadir una opción'
@@ -73,7 +73,7 @@ fof-polls:
       hide_votes_label_help: 'El usuario que inició la encuesta siempre podrá ver los votos.'
       image_option_placeholder: 'URL de la imagen (opcional)'
       include_question: 'Debe incluir una pregunta'
-      max: 'Puede tener un máximo de 10 respuestas'
+      max: 'Puede tener un máximo de {max} respuestas'
       max_votes_help: 'Establecer a 0 para permitir a los usuarios votar por todas las opciones.'
       max_votes_label: 'Número máximo de votos por usuario'
       min: 'Debe incluir un mínimo de 2 respuestas'
