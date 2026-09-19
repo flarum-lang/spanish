@@ -27,7 +27,15 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 
 
 All changes: [2.0.0...2.0.1](https://github.com/flarum-lang/spanish/compare/2.0.0...2.0.1).
