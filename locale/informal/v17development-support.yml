@@ -151,7 +151,7 @@ v17development-flarum-support:
           placeholder: 'Díganos en qué podemos ayudarle'
           title: 'Información sobre el ticket'
         language:
-          description: 'Su ticket de soporte será tratado en {idioma}.'
+          description: 'Su ticket de soporte será tratado en {language}.'
           empty: 'No se ha seleccionado ningún idioma'
           placeholder: 'Seleccione un idioma'
           title: Idioma

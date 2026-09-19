@@ -326,7 +326,7 @@ core:
     composer_edit:
       discard_confirmation: 'Aún no ha publicado sus cambios. ¿Está seguro de que desea descartarlos?'
       edited_message: 'Se realizó su edición.'
-      post_link: 'Publicación n.º {number} en ''{discussion}'''
+      post_link: 'Publicación n.º {number} en {discussion}'
       submit_button: '=> core.ref.save_changes'
       view_button: '=> core.ref.view'
     composer_reply:
@@ -450,7 +450,7 @@ core:
       submit_button: '=> core.ref.rename'
       title: 'Cambiar el título de esta discusión'
     search:
-      all_discussions_button: 'Buscar ''{query}'' en todas las discusiones'
+      all_discussions_button: 'Buscar "{query}" en todas las discusiones'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
     security:

@@ -52,7 +52,7 @@ fof-ban-ips:
       unban_button: '=> fof-ban-ips.ref.unban_label'
       unban_ip_confirmation: '¿Estás seguro de que quieres desbloquear a este usuario y a todos los demás usuarios no expulsados por otras IPs?'
       unban_ip_no_users: 'Nadie más será desbloqueado'
-      unban_ip_users: '{count, plural, one {Se desbloqueará al usuario {users}} other {Se desbloquearán los usuarios {users}}'
+      unban_ip_users: '{count, plural, one {Se desbloqueará al usuario {users}} other {Se desbloquearán los usuarios {users}}}'
       unban_options_all_ip: 'Desbloquear todas las IPs utilizadas por <i>{username}</i>'
       unban_options_only_ip: 'Solo desbloquear la IP actual (<code>{ip}</code>)'
       unban_title: '=> fof-ban-ips.ref.unban_ip_addresses'

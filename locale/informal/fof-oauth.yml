@@ -59,7 +59,7 @@ fof-oauth:
       bad_verification_code: 'Token de verificación inválido o caducado. Por favor, inténtelo de nuevo.'
       invalid_state: 'Estado inválido. Por favor, inténtelo de nuevo.'
     log_in:
-      with_button: 'Iniciar sesión con {proveedor}'
+      with_button: 'Iniciar sesión con {provider}'
       with_discord_button: '=> fof-oauth.forum.log_in.with_button'
       with_facebook_button: '=> fof-oauth.forum.log_in.with_button'
       with_github_button: '=> fof-oauth.forum.log_in.with_button'
