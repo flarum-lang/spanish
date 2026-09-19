@@ -5,6 +5,11 @@ CHANGELOG
 1.13.3 (XXXX-XX-XX)
 -------------------
 
+**Cambios generales**:
+
+* Updated Flarum core translations.
+
+
 **Added support for new extensions**:
 
 * [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
@@ -47,11 +52,20 @@ CHANGELOG
 
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 
 
 All changes: [1.13.2...1.13.3](https://github.com/flarum-lang/spanish/compare/1.13.2...1.13.3).
