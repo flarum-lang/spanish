@@ -34,10 +34,12 @@ CHANGELOG
 * [`flarum/suspend`](https://github.com/flarum/suspend) (3 changed)
 * [`flarum/tags`](https://github.com/flarum/tags) (2 changed)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 changed)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (6 added)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links) (2 removed)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (2 changed)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (2 changed)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (4 changed)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (1 changed)
 * [`ramon/backup`](https://github.com/ram0ng1/backup) (2 changed)
 
