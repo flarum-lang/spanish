@@ -7,7 +7,7 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations.
+* Updated Flarum core translations (94 added, 306 changed).
 
 
 **Added support for new extensions**:
@@ -27,15 +27,15 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`flarum/mentions`](https://github.com/flarum/mentions)
-* [`flarum/pusher`](https://github.com/flarum/pusher)
-* [`flarum/suspend`](https://github.com/flarum/suspend)
-* [`flarum/tags`](https://github.com/flarum/tags)
-* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
-* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
-* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
-* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
-* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`flarum/mentions`](https://github.com/flarum/mentions) (2 changed)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed)
+* [`flarum/suspend`](https://github.com/flarum/suspend) (1 changed)
+* [`flarum/tags`](https://github.com/flarum/tags) (2 changed)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 changed)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (6 added)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (2 changed)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (2 changed)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (1 changed)
 
 
 All changes: [2.0.0...2.0.1](https://github.com/flarum-lang/spanish/compare/2.0.0...2.0.1).
