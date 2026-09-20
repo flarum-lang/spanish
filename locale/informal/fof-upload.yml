@@ -63,6 +63,7 @@ fof-upload:
           media-btn: 'Sólo el botón del gestor de medios'
           upload-btn: 'Solo botón Subir'
         title: 'Botones del compositor'
+      configured_by_environment: 'La configuración de almacenamiento se ha preconfigurado mediante vía Environment Variables.'
       disable-download-logging:
         title: 'Deshabilitar registro de descargas'
         toggle: Deshabilitar
@@ -91,6 +92,11 @@ fof-upload:
         max_width: 'Ancho/alto máximo de la imagen'
         title: 'Cambiar el tamaño de la imagen'
         toggle: 'Cambiar el tamaño de las imágenes'
+      svg-sanitizer:
+        allow_animate: 'Permitir animaciones SVG'
+        allow_animate_help: 'Habilitar animaciones SVG puede introducir vulnerabilidades de seguridad, ya que los SVG animados pueden contener código malicioso. Habilite esta configuración bajo su propia responsabilidad y sólo si confía en sus usuarios.'
+        help: 'Configure cómo se procesan y desinfectan los archivos SVG al subirlos. Los archivos SVG pueden contener scripts potencialmente dañinos y deben manejarse con cuidado. Los archivos SVG subidos se desinfectan al cargarlos y se eliminan los scripts y etiquetas dañinos.'
+        title: 'Desinfección SVG'
       watermark:
         file: 'Sube tu imagen de marca de agua'
         position: 'Posición de marca de agua'

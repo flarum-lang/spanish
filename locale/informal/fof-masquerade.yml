@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-masquerade/es/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      masqueradeanswers:
+        anonymize_description: '=> flarum-gdpr.lib.data.masqueradeanswers.delete_description'
+        delete_description: 'Borrar todos los campos con respuestas del perfil del usuario'
+        export_description: 'Exportar el campo respuestas del perfil del usuario'
 fof-masquerade:
   admin:
     buttons:
@@ -10,12 +17,13 @@ fof-masquerade:
       edit-field: 'Guardar cambios'
     fields:
       add: 'Añadir campo {field}'
+      delete-confirmation: '¿Seguro que deseas borrar el campo {field}? Esto no se puede deshacer.'
       description: Descripción
       description-help: "Descripción opcional para explicar el uso del campo.\n"
       edit: 'Editar campo {field}'
       force-user-to-completion: 'Obligar al usuario a completar el perfil'
       icon: Icono
-      icon-help: "Introduce el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.\n"
+      icon-help: "Muestra un ícono delante de los valores introducidos por el usuario. Para consultar los íconos disponibles, visite el <a>sitio web de FontAwesome</a>. Utilice nombres de íconos con el prefijo \"fa-\", como \"fas fa-info\".\n"
       name: Nombre
       name-help: "Nombre visible del campo.\n"
       on_bio: 'Mostrar campo en la descripción de usuario'

@@ -6,6 +6,12 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 'Opciones avanzadas'
+      build_button: 'Reconstruye Sitemaps Ahora'
+      build_button_help: 'Inicia una reconstrucción inmediata de todos los archivos Sitemaps del sitio. La tarea se enviará a la cola si está configurada; de lo contrario, se ejecutará inmediatamente.'
+      build_error: 'No se pudo poner en cola la reconstrucción del Sitemap. Por favor, revise sus registros y la configuración de la cola.'
+      build_success: 'La reconstrucción del sitemap se ha puesto en cola correctamente. Consulta los registros para supervisar el progreso.'
+      exclude_tags: 'Excluir todas las páginas de etiquetas del sitemap'
+      exclude_tags_help: 'Por defecto, cualquier etiqueta visible para los invitados será indexada'
       exclude_users: 'Excluir todos los perfiles de usuario del mapa del sitio'
       exclude_users_help: 'De forma predeterminada, cualquier usuario visible para los invitados será indexado'
       frequency:
@@ -13,6 +19,11 @@ fof-sitemap:
         hourly: 'Cada hora'
         twice_daily: 'Dos veces al día'
       frequency_label: '¿Con qué frecuencia debe el Programador reconstruir el mapa del sitio almacenado en caché?'
+      include_changefreq: 'Incluir valores de frecuencia de cambios en el Sitemap'
+      include_changefreq_help: 'Google ignora los valores de frecuencia de cambios, pero otros motores de búsqueda pueden utilizarlos para programar el rastreo'
+      include_priority: 'Incluir valores de prioridad en el Sitemap'
+      include_priority_help: 'Google ignora los valores de prioridad, pero otros motores de búsqueda como Bing y Yandex pueden utilizarlos'
+      last_build_time: 'Hora de la última construcción'
       mode_help: 'Seleccionar el modo correcto para el tamaño de su foro es de vital importancia.'
       mode_help_large: 'El límite técnico para los archivos de mapas de sitio es de 50.000. Si tiene más entradas para almacenar, ¡utilice la siguiente opción!'
       mode_help_multi: 'Ideal para foros más grandes, a partir de 10.000 elementos. Se generarán archivos de mapa del sitio comprimidos y de varias partes, que se almacenarán en la carpeta /public'

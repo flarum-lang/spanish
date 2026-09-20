@@ -5,7 +5,7 @@
 fof-analytics:
   admin:
     matomo-widget:
-      title: Matomo
+      title: 'Datos Matomo Analytics'
     popup:
       field:
         googleGTMCode: 'ID del código GTM (opcional)'
