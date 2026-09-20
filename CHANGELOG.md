@@ -2,6 +2,51 @@ CHANGELOG
 =========
 
 
+2.0.1 (2026-09-20)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (94 added, 306 changed).
+
+
+**Added support for new extensions**:
+
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed)
+* [`flarum/mentions`](https://github.com/flarum/mentions) (2 changed)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed)
+* [`flarum/realtime`](https://github.com/flarum/realtime) (8 changed)
+* [`flarum/suspend`](https://github.com/flarum/suspend) (3 changed)
+* [`flarum/tags`](https://github.com/flarum/tags) (2 changed)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 changed)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (6 added)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (2 removed)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (2 changed)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (2 changed)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (4 changed)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (1 changed)
+* [`ramon/backup`](https://github.com/ram0ng1/backup) (2 changed)
+
+
+All changes: [2.0.0...2.0.1](https://github.com/flarum-lang/spanish/compare/2.0.0...2.0.1).
+
+
 2.0.0 (2026-07-24)
 ------------------
 
