@@ -23,8 +23,8 @@ flarum-suspend:
   forum:
     notifications:
       user_suspended_indefinite_text: 'Has sido suspendido indefinidamente'
-      user_suspended_text: '{username} le ha suspendido durante {timeReadable}'
-      user_unsuspended_text: '{username} le ha quitado la suspensión'
+      user_suspended_text: 'Te han suspendido durante {timeReadable}'
+      user_unsuspended_text: 'Te han quitado la suspensión'
     suspend_user:
       display_message: 'Mostrar mensaje para el usuario'
       indefinitely_label: 'Suspender indefinidamente'

@@ -17,13 +17,13 @@ flarum-realtime:
       typing-indicator-help: 'Cuando está habilitada, sujeto a permisos, los usuarios pueden ver el número de otros usuarios que están escribiendo en una conversación. Cuando está deshabilitada, la actividad de escritura se elimina tanto de la interfaz de usuario como de la carga útil del websocket.'
   forum:
     push:
-      discussion-list-new-activity: '{count, plural, one {Show # updated discussion} other {Show # updated discussions}}'
-      discussion-list-new-activity-with-auto-release: '{count, plural, one {# discussion has} otro {# discussions have}} actualizó la actividad y será mostrada en {releaseTimeout} segundo. Click para mostrar ahora.'
+      discussion-list-new-activity: '{count, plural, one {Mostrar # discusión actualizada} other {Mostrar # discusiones actualizadas}}'
+      discussion-list-new-activity-with-auto-release: '{count, plural, one {# discusión tiene actividad actualizada y se mostrará en {releaseTimeout} segundos.} other {# discusiones tienen actividad actualizada y se mostrarán en {releaseTimeout} segundos.}} Haz clic para mostrar ahora.'
     typing-indicator:
       anonymous-user: '[Anónimo]'
       no-activity: 'Nadie está escribiendo'
-      people-are-typing: '{number, plural, one {# persona está escribiendo} otra {# persona está escribiendo}}'
-      users-are-typing: '{count, plural, one {{users} is typing} other {{users}{others, plural, =1 { & # other} =0 {} otra { & # otras}} están escribiendo}}'
+      people-are-typing: '{number, plural, one {# persona está escribiendo} other {# personas están escribiendo}}'
+      users-are-typing: '{count, plural, one {{users} está escribiendo} other {{users}{others, plural, =1 { & # otra} =0 {} other { & # otras}} están escribiendo}}'
     user:
       settings:
         heading: 'Tiempo Real'

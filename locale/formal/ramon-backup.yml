@@ -104,7 +104,7 @@ ramon-backup:
       target_title: 'Base de datos de destino'
       title: 'Crear copia de seguridad'
       warnings_help: 'Algunas columnas usan tipos que no tienen un equivalente directo en el motor de destino elegido. La copia de seguridad se completa, pero la columna de destino podría no validarse o comportarse de manera idéntica. Revisa cada nota abajo antes de confiar en esta copia de seguridad para la migración.'
-      warnings_title: '{count} advertencia de traducción|{count} advertencias de traducción'
+      warnings_title: '{count, plural, one {# advertencia de traducción} other {# advertencias de traducción}}'
     import_modal:
       cancel_button: Cancelar
       cancel_failed_warn: 'Modal cerrado, pero es posible que el servidor siga aplicando cambios. Verifica el estado del servidor antes de reintentar.'
