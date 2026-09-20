@@ -5,9 +5,9 @@ CHANGELOG
 1.13.3 (XXXX-XX-XX)
 -------------------
 
-**Cambios generales**:
+**General changes**:
 
-* Updated Flarum core translations.
+* Updated Flarum core translations (2 changed).
 
 
 **Added support for new extensions**:
@@ -50,22 +50,22 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`flarum/akismet`](https://github.com/flarum/akismet)
-* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
-* [`flarum/mentions`](https://github.com/flarum/mentions)
-* [`flarum/pusher`](https://github.com/flarum/pusher)
-* [`flarum/suspend`](https://github.com/flarum/suspend)
-* [`flarum/tags`](https://github.com/flarum/tags)
-* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
-* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
-* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
-* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
-* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
-* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
-* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
-* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
-* [`ianm/follow-users`](https://github.com/imorland/follow-users)
-* [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
+* [`flarum/akismet`](https://github.com/flarum/akismet) (6 added)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (4 changed)
+* [`flarum/mentions`](https://github.com/flarum/mentions) (4 changed)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed)
+* [`flarum/suspend`](https://github.com/flarum/suspend) (3 changed)
+* [`flarum/tags`](https://github.com/flarum/tags) (2 changed)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (36 added)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) (12 added)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (2 changed)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (2 changed)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) (2 changed)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (10 added)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) (1 changed)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added)
+* [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support) (2 changed)
 
 
 All changes: [1.13.2...1.13.3](https://github.com/flarum-lang/spanish/compare/1.13.2...1.13.3).
