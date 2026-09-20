@@ -81,7 +81,7 @@ fof-best-answer:
     remove_best_answer: 'Desmarcar Mejor Respuesta'
     this_best_answer: 'Seleccionar Mejor Respuesta'
     user:
-      best-answer-count: '{count, plural, one { {count} best answer} other {{count} best answers}}'
+      best-answer-count: '{count, plural, one { {count} mejor respuesta} other {{count} mejores respuestas}}'
   lib:
     gambits:
       solved-discussions:
