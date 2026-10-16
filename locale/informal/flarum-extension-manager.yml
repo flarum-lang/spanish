@@ -64,6 +64,7 @@ flarum-extension-manager:
         extension_not_found: 'La extensión no se ha encontrado o no existe.'
         extensions_incompatible_with_new_major: "Algunas extensiones instaladas no son compatibles con la versión principal más reciente. Espera a que los autores actualicen las extensiones para que sean compatibles o elimínalas antes de continuar.\n"
     extensions:
+      already_installed: 'Extensión ya instalada'
       check_why_it_failed_updating: 'Mostrar por qué no se actualizó a la última.'
       install: 'Instalar una nueva extensión'
       install_help: "Completa el nombre del paquete de extensión para continuar. Puedes especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/package-name:version</code>. Visita {link} para explorar extensiones disponibles.\n"

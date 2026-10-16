@@ -129,6 +129,8 @@ core:
       edit_css_button: 'Editar los Estilos Personalizados'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
+      email_logo_heading: 'Logotipo correo electrónico'
+      email_logo_text: 'Suba una imagen para que se muestre en la parte superior de los correos electrónicos. Se guarda en un formato que todos los clientes de correo pueden mostrar. Si no sube ninguna, los correos utilizarán una copia de su logotipo. Si sus correos muestran el título del foro en lugar de su logotipo, vuelva a subir su logotipo.'
       enter_hex_message: 'Por favor, introduce un código hexadecimal de color.'
       favicon_heading: 'Icono del sitio'
       favicon_text: 'Sube una imagen para que sea mostrada como icono de acceso directo al foro.'
@@ -187,6 +189,13 @@ core:
       username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Limpiar caché'
+      clear_cache_modal:
+        cleared: '{name} limpiado'
+        cleared_files: '{name} limpiado ({count} archivos)'
+        rebuilt: '{bundle} reconstruido'
+        title: 'Limpiando el Cache'
+        unchanged: '{bundle} ya estaba actualizado'
+        working: 'Reconstruyendo los archivos compilados. Esto puede tardar en foros más grandes.'
       description: 'Tu foro de un vistazo.'
       info_button: 'Info del sistema'
       info_modal:
