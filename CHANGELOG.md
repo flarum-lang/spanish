@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (16 added).
+
+
+**Added support for new extensions**:
+
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) (28% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet) (2 added, 100% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 100% complete)
+
+
+All changes: [2.0.1...2.0.2](https://github.com/flarum-lang/spanish/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-09-20)
 ------------------
 
