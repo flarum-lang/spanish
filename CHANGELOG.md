@@ -12,7 +12,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) (28% complete)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) (52% complete)
 
 
 **Updated translations for extensions**:
