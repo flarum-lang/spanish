@@ -6,6 +6,17 @@ tryhackx-advanced-pages:
   admin:
     edit_page:
       cancel_button: Cancelar
+      content_label: Contenido
+      content_type_label: 'Tipo de contenido'
+      create_title: 'Crear página'
+      delete_button: Borrar
+      delete_title: 'Borrar página'
+      edit_title: 'Editar página'
+      is_published_label: Publicado
+      parent_label: 'Página superior'
+      slug_label: 'Identificador URL (Slug)'
+      title_label: Título
+      type_text: 'Texto plano'
     pages:
       actions_column: Acciones
       create_button: 'Nueva página'
@@ -31,6 +42,20 @@ tryhackx-advanced-pages:
       manage_pages_label: 'Administrar Advanced Pages'
       view_spoilers_label: 'Ver contenido oculto (spoilers)'
     settings:
+      bbcode_center: '[center] — Centrar texto'
       bbcode_help: 'Activa o desactiva etiquetas BBCode personalizadas para renderizar páginas. Los cambios requieren limpiar el caché del formateador (php flarum cache:clear).'
+      bbcode_spoiler: '[spoiler] — Contenido oculto'
       bbcode_table: '[table] [tr] [th] [td] — Tablas'
+      bbcode_url: '[url] — Analizador de URL avanzado (admite enlaces rechazados por defecto en Flarum)'
+      code_buttons_in_posts: 'Añadir botones de selección y copiado rápido en bloques de código de las publicaciones'
+      forum_help: 'Personalizar la visualización de spoilers en los mensajes. Requiere vaciar la caché del formateador (php flarum cache:clear).'
+      forum_title: 'Integración con el foro'
+      replace_forum_spoiler: 'Usar spoiler de Advanced Pages en lugar del predeterminado de Flarum (details/summary)'
       title: 'Configuración de BBCode'
+  forum:
+    code:
+      copied: ¡Copiado!
+      copy: Copiar
+      select: Seleccionar
+    page:
+      not_found_title: 'Página no enconrada'
