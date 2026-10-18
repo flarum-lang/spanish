@@ -5,18 +5,52 @@
 tryhackx-advanced-pages:
   admin:
     edit_page:
+      allow_scripts_help: 'Controla el comportamiento de etiquetas script (desactivado por defecto): inhabilitadas no surten efecto; habilitadas ejecutan scripts internos y externos en el navegador de cada usuario. Advertencia: esto no constituye un entorno aislado (sandbox); el código HTML nativo puede ejecutar JavaScript por otros medios (como atributos onerror). Publique exclusivamente páginas de absoluta confianza.'
+      allow_scripts_label: 'Permitir ejecución de scripts en esta página'
       cancel_button: Cancelar
       content_label: Contenido
       content_type_label: 'Tipo de contenido'
-      create_title: 'Crear página'
+      create_title: 'Nueva página'
+      custom_breadcrumbs_css_help: 'Permite personalizar o suprimir la ruta de navegación jerárquica para esta página y sus subpáginas. Seleccione la clase .AdvancedPages-breadcrumbs — por ejemplo, asignando display:none para ocultarla por completo.'
+      custom_breadcrumbs_css_label: '¿Aplicar CSS personalizado a la ruta de navegación?'
       delete_button: Borrar
+      delete_confirmation: '¿Confirma que desea eliminar esta página de forma definitiva? Este proceso no se puede revertir.'
       delete_title: 'Borrar página'
+      discard_button: 'Descartar cambios'
       edit_title: 'Editar página'
+      is_hidden_label: 'Oculta (accesible únicamente para administradores)'
       is_published_label: Publicado
+      is_restricted_label: 'Protegida (exige iniciar sesión)'
+      keep_editing_button: 'Seguir editando'
+      meta_description_label: 'Descripción para motores de búsqueda (Meta SEO)'
+      newline_flarum: 'Flarum (estándar — los saltos múltiples equivalen a una única separación)'
+      newline_mode_label: 'Tratamiento de saltos de línea'
+      newline_preserve: 'Conservar formato (respeta cada salto de línea introducido)'
+      parent_help: 'Opcional. Permite anidar esta página bajo otra para crear rutas estructuradas (ej. /p/docs/primeros-pasos). Al seleccionar un nivel superior se sugiere una ruta base, pero podrá modificarla libremente.'
       parent_label: 'Página superior'
+      parent_none: '— Ninguna (Nivel raíz) —'
+      php_warning: 'Las páginas PHP ejecutan lógica directamente en el servidor. Emplee esta opción únicamente si domina los aspectos de seguridad. Los errores se registran en los registros del sistema, nunca se exponen al visitante.'
+      pin_icon_help: 'Clase CSS de FontAwesome, por ejemplo: "fas fa-book" o "far fa-file-alt". Si lo deja en blanco, se asignará un icono genérico predeterminado.'
+      pin_icon_label: 'Icono del menú (opcional)'
+      pin_short_name_help: 'Una etiqueta más compacta en caso de que el título principal resulte excesivamente largo. Si no se especifica, se empleará el título de la página.'
+      pin_short_name_label: 'Nombre abreviado para el menú'
+      pin_to_nav_help: 'Muestra la página como un acceso directo en la barra lateral del foro (junto a Discusiones, Usuarios, etc.). Hereda el orden establecido en el panel de páginas y respeta las restricciones de visibilidad.'
+      pin_to_nav_label: 'Anclar en el menú de navegación'
+      preview: 'Vista previa'
+      raw: 'Código fuente'
+      redirect_immediate_help: 'Activado: el visitante es redirigido de forma instantánea mediante una cabecera HTTP real. Desactivado: la página se muestra un instante antes de efectuar el salto automático. En ambos supuestos la visita computa en las estadísticas.'
+      redirect_immediate_label: 'Redirección inmediata'
+      redirect_url_help: 'Indica el destino al que se enviará a los visitantes. Use una dirección web absoluta (ej. https://ejemplo.com) o una ruta relativa interna (ej. /tags). Si fija la página en el menú de navegación, los clics quedarán registrados.'
+      redirect_url_label: 'URL de destino'
       slug_label: 'Identificador URL (Slug)'
+      submit_button: 'Guardar cambios'
       title_label: Título
+      type_redirect: Redirección
       type_text: 'Texto plano'
+      unsaved_message: 'Hay modificaciones sin guardar. ¿Desea cerrar el panel perdiendo los cambios?'
+      unsaved_title: 'Cambios pendientes'
+      visible_groups_help: 'Manténgalo todo seleccionado para visibilidad pública general. Desmarque grupos específicos para limitar permisos. Los administradores conservarán acceso permanente.'
+      visible_groups_label: 'Grupos con acceso'
     pages:
       actions_column: Acciones
       create_button: 'Nueva página'
@@ -29,7 +63,7 @@ tryhackx-advanced-pages:
       hidden: Oculta
       published: Publicada
       restricted: 'Acceso restringido (requiere sesión)'
-      slug_column: URL
+      slug_column: 'URL amigable'
       status_column: Estado
       title_column: Título
       type_column: Tipo
@@ -52,10 +86,23 @@ tryhackx-advanced-pages:
       forum_title: 'Integración con el foro'
       replace_forum_spoiler: 'Usar spoiler de Advanced Pages en lugar del predeterminado de Flarum (details/summary)'
       title: 'Configuración de BBCode'
+    support:
+      button: 'Contribuir al desarrollo'
+      copy: 'Copiar dirección'
+      description: 'Si esta extensión le resulta de utilidad, considere respaldar su mantenimiento mediante una donación voluntaria. Cada aporte ayuda a mantener el proyecto activo y actualizado.'
+      thanks: '¡Le agradecemos su colaboración!'
+      title: 'Apoyar el proyecto'
   forum:
     code:
       copied: ¡Copiado!
       copy: Copiar
       select: Seleccionar
     page:
-      not_found_title: 'Página no enconrada'
+      loading: 'Cargando contenido...'
+      not_found_message: 'La página solicitada no existe o no cuenta con los permisos requeridos para acceder a ella.'
+      not_found_title: 'Página no encontrada'
+    redirect:
+      countdown: 'Redirigiendo en {seconds} s…'
+      invalid: 'El destino configurado para esta redirección no es válido.'
+    spoiler:
+      locked: 'No dispone de los permisos necesarios para visualizar este contenido.'
