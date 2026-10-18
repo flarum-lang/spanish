@@ -12,12 +12,13 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) (52% complete)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) (100% complete)
 
 
 **Updated translations for extensions**:
 
 * [`flarum/akismet`](https://github.com/flarum/akismet) (2 added, 100% complete)
+* [`flarum/audit`](https://github.com/flarum/audit) (4 added, 100% complete)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 100% complete)
 
 
