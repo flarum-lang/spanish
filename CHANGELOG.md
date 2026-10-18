@@ -12,6 +12,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (34% complete)
 * [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) (100% complete)
 
 
