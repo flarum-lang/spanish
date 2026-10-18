@@ -20,6 +20,7 @@ CHANGELOG
 * [`flarum/akismet`](https://github.com/flarum/akismet) (2 added, 100% complete)
 * [`flarum/audit`](https://github.com/flarum/audit) (4 added, 100% complete)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 100% complete)
+* [`ramon/backup`](https://github.com/ram0ng1/backup) (18 added, 138 changed, 100% complete)
 
 
 All changes: [2.0.1...2.0.2](https://github.com/flarum-lang/spanish/compare/2.0.1...2.0.2).
