@@ -12,6 +12,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`datlechin/flarum-debugbar`](https://github.com/datlechin/flarum-debugbar) (100% complete)
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (100% complete)
 * [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (100% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (34% complete)
