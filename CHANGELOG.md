@@ -12,8 +12,8 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (50% complete)
-* [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (50% complete)
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (100% complete)
+* [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (100% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (34% complete)
 * [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) (100% complete)
 
