@@ -16,6 +16,7 @@ CHANGELOG
 * [`datlechin/flarum-debugbar`](https://github.com/datlechin/flarum-debugbar) (100% complete)
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (11% complete)
 * [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (100% complete)
+* [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail) (100% complete)
 * [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (34% complete)
 * [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) (100% complete)
