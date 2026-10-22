@@ -14,7 +14,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (50% complete)
 * [`datlechin/flarum-debugbar`](https://github.com/datlechin/flarum-debugbar) (100% complete)
-* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (99% complete)
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (96% complete)
 * [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (100% complete)
 * [`ernestdefoe/cuecard`](https://github.com/ernestdefoe/cuecard) (100% complete)
 * [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail) (100% complete)
