@@ -2,6 +2,40 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (16 added).
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (50% complete)
+* [`datlechin/flarum-debugbar`](https://github.com/datlechin/flarum-debugbar) (100% complete)
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (96% complete)
+* [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (100% complete)
+* [`ernestdefoe/cuecard`](https://github.com/ernestdefoe/cuecard) (100% complete)
+* [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail) (100% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (100% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (34% complete)
+* [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (100% complete)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet) (2 added, 100% complete)
+* [`flarum/audit`](https://github.com/flarum/audit) (4 added, 100% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 100% complete)
+* [`ramon/backup`](https://github.com/ram0ng1/backup) (18 added, 138 changed, 100% complete)
+
+
+All changes: [2.0.1...2.0.2](https://github.com/flarum-lang/spanish/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-09-20)
 ------------------
 
