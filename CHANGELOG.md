@@ -7,7 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (100% complete)
+* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (99% complete)
 
 
 All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/spanish/compare/2.0.2...2.0.3).
