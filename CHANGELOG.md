@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.3 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (87% complete)
+
+
+All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/spanish/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-10-24)
 ------------------
 
