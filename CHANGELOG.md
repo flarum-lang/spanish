@@ -5,6 +5,11 @@ CHANGELOG
 2.0.3 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations (24 added).
+
+
 **Added support for new extensions**:
 
 * [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (87% complete)
