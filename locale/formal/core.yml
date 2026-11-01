@@ -190,10 +190,16 @@ core:
     dashboard:
       clear_cache_button: 'Vaciar caché'
       clear_cache_modal:
+        chunks: 'Reconstruir los fragmentos divididos para {frontend} ({count} changed)'
         cleared: '{name} limpiado'
         cleared_files: '{name} limpiado ({count} archivos)'
+        empty: '{bundle} no tiene nada que compilar'
+        failed: 'No se pudo reconstruir {step}: {message}'
         rebuilt: '{bundle} reconstruido'
+        reload_button: Recargar
+        rewritten: 'Reescribió {bundle}'
         title: 'Limpiando el Cache'
+        took: '{time}ms'
         unchanged: '{bundle} ya estaba actualizado'
         working: 'Reconstruyendo los archivos compilados. Esto puede tardar en foros más grandes.'
       description: 'Tu foro de un vistazo.'
@@ -399,6 +405,7 @@ core:
       delete_posts_forever_label: 'Eliminar publicaciones para siempre'
       delete_posts_label: 'Eliminar publicaciones'
       description: 'Configura qué puede ver y hacer cada usuario.'
+      edit_own_avatar_label: 'Editar propio avatar'
       edit_posts_label: 'Editar publicaciones'
       edit_users_credentials_label: 'Editar credenciales de usuario'
       edit_users_groups_label: 'Editar grupos de usuarios'
@@ -621,6 +628,7 @@ core:
       sign_up_text: '¿Aún no tienes una cuenta? <a>¡Regístrate!</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      too_many_attempts_message: 'Demasiados intentos de inicio de sesión'
       username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
       delete_all_confirm: '¿Seguro que quieres eliminar todas las notificaciones? Esta acción no se puede deshacer'
@@ -722,6 +730,7 @@ core:
       notify_discussion_renamed_label: 'Alguien ha cambiado el título de una discusión que creaste'
       privacy_disclose_online_label: 'Permitir que otros vean cuándo estás conectado'
       privacy_heading: Privacidad
+      reset_notifications_button: 'Restablecer valores predeterminados'
       title: '=> core.ref.settings'
     sign_up:
       dismiss_button: '=> core.ref.okay'
@@ -844,6 +853,8 @@ core:
         group:
           hint: 'nombres de grupos en singular o plural'
           key: grupo
+    group_selector:
+      placeholder: 'Elige un grupo'
     index_sort:
       az_button: '=> core.ref.title_az'
       latest_button: '=> core.ref.latest'
@@ -975,6 +986,7 @@ core:
     start_a_discussion: 'Crear discusión'
     title_az: 'Título (A–Z)'
     title_za: 'Título (Z–A)'
+    too_many_login_attempts_message: 'Demasiados intentos fallidos de inicio de sesión. Por favor, espera unos minutos y vuelve a intentarlo.'
     top: 'Más comentados'
     username: 'Nombre de usuario'
     username_or_email_placeholder: 'Nombre de usuario o correo electrónico'
@@ -1031,6 +1043,7 @@ core:
       remember_me_label: '=> core.ref.remember_me_label'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      too_many_attempts_message: 'Demasiados intentos de inicio de sesión'
       username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     log_out:
       log_out_button: '=> core.ref.log_out'
