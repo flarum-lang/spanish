@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (87% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (95% complete)
 
 
 All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/spanish/compare/2.0.2...2.0.3).
