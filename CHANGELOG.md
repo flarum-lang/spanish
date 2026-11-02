@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+2.0.3 (2026-11-02)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (24 added).
+
+
+**Added support for new extensions**:
+
+* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (87% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (95% complete)
+
+
+All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/spanish/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-10-24)
 ------------------
 
