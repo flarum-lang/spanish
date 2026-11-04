@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.13.4 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (100% complete)
+
+
+All changes: [1.13.3...1.13.4](https://github.com/flarum-lang/spanish/compare/1.13.3...1.13.4).
+
+
 1.13.3 (2026-09-20)
 -------------------
 
