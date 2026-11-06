@@ -240,10 +240,47 @@ fof-badges:
     validation:
       tag_required: 'Debes seleccionar una etiqueta cuando utilices la métrica "Publicaciones en etiqueta".'
   defaults:
+    badges:
+      active-member:
+        description: 'Publicar 50 respuestas'
+        name: 'Miembro activo'
+      anniversary:
+        description: 'Miembro por un año'
+        name: Aniversario
+      conversation-starter:
+        description: 'Iniciar primera discusión'
+        name: 'Iniciador de conversaciones'
+      editor:
+        description: 'Editar 10 publicaciones para mejorarlas'
+        name: Editor
+      first-post:
+        description: 'Escribir primera respuesta'
+        name: 'Primera publicación'
+      first-week:
+        description: 'Miembro por 7 días'
+        name: 'Primera semana'
+      profile-picture:
+        description: 'Subir una imagen de perfil'
+        name: 'Imagen de perfil'
+      prolific:
+        description: 'Publicar 200 respuestas'
+        name: Prolífico
+      regular:
+        description: 'Miembro por 30 días'
+        name: Habitual
+      topic-starter:
+        description: 'Empezar 10 discusiones'
+        name: 'Creador de temas'
     categories:
       getting-started:
-        description: 'Insignias para los nuevos miembros en sus primeros pasos.'
+        description: 'Insignias para los nuevos miembros en sus primeros pasos'
         name: 'Primeros pasos'
+      milestones:
+        description: 'Insignias por alcanzar hitos importantes'
+        name: Hitos
+      posting:
+        description: 'Insignias por hitos de publicación y contribuciones'
+        name: Publicación
   forum:
     all_badges: 'Todas las insignias'
     badges_subtitle: '¡Gana insignias participando en la comunidad!'
