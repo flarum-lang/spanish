@@ -6,4 +6,90 @@ huseyinfiliz-leaderboard:
   admin:
     modals:
       cancel: Cancelar
+      close: Cerrar
+      none_selected: 'Ninguno seleccionado'
       save: Guardar
+      select_groups: 'Seleccionar grupos'
+      select_tags: 'Seleccionar etiquetas'
+    permissions:
+      view_leaderboard: 'Ver tabla de clasificación'
+    settings:
+      already_running: 'Ya hay un recálculo en progreso. Por favor, espere a que finalice.'
+      excluded_groups_help: 'Los usuarios de los grupos seleccionados quedarán excluidos de la tabla de clasificación.'
+      excluded_groups_label: 'Grupos excluidos'
+      excluded_tags_help: 'Las discusiones con las etiquetas seleccionadas no otorgarán puntos.'
+      excluded_tags_label: 'Etiquetas excluidas'
+      extension_not_enabled: 'Esta extensión no está activada.'
+      leaderboard_name_label: 'Nombre de la tabla de clasificación'
+      points_badge_earned_label: 'Puntos por obtener una insignia'
+      points_best_answer_label: 'Puntos por mejor respuesta'
+      points_changed_notice: 'El valor de los puntos ha cambiado. Sincronice los puntos para aplicar los nuevos valores.'
+      points_daily_login_label: 'Puntos por inicio de sesión diario'
+      points_discussion_started_label: 'Puntos por iniciar una discusión'
+      points_downvote_received_label: 'Puntos por recibir un voto negativo'
+      points_label_label: 'Etiqueta de puntos'
+      points_like_given_label: 'Puntos por dar un «Me gusta»'
+      points_like_received_label: 'Puntos por recibir un «Me gusta»'
+      points_post_created_label: 'Puntos por publicar una respuesta'
+      points_reaction_given_label: 'Puntos por dar una reacción'
+      points_reaction_received_label: 'Puntos por recibir una reacción'
+      points_upvote_received_label: 'Puntos por recibir un voto positivo'
+      recalculate_points_button: 'Recalcular toda la actividad'
+      recalculate_points_confirm: 'Se volverán a analizar los datos de origen y se reconstruirán los registros de puntos desde cero. Esto puede tardar unos minutos en foros grandes.'
+      recalculate_points_failed: 'El cálculo ha fallado. Puede intentarlo de nuevo.'
+      recalculate_points_help: 'Vuelve a analizar todos los datos de origen (discusiones, publicaciones, «Me gusta», etc.), elimina registros huérfanos, añade los faltantes y reconstruye los totales. Utilice esta opción tras cambiar exclusiones de etiquetas o si los datos parecen desincronizados.'
+      recalculate_points_retry: Reintentar
+      recalculate_points_success: 'Se ha recalculado toda la actividad correctamente.'
+      recalculate_points_title: 'Recalcular toda la actividad'
+      recalculate_points_warning: 'No cierre esta página ni navegue a otra sección mientras el cálculo esté en progreso. La operación fallará si se interrumpe.'
+      recalculate_totals_button: 'Sincronizar puntos'
+      recalculate_totals_help: 'Recalcula los totales de puntos de todos los usuarios utilizando los valores actuales. Utilice esta opción tras modificar el valor de los puntos.'
+      recalculate_totals_success: 'Puntos sincronizados correctamente.'
+      recalculate_totals_title: 'Sincronizar puntos'
+      section_badges: Insignias
+      section_best_answer: 'Mejor respuesta'
+      section_core: 'Puntos principales'
+      section_gamification: Gamificación
+      section_likes: 'Me gusta'
+      section_reactions: Reacciones
+      sync_step_badge_earned: 'Analizando insignias...'
+      sync_step_best_answer: 'Analizando mejores respuestas...'
+      sync_step_discussion_started: 'Analizando discusiones...'
+      sync_step_like_given: 'Analizando «Me gusta» dados...'
+      sync_step_like_received: 'Analizando «Me gusta» recibidos...'
+      sync_step_post_created: 'Analizando publicaciones...'
+      sync_step_reaction_given: 'Analizando reacciones dadas...'
+      sync_step_reaction_received: 'Analizando reacciones recibidas...'
+      sync_step_rebuild_totals: 'Reconstruyendo totales...'
+      sync_step_vote_received: 'Analizando votos...'
+      tags_changed_notice: 'Las exclusiones de etiquetas han cambiado. Recalcule toda la actividad para actualizar el historial de datos.'
+    tabs:
+      exclusions: Exclusiones
+      general: General
+      maintenance: Mantenimiento
+      points: Puntos
+  forum:
+    contenders:
+      title: 'Principales aspirantes'
+    honorable:
+      title: 'Menciones de honor'
+    list:
+      load_more: 'Mostrar más'
+      no_results: 'No hay resultados para este período.'
+      points: '{points} {label}'
+      rank: Puesto
+    period:
+      all: Histórico
+      daily: Diario
+      monthly: Mensual
+      quarterly: Trimestral
+      weekly: Semanal
+      yearly: Anual
+    permission_denied: 'No tiene permiso para ver la tabla de clasificación.'
+    podium:
+      first: 1.º
+      second: 2.º
+      stat_badges: Insignias
+      stat_comments: Comentarios
+      stat_discussions: Discusiones
+      third: 3.º
