@@ -239,6 +239,11 @@ fof-badges:
     uncategorized: 'Sin categoría'
     validation:
       tag_required: 'Debes seleccionar una etiqueta cuando utilices la métrica "Publicaciones en etiqueta".'
+  defaults:
+    categories:
+      getting-started:
+        description: 'Insignias para los nuevos miembros en sus primeros pasos.'
+        name: 'Primeros pasos'
   forum:
     all_badges: 'Todas las insignias'
     badges_subtitle: '¡Gana insignias participando en la comunidad!'
