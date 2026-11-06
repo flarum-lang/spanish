@@ -47,6 +47,9 @@ edgeinfinity-diy-homepage:
       dark: 'Oscuro y alto contraste oscuro'
       light: 'Claro y alto contraste claro'
     bridge_help: 'Cuando FoF Widgets Core está habilitado, los widgets nativos configurados para la página de inicio también aparecen en su tienda de widgets. Colocarlos allí no modifica este diseño. Los widgets FoF importados no se vuelven a exportar.'
+    button_style: 'Color del botón'
+    button_styles:
+      auto: 'Automático (apariencia existente)'
     choose_fof: 'Seleccione un widget FoF registrado…'
     configuration: 'JSON de configuración de la página de inicio'
     content_safe_width: 'Ancho de margen seguro para el contenido (%)'
@@ -123,6 +126,11 @@ edgeinfinity-diy-homepage:
     hero_subtitle_help: 'El subtítulo admite saltos de línea; déjelo en blanco para ocultarlo.'
     hero_title: 'Título del banner principal'
     hero_title_help: 'Déjelo en blanco para usar la etiqueta de navegación. Los títulos de navegación y la pestaña del navegador se mantienen independientes.'
+    home_mode: 'Página de inicio raíz del foro'
+    home_modes:
+      disabled: Deshabilitado
+      enabled: 'Habilitado (todos)'
+      guests: 'Solo invitados'
     icon: 'Clases del icono'
     icon_image: 'URL de la imagen del icono (prevalece sobre las clases de icono)'
     image_fit_manual: 'manual (escala personalizada)'
@@ -216,12 +224,17 @@ edgeinfinity-diy-homepage:
       fof: 'Predeterminado de FoF'
       inherit: 'Usar apariencia de la página'
     unavailable_type: 'La extensión que proporciona este widget no está disponible. Se conservará su configuración.'
+    variables: 'Variables de texto'
+    variables_defaults: 'Los valores predeterminados utilizan una cadena JSON entre comillas dobles después de una coma. Se aplican únicamente cuando un valor conocido falta o está vacío; se permite una cadena vacía. Las variables existentes sin valores predeterminados mantienen su comportamiento. Los nombres desconocidos o la sintaxis mal formada permanecen sin cambios. Los valores predeterminados son texto plano y no se vuelven a expandir.'
+    variables_escape: 'Duplique las llaves para mostrar una variable de forma literal, por ejemplo:'
+    variables_help: 'Utilice las variables a continuación en los títulos, subtítulos, bloques de texto, etiquetas de botones, texto alternativo o leyendas de imágenes, sugerencias del cuadro de búsqueda, etiquetas de estadísticas y texto del banner principal de la página. El nombre de usuario y el nombre público cambian a «Invitado» para los visitantes. Los valores se representan como texto plano, una sola vez; las variables desconocidas se conservan. Las URL, consultas, estilos, etiquetas de navegación y widgets de terceros no se expanden.'
     widget_type: 'Tipo de widget'
   forum:
     community: 'NUESTRA COMUNIDAD'
     deleted_user: 'Usuario eliminado'
     empty: 'Aún no hay nada que mostrar.'
     empty_home: 'Esta página de inicio aún no tiene widgets.'
+    guest: Invitado
     home: Inicio
     load_error: 'No se pudo cargar esta sección.'
     loading: Cargando…
@@ -260,6 +273,9 @@ edgeinfinity-diy-homepage:
       discussions:
         name: 'Colección de discusiones'
         title: 'Últimas conversaciones'
+      divider:
+        name: 'Divisor / espaciador'
+        title: Sección
       fof:
         name: 'Widget FoF'
         title: 'Widget de la comunidad'

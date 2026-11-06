@@ -4,6 +4,11 @@
 
 ernestdefoe-cadence:
   admin:
+    backfill:
+      activity: 'Construyendo el mapa de actividad a partir del historial del foro: {percent}%'
+      done: 'El historial de su foro ha sido construido.'
+      help: "Esto se ejecuta en segundo plano (en la cola si dispone de una, o en su defecto cada minuto a través del programador, y mientras esta página permanezca abierta). Las llamas de los miembros irán apareciendo a medida que se construyan. En foros grandes también puede ejecutar php flarum cadence:rebuild-streaks para seguir el proceso hasta que finalice.\n"
+      streaks: 'Construyendo las rachas a partir del historial de los miembros: {percent}%'
     map_heading: 'Mapa de actividad'
     show_on_cards: 'Mostrar una gráfica de tendencia (sparkline) en las tarjetas de usuario'
     show_on_cards_help: "En las tarjetas emergentes y en cualquier otro lugar donde se muestre el resumen de un miembro.\n"
@@ -13,7 +18,7 @@ ernestdefoe-cadence:
     show_on_profile_help: "Muestra el mapa de actividad completo en cada perfil. Es la opción recomendada para la mayoría de los foros.\n"
     streak:
       enabled: 'Rachas diarias'
-      enabled_help: "Otorga una llama a cada miembro que regresa continuamente, con niveles, congelaciones, tabla de clasificación y alertas. Si se desactiva, se oculta todo y se detiene el conteo, sin eliminar ningún dato.\n"
+      enabled_help: "El interruptor general de la función de rachas: las llamas, el botón del encabezado, el enlace a Rachas y la tabla de clasificación, la pestaña del perfil, los widgets, las alertas y los correos electrónicos. Desactívelo para utilizar Cadence únicamente como mapa de actividad; no se contabilizará nada mientras esté desactivado y no se eliminará ningún dato.\n"
       heading: Rachas
       in_header: 'Una llama en el encabezado'
       in_header_help: 'Junto a las notificaciones, mostrando la racha, el siguiente nivel y el resumen mensual a un clic.'
@@ -23,6 +28,7 @@ ernestdefoe-cadence:
       mode_visit: Visitando
       nav: 'Rachas en el menú de navegación lateral'
       nav_help: 'Un enlace a la tabla de clasificación debajo de Todas las discusiones.'
+      off_notice: "Las rachas están desactivadas. No se mostrará nada sobre ellas en ningún lugar del foro, y el mapa de actividad a continuación funcionará de manera independiente. Active las Rachas diarias y guarde los cambios para configurarlas.\n"
       on_cards: 'Una línea de racha en las tarjetas de usuario'
       on_cards_help: 'En las tarjetas de perfil emergentes.'
       on_posts: 'Una llama junto al nombre en las publicaciones'
@@ -105,6 +111,10 @@ ernestdefoe-cadence:
         name: Nombre
         preview: 'Vista previa'
         title: 'Niveles de llama'
+    widgets:
+      bonfire: Fogata
+      my_flame: 'Mi llama'
+      top_flames: 'Top llamas'
   email:
     embers:
       body: "Su llama de {count} días se apagó, pero sus brasas aún están encendidas. Publique algo pronto para recuperarla:\n\n{url}\n"
@@ -142,6 +152,7 @@ ernestdefoe-cadence:
       board:
         alight_now: 'Encendidas ahora: {count}'
         alltime: Histórico
+        building: 'Las llamas aún se están construyendo a partir del historial del foro ({percent}%). Pronto aparecerán más.'
         current: Actual
         empty: 'Aún no hay llamas. Sea el primero.'
         flame_out: 'Llama apagada'

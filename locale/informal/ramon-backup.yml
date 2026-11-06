@@ -13,37 +13,37 @@ ramon-backup:
       public_key:
         copied: ¡Copiado!
         copy_title: 'Copiar clave pública'
-        help_broken: 'El cifrado está configurado, pero no es posible descifrar archivos; consulte la alerta anterior.'
-        help_healthy: 'Las nuevas copias de seguridad cifradas se protegerán con esta clave. Cualquier persona que posea la clave privada correspondiente podrá descifralas.'
+        help_broken: 'El cifrado está configurado pero no se puede descifrar; revise la alerta superior.'
+        help_healthy: 'Las nuevas copias de seguridad cifradas se vincularán a esta clave. Cualquier persona con la clave privada correspondiente podrá descifralas.'
         label: 'Clave pública actual'
         remove_button: 'Renovar par de claves'
       regenerate_modal:
-        acknowledge: 'Entiendo y deseo renovar.'
+        acknowledge: 'Entiendo los riesgos y deseo renovarlas.'
         submit: 'Generar nuevo par de claves'
         title: 'Renovar par de claves de cifrado'
-        warning: 'Al generar un nuevo par de claves, las copias de seguridad cifradas con la clave pública ANTERIOR ya no se podrán descifrar en este servidor (aún podrá descifralas de forma externa si conservó la clave privada anterior). Las nuevas copias de seguridad se protegerán con la clave nueva.'
+        warning: 'Generar un nuevo par de claves provocará que cualquier copia de seguridad cifrada con la clave pública ANTERIOR quede ilegible en este servidor (aún podrá descifrarla externamente si conservó la clave privada antigua). Las nuevas copias se cifrarán con la clave nueva.'
       reveal_modal:
         close: 'He guardado mi clave privada'
         copied: ¡Copiado!
         copy_button: 'Copiar fragmento'
-        intro: 'Acabamos de generar un nuevo par de claves. La clave privada solo se mostrará UNA VEZ a continuación. Péguela en su config.php; no será posible volver a mostrarla.'
-        snippet_label: 'Añadir esta línea a config.php:'
-        title: 'Guardar la clave privada'
-        warning_body: 'Si pierde la clave privada, no será posible recuperar ni descifrar ninguna copia de seguridad protegida con la clave pública correspondiente.'
+        intro: 'Acabamos de generar un nuevo par de claves. La mitad privada se muestra A CONTINUACIÓN UNA SOLA VEZ. Péguela en su config.php; no podremos volvérsela a mostrar.'
+        snippet_label: 'Añada esta línea a su config.php:'
+        title: 'Guarde su clave privada'
+        warning_body: 'Si pierde la clave privada, cualquier copia de seguridad cifrada con la clave pública vinculada quedará ilegible de forma permanente.'
         warning_title: 'No pierda esta clave'
-      section_help: 'Cifre las nuevas copias de seguridad mediante un par de claves asimétricas. La clave pública se almacena en la base de datos, mientras que la clave privada DEBE incluirse en config.php (el servidor web no retendrá ninguna clave que no se le haya especificado).'
+      section_help: 'Cifre las nuevas copias de seguridad con un par de claves asimétricas. La clave pública se guarda en la base de datos y la clave privada DEBE pegarse en su config.php; el proceso web nunca almacena una clave que no se le haya proporcionado explícitamente.'
       section_title: Cifrado
       status:
         absent: Ausente
-        healthy: 'El cifrado está activo. Las nuevas copias de seguridad se cifrarán automáticamente al marcar la opción ''Cifrar'' en la ventana de exportación.'
+        healthy: 'El cifrado está configurado. Las nuevas copias de seguridad se cifrarán automáticamente si marca la casilla «cifrar» en la ventana de exportación.'
         libsodium_missing: 'libsodium no está disponible en este servidor. No se puede habilitar el cifrado.'
-        load_failed: 'No se pudo cargar el estado del cifrado desde el servidor.'
-        mismatch_body: 'La clave privada en config.php y la clave pública de la base de datos no coinciden. No es posible descifrar las copias de seguridad cifradas en este servidor. Restaure la clave privada original o renueve el par de claves (los archivos cifrados actuales no se modificarán, pero quedarán ilegibles en esta instalación).'
-        mismatch_title: 'Discrepancia en el par de claves'
-        not_setup: 'Aún no se ha generado un par de claves de cifrado. Las copias de seguridad se guardarán sin cifrar a menos que active la opción en cada exportación.'
+        load_failed: 'No se pudo obtener el estado del cifrado desde el servidor.'
+        mismatch_body: 'La clave privada en config.php no coincide con la clave pública guardada en la base de datos. Las copias de seguridad cifradas existentes no se podrán descifrar en este servidor. Restaure la clave privada original o genere un nuevo par de claves (lo que mantendrá los archivos cifrados existentes intactos pero ilegibles aquí).'
+        mismatch_title: 'Las claves no coinciden'
+        not_setup: 'Aún no se ha generado un par de claves de cifrado. Las copias de seguridad se guardarán sin cifrar a menos que lo active individualmente por exportación.'
         present: Presente
         private_key_label: 'Clave privada (config.php)'
-        private_missing_body: 'Se generó una clave pública, pero la clave privada correspondiente no está en config.php. No será posible descifrar las copias de seguridad cifradas existentes hasta que restaure la clave privada.'
+        private_missing_body: 'Se generó una clave pública pero la clave privada correspondiente no está en su config.php. Las copias de seguridad cifradas existentes no se descifrarán hasta que se restaure la clave privada.'
         private_missing_title: 'Falta la clave privada'
         public_key_label: 'Clave pública'
         retry: Reintentar
@@ -54,129 +54,132 @@ ramon-backup:
       boundary_title: 'No se pudo cargar esta sección.'
       cancel_default: Cancelar
       confirm_default: Confirmar
-      generic: 'Algo salió mal. Inténtelo de nuevo.'
+      generic: 'Ocurrió un error. Inténtelo de nuevo.'
     export_modal:
       cancel_button: Cancelar
-      cancel_failed_warn: 'Se cerró el cuadro de diálogo, pero el servidor aún podría mantener bloqueado el proceso de exportación. Verifique la lista de copias de seguridad en unos instantes; si el proceso bloqueado persiste, vuelva a intentarlo o contacte con soporte técnico.'
+      cancel_failed_warn: 'La ventana se cerró, pero es posible que el servidor aún mantenga el bloqueo del trabajo. Revise la lista de copias en breve; si persiste un proceso bloqueado, reinténtelo o contacte con soporte.'
       close_button: Cerrar
       completed: 'Copia de seguridad creada.'
-      content_assets: 'Recursos (archivos subidos)'
-      content_assets_help: 'public/assets/: avatares, adjuntos y cualquier archivo subido por los usuarios.'
+      content_assets: 'Archivos de medios (archivos subidos)'
+      content_assets_help: 'public/assets/: avatares, adjuntos y cualquier archivo que hayan subido los usuarios.'
       content_db: 'Base de datos'
-      content_db_help: 'Todas las tablas: usuarios, publicaciones, ajustes, etc. El volcado incluye sentencias DROP/CREATE para que se pueda restaurar de forma limpia.'
+      content_db_help: 'Todas las tablas: usuarios, publicaciones, ajustes, etc. La copia incluye sentencias DROP/CREATE para una restauración limpia.'
       content_extensions: Extensiones
-      content_extensions_help: 'Incluye los archivos de origen de una o más extensiones instaladas (desde workbench/ o vendor/). Marque la casilla y seleccione cuáles desea incluir a continuación.'
+      content_extensions_help: 'Empaqueta los archivos fuente de una o más extensiones instaladas (desde workbench/ o vendor/). Marque la casilla y elija cuáles incluir a continuación.'
       content_storage: 'Almacenamiento (caché, sesiones, registros)'
-      content_storage_help: 'Normalmente se omite: contiene archivos de tiempo de ejecución que se pueden volver a generar y rara vez son portables entre instalaciones.'
+      content_storage_help: 'Generalmente se omite: contiene archivos de ejecución que pueden regenerarse y raras veces son portables entre instalaciones.'
       contents_title: 'Qué incluir'
       encryption_enable: 'Cifrar esta copia de seguridad'
       encryption_external: 'Cifrar con una clave pública diferente (para transferencia)'
-      encryption_external_help: 'Pegue la clave pública del servidor de destino. Útil al preparar una copia de seguridad para restaurarla en un servidor externo sin compartir claves privadas.'
-      encryption_help: 'Utiliza cifrado híbrido libsodium. El cuerpo se cifra con una clave simétrica por archivo, que luego se sella con una clave pública.'
+      encryption_external_help: 'Pegue la clave pública del servidor de destino. Útil para preparar una copia que se restaurará en otro sitio sin compartir claves privadas.'
+      encryption_external_placeholder: 'Clave pública en base64'
+      encryption_help: 'Utiliza cifrado híbrido libsodium. El cuerpo se cifra con una clave simétrica por archivo, la cual a su vez se sella con una clave pública.'
       encryption_title: Cifrado
-      extensions_group_unknown: Otros
-      extensions_group_vendor: 'Vendor (gestionadas por Composer)'
+      extensions_group_unknown: Otras
+      extensions_group_vendor: 'Vendor (gestionado por Composer)'
       extensions_group_workbench: 'Workbench (desarrollo local)'
       extensions_load_failed: 'No se pudo cargar la lista de extensiones.'
       extensions_none: 'No hay extensiones instaladas en este Flarum.'
       extensions_select_all: 'Seleccionar todas'
-      extensions_select_none: 'Desmarcar todas'
+      extensions_select_none: 'Deseleccionar todas'
       extensions_tag_unknown: desconocido
       extensions_tag_vendor: vendor
       extensions_tag_workbench: workbench
       files_count: '{done} / {total} archivos'
-      intro: 'Seleccione los elementos que desea incluir. El resultado será un único archivo .flarum que podrá descargar, transferir o guardar en una ubicación externa.'
+      intro: 'Elija qué elementos desea incluir. El resultado será un único archivo .flarum que podrá descargar, transferir o almacenar de forma externa.'
       phase_bundle: 'Empaquetando archivos…'
-      phase_db_dump: 'Volcando base de datos…'
-      phase_done: Hecho
+      phase_db_dump: 'Exportando base de datos…'
+      phase_done: Completado
       phase_error: Error
-      phase_error_network: 'Se perdió la conexión con el servidor durante la copia de seguridad. Es posible que la tarea aún se esté ejecutando en el servidor; consulte la lista de copias de seguridad en unos instantes.'
+      phase_error_network: 'Se perdió la conexión con el servidor durante la copia de seguridad. El proceso podría seguir ejecutándose en el servidor; revise la lista en breve.'
       phase_finalize: Finalizando…
       phase_scan: Analizando…
       start_button: 'Iniciar copia de seguridad'
       start_failed: 'No se pudo iniciar la exportación.'
-      target_help: '¿Dónde se restaurará esta copia de seguridad? Seleccione el motor de destino si es diferente de este; el SQL se generará para ese motor, de modo que pueda migrar de MySQL a PostgreSQL (o cualquier combinación) sin conversión manual.'
+      target_help: '¿Dónde se restaurará esta copia de seguridad? Seleccione el motor de destino si es diferente a este; el SQL se generará específicamente para dicho motor, permitiéndole migrar de MySQL a PostgreSQL (o cualquier combinación) sin conversión manual.'
       target_mariadb: 'MariaDB 10.3+'
       target_mysql: 'MySQL 5.7+ / 8.0.30+'
       target_postgres: 'PostgreSQL 10+'
-      target_same: 'Mismo motor que esta instalación (sin conversión)'
+      target_same: 'Igual a esta instalación (sin conversión)'
       target_sqlite: 'SQLite 3.35+'
       target_title: 'Base de datos de destino'
       title: 'Crear copia de seguridad'
-      warnings_help: 'Algunas columnas utilizan tipos de datos sin un equivalente directo en el motor de destino seleccionado. La copia de seguridad finalizará correctamente, pero es posible que la columna de destino no valide o no se comporte de la misma manera. Revise cada nota a continuación antes de utilizar esta copia de seguridad para la migración.'
+      warnings_help: 'Algunas columnas utilizan tipos de datos que no tienen un equivalente directo en el motor de destino seleccionado. La copia de seguridad finalizará, pero la columna de destino podría no validarse o comportarse igual. Revise cada nota a continuación antes de confiar en esta copia para una migración.'
       warnings_title: '{count, plural, one {# advertencia de traducción} other {# advertencias de traducción}}'
     import_modal:
       cancel_button: Cancelar
-      cancel_failed_warn: 'Se cerró el cuadro de diálogo, pero el servidor aún podría estar aplicando cambios. Verifique el estado del servidor antes de reintentar.'
+      cancel_failed_warn: 'La ventana se cerró, pero es posible que el servidor aún esté aplicando cambios. Verifique el estado del servidor antes de reintentar.'
       choose_file: 'Haga clic para elegir un archivo .flarum'
       close_button: Cerrar
       completed: 'Restauración completada.'
-      confirm_body: 'Las tablas del archivo reemplazan a las tablas de aquí. Los archivos se escribirán en sus rutas originales.'
-      confirm_check: 'Entendido. Reemplazar mis datos actuales con esta copia de seguridad.'
+      confirm_body: 'Las tablas del archivo reemplazarán a las de este servidor. Los archivos se escribirán en sus rutas originales.'
+      confirm_check: 'Entiendo las consecuencias. Reemplazar mis datos actuales con esta copia de seguridad.'
       confirm_title: 'Reemplazar datos existentes'
-      done_body: 'Todos los archivos seleccionados han sido restaurados. La base de datos no se modificó, por lo que su sesión actual no ha cambiado.'
+      done_body: 'Todos los archivos seleccionados han sido restaurados. La base de datos no fue modificada, por lo que su sesión actual se mantiene intacta.'
       done_title: 'Restauración completada'
-      extensions_composer_note: 'El archivo composer.json se fusiona con el de este servidor y nunca se sobrescribe, por lo que no se elimina ningún paquete instalado localmente. composer.lock NO se aplica, ya que el archivo de bloqueo de otro servidor purgaría los paquetes que solo existen aquí. Ejecute `composer install` tras la restauración para instalar las extensiones en el directorio vendor/.'
+      extensions_composer_note: 'El archivo composer.json se combina con el de este servidor y nunca se sobrescribe; no se eliminará nada de lo que esté instalado aquí. El archivo composer.lock NO se aplica, ya que un bloqueo de otro servidor eliminaría paquetes que solo existen aquí. Ejecute `composer install` tras restaurar para instalar las extensiones de vendor.'
       extensions_tag_unknown: desconocido
       extensions_tag_vendor: vendor
       extensions_tag_workbench: workbench
-      incomplete_body: 'La restauración se ejecutó hasta el final, pero no todo lo seleccionado se escribió correctamente. Revise los detalles a continuación antes de considerar esta migración como terminada.'
-      incomplete_title: 'Restauración incompleta'
+      incomplete_body: 'La restauración se ejecutó hasta el final, pero no todo lo seleccionado pudo escribirse. Revise los detalles a continuación antes de dar por completada esta migración.'
+      incomplete_title: 'Restauración finalizada con omisiones'
       inspect_title: 'Detalles del archivo'
       inspecting_archive: 'Inspeccionando archivo…'
-      key_help: 'Este archivo está cifrado. Pegue la clave privada base64 correspondiente; permanecerá en esta sesión del navegador y se enviará UNA SOLA VEZ al servidor para la restauración.'
+      key_help: 'Este archivo está cifrado. Pegue la clave privada en base64 correspondiente; se mantendrá en esta sesión del navegador y se enviará al servidor en cada paso de la restauración, sin escribirse nunca en el disco.'
       key_hint_local: 'Déjelo en blanco para usar la clave privada configurada en el config.php de este servidor.'
+      key_placeholder: 'Clave privada en base64'
       key_title: 'Clave privada'
-      logout_body: 'Restaurar la base de datos reemplazó las tablas `users` y `sessions` de este servidor, por lo que la cuenta con la que inició sesión ya no existe aquí. Inicie sesión nuevamente con las credenciales del foro importado para continuar.'
+      logout_body: 'La restauración de la base de datos reemplazó las tablas `users` y `sessions` de este servidor, por lo que la cuenta con la que había iniciado sesión ya no existe aquí. Inicie sesión de nuevo con las credenciales del foro importado para continuar.'
       logout_button: 'Recargar e iniciar sesión'
-      logout_step_login: 'Inicie sesión con las credenciales de administrador del foro de origen'
-      logout_step_reload: 'Recargue la página a continuación para limpiar la cookie de sesión obsoleta'
+      logout_step_login: 'Inicie sesión con las credenciales de administración del foro de origen'
+      logout_step_reload: 'Recargue la página a continuación para limpiar la galleta de sesión obsoleta'
       logout_title: 'Ha cerrado sesión'
       meta_contents: Incluye
       meta_flarum: 'Versión de Flarum'
       meta_size: 'Tamaño del archivo'
       meta_source_url: 'URL de origen'
-      meta_when: Creado
-      phase_done: Hecho
+      meta_when: 'Creado el'
+      notes_title: 'Revise los detalles antes de dar por terminada la migración'
+      phase_done: Completado
       phase_error: Error
-      phase_error_network: 'Se perdió la conexión con el servidor durante la restauración. Es posible que el servidor aún esté escribiendo datos; espere un momento y verifique el estado de la base de datos antes de reintentar.'
+      phase_error_network: 'Se perdió la conexión con el servidor durante la restauración. Es posible que el servidor siga escribiendo datos; espere un momento y revise el estado de la base de datos antes de reintentar.'
       phase_extract: Extrayendo…
       phase_finalize: Finalizando…
       phase_inspect: 'Inspeccionando archivo…'
-      phase_reconcile: 'Reconciliando archivos del proyecto…'
+      phase_reconcile: 'Ajustando archivos del proyecto…'
       phase_restore: 'Restaurando base de datos…'
       phase_rewrite: 'Reescribiendo URL…'
       phase_verify: 'Comprobando que el foro aún inicia…'
       reload_button: 'Recargar página'
       reload_required: 'Los datos del foro se han reemplazado. Recargue la página para continuar con una nueva sesión; es posible que su sesión anterior también haya sido sustituida.'
-      root_extend_warning: 'El archivo extend.php raíz se carga antes de que exista el manejador de errores de Flarum: si hace referencia a una clase que no está instalada aquí, dejará el foro fuera de servicio con un error HTTP 500 en blanco. El archivo actual se copia primero a un .bak-*, y la restauración verifica si hay clases no resueltas al finalizar.'
-      section_assets: Recursos
+      root_extend_warning: 'El archivo extend.php raíz se carga antes de que se inicie el gestor de errores de Flarum. Si hace referencia a una clase que no esté instalada aquí, el foro fallará con un error HTTP 500 en blanco. El archivo actual se copiará primero como .bak-* y la restauración verificará si hay clases no resueltas al finalizar.'
+      section_assets: 'Archivos de medios (assets)'
       section_count: '{count} archivos'
       section_db: 'Base de datos'
       section_extensions: Extensiones
       section_preserve_settings: 'Conservar la configuración de correo, colas e integraciones de este servidor'
-      section_root_extend: 'Reemplazar el archivo extend.php raíz con el de la copia de seguridad'
-      section_storage: Almacenamiento
-      selection_help: 'Seleccione qué secciones de esta copia de seguridad desea aplicar. Las secciones que desmarque se omitirán en la restauración; los archivos o cambios correspondientes en la base de datos simplemente no se aplicarán.'
+      section_root_extend: 'Reemplazar el extend.php raíz con el de la copia de seguridad'
+      section_storage: 'Almacenamiento (storage)'
+      selection_help: 'Elija qué secciones de esta copia de seguridad desea aplicar. Lo que desmarque se omitirá durante la restauración (los archivos o cambios de base de datos correspondientes simplemente no se aplicarán).'
       selection_title: 'Qué restaurar'
-      server_state_help: 'Ciertos parámetros corresponden a ESTE servidor y no al foro en la copia de seguridad: credenciales SMTP, driver de colas, tokens de integración y el archivo extend.php raíz. Estas opciones determinan qué información se mantiene tras la restauración.'
-      server_state_title: 'Configuración local de este servidor'
+      server_state_help: 'Ciertos ajustes definen a ESTE servidor en lugar de al foro de la copia de seguridad: credenciales SMTP, controlador de colas, tokens de integración y el extend.php raíz. Estas opciones determinan qué datos se conservan tras la restauración.'
+      server_state_title: 'Configuración propia de este servidor'
       start_button: Restaurar
       start_failed: 'No se pudo iniciar la restauración.'
       title: 'Importar una copia de seguridad'
       upload_button: 'Subir e inspeccionar'
-      upload_failed: 'Error al subir.'
-      upload_idle_timeout: 'La subida se detuvo (no se enviaron datos durante más de un minuto). Compruebe su red e intente de nuevo.'
+      upload_failed: 'Error en la subida.'
+      upload_idle_timeout: 'La subida se detuvo (no se enviaron datos durante más de un minuto). Revise su conexión e inténtelo de nuevo.'
       uploading_pct: 'Subiendo… {pct}%'
-      url_rewrite_note: 'Las URL en la base de datos que hacen referencia al servidor de origen se reescribirán automáticamente con la URL de este servidor.'
-      warning_body: 'Importar una copia de seguridad sobrescribe la base de datos y reemplaza archivos. Asegúrese de tener primero una copia de seguridad reciente de la instalación ACTUAL.'
-      warning_title: 'Esto reemplazará los datos existentes'
+      url_rewrite_note: 'Las URL en la base de datos que hagan referencia al servidor de origen se reescribirán automáticamente con la URL de este servidor.'
+      warning_body: 'Importar una copia de seguridad sobrescribe la base de datos y reemplaza archivos. Asegúrese de tener una copia de seguridad reciente de ESTA instalación primero.'
+      warning_title: 'Esta acción sobrescribirá datos'
     list:
       col_contents: Contenido
       col_size: Tamaño
       col_status: Cifrado
-      col_when: Cuándo
-      confirm_delete: '¿Desea eliminar esta copia de seguridad de forma permanente? El archivo .flarum se eliminará del servidor.'
+      col_when: Fecha
+      confirm_delete: '¿Eliminar permanentemente esta copia de seguridad? El archivo .flarum se eliminará del servidor.'
       confirm_delete_title: '¿Eliminar esta copia de seguridad?'
       content_assets: Recursos
       content_db: 'Base de datos'
@@ -186,18 +189,98 @@ ramon-backup:
       delete_title: Eliminar
       deleted: 'Copia de seguridad eliminada.'
       download_title: Descargar
-      empty: 'Aún no hay copias de seguridad. Haga clic en ''Crear copia de seguridad'' para generar una.'
-      encrypted: Cifrada
+      empty: 'Aún no hay copias de seguridad. Haga clic en «Crear copia de seguridad» para generar una.'
+      encrypted: Cifrado
       load_failed: 'No se pudo cargar la lista de copias de seguridad.'
       plain: 'Sin cifrar'
       retry: Reintentar
       target_for: 'para {engine}'
-      target_tooltip: 'El SQL de esta copia de seguridad se generó para {engine}. Restáurela en una instalación de {engine}.'
+      target_tooltip: 'El SQL de esta copia de seguridad se generó para {engine}. Restáurelo en una instalación con {engine}.'
     panel:
-      actions_help: 'Cree un archivo de respaldo de su foro, restaure una copia existente o transfiera información entre instalaciones de Flarum.'
+      actions_help: 'Cree un archivo portable de su foro, restaure uno existente o transfiera datos entre instalaciones de Flarum.'
       actions_title: 'Copia de seguridad y migración'
       create_button: 'Crear copia de seguridad'
       import_button: 'Importar copia de seguridad'
       list_title: 'Copias de seguridad guardadas'
     permissions:
-      manage_label: 'Gestionar copias de seguridad'
+      manage_label: 'Crear y descargar copias de seguridad (copias completas de la base de datos)'
+  api:
+    error: 'Error: {message}'
+    errors:
+      acknowledge_loss: 'Generar un nuevo par de claves dejará las copias de seguridad cifradas existentes sin posibilidad de descifrarse en este servidor. Confirme para continuar.'
+      backup_not_found: 'Copia de seguridad no encontrada.'
+      bad_extension: 'El archivo debe tener una extensión .flarum.'
+      bad_offset_header: 'Encabezado X-Chunk-Offset ausente o no válido.'
+      chunk_past_end: 'El fragmento escribiría más allá del tamaño de subida declarado.'
+      chunk_too_large: 'El fragmento supera el límite por petición ({max} bytes).'
+      confirm_replace: 'Debe confirmar que esta acción reemplazará los datos existentes.'
+      empty_upload: 'El tamaño de la subida debe ser mayor a cero.'
+      export_not_found: 'Trabajo de exportación no encontrado.'
+      file_unavailable: 'El archivo de copia de seguridad no está disponible.'
+      import_not_found: 'Trabajo de importación no encontrado.'
+      invalid_archive: 'No es una copia de seguridad válida de Flarum: {error}'
+      invalid_job: 'ID de trabajo no válido.'
+      no_libsodium: 'libsodium no está disponible en este servidor.'
+      offset_out_of_range: 'El desplazamiento del fragmento está fuera del tamaño de subida declarado.'
+      open_staging_failed: 'No se pudo abrir el archivo temporal.'
+      seek_failed: 'Error al posicionar en el desplazamiento {offset} dentro del archivo temporal.'
+      staging_create_failed: 'No se pudo crear el archivo temporal.'
+      staging_not_writable: 'El directorio temporal (staging) no tiene permisos de escritura.'
+      upload_gone: 'La sesión de subida no está inicializada o ya ha sido limpiada.'
+      upload_incomplete: 'Subida incompleta: recibidos {received} / {expected} bytes. Vuelva a enviar los fragmentos faltantes antes de inspeccionar.'
+      upload_not_initialised: 'Sesión de subida no inicializada; comience una nueva subida.'
+      upload_too_large: 'La subida excede el límite por archivo ({size} bytes > {max}).'
+      write_failed: 'Error de escritura en el desplazamiento {offset}; ¿disco lleno?'
+    export:
+      bundling: 'Empaquetando archivos…'
+      bundling_files: 'Empaquetando archivos… {done}/{total}'
+      complete: 'Copia de seguridad completada.'
+      dump_complete: 'Exportación de base de datos completada. Empaquetando…'
+      dumping: 'Exportando base de datos…'
+      dumping_table: 'Exportando base de datos… tabla {current}/{total} ({table}) — {rows}'
+      file_changed: '{file} cambió mientras se ejecutaba la copia de seguridad; los bytes faltantes se rellenaron con ceros.'
+      finalising: Finalizando…
+      preparing: Preparando…
+      rows: '{done, number} filas'
+      rows_of: '{done, number}/{total, number} filas'
+      scanning: 'Analizando… ({current}/{total})'
+    for_example: ' — por ejemplo: {items}'
+    import:
+      boot_at_risk: 'RIESGO DE ARRANQUE: el extend.php raíz hace referencia a {count, plural, one {la clase {classes}} other {las clases {classes}}}, que el cargador automático no puede resolver. Flarum carga ese archivo antes de su gestor de errores, por lo que el foro quedará inaccesible con un error HTTP 500 sin mensaje. Reinstale el paquete que proporciona la clase o comente el extender antes de recargar.'
+      complete: 'Restauración completada.'
+      extracting: Extrayendo…
+      extracting_entries: 'Extrayendo… {count, plural, one {# entrada} other {# entradas}}'
+      finished_dangling: 'Restauración finalizada: el extend.php raíz hace referencia a clases que no están instaladas.'
+      finished_unresolved: 'Restauración finalizada con {count, plural, one {# entrada no restaurada} other {# entradas no restauradas}}.'
+      finished_unwritable: 'Restauración finalizada: {count, plural, one {# archivo no se pudo escribir} other {# archivos no se pudieron escribir}} en el disco.'
+      fopen_failed: 'fopen rechazó el destino'
+      incomplete_unresolved: 'Restauración INCOMPLETA: {count, plural, one {# entrada seleccionada} other {# entradas seleccionadas}} no se pudieron escribir porque el destino no se resolvió{sample}. Verifique la integridad del archivo y el manifiesto de la extensión antes de dar por terminada esta migración.'
+      incomplete_unwritable: 'Restauración INCOMPLETA: {count, plural, one {# archivo} other {# archivos}} no pudieron ser escritos por el usuario de PHP `{user}`{sample}. Corrija el propietario/permisos (o el espacio en disco) de esas rutas y restaure de nuevo; la base de datos ya se aplicó, por lo que es suficiente repetir la restauración marcando únicamente Extensiones.'
+      inspecting: 'Inspeccionando archivo…'
+      mkdir_failed: 'no se pudo crear {dir}'
+      preserved_reapply_failed: 'No se pudieron volver a aplicar los ajustes de este servidor tras la restauración: {error}. Revise el correo, las colas y las integraciones en el panel de administración.'
+      preserved_restored: 'Se conservaron {count, plural, one {# ajuste} other {# ajustes}} de este servidor en lugar de los de la copia de seguridad (correo, colas e integraciones). Ajuste la lista en `{key}` si algo específico de su entorno aún se está sobrescribiendo.'
+      reconcile_failed: 'No se pudieron ajustar los archivos raíz del proyecto: {error}. Los archivos composer.json y extend.php de este servidor se mantuvieron sin cambios.'
+      reconciling: 'Ajustando archivos del proyecto…'
+      restored: 'Base de datos restaurada.'
+      restoring: 'Restaurando base de datos…'
+      restoring_percent: 'Restaurando base de datos… {percent}%'
+      rewriting: 'Reescribiendo URL…'
+      rewrote_url: 'URL reescrita: {from} → {to}'
+      skipping_rewrite: 'Omitiendo reescritura de URL (las URL coinciden o son desconocidas).'
+      unwritable_destination: 'Sin permiso de escritura en {paths} (PHP se ejecuta como `{user}`). Las entradas destinadas a esas rutas NO se escribirán (la base de datos, los medios y el almacenamiento sí se procesarán). Corrija el propietario/permisos de esos directorios y restaure de nuevo, o desmarque Extensiones e instale los paquetes con Composer.'
+    project:
+      encode_failed: 'No se pudo serializar el composer.json combinado; el manifiesto de este servidor no se modificó.'
+      extend_replaced: 'El extend.php raíz fue reemplazado por el de la copia de seguridad (el anterior se guardó como .bak-*).'
+      extend_write_failed: 'No se pudo escribir el extend.php raíz (¿problema de permisos?).'
+      fresh_manifest: 'Este servidor no tiene un composer.json; el manifiesto y el bloqueo del archivo se aplicaron textualmente. Ejecute `composer install`.'
+      incoming_invalid_json: 'El composer.json del archivo no es un JSON válido; el manifiesto de este servidor no se modificó.'
+      local_invalid_json: 'El composer.json de este servidor no es un JSON válido; se canceló la combinación para evitar un daño mayor.'
+      merged: 'composer.json combinado con el de este servidor (no se eliminó nada). El composer.lock del archivo NO se aplicó: un archivo de bloqueo de otro servidor eliminaría paquetes que solo existen aquí. Ejecute `composer update --lock` para regenerar el bloqueo local.'
+      only_here: 'Paquetes que existen solo en este servidor y NO estaban en la copia de seguridad (conservados por la combinación): {packages}. Asegúrese de que el extend.php raíz y las extensiones restauradas sigan siendo compatibles con ellos.'
+      only_there: 'Paquetes requeridos por la copia de seguridad y ausentes en este servidor: {packages}. Ejecute `composer install` para instalarlos antes de dar por terminada la migración.'
+      write_failed: 'No se pudo escribir el composer.json combinado (¿problema de permisos?).'
+    stack:
+      composer_update: 'El composer.lock de esta copia de seguridad se resolvió en PHP {source} y este servidor ejecuta PHP {here}. Ejecute `composer update` en el directorio raíz de la instalación para volver a resolver las dependencias para la versión local.'
+      missing_extensions: 'No se puede continuar: a este servidor le {count, plural, one {falta una extensión de PHP requerida} other {faltan extensiones de PHP requeridas}} que el servidor de origen sí tenía: {extensions}. Sin {count, plural, one {ella} other {ellas}}, Flarum no arrancará tras la restauración. Habilítela{count, plural, one {} other {s}} en el PHP de este servidor e inténtelo de nuevo.'
+      php_too_old: 'Esta copia de seguridad se creó en PHP {source}; este servidor ejecuta PHP {here}. No se puede continuar: el código que contiene el archivo (vendor/, extensiones y el composer.lock que las resolvió) se compiló para PHP {source} y podría usar una sintaxis que el intérprete de PHP {here} rechaza, lo que dejaría a Flarum sin poder arrancar. Actualice este servidor a PHP {source} o superior, o cree la copia de seguridad desde una instalación que ejecute PHP {here}.'
