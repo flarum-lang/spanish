@@ -21,6 +21,7 @@ CHANGELOG
 * [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (70 added, 14 changed, 100% complete)
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (18 added, 2 changed, 100% complete)
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (28 added, 100% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (4 added, 92% complete)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) (150 added, 4 changed, 100% complete)
 * [`ramon/backup`](https://github.com/ram0ng1/backup) (154 added, 136 changed, 100% complete)
 
