@@ -46,7 +46,7 @@ edgeinfinity-diy-homepage:
     background_themes:
       dark: 'Oscuro y alto contraste oscuro'
       light: 'Claro y alto contraste claro'
-    bridge_help: 'Cuando FoF Widgets Core está habilitado, los widgets nativos configurados para la página de inicio también aparecen en su tienda de widgets. Colocarlos allí no modifica este diseño. Los widgets FoF importados no se vuelven a exportar.'
+    bridge_help: 'Con la extensión opcional Friends of Flarum Widgets habilitada, las instancias nativas también aparecerán en su catálogo de widgets y podrán ubicarse en otras páginas del foro. Esta configuración solo excluye la instancia de esta página de inicio; los ajustes de visibilidad y estado activo se seguirán aplicando.'
     button_style: 'Color del botón'
     button_style_help: 'Automático mantiene el primer botón del banner como principal y conserva los estilos de enlace actuales. Si reordena los botones, se respetará la selección manual.'
     button_styles:
@@ -76,7 +76,7 @@ edgeinfinity-diy-homepage:
     default_margin_bottom: 'Predeterminado: 14px'
     default_safe_width: 'Mantener diseño original'
     duplicate: Duplicar
-    emphasized_help: 'Desactivado: estilo de encabezado normal de FoF. Activado: encabezados más grandes e iconos con color, aplicados también a los encabezados FoF importados.'
+    emphasized_help: 'Se aplica a los encabezados nativos y a los encabezados estándar de FoF, independientemente de si la personalización está activada o no. El contenido y el diseño del proveedor se conservan cuando la personalización está desactivada.'
     emphasized_titles: 'Destacar encabezados de widgets'
     empty_region: 'No hay widgets en esta región.'
     enabled: Habilitado
@@ -92,8 +92,10 @@ edgeinfinity-diy-homepage:
       actions: 'Botones de acción'
       alt: 'Texto alternativo'
       caption: 'Leyenda de la imagen'
+      dividerStyle: 'Estilo de separador'
       eyebrow: 'Título pequeño / antetítulo'
       featured: 'Destacar la primera discusión'
+      height: 'Altura del contenido (px)'
       ids: 'ID seleccionados (opcional)'
       imageUrl: 'URL de la imagen'
       limit: 'Cantidad de elementos'
@@ -110,7 +112,11 @@ edgeinfinity-diy-homepage:
       url: 'URL del enlace de la imagen'
       widgetId: 'Widget FoF'
     fof_loading_help: 'La carga de datos de FoF la gestiona su propio proveedor. Los proveedores que admitan datos iniciales pueden usar la configuración de FoF Widgets Core. Se conservan sus componentes y verificaciones de permisos.'
+    font_bold: Negrita
+    font_family: Tipografía
+    font_normal: Normal
     font_size: 'Tamaño tipografía (px)'
+    font_weight: 'Peso tipografía'
     groups:
       actions: 'Enlaces y acciones'
       appearance: 'Apariencia de la página'
@@ -121,6 +127,7 @@ edgeinfinity-diy-homepage:
       hero: 'Banner principal de la página'
       loading: 'Carga y marcadores de posición'
       placement: 'Ubicación y audiencia'
+      spacing: Espaciado
     guest_home: 'Mostrar esta página de inicio en / para los invitados'
     hero_enabled: 'Mostrar el banner superior de Flarum'
     hero_enabled_help: 'Controla únicamente el banner de la página de inicio DIY. Habilitado de forma predeterminada; otras páginas como «Todas las discusiones» no se ven afectadas.'
@@ -145,7 +152,7 @@ edgeinfinity-diy-homepage:
     link_label: 'Etiqueta del enlace'
     link_url: 'URL del enlace'
     load_mode: 'Carga de datos en la primera visita a la página de inicio'
-    load_mode_help: 'La precarga incluye los datos en la respuesta inicial para evitar parpadeos. Las consultas complejas pueden retrasar la respuesta. La navegación desde otra página utiliza marcadores de posición asíncronos.'
+    load_mode_help: 'La precarga incluye los datos, incluidos los resultados de búsqueda, en la respuesta inicial de la página. El modo asíncrono los carga después. La navegación desde otra página utiliza marcadores de posición asíncronos en ambos modos.'
     load_modes:
       async: 'Cargar de forma asíncrona tras la página'
       preload: 'Incluir con la página (predeterminado)'
@@ -173,14 +180,18 @@ edgeinfinity-diy-homepage:
     open_home: 'Abrir página de inicio'
     options:
       accent: 'Borde destacado'
+      blank: 'Espacio en blanco'
       discussions: 'Más discusiones'
       latest: 'Última actividad'
+      line: 'Linea horizontal'
       members: 'Nuevos miembros'
       newest: 'Más recientes primero'
       plain: Plano
       posts: 'Más publicaciones'
       replies: 'Más respuestas'
       soft: 'Fondo suave'
+    override_heading: 'Activar personalización'
+    override_heading_help: 'Desactivado: conserva el contenido, subtítulo, enlaces y diseño originales del proveedor. Activado: reemplaza el encabezado de esta instancia en la página de inicio con las opciones de contenido y diseño mostradas a continuación; las demás ubicaciones de FoF no cambian. El estilo del encabezado se aplica en ambos modos. Los valores guardados se conservan al desactivar.'
     positions:
       afterActions: 'Después de las acciones'
       beforeActions: 'Antes de las acciones'
@@ -189,7 +200,7 @@ edgeinfinity-diy-homepage:
     radius_help: 'Déjelo en blanco para seguir el estilo del botón Iniciar una discusión de Flarum. Ingrese 0 para esquinas cuadradas. Se aplica a superficies nativas y contenedores estándar de FoF.'
     region: Región
     region_help:
-      configOnly: 'Configure widgets para FoF sin mostrarlos directamente en la página de inicio. Duplique un widget aquí para asignarle a FoF su propio contenido y apariencia.'
+      configOnly: 'Mantenga las instancias reutilizables fuera de esta página de inicio. Si la extensión Friends of Flarum Widgets está habilitada, podrá ubicarlas en otras páginas del foro desde su catálogo de widgets.'
       fullWidth: 'Debajo del banner principal, abarcando la navegación izquierda, la columna principal y la derecha. Ideal para noticias y widgets de ancho completo.'
       main: 'El flujo central, en el orden mostrado a continuación.'
       sidebar: 'Utiliza el mismo ancho de barra lateral que el índice de discusiones. Se apila debajo en pantallas pequeñas.'
@@ -201,11 +212,12 @@ edgeinfinity-diy-homepage:
       sidebar: 'Columna derecha'
       top: 'Zona superior'
     remove: Eliminar
-    routes_help: 'Los invitados usarán /all para ver las discusiones cuando esté habilitado. /home siempre abrirá esta página de inicio. Los miembros conservarán la ruta predeterminada configurada en el foro.'
+    routes_help: '"Habilitado" abre DIY Homepage en la raíz (/) para todos los usuarios; "Solo invitados" lo hace únicamente para visitantes. "Deshabilitado" mantiene la configuración por defecto del foro (redirigiendo a /all si dicha opción por defecto es /home). La ruta /home permanece accesible en cualquier modo. Los sitios existentes conservan su comportamiento anterior.'
     show_heading: 'Mostrar el encabezado del widget'
     show_icon: 'Mostrar un icono al inicio'
     spacing_help: 'Ambas opciones están desactivadas por defecto. El margen inferior controla el límite del área de contenido, mientras que el espaciado controla el hueco hasta el siguiente widget dentro de la misma región. El contenido del proveedor debe utilizar un contenedor estándar de contenido FoF para poder controlar su margen.'
     stat_label: 'Etiqueta personalizada'
+    stats_font_help: 'En blanco conserva la apariencia actual: números en 17px / grosor 650, etiquetas en 12px / normal. Defina cada uno de forma independiente (8 a 120 px). Las tipografías deben estar disponibles en el sitio o en el dispositivo; no se descargará ninguna fuente externa.'
     stats_font_label: 'Etiquetas de las estadísticas'
     stats_font_number: 'Números de las estadísticas'
     stats_help: 'Habilite, ordene o añada métricas. Los conteos respetan los permisos de visibilidad. «En línea» cuenta miembros activos, respeta la privacidad y requiere el permiso para ver usuarios en línea o el de la lista en línea de FoF. No se cuentan sesiones de invitados.'
@@ -227,16 +239,17 @@ edgeinfinity-diy-homepage:
     theme_default: 'Seguir el tema'
     title: Título
     title_style: 'Estilo del encabezado de este widget'
-    title_style_help: 'Aumenta el contraste de un encabezado individual sin cambiar los demás widgets. Los encabezados FoF importados estándar también admiten esta opción.'
+    title_style_help: 'Elija el estilo de encabezado estándar o destacado, o herede la apariencia de la página. Para los widgets de FoF importados, esto se aplica al encabezado estándar del proveedor incluso cuando la personalización está desactivada, sin reemplazar su contenido ni su diseño.'
     title_styles:
       emphasized: Destacado
-      fof: 'Predeterminado de FoF'
+      fof: Estándar
       inherit: 'Usar apariencia de la página'
     unavailable_type: 'La extensión que proporciona este widget no está disponible. Se conservará su configuración.'
     variables: 'Variables de texto'
     variables_defaults: 'Los valores predeterminados utilizan una cadena JSON entre comillas dobles después de una coma. Se aplican únicamente cuando un valor conocido falta o está vacío; se permite una cadena vacía. Las variables existentes sin valores predeterminados mantienen su comportamiento. Los nombres desconocidos o la sintaxis mal formada permanecen sin cambios. Los valores predeterminados son texto plano y no se vuelven a expandir.'
     variables_escape: 'Duplique las llaves para mostrar una variable de forma literal, por ejemplo:'
     variables_help: 'Utilice las variables a continuación en los títulos, subtítulos, bloques de texto, etiquetas de botones, texto alternativo o leyendas de imágenes, sugerencias del cuadro de búsqueda, etiquetas de estadísticas y texto del banner principal de la página. El nombre de usuario y el nombre público cambian a «Invitado» para los visitantes. Los valores se representan como texto plano, una sola vez; las variables desconocidas se conservan. Las URL, consultas, estilos, etiquetas de navegación y widgets de terceros no se expanden.'
+    widget_settings: 'Configuración widget'
     widget_type: 'Tipo de widget'
   forum:
     community: 'NUESTRA COMUNIDAD'
