@@ -8,11 +8,15 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (100% complete)
+* [`ernestdefoe/detour`](https://github.com/ernestdefoe/detour) (100% complete)
+* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (50% complete)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (50% complete)
+* [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) (48% complete)
 
 
 **Updated translations for extensions**:
 
-* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (44 added, 95% complete)
+* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (70 added, 14 changed, 100% complete)
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (18 added, 2 changed, 100% complete)
 * [`ramon/backup`](https://github.com/ram0ng1/backup) (154 added, 136 changed, 100% complete)
 
