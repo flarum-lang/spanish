@@ -5,36 +5,62 @@
 acpl-mobile-tab:
   admin:
     active_items: 'Ítems activos'
-    available_items: 'Ítems disponibles'
-    create_new_item_button: 'Crear nuevo ítem'
+    available_items: 'Elementos disponibles'
+    available_items_help: 'Arrastre elementos de esta lista a cualquier variante para añadirlos a la barra móvil.'
+    create_new_item_button: 'Crear elemento'
     edit_item:
-      delete_button: Borrar
-      delete_item_confirmation: '¿Seguro que deseas borrar este ítem?'
-      icon: Ícono
-      icon_help: 'Escribe el nombre de la clase de un ícono <a>FontAwesome</a> incluyendo el prefijo <code>fas fa-</code>.'
+      delete_button: Eliminar
+      delete_item_confirmation: '¿Está seguro de que desea eliminar este elemento?'
+      help: '¿Necesita algo más que un enlace? Consulte la <a>documentación para desarrolladores</a> sobre elementos y comportamientos personalizados.'
+      icon: Icono
+      icon_help: 'Ingrese el nombre de cualquier clase de icono de <a>FontAwesome</a>, incluyendo el prefijo <code>fas fa-</code>.'
       is_internal_checkbox: '¿Es un enlace interno?'
       label: Etiqueta
-      label_placeholder: 'Mí ítem personalizado'
-      modal_title: 'Editar ítem'
-      open_new_tab_checkbox: 'Abrir en nueva pestaña'
+      label_placeholder: 'Mi elemento personalizado'
+      modal_title: 'Editar elemento'
+      open_new_tab_checkbox: 'Abrir enlace en una nueva pestaña'
       path: Ruta
-      submit_button: Grabar
+      submit_button: Guardar
+      type:
+        external:
+          help: 'Abre una dirección externa a este foro.'
+          label: 'Dirige a otro sitio web'
+        heading: 'Función de este enlace'
+        internal:
+          help: 'Se abre sin recargar la página.'
+          label: 'Dirige a una página de este foro'
       url: URL
+      url_help:
+        external: 'La dirección completa, incluyendo <code>https://</code>.'
+        internal: 'La sección de la dirección posterior a {baseUrl}, comenzando con barra inclinada.'
     scroll_settings:
       threshold_help: 'Distancia de desplazamiento desde la posición actual para alternar la visibilidad.'
       threshold_label: 'Umbral de desplazamiento (px)'
-      toggle_label: 'Alternar la visibilidad al desplazarse'
+      toggle_label: 'Alternar visibilidad al desplazarse'
+    variants:
+      create: 'Crear variante'
+      delete: 'Eliminar variante'
+      delete_confirmation: '¿Está seguro de que desea eliminar esta variante? Esta acción no se puede deshacer.'
+      empty_help: 'Arrastre elementos aquí para añadirlos a esta variante.'
+      enabled: Activada
+      heading: 'Variantes de la barra móvil'
+      help: 'Las variantes se evalúan de arriba a abajo. Los usuarios verán la primera variante activa para la cual tengan permisos de lectura. Coloque los roles más específicos primero; por ejemplo: n.º 1 administradores, n.º 2 moderadores, n.º 3 miembros, n.º 4 todos. Déjelo vacío para ocultar la barra por completo a los grupos seleccionados.'
+      number: 'n.º {number}'
+      reorder: 'Reordenar variante'
+      visible_to: 'Visible para'
   lib:
     item:
       all_discussions: Discusiones
       categories: Categorías
+      flags: Reportes
       fof-byobu: Privado
       home: Inicio
-      log_in: Ingresar
+      log_in: 'Iniciar sesión'
       messages: Mensajes
       new_discussion: 'Nueva discusión'
       notifications: Notificaciones
       profile: Perfil
+      ramon-chat: Chat
       search: Buscar
       session: Sesión
       tags: Etiquetas
