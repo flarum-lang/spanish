@@ -17,9 +17,12 @@ CHANGELOG
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (100% complete)
 * [`ernestdefoe/maintenance`](https://github.com/ernestdefoe/maintenance) (100% complete)
 * [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (100% complete)
+* [`ernestdefoe/salvage`](https://github.com/ernestdefoe/salvage) (100% complete)
+* [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (100% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (100% complete)
 * [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) (100% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (100% complete)
 * [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (100% complete)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (100% complete)
 
@@ -35,6 +38,7 @@ CHANGELOG
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (154 added, 100% complete)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) (150 added, 4 changed, 100% complete)
 * [`ramon/backup`](https://github.com/ram0ng1/backup) (154 added, 136 changed, 100% complete)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (118 added, 44 changed, 100% complete)
 
 
 All changes: [2.0.3...2.0.4](https://github.com/flarum-lang/spanish/compare/2.0.3...2.0.4).
