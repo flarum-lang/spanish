@@ -7,13 +7,46 @@ pianotell-flamoji:
     custom_emojis_section:
       edit_emoji:
         category_label: Categoría
+        category_placeholder: 'ej. Memes'
+        category_text: 'Opcional. Los emoticonos que compartan categoría se agruparán en su propia pestaña. Déjelo en blanco para asignarlo a la pestaña «Personalizados».'
+        delete_emoji_button: 'Eliminar emoticono'
+        delete_emoji_confirmation: '¿Desea eliminar este emoticono?'
+        emoji_title_label: 'Nombre del emoticono'
+        emoji_title_text: 'Nombre descriptivo para la vista previa y la búsqueda. Opcional.'
+        intro_text: 'Los emoticonos personalizados son imágenes propias que los usuarios insertan escribiendo un código corto. El código corto y la imagen son obligatorios; el nombre y la categoría son opcionales.'
+        modal_title: 'Añadir emoticono'
+        path_or_url_label: 'Ruta o URL'
+        path_or_url_text: 'Ubicación del archivo de imagen: URL completa (https://…) o ruta relativa (/assets/…). Obligatorio. Suba la imagen previamente al servidor.'
         saved_message: '=> core.admin.settings.saved_message'
+        shortcode_invalid: 'Encierre el código corto entre puntos dobles : y use solo letras, números y _ + - (ejemplo: :miemoticono_fiesta:).'
         submit_button: '=> core.ref.save_changes'
+        text_to_replace_label: 'Código corto'
+        text_to_replace_text: 'Texto que se debe escribir para insertar el emoticono. Debe ir entre puntos dobles : y contener solo letras, números y los caracteres _ + - (ejemplo: :miemoticono_fiesta:). Obligatorio y único.'
       emoji_list:
+        add_button: 'Añadir emoticono'
+        edit_button: 'Editar emoticono'
         load_more_button: '=> core.forum.post_stream.load_more_button'
         rename_cancel_button: Cancelar
         rename_save_button: Guardar
+        uncategorized: 'Sin categoría'
+      export_json_button: 'Exportar JSON'
+      heading_title: 'Emoticonos personalizados'
+      import_emojis_message: 'Esto importará únicamente la configuración de los emoticonos. Deberá subir las imágenes manualmente.'
+      import_json_button: 'Importar JSON'
+      import_legacy_shortcodes: 'Se importaron {count} emoticonos cuyos códigos cortos no siguen el formato recomendado :palabra: — {shortcodes}. Se importaron tal cual y funcionan, pero se recomienda actualizarlos.'
+      import_override_confirm: 'Sí, deseo reemplazar todos los emoticonos existentes.'
+      import_override_mode: 'Modo de sobrescritura (reemplazar todos los existentes)'
+      import_override_warning: '¡Atención: Esto eliminará todos sus emoticonos personalizados actuales!'
+      upload_json_button: 'Subir JSON'
     settings:
+      auto_hide_label: 'Ocultar automáticamente'
+      auto_hide_text: 'Oculta el selector tras insertar un emoticono.'
+      category_settings_heading: 'Ajustes de categorías'
+      cdn_advanced_text: 'Los valores por defecto están vinculados a la versión exacta de emoji-mart con la que se compiló esta extensión. Si modifica una URL, actualice su hash SRI correspondiente (o déjelo en blanco para desactivar la verificación). Deje la URL en blanco para forzar la carga local.'
+      cdn_data_sri_label: 'Hash SRI para datos (opcional)'
+      cdn_data_url_label: 'URL de datos en CDN'
+      cdn_js_sri_label: 'Hash SRI para JavaScript (opcional)'
+      cdn_js_url_label: 'URL del JavaScript en CDN'
       emoji_categories:
         activity: '=> pianotell-flamoji.ref.emoji_categories.activity'
         flags: '=> pianotell-flamoji.ref.emoji_categories.flags'
@@ -23,10 +56,40 @@ pianotell-flamoji:
         people: '=> pianotell-flamoji.ref.emoji_categories.people'
         places: '=> pianotell-flamoji.ref.emoji_categories.places'
         symbols: '=> pianotell-flamoji.ref.emoji_categories.symbols'
-      picker_set_auto: Auto
+      emoji_settings_heading: 'Ajustes de emoticonos'
+      frequent_rows_label: 'Filas de emoticonos frecuentes'
+      frequent_rows_text: 'Número de filas de emoticonos frecuentes a mostrar en la parte superior del selector (1-10).'
+      general_ui_settings_heading: 'Ajustes generales de interfaz'
+      picker_set_auto: Automático
+      picker_set_label: 'Estilo visual de emoticonos'
+      picker_set_native: 'Nativo del sistema'
+      picker_set_text: 'Define la apariencia en el selector. «Automático» coincide con la extensión Emoji de Flarum (Twemoji si está activa o las fuentes nativas del sistema operativo).'
       picker_set_twemoji: Twemoji
+      show_category_buttons_label: 'Mostrar botones de categorías'
+      show_category_buttons_text: 'Muestra la fila de iconos de categoría en la parte superior del selector. Útil para desactivar si solo hay una o dos categorías activas.'
+      show_preview_label: 'Mostrar sección de vista previa'
+      show_preview_text: 'Muestra el nombre del emoticono, su código corto y el selector de tono de piel en un panel inferior bajo la cuadrícula.'
+      show_recents_label: 'Mostrar y guardar emoticonos frecuentes'
+      show_recents_text: 'Muestra la pestaña de frecuentes en la parte superior del selector. Se completa a medida que cada usuario los utiliza y se guarda únicamente en su navegador.'
+      show_search_label: 'Mostrar campo de búsqueda'
+      show_search_text: 'Muestra el cuadro de búsqueda en la parte superior del selector.'
+      show_variants_label: 'Mostrar variantes de tono de piel'
+      show_variants_text: 'Algunos emoticonos disponen de variantes de tono de piel. Al seleccionar uno con variantes en el selector, se desplegará una ventana para elegir el tono deseado. Esto no afecta al modo sticker, ya que los emoticonos personalizados no tienen tonos de piel.'
+      specify_categories_label: 'Especificar categorías'
+      specify_categories_text: 'Permite definir una lista delimitada de categorías a mostrar en el selector.'
+      sticker_mode_label: 'Modo sticker'
+      sticker_mode_text: 'Muestra los emoticonos personalizados como stickers de gran tamaño en las publicaciones, en la vista previa del editor y en el selector. Al activar esta opción, el selector se restringirá únicamente a sus emoticonos personalizados. Desactivado por defecto.'
+      use_cdn_label: 'Cargar Emoji-Mart mediante CDN'
+      use_cdn_text: 'Cargar la librería emoji-mart y sus datos desde un CDN externo (como jsDelivr) en lugar de servirlos desde su propio servidor. Desactivado por defecto. Si el CDN falla o el hash SRI no coincide, el selector recurrirá automáticamente a la copia integrada en la extensión. Nota: cargar recursos externos requiere que su Content-Security-Policy (CSP) lo permita.'
   forum:
+    composer:
+      emoji_picker_label: 'Selector de emoticonos'
+      emoji_tooltip: 'Insertar emoticono'
+      picker_load_error: 'No se pudo cargar el selector de emoticonos. Inténtelo de nuevo.'
+      picker_load_retry: Reintentar
+      picker_loading: 'Cargando emoticonos…'
     emoji-mart:
+      add_custom: 'Añadir emoticono personalizado'
       categories:
         activity: '=> pianotell-flamoji.ref.emoji_categories.activity'
         custom: '=> pianotell-flamoji.ref.emoji_categories.custom'
@@ -38,12 +101,25 @@ pianotell-flamoji:
         people: '=> pianotell-flamoji.ref.emoji_categories.people'
         places: '=> pianotell-flamoji.ref.emoji_categories.places'
         symbols: '=> pianotell-flamoji.ref.emoji_categories.symbols'
+      category_search: 'Resultados de búsqueda'
+      no_emojis_found_message: 'No se encontraron emoticonos'
+      no_emojis_found_title: 'Sin resultados'
+      pick: 'Seleccione un emoticono'
+      search_placeholder: Buscar
+      skin_tone_choose: 'Seleccionar tono de piel por defecto'
+      skin_tone_dark: Oscuro
+      skin_tone_default: Predeterminado
+      skin_tone_light: Claro
+      skin_tone_medium: Medio
+      skin_tone_medium_dark: 'Medio oscuro'
+      skin_tone_medium_light: 'Medio claro'
   ref:
     emoji_categories:
       activity: Actividades
+      custom: Personalizados
       flags: Banderas
       foods: 'Comida y bebida'
-      frequent: 'De uso frecuente'
+      frequent: Frecuentes
       nature: 'Animales y naturaleza'
       objects: Objetos
       people: 'Emoticonos y personas'
