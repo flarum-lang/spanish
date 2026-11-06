@@ -10,6 +10,13 @@ CHANGELOG
 * [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (100% complete)
 
 
+**Updated translations for extensions**:
+
+* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (26 added, 92% complete)
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (18 added, 2 changed, 100% complete)
+* [`ramon/backup`](https://github.com/ram0ng1/backup) (154 added, 136 changed, 100% complete)
+
+
 All changes: [2.0.3...2.0.4](https://github.com/flarum-lang/spanish/compare/2.0.3...2.0.4).
 
 
