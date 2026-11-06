@@ -12,7 +12,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (26 added, 92% complete)
+* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (44 added, 95% complete)
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (18 added, 2 changed, 100% complete)
 * [`ramon/backup`](https://github.com/ram0ng1/backup) (154 added, 136 changed, 100% complete)
 
