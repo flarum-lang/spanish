@@ -48,8 +48,11 @@ edgeinfinity-diy-homepage:
       light: 'Claro y alto contraste claro'
     bridge_help: 'Cuando FoF Widgets Core está habilitado, los widgets nativos configurados para la página de inicio también aparecen en su tienda de widgets. Colocarlos allí no modifica este diseño. Los widgets FoF importados no se vuelven a exportar.'
     button_style: 'Color del botón'
+    button_style_help: 'Automático mantiene el primer botón del banner como principal y conserva los estilos de enlace actuales. Si reordena los botones, se respetará la selección manual.'
     button_styles:
       auto: 'Automático (apariencia existente)'
+      primary: Primario
+      secondary: Secundario
     choose_fof: 'Seleccione un widget FoF registrado…'
     configuration: 'JSON de configuración de la página de inicio'
     content_safe_width: 'Ancho de margen seguro para el contenido (%)'
@@ -107,6 +110,7 @@ edgeinfinity-diy-homepage:
       url: 'URL del enlace de la imagen'
       widgetId: 'Widget FoF'
     fof_loading_help: 'La carga de datos de FoF la gestiona su propio proveedor. Los proveedores que admitan datos iniciales pueden usar la configuración de FoF Widgets Core. Se conservan sus componentes y verificaciones de permisos.'
+    font_size: 'Tamaño tipografía (px)'
     groups:
       actions: 'Enlaces y acciones'
       appearance: 'Apariencia de la página'
@@ -163,6 +167,8 @@ edgeinfinity-diy-homepage:
     move_up: 'Mover arriba'
     nav_label: 'Etiqueta de navegación'
     new_text: 'Nuevo bloque de texto'
+    no_bottom_margin: 'Eliminar el espaciado posterior a este widget'
+    no_bottom_padding: 'Eliminar el margen inferior del contenido'
     online_permission: 'Ver el número de miembros en línea (sin revelar sus identidades)'
     open_home: 'Abrir página de inicio'
     options:
@@ -198,7 +204,10 @@ edgeinfinity-diy-homepage:
     routes_help: 'Los invitados usarán /all para ver las discusiones cuando esté habilitado. /home siempre abrirá esta página de inicio. Los miembros conservarán la ruta predeterminada configurada en el foro.'
     show_heading: 'Mostrar el encabezado del widget'
     show_icon: 'Mostrar un icono al inicio'
+    spacing_help: 'Ambas opciones están desactivadas por defecto. El margen inferior controla el límite del área de contenido, mientras que el espaciado controla el hueco hasta el siguiente widget dentro de la misma región. El contenido del proveedor debe utilizar un contenedor estándar de contenido FoF para poder controlar su margen.'
     stat_label: 'Etiqueta personalizada'
+    stats_font_label: 'Etiquetas de las estadísticas'
+    stats_font_number: 'Números de las estadísticas'
     stats_help: 'Habilite, ordene o añada métricas. Los conteos respetan los permisos de visibilidad. «En línea» cuenta miembros activos, respeta la privacidad y requiere el permiso para ver usuarios en línea o el de la lista en línea de FoF. No se cuentan sesiones de invitados.'
     sticky_sidebar: 'Mantener la columna derecha visible al desplazarse en escritorio'
     subtitle: Subtítulo
