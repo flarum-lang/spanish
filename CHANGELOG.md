@@ -7,11 +7,16 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`anto0102/mailguard`](https://github.com/anto0102/MailGuard) (100% complete)
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) (100% complete)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (100% complete)
+* [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) (100% complete)
 * [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (100% complete)
 * [`ernestdefoe/detour`](https://github.com/ernestdefoe/detour) (100% complete)
 * [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (100% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (100% complete)
+* [`ernestdefoe/maintenance`](https://github.com/ernestdefoe/maintenance) (100% complete)
+* [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (100% complete)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (100% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (100% complete)
 * [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) (100% complete)
@@ -21,6 +26,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (42 added, 24 changed, 100% complete)
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (2 added, 2 changed, 100% complete)
 * [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (70 added, 14 changed, 100% complete)
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (18 added, 2 changed, 100% complete)
