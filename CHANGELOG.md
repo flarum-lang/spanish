@@ -23,6 +23,7 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (100% complete)
 * [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) (100% complete)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (100% complete)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (100% complete)
 * [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (100% complete)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (100% complete)
 
