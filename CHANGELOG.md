@@ -2,6 +2,49 @@ CHANGELOG
 =========
 
 
+2.0.4 (2026-11-12)
+------------------
+
+**Added support for new extensions**:
+
+* [`anto0102/mailguard`](https://github.com/anto0102/MailGuard) (100% complete)
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) (100% complete)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (100% complete)
+* [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) (100% complete)
+* [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) (100% complete)
+* [`ernestdefoe/detour`](https://github.com/ernestdefoe/detour) (100% complete)
+* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (100% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (100% complete)
+* [`ernestdefoe/maintenance`](https://github.com/ernestdefoe/maintenance) (100% complete)
+* [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) (100% complete)
+* [`ernestdefoe/salvage`](https://github.com/ernestdefoe/salvage) (100% complete)
+* [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (100% complete)
+* [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) (100% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (100% complete)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (100% complete)
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (100% complete)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (42 added, 24 changed, 100% complete)
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (2 added, 2 changed, 100% complete)
+* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (70 added, 14 changed, 100% complete)
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (18 added, 2 changed, 100% complete)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (28 added, 100% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (52 added, 100% complete)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (154 added, 100% complete)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) (150 added, 4 changed, 100% complete)
+* [`ramon/backup`](https://github.com/ram0ng1/backup) (154 added, 136 changed, 100% complete)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (118 added, 44 changed, 100% complete)
+
+
+All changes: [2.0.3...2.0.4](https://github.com/flarum-lang/spanish/compare/2.0.3...2.0.4).
+
+
 2.0.3 (2026-11-02)
 ------------------
 
