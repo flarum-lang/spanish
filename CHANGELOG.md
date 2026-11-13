@@ -14,7 +14,7 @@ CHANGELOG
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (4 added, 100% complete)
 * [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) (2 changed, 100% complete)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) (2 changed, 100% complete)
-* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (8 changed, 100% complete)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (10 changed, 100% complete)
 
 
 All changes: [2.0.4...2.0.5](https://github.com/flarum-lang/spanish/compare/2.0.4...2.0.5).
