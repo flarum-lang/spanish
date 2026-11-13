@@ -6,7 +6,7 @@ flarum-audit:
   lib:
     browser:
       discussion_ban:
-        banned: 'Se vetó a {username}'
+        banned: 'Se vetó a {username} de esta {discussion} — {reason}'
         unbanned: 'Se ha retirado el veto a {username} en la discusión {discussion}'
 huseyinfiliz-discussion-ban:
   admin:

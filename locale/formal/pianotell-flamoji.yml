@@ -103,7 +103,7 @@ pianotell-flamoji:
         symbols: '=> pianotell-flamoji.ref.emoji_categories.symbols'
       category_search: 'Resultados de búsqueda'
       no_emojis_found_message: 'No se encontraron emoticonos'
-      no_emojis_found_title: 'Sin resultados'
+      no_emojis_found_title: '¡Oh no!'
       pick: 'Seleccione un emoticono'
       search_placeholder: Buscar
       skin_tone_choose: 'Seleccionar tono de piel por defecto'

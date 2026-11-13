@@ -93,13 +93,13 @@ walsgit_discussion_cards:
         debugOptions_title: 'Opciones de registro y depuración'
         defaultImage_info: 'Defina la imagen global a utilizar cuando la primera publicación de una discusión no contenga imágenes. <u>IMPORTANTE</u>: <em>cambiar la imagen descartará cualquier ajuste no guardado y recargará la página automáticamente. Guarde sus cambios antes de seleccionar una nueva imagen</em>. Formatos admitidos: JPG, PNG, GIF, BMP o WebP. Resolución ideal: 400px x 225px (las imágenes subidas se convertirán automáticamente a WebP a un ancho de 400px).'
         defaultImage_title: 'Imagen predeterminada general'
-        desktopCardWidth_help: 'Establezca el ancho (en %) de las tarjetas primarias en pantallas de escritorio (entre 10 y 100).'
+        desktopCardWidth_help: 'Establezca el ancho (en %) de las tarjetas primarias en pantallas de escritorio (entre 10 y 100)'
         desktopCardWidth_label: 'Ancho de tarjetas primarias en escritorio'
         listCardOptions_info: 'Configure las opciones para el listado estándar de discusiones (tarjetas de tamaño regular).'
         listCardOptions_title: 'Opciones del listado de tarjetas'
         listCardsCount_help: 'Cantidad de elementos del listado a mostrar como tarjetas secundarias cuando la opción está activa (0 para todas, máximo: 20).'
         listCardsCount_label: 'Número de tarjetas secundarias'
-        listCards_help: 'Muestra los elementos del listado de discusiones como tarjetas secundarias. Si se desactiva, se mostrará el diseño nativo en lista de Flarum.'
+        listCards_help: 'Muestra los elementos del listado de discusiones como tarjetas secundarias. Si se desactiva, se mostrará el diseño nativo en lista de flarum (sin tarjetas)'
         listCards_label: 'Usar diseño en tarjetas para el listado de discusiones'
         logActionDetails_help: 'Registra minuciosamente cada discusión o archivo procesado. Tenga en cuenta que puede generar archivos de registro extensos en foros grandes.'
         logActionDetails_label: 'Registrar detalles ampliados'
@@ -140,7 +140,7 @@ walsgit_discussion_cards:
         showViews_title_end: ' instalada y activa, puede configurar:'
         showViews_title_or: ' O '
         showViews_title_start: 'Con la extensión '
-        tabletCardWidth_help: 'Establezca el ancho (en %) de las tarjetas primarias en pantallas de tabletas (entre 10 y 100).'
+        tabletCardWidth_help: 'Establezca el ancho (en %) de las tarjetas primarias en pantallas de tabletas (entre 10 y 100)'
         tabletCardWidth_label: 'Ancho de tarjetas primarias en tabletas'
         useBlogImages_help: 'Utiliza la imagen destacada de la entrada de blog como portada de la tarjeta. Si no existe, recurre consecutivamente a la primera imagen de la entrada, la imagen por defecto del blog, la imagen de la etiqueta o la imagen general.'
         useBlogImages_label: 'Usar imágenes destacadas y del blog'
@@ -167,7 +167,7 @@ walsgit_discussion_cards:
         purgeImagesModal_deleteUnusedHelp: 'Elimina de su servidor todas las imágenes que ya no están vinculadas a ninguna tarjeta. Es seguro eliminarlas. Comand CLI equivalente: <code>php flarum discussion-cards:purge-images</code>'
         purgeImagesModal_deleteUnusedLabel: 'Eliminar imágenes sin uso'
         purgeImagesModal_error: 'Ocurrió un error al limpiar las imágenes.'
-        purgeImagesModal_helpText: "Estas opciones le permiten eliminar las imágenes de tarjetas del servidor. Puede consultar más opciones de limpieza con el comando: <code>php flarum discussion-cards:purge-images --help</code>\n<strong>ADVERTENCIA: ¡Estas acciones son irreversibles!</strong> Tenga en cuenta que las imágenes predeterminadas (generales o de etiqueta) no se eliminarán desde aquí."
+        purgeImagesModal_helpText: "Estas opciones le permiten eliminar las imágenes de tarjetas del servidor. Puede consultar más opciones de limpieza con el comando: <code>php flarum discussion-cards:purge-images --help</code>\n<strong>ADVERTENCIA: ¡Estas acciones son irreversibles!</strong> Tenga en cuenta que las imágenes predeterminadas (generales o de etiqueta) no se eliminarán desde aquí"
         purgeImagesModal_runningCommand: "Ejecutando comando...\n"
         purgeImagesModal_success: 'Imágenes limpiadas correctamente'
         purgeImagesModal_summary: 'Limpieza finalizada: {deleted} archivo(s) eliminado(s), {skipped} omitido(s) y {updated} discusión(es) actualizada(s).'

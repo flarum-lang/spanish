@@ -161,7 +161,7 @@ ernestdefoe-cadence:
         load_more: 'Cargar más'
       bonfire:
         fed: '{count, plural, one {llama alimentada hoy} other {llamas alimentadas hoy}}'
-        max: 'La fogata está en su punto máximo. ¡Menudo día!'
+        max: 'La fogata está en su punto máximo. ¡Que día!'
         to_next: '{count} más para alcanzar el nivel {level}'
       calendar:
         fed: '{date}: alimentada'

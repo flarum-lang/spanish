@@ -51,7 +51,7 @@ ffans-threadmarks:
       add_button: Añadir
       delete_button: '=> core.ref.delete'
       delete_discussion_confirmation: '¿Desea eliminar este índice de la discusión?'
-      delete_personal_confirmation: '¿Desea eliminar este índice  personal?'
+      delete_personal_confirmation: '¿Desea eliminar este índice personal?'
       discussion_tab: '=> ffans-threadmarks.ref.discussion'
       loading_text: '=> core.ref.loading'
       note_label: Nota
