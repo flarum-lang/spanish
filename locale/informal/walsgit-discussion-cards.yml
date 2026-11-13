@@ -97,7 +97,7 @@ walsgit_discussion_cards:
         desktopCardWidth_label: 'Ancho de tarjetas primarias en escritorio'
         listCardOptions_info: 'Configure las opciones para el listado estándar de discusiones (tarjetas de tamaño regular).'
         listCardOptions_title: 'Opciones del listado de tarjetas'
-        listCardsCount_help: 'Cantidad de elementos del listado a mostrar como tarjetas secundarias cuando la opción está activa (0 para todas, máximo: 20).'
+        listCardsCount_help: 'Cantidad de elementos a mostrar como tarjetas secundarias cuando la opción está activa (0 para todas, máximo: 20)'
         listCardsCount_label: 'Número de tarjetas secundarias'
         listCards_help: 'Muestra los elementos del listado de discusiones como tarjetas secundarias. Si se desactiva, se mostrará el diseño nativo en lista de flarum (sin tarjetas)'
         listCards_label: 'Usar diseño en tarjetas para el listado de discusiones'
