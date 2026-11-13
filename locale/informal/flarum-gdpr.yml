@@ -158,3 +158,8 @@ flarum-gdpr:
       request_button: 'Pedir archivado'
       text: "Se preparará un archivo ZIP para usted. Una vez listo, recibirá una notificación con un enlace de descarga. El enlace permanecerá activo durante un día.\n"
       title: 'Solicitar datos para {username}'
+  views:
+    confirm_erasure:
+      submit_button: 'Confirmar borrado'
+      text: 'Confirma que deseas que tu cuenta y sus datos sean borrados. Hasta que tu solicitud sea procesada, aún puedes cancelarla desde tu configuración.'
+      title: 'Confirmar borrado de cuenta'

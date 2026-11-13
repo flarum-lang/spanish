@@ -5,10 +5,73 @@
 fof-cookie-consent:
   admin:
     settings:
+      allowedCookies: 'Nunca borrar estas cookies'
+      allowedCookies_help: "Un nombre por línea. Envuélvelo en barras inclinadas para usar un patrón, por ejemplo, /^app_/.\nLas cookies que establece Flarum por sí mismo se conservan siempre.\n"
+      appearance_title: Apariencia
       backgroundColor: Fondo
       buttonBackgroundColor: Fondo
       buttonTextColor: Texto
+      catchall_title: 'Cookies no declaradas'
+      colors_help: "El banner sigue el tema de tu foro, incluido el modo oscuro. Configura un color solo para anularlo; déjalo en blanco para heredar el del tema.\n"
+      configuration_button_title: 'Enlace Más información'
       configuration_title: 'Opciones de configuración'
+      equalWeightButtons: 'Dar el mismo peso a ambos botones'
+      equalWeightButtons_help: 'Recomendado. Dar el mismo estilo a los botones de aceptar y rechazar evita inducir a los visitantes a aceptar.'
+      layout: Diseño
+      layout_help: 'Controla la forma del banner de consentimiento.'
+      layouts:
+        bar: Barra
+        bar_inline: 'Barra (en línea)'
+        box: Cuadro
+        box_inline: 'Cuadro (en línea)'
+        box_wide: 'Cuadro (ancho)'
+        cloud: Nube
+        cloud_inline: 'Nube (en línea)'
       learnMoreLinkUrl: Enlace
+      learnMoreLinkUrl_help: 'Déjalo en blanco para ocultar el enlace.'
+      position: Posición
+      positions:
+        bottom_center: 'Abajo al centro'
+        bottom_left: 'Abajo a la izquierda'
+        bottom_right: 'Abajo a la derecha'
+        middle_center: 'Medio al centro'
+        middle_left: 'Medio a la izquierda'
+        middle_right: 'Medio a la derecha'
+        top_center: 'Arriba al centro'
+        top_left: 'Arriba a la izquierda'
+        top_right: 'Arriba a la derecha'
+      sweepUndeclared: 'Borrar las cookies que ninguna extensión haya declarado'
+      sweepUndeclared_help: "Cuando un visitante rechaza, borra también las cookies que ninguna extensión haya declarado a través del sistema de consentimiento de cookies. Esto detecta rastreadores de extensiones que no lo hayan adoptado, pero también borrará cookies que una extensión realmente necesita, lo que podría hacerla fallar. Usa la lista de permitidos a continuación para eximir aquellas que desees.\n"
       textColor: Texto
+      text_help: "El texto que se muestra a los visitantes se encuentra en los archivos de idioma de esta extensión, por lo que se puede traducir. Puedes anularlo con FoF Linguist o un paquete de idioma.\n"
+      theme_dismiss_title: 'Colores de los botones'
       theme_popup_title: 'Colores emergentes'
+  forum:
+    banner:
+      accept: Aceptar
+      decline: Rechazar
+      description: 'Se utilizan cookies en este sitio. Puedes gestionar tus preferencias o aceptar todas las cookies.'
+      learn_more: 'Más información'
+      preferences: 'Gestionar preferencias'
+    categories:
+      analytics:
+        description: 'Nos ayudan a entender cómo se utiliza el foro para poder mejorarlo. Ninguna de estas es necesaria para que el foro funcione.'
+        title: Analíticas
+      marketing:
+        description: 'Se utilizan para medir la efectividad de la publicidad y para mostrarte anuncios en otros sitios.'
+        title: Marketing
+      necessary:
+        description: 'Necesarias para que el sitio funcione: iniciar sesión, mantener la sesión iniciada y recordar tu elección de cookies. Estas no se pueden desactivar.'
+        title: 'Estrictamente necesarias'
+    cookies:
+      cc_cookie: 'Recuerda tu elección de cookies para que no se te vuelva a preguntar.'
+      flarum_remember: 'Te vuelve a conectar automáticamente en tu próxima visita.'
+      flarum_session: 'Te mantiene conectado mientras navegas.'
+      locale: 'Recuerda el idioma que elegiste.'
+    preferences:
+      cookie_table:
+        description: Propósito
+        name: Cookie
+      description: 'Las cookies son pequeños archivos que este sitio almacena en tu navegador. A continuación se muestra qué se almacena y por qué. Puedes cambiar tu elección en cualquier momento.'
+      save: 'Guardar preferencias'
+      title: 'Preferencias de cookies'

@@ -5,13 +5,22 @@
 core:
   forum:
     index_sort:
-      least_viewed_button: 'Menos vistas'
-      most_viewed_button: 'Más vistas'
+      least_viewed_button: '=> core.ref.least_viewed'
+      most_viewed_button: '=> core.ref.most_viewed'
+  lib:
+    index_sort:
+      least_viewed_button: '=> core.ref.least_viewed'
+      most_viewed_button: '=> core.ref.most_viewed'
+  ref:
+    least_viewed: 'Menos vistas'
+    most_viewed: 'Más vistos'
 fof-discussion-views:
   admin:
     permissions:
       reset_views_label: 'Establecer vistas de la discusión'
     settings:
+      dedupe_ttl: 'Segundos antes de volver a contar la visita de un usuario'
+      dedupe_ttl_help: 'Tiempo que se recuerda a un usuario tras ver una discusión para que al actualizar la página o volver a entrar no se cuente otra vez. Configúralo en 0 para contar cada visita.'
       ignore_crawlers: 'Ignorar visitas de rastreadores'
   forum:
     discussion_controls:
