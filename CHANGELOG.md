@@ -5,6 +5,11 @@ CHANGELOG
 2.0.5 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Day.js translations.
+
+
 **Updated translations for extensions**:
 
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (2 changed, 100% complete)
