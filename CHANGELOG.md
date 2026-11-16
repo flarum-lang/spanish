@@ -10,9 +10,16 @@ CHANGELOG
 * Updated Day.js translations.
 
 
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (100% complete)
+* [`ekumanov/flarum-ext-cls-fix`](https://github.com/ekumanov/flarum-ext-cls-fix) (100% complete)
+
+
 **Updated translations for extensions**:
 
-* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (2 changed, 100% complete)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (2 changed, 100% complete)
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (4 changed, 100% complete)
 * [`ernestdefoe/detour`](https://github.com/ernestdefoe/detour) (2 changed, 100% complete)
 * [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (4 changed, 100% complete)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (2 changed, 100% complete)
@@ -22,7 +29,7 @@ CHANGELOG
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (12 added, 4 changed, 100% complete)
 * [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) (2 changed, 100% complete)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) (2 changed, 100% complete)
-* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (10 changed, 100% complete)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (24 changed, 100% complete)
 
 
 All changes: [2.0.4...2.0.5](https://github.com/flarum-lang/spanish/compare/2.0.4...2.0.5).
