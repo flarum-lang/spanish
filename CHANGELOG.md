@@ -24,6 +24,7 @@ CHANGELOG
 * [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (4 changed, 100% complete)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (2 changed, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (6 added, 100% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (4 added, 100% complete)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (4 added, 100% complete)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) (104 added, 100% complete)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (12 added, 4 changed, 100% complete)
