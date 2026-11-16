@@ -194,7 +194,7 @@ ernestdefoe-cadence:
       notify_moments: 'Logros, niveles y récords de mi racha'
       notify_warnings: 'Cuando mi racha esté en riesgo o reducida a brasas'
       page_intro_contribute: 'Cada día que publica, responde, reacciona o da «Me gusta», alimenta su llama. Si deja pasar demasiados días, se apagará. ¡Manténgala encendida!'
-      page_intro_visit: 'Cada día que visita el foro alimenta su llama. Si deja pasar demasiados días, se apagará. ¡Manténgala encendida!'
+      page_intro_visit: 'Cada día que visita el foro alimenta su llama. Si deja pasar demasiados días, se apagará. ¡Manténgala encendida!.'
       page_title: Rachas
       profile_tab: Racha
       rank: 'Puesto #{rank}'

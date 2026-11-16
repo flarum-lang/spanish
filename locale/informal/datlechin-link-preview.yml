@@ -42,5 +42,5 @@ datlechin-link-preview:
       posts: '{count, plural, one {# publicación} other {# publicaciones}}'
       replies: '{count, plural, one {# respuesta} other {# respuestas}}'
     settings:
-      hide_link_previews_help: M
+      hide_link_previews_help: 'Mostrar los enlaces como texto plano en lugar de tarjetas de vista previa.'
       hide_link_previews_label: 'Ocultar vistas previas de enlaces'
