@@ -21,7 +21,7 @@ CHANGELOG
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (2 changed, 100% complete)
 * [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (4 changed, 100% complete)
 * [`ernestdefoe/detour`](https://github.com/ernestdefoe/detour) (2 changed, 100% complete)
-* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (4 changed, 100% complete)
+* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (4 changed, 98% complete)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (2 changed, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (6 added, 100% complete)
 * [`flarum/sticky`](https://github.com/flarum/sticky) (4 added, 100% complete)
