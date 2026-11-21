@@ -2,6 +2,39 @@ CHANGELOG
 =========
 
 
+1.13.5 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (100% complete)
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) (100% complete)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (95% complete)
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) (98% complete)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (93% complete)
+
+
+**Updated translations for extensions**:
+
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (2 added, 2 changed, 100% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (2 added, 88% complete)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (28 added, 100% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (52 added, 100% complete)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (150 added, 100% complete)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) (144 added, 4 changed, 100% complete)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (56 added, 44 changed, 98% complete)
+
+
+All changes: [1.13.4...1.13.5](https://github.com/flarum-lang/spanish/compare/1.13.4...1.13.5).
+
+
 1.13.4 (2026-11-12)
 -------------------
 
