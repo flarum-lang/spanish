@@ -6,6 +6,8 @@ flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Discusiones ancladas'
+    settings:
+      pin_sticky_on_all_discussions_label: 'Mantener las discusiones fijadas en la parte superior de «Todas las discusiones»'
   forum:
     badge:
       sticky_tooltip: Chincheta

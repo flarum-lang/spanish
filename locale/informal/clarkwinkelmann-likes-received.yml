@@ -5,4 +5,7 @@
 clarkwinkelmann-likes-received:
   admin:
     permission:
-      view: 'Ver me gusta recibidos'
+      view: 'Ver «Me gusta» recibidos'
+  forum:
+    user-card:
+      likes: '{likes, plural, one {# «Me gusta» recibido} other {# «Me gusta» recibidos}}'

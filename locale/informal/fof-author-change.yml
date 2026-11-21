@@ -3,7 +3,25 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-author-change:
+  admin:
+    permissions:
+      edit-date: 'Actualizar fecha de la discusión y publicación'
+      edit-user: 'Actualizar autor de la discusión y publicación'
   forum:
+    controls:
+      edit: 'Editar autor y fecha'
     modal:
       cancel: Cancelar
+      created_at: 'Hora de creación'
+      edited_at: 'Editar hora'
       submit: Guardar
+      sync-impossible: 'No se puede encontrar la primera publicación. Intente desplazarse al inicio de la discusión.'
+      sync-with-discussion: 'Sincronizar con discusión'
+      sync-with-post: 'Sincronizar con la primera publicación'
+      title-discussion: 'Editar autor y fecha de la discusión'
+      title-post: 'Editar autor y fecha de la publicación'
+      user: Autor
+    search:
+      no-results: 'Sin resultados'
+      placeholder: 'Buscar usuarios'
+      type-more: 'Escriba al menos 3 caracteres para buscar'
