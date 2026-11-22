@@ -82,6 +82,7 @@ edgeinfinity-diy-homepage:
     enabled: Habilitado
     field_help:
       discussion_ids: 'Hasta 20 ID numéricos, separados por comas o espacios. Se mostrarán al inicio en el orden especificado; los resultados de búsqueda completarán los huecos restantes sin duplicar. Se omiten los registros invisibles.'
+      html: 'Introduzca un fragmento HTML de confianza (máximo 50.000 caracteres; toda la configuración tiene un límite de 128 KiB). El código se inserta tal cual, sin filtrado de seguridad ni reemplazo de variables. Tanto los estilos CSS como los atributos de eventos pueden alterar la página y comprometer su seguridad; nunca pegue código de origen dudoso ni datos confidenciales. Utilice selectores exclusivos de este widget para aplicar sus estilos. Este editor muestra únicamente el código fuente y no admite la carga de scripts mediante etiquetas <script>..'
       ids: 'ID numéricos separados por comas o espacios; hasta 20. Si se configuran, tienen prioridad sobre la búsqueda y mantienen este orden. Se omiten los registros invisibles.'
       imageUrl: 'Utilice una ruta local que comience con / o una URL completa http(s).'
       query: 'Utilice la sintaxis de búsqueda de Flarum, por ejemplo tag:noticias. Para usuarios, utilice la búsqueda de usuarios admitida por su foro.'
@@ -96,6 +97,7 @@ edgeinfinity-diy-homepage:
       eyebrow: 'Título pequeño / antetítulo'
       featured: 'Destacar la primera discusión'
       height: 'Altura del contenido (px)'
+      html: 'Código fuente HTML'
       ids: 'ID seleccionados (opcional)'
       imageUrl: 'URL de la imagen'
       limit: 'Cantidad de elementos'
@@ -148,6 +150,7 @@ edgeinfinity-diy-homepage:
     image_scale_help: 'Ancho de la imagen en porcentaje respecto al contenedor de fondo, conservando su proporción de aspecto. La imagen siempre cubre la altura del fondo, recortando el desbordamiento horizontal en pantallas estrechas. Use la posición horizontal y vertical para elegir el área visible.'
     intro: 'Cree una página de inicio con widgets reutilizables. Guarde los cambios y luego abra la página de inicio para revisarlos.'
     invalid_config: 'Utilice versión 1, un máximo de 50 widgets, identificadores únicos y regiones y audiencias válidas.'
+    invalid_html: 'El código fuente HTML no debe superar los 50.000 caracteres.'
     json_help: 'Copie este JSON para exportar el diseño. Para importar, pegue una configuración versión 1, aplíquela y guarde. La validación del servidor se ejecuta al guardar.'
     link_label: 'Etiqueta del enlace'
     link_url: 'URL del enlace'
@@ -301,6 +304,9 @@ edgeinfinity-diy-homepage:
       fof:
         name: 'Widget FoF'
         title: 'Widget de la comunidad'
+      html:
+        name: 'HTML personalizado'
+        title: 'Contenido personalizado'
       image:
         name: Imagen
         title: 'En portada'
