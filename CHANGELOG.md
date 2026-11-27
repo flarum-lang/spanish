@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (10 added, 100% complete)
 * [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (8 added, 100% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (6 changed, 66% complete)
 
 
 All changes: [2.0.5...2.0.6](https://github.com/flarum-lang/spanish/compare/2.0.5...2.0.6).
