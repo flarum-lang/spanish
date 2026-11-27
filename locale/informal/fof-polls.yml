@@ -57,8 +57,8 @@ fof-polls:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
       no_permission_alert: 'No tiene permiso para iniciar una encuesta.'
-    days_remaining: 'La encuesta termina en {time}.'
-    max_votes_allowed: 'La encuesta permite votar por {max, plural, one {# option} other {# options}}.'
+    days_remaining: 'La encuesta termina {time}.'
+    max_votes_allowed: 'La encuesta permite votar por {max, plural, one {# opción} other {# opciones}}.'
     modal:
       add_option_label: 'Añadir una opción'
       add_title: 'Añadir una encuesta'
@@ -133,7 +133,7 @@ fof-polls:
         groups_manager: 'Administrador de grupos de encuestas'
         save_changes: '=> core.ref.save_changes'
     poll_never_ends: 'La encuesta nunca termina'
-    polls_count: '{count, plural, one { {count} vote} other {{count} votes}}'
+    polls_count: '{count, plural, one {# voto} other {# votos}}'
     polls_list:
       empty_text: 'Parece que aquí no hay encuestas en toda la comunidad.'
       load_more_button: '=> core.ref.load_more'
